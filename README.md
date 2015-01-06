@@ -3,7 +3,7 @@ bancadelapte
 
 ## Clone and go!
 
-    git clone ssh://git@git.presslabs.net:bancadelapte.git
+    git clone git@git.presslabs.net:bancadelapte.git
     cd bancadelapte
     git submodule update --init
     vagrant up
