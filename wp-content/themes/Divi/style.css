@@ -3276,3 +3276,11 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	padding-top: 50px!important;
 	padding-bottom: 0px!important;
 }
+
+.entry-content table {
+    border: none!important;
+}
+
+.entry-content tr td {
+    border-top: 1px solid #b1bc9d!important;
+}
