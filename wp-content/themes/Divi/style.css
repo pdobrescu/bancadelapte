@@ -3272,7 +3272,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 }
 
 
-.how_works {
+.how_works .et_pb_slide_description {
 	padding-top: 50px!important;
 	padding-bottom: 0px!important;
 }
