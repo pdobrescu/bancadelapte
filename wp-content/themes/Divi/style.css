@@ -3273,7 +3273,8 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 
 
 .how_works {
-	background-image: url("http://www.bancadelapte.ro/wp-content/uploads/2014/12/schema-lapte-enona-02-02.png");
+	padding-top: 50px!important;
+	padding-bottom: 0px!important;
 }
 
 .table_home .et_pb_slide_description {
