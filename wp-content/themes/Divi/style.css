@@ -203,7 +203,7 @@ table.shop_table { margin-bottom: 30px !important; }
 		.et-fixed-header #top-menu > li > a { padding-bottom: 15px;}
 
 		#logo { float: left; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin-bottom: 18px; }
-		.et_fixed_nav #logo { max-height: 43px; margin-bottom: 0; }
+		.et_fixed_nav #logo { width: 250px; max-height: 55px; margin-bottom: 0;  }
 		.et-fixed-header #logo { max-height: 30px; }
 
 		#et-info { float: left; padding-bottom: 10px; }
