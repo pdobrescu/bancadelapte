@@ -3271,6 +3271,11 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_column_1_4 .et_pb_blog_grid .et_pb_post { width: 100%; }
 }
 
+
+.how_works {
+	background-image: url("http://www.bancadelapte.ro/wp-content/uploads/2014/12/schema-lapte-enona-02-02.png");
+}
+
 .table_home .et_pb_slide_description {
 	background-color: #d4e0be;
 	padding-top: 50px!important;
