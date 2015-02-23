@@ -1,4 +1,4 @@
-/*
+	/*
 Theme Name: Divi
 Theme URI: http://www.elegantthemes.com/gallery/divi/
 Version: 2.3.1
@@ -3271,7 +3271,9 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_column_1_4 .et_pb_blog_grid .et_pb_post { width: 100%; }
 }
 
-
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a, .bottom-nav li.current-menu-item > a {
+    color: #fff !important;
+}
 .prima_banca .et_pb_slide_description,
 .how_works .et_pb_slide_description {
 	padding-top: 50px!important;
