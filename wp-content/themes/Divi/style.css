@@ -3290,6 +3290,9 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 .entry-content tr td {
     border-top: 1px solid #b1bc9d!important;
 }
+.fake_button .et_pb_slide {
+    box-shadow: none;
+}
 .fake_button .et_pb_slide_description {
     padding: 0!important;	
 }
