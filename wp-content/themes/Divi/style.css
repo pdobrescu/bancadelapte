@@ -3233,7 +3233,10 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_tabs_controls { border-bottom: none; }
 		.et_pb_tabs_controls li { float: none; border-right: none; border-bottom: 1px solid #d9d9d9; }
 
-	.et_pb_slide_image { display: none !important; }
+.et_pb_slide_content, .et_pb_more_button {
+    display: none !important;
+}	
+.et_pb_slide_image { display: none !important; }
 	.et_pb_slider_fullwidth_off .et_pb_slide_description { width: 200px !important;}
 
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 280px!important; margin: 0 0px 53px 0!important; }
