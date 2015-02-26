@@ -3234,7 +3234,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 		.et_pb_tabs_controls li { float: none; border-right: none; border-bottom: 1px solid #d9d9d9; }
 
 	.et_pb_slide_content, .et_pb_more_button { display: initial!important;}
-	.et_pb_slide_description {padding: 29px 10px !important;}
+	
 	.et_pb_slide_image { display: none !important; }
 	.et_pb_slider_fullwidth_off .et_pb_slide_description { width: 200px !important;}
 
@@ -3294,9 +3294,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 .fake_button .et_pb_slide {
     box-shadow: none;
 }
-.fake_button .et_pb_slide_description {
-    padding: 0!important;	
-}
+
 
 .et_pb_row .et_pb_text.multumim {
     padding: 0!important;	
