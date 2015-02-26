@@ -3145,7 +3145,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 		.et_pb_slide_content, a.et_pb_more_button { display: none; }
 
 	.et_pb_slider_fullwidth_off .et_pb_slide_description { padding: 70px 40px !important; }
-	.et_pb_slider_fullwidth_off .et_pb_slide_content, .et_pb_slider_fullwidth_off .et_pb_more_button { display: initial; }
+	.et_pb_slider_fullwidth_off .et_pb_slide_content, .et_pb_slider_fullwidth_off .et_pb_more_button { display: none; }
 
 	.et_pb_post { margin-bottom: 42px; }
 		.et_pb_post h2, .et_pb_blog_grid h2  { font-size: 16px; padding-bottom: 0; }
