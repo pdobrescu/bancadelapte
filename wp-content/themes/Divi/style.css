@@ -3303,7 +3303,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 }
 
 @media only screen and ( max-width: 479px ) {
-.et_pb_slide_content, a.et_pb_more_button {
-	display: initial!important;
+.et_pb_slide_content, .et_pb_more_button {
+	display: initial !important;
 }	
 }
