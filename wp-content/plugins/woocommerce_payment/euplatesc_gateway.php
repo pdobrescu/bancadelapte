@@ -73,8 +73,8 @@ function woocommerce_gateway_euplatesc_init() {
 			$order = new WC_Order( $order_id );
 			
 
-			$mid="44840980063";
-			$key="840B07B1F6D03A086E4DF86FF59D26CE878F2469";
+			$mid="44840980444";
+			$key="56FBF72170A93E130DBF6E302A3BD77DD81C6857";
 
 			  $dataAll = array(
 				'amount'      => $order->get_total(),                                                   //suma de plata
