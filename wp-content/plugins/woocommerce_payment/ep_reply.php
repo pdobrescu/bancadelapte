@@ -37,7 +37,7 @@ do_action('woocommerce_before_main_content');
 	  return hmacsha1($key, $str);
 	}
 
-	$key="840B07B1F6D03A086E4DF86FF59D26CE878F2469";
+	$key="56FBF72170A93E130DBF6E302A3BD77DD81C6857";
 		$zcrsp =  array (
 		'amount'     => addslashes(trim(@$_POST['amount'])),  //original amount
 		'curr'       => addslashes(trim(@$_POST['curr'])),    //original currency
