@@ -73,7 +73,7 @@ function formCheck(formobj){
 </script>
 
 
-<form action="plateste.php" enctype="multipart/form-data" method="post" name="EuPlatesc" onsubmit="return formCheck(this);">
+<form action="" enctype="multipart/form-data" method="post" name="EuPlatesc" onsubmit="return formCheck(this);">
 <table class="aligncenter" border="0" cellpadding="5" cellspacing="0" width="300">
 <tbody>
 <tr>
