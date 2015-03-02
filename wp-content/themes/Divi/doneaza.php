@@ -15,7 +15,7 @@
 get_header();
 ?>
 <script>
-<!--
+
 function formCheck(formobj){
 	// Enter name of mandatory fields
 	var fieldRequired = Array("email");
@@ -69,7 +69,7 @@ function formCheck(formobj){
 		return false;
 	}
 }
-// -->
+
 </script>
 
 
