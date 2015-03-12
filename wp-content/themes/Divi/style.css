@@ -3325,7 +3325,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 }
 
 .button.dark_blue.altdonate:hover {   
-  content:"\35";
+  content:"\35"!important;
   background: rgba( 255, 255, 255, 0.2 ); 
   border: 2px solid transparent; 
   padding: 6px 34px 6px 14px !important; 
