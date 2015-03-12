@@ -3307,6 +3307,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 }
 .button.dark_blue.altdonate {
   color: #fff!important;
+  content:"\35";
   font-size: 20px; 
   font-weight: 500; 
   -moz-border-radius: 3px; 
@@ -3324,8 +3325,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
   position: relative;
 }
 
-.button.dark_blue.altdonate:hover { 
-  color: red!important;
+.button.dark_blue.altdonate:hover {   
   content:"\35";
   background: rgba( 255, 255, 255, 0.2 ); 
   border: 2px solid transparent; 
