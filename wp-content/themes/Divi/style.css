@@ -3310,7 +3310,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
   font-weight: 500; 
   -moz-border-radius: 3px; 
   -webkit-border-radius: 3px; 
-  border-radius: 3px!important; 
+  border-radius: 3px; 
   padding: 6px 20px; 
   line-height: 1.7em; 
   background: transparent; 
