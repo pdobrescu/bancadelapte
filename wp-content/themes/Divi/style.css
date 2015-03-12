@@ -3325,3 +3325,14 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 }
 
 .button.dark_blue:hover { background: rgba( 255, 255, 255, 0.2 ); border: 2px solid transparent; padding: 6px 34px 6px 14px !important; }
+.button.dark_blue:after {  
+  content: "5";
+  font-size: 32px;
+  line-height: 1em;
+  margin-left: -20px;
+  opacity: 0;
+  position: absolute;
+  right: 5px;
+  top: 7px;
+  transition: all 0.2s ease 0s;
+}  
