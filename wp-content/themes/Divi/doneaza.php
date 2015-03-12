@@ -95,7 +95,7 @@ function formCheck(formobj){
 </tr>
 </tbody>
 </table>
-<p style="text-align: ;"><input class="button dark_blue" name="Doneaza" value="Doneaza online" type="submit"></p>
+<p style="text-align: ;"><input class="button dark_blue" name="Doneazaa" value="Doneaza online" type="submit"></p>
 </form>
 
 
