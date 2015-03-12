@@ -3324,10 +3324,10 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
   position: relative;
 }
 
-.button.dark_blue.altdonate:hover {   
+.button.dark_blue.altdonate:hover,
+input.button.dark_blue.altdonate:after { 
+  content:"\35";  
   background: rgba( 255, 255, 255, 0.2 ); 
   border: 2px solid transparent; 
   padding: 6px 34px 6px 14px !important; 
 }
-input.button.dark_blue.altdonate:after { font-size: 32px; line-height: 1em; content:"\35"; opacity: 0; position: absolute; margin-left: -20px; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; transition: all 0.2s; top: 7px; right: 5px; }
-		input.button.dark_blue.altdonate:hover:after { opacity: 1; margin-left: 0; } 
