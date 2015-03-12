@@ -3306,6 +3306,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
     margin-bottom: 0!important;
 }
 .button.dark_blue {
+  color: #fff;
   font-size: 20px; 
   font-weight: 500; 
   -moz-border-radius: 3px; 
