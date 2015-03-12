@@ -3305,7 +3305,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
     padding: 0!important;	
     margin-bottom: 0!important;
 }
-.button.dark_blue {
+.button.dark_blue.altdonate {
   color: #fff!important;
   font-size: 20px; 
   font-weight: 500; 
@@ -3324,8 +3324,8 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
   position: relative;
 }
 
-.button.dark_blue:hover { background: rgba( 255, 255, 255, 0.2 ); border: 2px solid transparent; padding: 6px 34px 6px 14px !important; }
-.button.dark_blue:after {  
+.button.dark_blue.altdonate:hover { background: rgba( 255, 255, 255, 0.2 ); border: 2px solid transparent; padding: 6px 34px 6px 14px !important; }
+.button.dark_blue.altdonate:after {  
   content:"\35";
   font-size: 32px;
   line-height: 1em;
