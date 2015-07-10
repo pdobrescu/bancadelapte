@@ -1,13 +1,13 @@
 <?php class AboutMeWidget extends WP_Widget
 {
-    function AboutMeWidget(){
+	function AboutMeWidget(){
 		$widget_ops = array( 'description' => __( 'Displays About Me Information', 'Divi' ) );
 		$control_ops = array( 'width' => 400, 'height' => 300 );
 		parent::WP_Widget( false, $name = __( 'ET About Me Widget', 'Divi' ), $widget_ops, $control_ops );
-    }
+	}
 
 	/* Displays the Widget in the front-end */
-    function widget( $args, $instance ){
+	function widget( $args, $instance ){
 		extract($args);
 		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'About Me', 'Divi' ) : esc_html( $instance['title'] ) );
 		$imagePath = empty( $instance['imagePath'] ) ? '' : esc_url( $instance['imagePath'] );
@@ -26,7 +26,7 @@
 	}
 
 	/*Saves the settings. */
-    function update( $new_instance, $old_instance ){
+	function update( $new_instance, $old_instance ){
 		$instance = $old_instance;
 		$instance['title'] = sanitize_text_field( $new_instance['title'] );
 		$instance['imagePath'] = esc_url( $new_instance['imagePath'] );
@@ -36,7 +36,7 @@
 	}
 
 	/*Creates the form for the widget in the back-end. */
-    function form( $instance ){
+	function form( $instance ){
 		//Defaults
 		$instance = wp_parse_args( (array) $instance, array( 'title' => __( 'About Me', 'Divi' ), 'imagePath'=>'', 'aboutText'=>'' ) );
 
@@ -58,4 +58,4 @@ function AboutMeWidgetInit() {
 	register_widget('AboutMeWidget');
 }
 
-add_action('widgets_init', 'AboutMeWidgetInit'); ?>
+add_action('widgets_init', 'AboutMeWidgetInit');

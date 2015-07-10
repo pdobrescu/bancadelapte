@@ -900,7 +900,7 @@ function et_columns($atts, $content = null, $name='') {
 	$pos = strpos($name,'_last');
 
 	if($pos !== false)
-		$name = str_replace('_last',' last',$name);
+		$name = str_replace('_last',' et_column_last',$name);
 
 	$output = "<div{$id} class='" . esc_attr( $name . $class ) . "'>
 					{$content}

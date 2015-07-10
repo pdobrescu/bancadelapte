@@ -1,21 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Divi 1.0\n"
-"POT-Creation-Date: 2015-02-09 02:25+0300\n"
-"PO-Revision-Date: 2015-02-09 02:26+0300\n"
+"POT-Creation-Date: 2015-06-17 18:06+0300\n"
+"PO-Revision-Date: 2015-06-17 18:06+0300\n"
 "Last-Translator: \n"
 "Language-Team: Ann\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-KeywordsList: _x;_n;_e;__;esc_html__;esc_html_e;esc_attr__;"
 "esc_attr_e;esc_attr_x\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../includes/builder\n"
 
 #: ../comments.php:4
 msgid "This post is password protected. Enter the password to view comments."
@@ -25,7 +26,7 @@ msgstr ""
 msgid "0 Comments"
 msgstr ""
 
-#: ../comments.php:13 ../functions.php:239
+#: ../comments.php:13
 msgid "1 Comment"
 msgstr ""
 
@@ -58,878 +59,6 @@ msgstr ""
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: ../footer.php:40
-#, php-format
-msgid "Designed by %1$s | Powered by %2$s"
-msgstr ""
-
-#: ../functions.php:30
-msgid "Primary Menu"
-msgstr ""
-
-#: ../functions.php:31
-msgid "Secondary Menu"
-msgstr ""
-
-#: ../functions.php:32
-msgid "Footer Menu"
-msgstr ""
-
-#: ../functions.php:71
-msgid "on"
-msgstr ""
-
-#: ../functions.php:128
-msgid ""
-"Please, check the fields below to make sure you entered the correct "
-"information."
-msgstr ""
-
-#: ../functions.php:129
-msgid "Fill"
-msgstr ""
-
-#: ../functions.php:130
-msgid "field"
-msgstr ""
-
-#: ../functions.php:131
-msgid "Invalid email"
-msgstr ""
-
-#: ../functions.php:132 ../et-pagebuilder/et-pagebuilder.php:5798
-msgid "Captcha"
-msgstr ""
-
-#: ../functions.php:133
-msgid "Prev"
-msgstr ""
-
-#: ../functions.php:134 ../epanel/shortcodes/shortcodes.php:15
-#: ../epanel/shortcodes/shortcodes.php:518
-msgid "Previous"
-msgstr ""
-
-#: ../functions.php:135 ../epanel/shortcodes/shortcodes.php:15
-#: ../epanel/shortcodes/shortcodes.php:519
-msgid "Next"
-msgstr ""
-
-#: ../functions.php:174
-msgid "Select Page"
-msgstr ""
-
-#: ../functions.php:218
-#, php-format
-msgid "Posts by %s"
-msgstr ""
-
-#: ../functions.php:235
-msgid "% Comments"
-msgstr ""
-
-#: ../functions.php:237
-msgid "No Comments"
-msgstr ""
-
-#: ../functions.php:252
-msgid "by"
-msgstr ""
-
-#: ../functions.php:274 ../functions.php:275 ../functions.php:276
-#: ../functions.php:277
-msgid "ET Settings"
-msgstr ""
-
-#: ../functions.php:283
-msgid "Projects"
-msgstr ""
-
-#: ../functions.php:284
-msgid "Project"
-msgstr ""
-
-#: ../functions.php:285 ../functions.php:367
-msgid "Add New"
-msgstr ""
-
-#: ../functions.php:286
-msgid "Add New Project"
-msgstr ""
-
-#: ../functions.php:287
-msgid "Edit Project"
-msgstr ""
-
-#: ../functions.php:288
-msgid "New Project"
-msgstr ""
-
-#: ../functions.php:289
-msgid "All Projects"
-msgstr ""
-
-#: ../functions.php:290
-msgid "View Project"
-msgstr ""
-
-#: ../functions.php:291
-msgid "Search Projects"
-msgstr ""
-
-#: ../functions.php:292 ../functions.php:374
-msgid "Nothing found"
-msgstr ""
-
-#: ../functions.php:293 ../functions.php:375
-msgid "Nothing found in Trash"
-msgstr ""
-
-#: ../functions.php:320 ../functions.php:330 ../epanel/options_divi.php:292
-#: ../et-pagebuilder/et-pagebuilder.php:6278
-#: ../et-pagebuilder/et-pagebuilder.php:6541
-#: ../et-pagebuilder/et-pagebuilder.php:6787
-msgid "Categories"
-msgstr ""
-
-#: ../functions.php:321
-msgid "Category"
-msgstr ""
-
-#: ../functions.php:322
-msgid "Search Categories"
-msgstr ""
-
-#: ../functions.php:323
-msgid "All Categories"
-msgstr ""
-
-#: ../functions.php:324
-msgid "Parent Category"
-msgstr ""
-
-#: ../functions.php:325
-msgid "Parent Category:"
-msgstr ""
-
-#: ../functions.php:326
-msgid "Edit Category"
-msgstr ""
-
-#: ../functions.php:327
-msgid "Update Category"
-msgstr ""
-
-#: ../functions.php:328
-msgid "Add New Category"
-msgstr ""
-
-#: ../functions.php:329
-msgid "New Category Name"
-msgstr ""
-
-#: ../functions.php:342 ../functions.php:352
-msgid "Tags"
-msgstr ""
-
-#: ../functions.php:343
-msgid "Tag"
-msgstr ""
-
-#: ../functions.php:344
-msgid "Search Tags"
-msgstr ""
-
-#: ../functions.php:345
-msgid "All Tags"
-msgstr ""
-
-#: ../functions.php:346
-msgid "Parent Tag"
-msgstr ""
-
-#: ../functions.php:347
-msgid "Parent Tag:"
-msgstr ""
-
-#: ../functions.php:348
-msgid "Edit Tag"
-msgstr ""
-
-#: ../functions.php:349
-msgid "Update Tag"
-msgstr ""
-
-#: ../functions.php:350
-msgid "Add New Tag"
-msgstr ""
-
-#: ../functions.php:351
-msgid "New Tag Name"
-msgstr ""
-
-#: ../functions.php:365
-msgid "Layouts"
-msgstr ""
-
-#: ../functions.php:366 ../et-pagebuilder/et-pagebuilder.php:1439
-#: ../et-pagebuilder/et-pagebuilder.php:6048
-#: ../et-pagebuilder/et-pagebuilder.php:6440
-#: ../et-pagebuilder/et-pagebuilder.php:6686
-#: ../et-pagebuilder/et-pagebuilder.php:6948
-msgid "Layout"
-msgstr ""
-
-#: ../functions.php:368
-msgid "Add New Layout"
-msgstr ""
-
-#: ../functions.php:369
-msgid "Edit Layout"
-msgstr ""
-
-#: ../functions.php:370
-msgid "New Layout"
-msgstr ""
-
-#: ../functions.php:371
-msgid "All Layouts"
-msgstr ""
-
-#: ../functions.php:372
-msgid "View Layout"
-msgstr ""
-
-#: ../functions.php:373
-msgid "Search Layouts"
-msgstr ""
-
-#: ../functions.php:397
-msgid "Skills"
-msgstr ""
-
-#: ../functions.php:400
-msgid "Posted on"
-msgstr ""
-
-#: ../functions.php:417 ../epanel/options_divi.php:90
-msgid "Right Sidebar"
-msgstr ""
-
-#: ../functions.php:418 ../epanel/options_divi.php:91
-msgid "Left Sidebar"
-msgstr ""
-
-#: ../functions.php:419 ../epanel/options_divi.php:92
-msgid "Full Width"
-msgstr ""
-
-#: ../functions.php:423 ../functions.php:865 ../functions.php:897
-#: ../et-pagebuilder/et-pagebuilder.php:1552
-#: ../et-pagebuilder/et-pagebuilder.php:1885
-#: ../et-pagebuilder/et-pagebuilder.php:2106
-#: ../et-pagebuilder/et-pagebuilder.php:2149
-#: ../et-pagebuilder/et-pagebuilder.php:3179
-#: ../et-pagebuilder/et-pagebuilder.php:3716
-#: ../et-pagebuilder/et-pagebuilder.php:4089
-#: ../et-pagebuilder/et-pagebuilder.php:4368
-#: ../et-pagebuilder/et-pagebuilder.php:4760
-#: ../et-pagebuilder/et-pagebuilder.php:5142
-#: ../et-pagebuilder/et-pagebuilder.php:5410
-#: ../et-pagebuilder/et-pagebuilder.php:5716
-#: ../et-pagebuilder/et-pagebuilder.php:6363
-#: ../et-pagebuilder/et-pagebuilder.php:6609
-#: ../et-pagebuilder/et-pagebuilder.php:6855
-#: ../et-pagebuilder/et-pagebuilder.php:7089
-#: ../et-pagebuilder/et-pagebuilder.php:7707
-#: ../et-pagebuilder/et-pagebuilder.php:8090
-#: ../et-pagebuilder/et-pagebuilder.php:8668
-#: ../et-pagebuilder/et-pagebuilder.php:8874
-#: ../et-pagebuilder/et-pagebuilder.php:9020
-#: ../et-pagebuilder/et-pagebuilder.php:9143
-#: ../et-pagebuilder/et-pagebuilder.php:9354
-#: ../et-pagebuilder/et-pagebuilder.php:9572
-msgid "Light"
-msgstr ""
-
-#: ../functions.php:424 ../functions.php:864 ../functions.php:896
-#: ../et-pagebuilder/et-pagebuilder.php:1547
-#: ../et-pagebuilder/et-pagebuilder.php:1890
-#: ../et-pagebuilder/et-pagebuilder.php:2111
-#: ../et-pagebuilder/et-pagebuilder.php:2144
-#: ../et-pagebuilder/et-pagebuilder.php:3184
-#: ../et-pagebuilder/et-pagebuilder.php:3711
-#: ../et-pagebuilder/et-pagebuilder.php:4084
-#: ../et-pagebuilder/et-pagebuilder.php:4363
-#: ../et-pagebuilder/et-pagebuilder.php:4765
-#: ../et-pagebuilder/et-pagebuilder.php:5147
-#: ../et-pagebuilder/et-pagebuilder.php:5415
-#: ../et-pagebuilder/et-pagebuilder.php:5721
-#: ../et-pagebuilder/et-pagebuilder.php:6358
-#: ../et-pagebuilder/et-pagebuilder.php:6604
-#: ../et-pagebuilder/et-pagebuilder.php:6850
-#: ../et-pagebuilder/et-pagebuilder.php:7084
-#: ../et-pagebuilder/et-pagebuilder.php:7702
-#: ../et-pagebuilder/et-pagebuilder.php:8085
-#: ../et-pagebuilder/et-pagebuilder.php:8663
-#: ../et-pagebuilder/et-pagebuilder.php:8869
-#: ../et-pagebuilder/et-pagebuilder.php:9015
-#: ../et-pagebuilder/et-pagebuilder.php:9138
-#: ../et-pagebuilder/et-pagebuilder.php:9349
-#: ../et-pagebuilder/et-pagebuilder.php:9567
-msgid "Dark"
-msgstr ""
-
-#: ../functions.php:437
-msgid "Page Layout"
-msgstr ""
-
-#: ../functions.php:451
-msgid "Side Navigation"
-msgstr ""
-
-#: ../functions.php:454 ../et-pagebuilder/et-pagebuilder.php:857
-#: ../et-pagebuilder/et-pagebuilder.php:6201
-#: ../et-pagebuilder/et-pagebuilder.php:8372
-#: ../et-pagebuilder/et-pagebuilder.php:8516
-#: ../et-pagebuilder/et-pagebuilder.php:8640
-#: ../et-pagebuilder/et-pagebuilder.php:8819
-#: ../et-pagebuilder/et-pagebuilder.php:9639
-msgid "Off"
-msgstr ""
-
-#: ../functions.php:455 ../et-pagebuilder/et-pagebuilder.php:862
-#: ../et-pagebuilder/et-pagebuilder.php:6206
-#: ../et-pagebuilder/et-pagebuilder.php:8367
-#: ../et-pagebuilder/et-pagebuilder.php:8511
-#: ../et-pagebuilder/et-pagebuilder.php:8635
-#: ../et-pagebuilder/et-pagebuilder.php:8814
-#: ../et-pagebuilder/et-pagebuilder.php:9644
-msgid "On"
-msgstr ""
-
-#: ../functions.php:469 ../et-pagebuilder/et-pagebuilder.php:4028
-#: ../et-pagebuilder/et-pagebuilder.php:4704
-#: ../et-pagebuilder/et-pagebuilder.php:5082
-#: ../et-pagebuilder/et-pagebuilder.php:5350
-#: ../et-pagebuilder/et-pagebuilder.php:8106
-msgid "Use Background Color"
-msgstr ""
-
-#: ../functions.php:473 ../et-pagebuilder/et-pagebuilder.php:877
-#: ../et-pagebuilder/et-pagebuilder.php:3057
-#: ../et-pagebuilder/et-pagebuilder.php:4056
-#: ../et-pagebuilder/et-pagebuilder.php:4732
-#: ../et-pagebuilder/et-pagebuilder.php:5110
-#: ../et-pagebuilder/et-pagebuilder.php:5378
-#: ../et-pagebuilder/et-pagebuilder.php:5684
-#: ../et-pagebuilder/et-pagebuilder.php:7723
-#: ../et-pagebuilder/et-pagebuilder.php:8136
-#: ../et-pagebuilder/et-pagebuilder.php:9319
-msgid "Background Color"
-msgstr ""
-
-#: ../functions.php:474 ../et-pagebuilder/et-pagebuilder.php:885
-#: ../et-pagebuilder/et-pagebuilder.php:3065
-#: ../et-pagebuilder/et-pagebuilder.php:3465
-#: ../et-pagebuilder/et-pagebuilder.php:3518
-#: ../et-pagebuilder/et-pagebuilder.php:4062
-#: ../et-pagebuilder/et-pagebuilder.php:5116
-#: ../et-pagebuilder/et-pagebuilder.php:5384
-#: ../et-pagebuilder/et-pagebuilder.php:5690
-#: ../et-pagebuilder/et-pagebuilder.php:5927
-#: ../et-pagebuilder/et-pagebuilder.php:7731
-#: ../et-pagebuilder/et-pagebuilder.php:7754
-#: ../et-pagebuilder/et-pagebuilder.php:8144
-#: ../et-pagebuilder/et-pagebuilder.php:8692
-#: ../et-pagebuilder/et-pagebuilder.php:8843
-#: ../et-pagebuilder/et-pagebuilder.php:9327
-#: ../et-pagebuilder/et-pagebuilder.php:9853
-msgid "Hex Value"
-msgstr ""
-
-#: ../functions.php:478 ../et-pagebuilder/et-pagebuilder.php:1540
-#: ../et-pagebuilder/et-pagebuilder.php:2137
-#: ../et-pagebuilder/et-pagebuilder.php:3172
-#: ../et-pagebuilder/et-pagebuilder.php:3704
-#: ../et-pagebuilder/et-pagebuilder.php:4077
-#: ../et-pagebuilder/et-pagebuilder.php:4356
-#: ../et-pagebuilder/et-pagebuilder.php:4753
-#: ../et-pagebuilder/et-pagebuilder.php:5135
-#: ../et-pagebuilder/et-pagebuilder.php:5403
-#: ../et-pagebuilder/et-pagebuilder.php:5709
-#: ../et-pagebuilder/et-pagebuilder.php:6351
-#: ../et-pagebuilder/et-pagebuilder.php:6597
-#: ../et-pagebuilder/et-pagebuilder.php:6843
-#: ../et-pagebuilder/et-pagebuilder.php:7077
-#: ../et-pagebuilder/et-pagebuilder.php:7695
-#: ../et-pagebuilder/et-pagebuilder.php:8078
-#: ../et-pagebuilder/et-pagebuilder.php:8656
-#: ../et-pagebuilder/et-pagebuilder.php:8862
-#: ../et-pagebuilder/et-pagebuilder.php:9008
-#: ../et-pagebuilder/et-pagebuilder.php:9131
-#: ../et-pagebuilder/et-pagebuilder.php:9342
-#: ../et-pagebuilder/et-pagebuilder.php:9560
-msgid "Text Color"
-msgstr ""
-
-#: ../functions.php:620
-msgid "Theme Settings"
-msgstr ""
-
-#: ../functions.php:625
-msgid "Fonts"
-msgstr ""
-
-#: ../functions.php:630
-msgid "Schemes"
-msgstr ""
-
-#: ../functions.php:632
-msgid ""
-"Note: Color settings set above should be applied to the Default color scheme."
-msgstr ""
-
-#: ../functions.php:643
-msgid "Link Color"
-msgstr ""
-
-#: ../functions.php:656
-msgid "Main Font Color"
-msgstr ""
-
-#: ../functions.php:669
-msgid "Accent Color"
-msgstr ""
-
-#: ../functions.php:682
-msgid "Footer Background Color"
-msgstr ""
-
-#: ../functions.php:695
-msgid "Menu Links Color"
-msgstr ""
-
-#: ../functions.php:708
-msgid "Active Menu Link Color"
-msgstr ""
-
-#: ../functions.php:720
-msgid "Boxed Layout"
-msgstr ""
-
-#: ../functions.php:734
-msgid "Stretch Background Image"
-msgstr ""
-
-#: ../functions.php:747
-msgid "Vertical Navigation"
-msgstr ""
-
-#: ../functions.php:760
-msgid "Show Social Icons in Header"
-msgstr ""
-
-#: ../functions.php:774
-msgid "Show Social Icons in Footer"
-msgstr ""
-
-#: ../functions.php:788
-msgid "Show Search Icon"
-msgstr ""
-
-#: ../functions.php:802
-msgid "Header Style"
-msgstr ""
-
-#: ../functions.php:806 ../functions.php:947
-msgid "Default"
-msgstr ""
-
-#: ../functions.php:807
-msgid "Centered"
-msgstr ""
-
-#: ../functions.php:819
-msgid "Phone Number"
-msgstr ""
-
-#: ../functions.php:832 ../et-pagebuilder/et-pagebuilder.php:5826
-msgid "Email"
-msgstr ""
-
-#: ../functions.php:846
-msgid "Primary Navigation Background"
-msgstr ""
-
-#: ../functions.php:860
-msgid "Primary Navigation Text Color"
-msgstr ""
-
-#: ../functions.php:878
-msgid "Secondary Navigation Background"
-msgstr ""
-
-#: ../functions.php:892
-msgid "Secondary Navigation Text Color"
-msgstr ""
-
-#: ../functions.php:911
-msgid "Header Font"
-msgstr ""
-
-#: ../functions.php:926
-msgid "Body Font"
-msgstr ""
-
-#: ../functions.php:942
-msgid "Color Schemes"
-msgstr ""
-
-#: ../functions.php:948
-msgid "Green"
-msgstr ""
-
-#: ../functions.php:949
-msgid "Orange"
-msgstr ""
-
-#: ../functions.php:950
-msgid "Pink"
-msgstr ""
-
-#: ../functions.php:951
-msgid "Red"
-msgstr ""
-
-#: ../functions.php:1045
-msgid "0 comments"
-msgstr ""
-
-#: ../functions.php:1045
-msgid "1 comment"
-msgstr ""
-
-#: ../functions.php:1045
-msgid "comments"
-msgstr ""
-
-#: ../functions.php:1268
-msgid "Password Protected"
-msgstr ""
-
-#: ../functions.php:1269
-msgid "To view this protected post, enter the password below"
-msgstr ""
-
-#: ../functions.php:1272 ../functions.php:3607
-msgid "Password"
-msgstr ""
-
-#: ../functions.php:1273 ../functions.php:4668
-msgid "Submit"
-msgstr ""
-
-#: ../functions.php:1378
-#, php-format
-msgid "%1$s %2$s"
-msgstr ""
-
-#: ../functions.php:1380
-msgid "Item"
-msgstr ""
-
-#: ../functions.php:1380
-msgid "Items"
-msgstr ""
-
-#: ../functions.php:1553
-msgid "Connecting..."
-msgstr ""
-
-#: ../functions.php:1554
-msgid "Connection failed"
-msgstr ""
-
-#: ../functions.php:1555
-msgid "Removing connection..."
-msgstr ""
-
-#: ../functions.php:1556
-msgid "Done"
-msgstr ""
-
-#: ../functions.php:1585
-#, php-format
-msgid ""
-"Step 1: <a href=\"%1$s\" target=\"_blank\">Generate authorization code</a>"
-msgstr ""
-
-#: ../functions.php:1586
-msgid ""
-"Step 2: Paste in the authorization code and click \"Make a connection\" "
-"button: "
-msgstr ""
-
-#: ../functions.php:1587
-msgid "Make a connection"
-msgstr ""
-
-#: ../functions.php:1590
-msgid "Aweber is set up properly. You can remove connection here if you wish."
-msgstr ""
-
-#: ../functions.php:1591
-msgid "Remove the connection"
-msgstr ""
-
-#: ../functions.php:1599
-msgid "Nonce failed."
-msgstr ""
-
-#: ../functions.php:1605
-msgid "Authorization code is empty."
-msgstr ""
-
-#: ../functions.php:1616
-msgid ""
-"Authorization code is invalid. Try regenerating it and paste in the new code."
-msgstr ""
-
-#: ../functions.php:1638
-msgid "Aweber API Exception"
-msgstr ""
-
-#: ../functions.php:1639 ../epanel/shortcodes/shortcodes.php:999
-#: ../epanel/shortcodes/shortcodes.php:1021
-#: ../et-pagebuilder/et-pagebuilder.php:7211
-msgid "Type"
-msgstr ""
-
-#: ../functions.php:1640 ../functions.php:4615
-msgid "Message"
-msgstr ""
-
-#: ../functions.php:1641 ../epanel/options_divi.php:844
-msgid "Documentation"
-msgstr ""
-
-#: ../functions.php:1651
-msgid "Nonce failed"
-msgstr ""
-
-#: ../functions.php:1746
-msgid "Read more"
-msgstr ""
-
-#: ../functions.php:2499 ../includes/social_icons.php:6
-msgid "Facebook"
-msgstr ""
-
-#: ../functions.php:2507 ../et-pagebuilder/et-pagebuilder.php:9746
-#: ../includes/social_icons.php:13
-msgid "Twitter"
-msgstr ""
-
-#: ../functions.php:2515 ../et-pagebuilder/et-pagebuilder.php:9751
-msgid "Google+"
-msgstr ""
-
-#: ../functions.php:2523 ../et-pagebuilder/et-pagebuilder.php:9761
-msgid "LinkedIn"
-msgstr ""
-
-#: ../functions.php:2750
-msgid "Tab"
-msgstr ""
-
-#: ../functions.php:2949
-msgid "Follow"
-msgstr ""
-
-#: ../functions.php:3033
-msgid "Days"
-msgstr ""
-
-#: ../functions.php:3034
-msgid "Hours"
-msgstr ""
-
-#: ../functions.php:3035
-msgid "Hrs"
-msgstr ""
-
-#: ../functions.php:3036
-msgid "Minutes"
-msgstr ""
-
-#: ../functions.php:3037
-msgid "Min"
-msgstr ""
-
-#: ../functions.php:3038
-msgid "Seconds"
-msgstr ""
-
-#: ../functions.php:3039
-msgid "Sec"
-msgstr ""
-
-#: ../functions.php:3195
-#, php-format
-msgid "by <strong>%1$s</strong>"
-msgstr ""
-
-#: ../functions.php:3337
-msgid "Configuration error"
-msgstr ""
-
-#: ../functions.php:3347
-msgid "Please enter first name"
-msgstr ""
-
-#: ../functions.php:3349
-msgid "Incorrect email"
-msgstr ""
-
-#: ../functions.php:3351
-msgid "Configuration error: List is not defined"
-msgstr ""
-
-#: ../functions.php:3353
-msgid ""
-"<h2 class=\"et_pb_subscribed\">Subscribed - look for the confirmation email!"
-"</h2>"
-msgstr ""
-
-#: ../functions.php:3365
-msgid "Configuration error: api key is not defined"
-msgstr ""
-
-#: ../functions.php:3402
-msgid "Aweber: Wrong configuration data"
-msgstr ""
-
-#: ../functions.php:3435 ../et-pagebuilder/et-pagebuilder.php:409
-msgid "Subscribe"
-msgstr ""
-
-#: ../functions.php:3455
-msgid "First Name"
-msgstr ""
-
-#: ../functions.php:3456
-msgid "Last Name"
-msgstr ""
-
-#: ../functions.php:3457 ../functions.php:4614
-msgid "Email Address"
-msgstr ""
-
-#: ../functions.php:3514 ../functions.php:4613
-#: ../et-pagebuilder/et-pagebuilder.php:4244
-msgid "Name"
-msgstr ""
-
-#: ../functions.php:3595
-#, php-format
-msgid "Logged in as %1$s"
-msgstr ""
-
-#: ../functions.php:3597
-msgid "Log out"
-msgstr ""
-
-#: ../functions.php:3606
-msgid "Username"
-msgstr ""
-
-#: ../functions.php:3627
-msgid "Forgot your password?"
-msgstr ""
-
-#: ../functions.php:3634 ../epanel/shortcodes/shortcodes.php:294
-#: ../et-pagebuilder/et-pagebuilder.php:410
-msgid "Login"
-msgstr ""
-
-#: ../functions.php:3814
-#, php-format
-msgid "by %s"
-msgstr ""
-
-#: ../functions.php:3824
-#, php-format
-msgid "%s"
-msgstr ""
-
-#: ../functions.php:3844
-msgid "read more..."
-msgstr ""
-
-#: ../functions.php:3851
-msgid "read more"
-msgstr ""
-
-#: ../functions.php:4274
-msgid "All"
-msgstr ""
-
-#: ../functions.php:4553
-msgid "Make sure you entered the captcha."
-msgstr ""
-
-#: ../functions.php:4556
-msgid "You entered the wrong number in captcha."
-msgstr ""
-
-#: ../functions.php:4563
-msgid "Make sure you fill all fields."
-msgstr ""
-
-#: ../functions.php:4568
-msgid "Invalid Email."
-msgstr ""
-
-#: ../functions.php:4603
-#, php-format
-msgid "New Message From %1$s%2$s"
-msgstr ""
-
-#: ../functions.php:4605
-#, php-format
-msgid " - %s"
-msgstr ""
-
-#: ../functions.php:4608
-msgid "Thanks for contacting us"
-msgstr ""
-
-#: ../functions.php:4864 ../header.php:143 ../epanel/custom_functions.php:465
-msgid "Home"
-msgstr ""
-
-#: ../header.php:170
-msgid "Search &hellip;"
-msgstr ""
-
-#: ../header.php:172
-msgid "Search for:"
-msgstr ""
-
-#: ../page-template-blank.php:49 ../page.php:48 ../single-project.php:53
-#: ../single.php:93
-msgid "Pages:"
-msgstr ""
-
-#: ../single-project.php:62
-msgid "&larr;"
-msgstr ""
-
-#: ../single-project.php:63
-msgid "&rarr;"
-msgstr ""
-
 #: ../epanel/core_functions.php:26 ../epanel/core_functions.php:401
 msgid "Saving..."
 msgstr ""
@@ -942,7 +71,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../epanel/core_functions.php:73
+#: ../epanel/core_functions.php:73 ../functions.php:8939
 msgid "Theme Options"
 msgstr ""
 
@@ -955,7 +84,7 @@ msgid "settings reset."
 msgstr ""
 
 #: ../epanel/core_functions.php:111 ../epanel/options_divi.php:297
-#: ../epanel/options_divi.php:448
+#: ../epanel/options_divi.php:448 ../functions.php:616
 msgid "General Settings"
 msgstr ""
 
@@ -963,7 +92,7 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: ../epanel/core_functions.php:117
+#: ../epanel/core_functions.php:117 ../functions.php:621
 msgid "Layout Settings"
 msgstr ""
 
@@ -1009,13 +138,7 @@ msgid ""
 "default values. <strong>Are you sure you want to do this?</strong>"
 msgstr ""
 
-#: ../epanel/core_functions.php:559 ../et-pagebuilder/et-pagebuilder.php:1159
-#: ../et-pagebuilder/et-pagebuilder.php:1700
-#: ../et-pagebuilder/et-pagebuilder.php:2076
-#: ../et-pagebuilder/et-pagebuilder.php:3597
-#: ../et-pagebuilder/et-pagebuilder.php:3982
-#: ../et-pagebuilder/et-pagebuilder.php:4290
-#: ../et-pagebuilder/et-pagebuilder.php:5666
+#: ../epanel/core_functions.php:558
 msgid "Choose an Image"
 msgstr ""
 
@@ -1023,29 +146,33 @@ msgstr ""
 msgid "&hellip;"
 msgstr ""
 
-#: ../epanel/custom_functions.php:706
+#: ../epanel/custom_functions.php:465 ../header.php:141
+msgid "Home"
+msgstr ""
+
+#: ../epanel/custom_functions.php:713
 msgid "Archives"
 msgstr ""
 
-#: ../epanel/custom_functions.php:708
+#: ../epanel/custom_functions.php:715
 #, php-format
 msgid "Search results for \"%s\""
 msgstr ""
 
-#: ../epanel/custom_functions.php:710
+#: ../epanel/custom_functions.php:717
 msgid "404 Not Found"
 msgstr ""
 
-#: ../epanel/custom_functions.php:781
+#: ../epanel/custom_functions.php:788
 #, php-format
 msgid "Currently viewing archives from %1$s"
 msgstr ""
 
-#: ../epanel/custom_functions.php:1014
+#: ../epanel/custom_functions.php:1021
 msgid "Image doesn't exist"
 msgstr ""
 
-#: ../epanel/custom_functions.php:1210
+#: ../epanel/custom_functions.php:1217
 #, php-format
 msgid ""
 "<div class=\"updated\"><p>This is a fresh installation of %1$s theme. Don't "
@@ -1054,7 +181,7 @@ msgid ""
 "\">theme's options page</a>.</p></div>"
 msgstr ""
 
-#: ../epanel/custom_functions.php:1222
+#: ../epanel/custom_functions.php:1229
 #, php-format
 msgid ""
 "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
@@ -1064,7 +191,7 @@ msgid ""
 "\">Elegant Updater Plugin</a> to authenticate your subscription.</em>"
 msgstr ""
 
-#: ../epanel/custom_functions.php:1226
+#: ../epanel/custom_functions.php:1233
 msgid ""
 "Before you can update your Elegant Themes, you must first install the <a "
 "href=\"https://www.elegantthemes.com/members-area/documentation.html#updater"
@@ -1141,6 +268,18 @@ msgstr ""
 
 #: ../epanel/options_divi.php:86
 msgid "Shop Page & Category Page Layout for WooCommerce"
+msgstr ""
+
+#: ../epanel/options_divi.php:90 ../functions.php:364
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../epanel/options_divi.php:91 ../functions.php:365
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../epanel/options_divi.php:92 ../functions.php:366
+msgid "Full Width"
 msgstr ""
 
 #: ../epanel/options_divi.php:95
@@ -1220,7 +359,7 @@ msgstr ""
 msgid "Here you can choose to display the RSS Icon. "
 msgstr ""
 
-#: ../epanel/options_divi.php:155 ../et-pagebuilder/et-pagebuilder.php:4384
+#: ../epanel/options_divi.php:155
 msgid "Facebook Profile Url"
 msgstr ""
 
@@ -1228,7 +367,7 @@ msgstr ""
 msgid "Enter the URL of your Facebook Profile. "
 msgstr ""
 
-#: ../epanel/options_divi.php:162 ../et-pagebuilder/et-pagebuilder.php:4401
+#: ../epanel/options_divi.php:162
 msgid "Twitter Profile Url"
 msgstr ""
 
@@ -1236,7 +375,7 @@ msgstr ""
 msgid "Enter the URL of your Twitter Profile."
 msgstr ""
 
-#: ../epanel/options_divi.php:169 ../et-pagebuilder/et-pagebuilder.php:4418
+#: ../epanel/options_divi.php:169
 msgid "Google+ Profile Url"
 msgstr ""
 
@@ -1358,6 +497,10 @@ msgstr ""
 
 #: ../epanel/options_divi.php:287
 msgid "Pages"
+msgstr ""
+
+#: ../epanel/options_divi.php:292 ../functions.php:292 ../functions.php:302
+msgid "Categories"
 msgstr ""
 
 #: ../epanel/options_divi.php:305
@@ -1876,6 +1019,10 @@ msgstr ""
 msgid "Add code to the bottom of your posts, before the comments"
 msgstr ""
 
+#: ../epanel/options_divi.php:844 ../functions.php:8612
+msgid "Documentation"
+msgstr ""
+
 #: ../epanel/options_divi.php:870
 msgid "Manage Un-widgetized Advertisements"
 msgstr ""
@@ -1915,6 +1062,16 @@ msgstr ""
 msgid "Place your adsense code here."
 msgstr ""
 
+#: ../epanel/shortcodes/shortcodes.php:15
+#: ../epanel/shortcodes/shortcodes.php:518 ../functions.php:160
+msgid "Previous"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:15
+#: ../epanel/shortcodes/shortcodes.php:519 ../functions.php:161
+msgid "Next"
+msgstr ""
+
 #: ../epanel/shortcodes/shortcodes.php:273
 msgid "Tweet"
 msgstr ""
@@ -1929,6 +1086,10 @@ msgstr ""
 
 #: ../epanel/shortcodes/shortcodes.php:293
 msgid "Password: "
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:294 ../functions.php:3522
+msgid "Login"
 msgstr ""
 
 #: ../epanel/shortcodes/shortcodes.php:330
@@ -1980,7 +1141,6 @@ msgid "Caption title goes here"
 msgstr ""
 
 #: ../epanel/shortcodes/shortcodes.php:983
-#: ../et-pagebuilder/et-pagebuilder.php:4547
 msgid "State"
 msgstr ""
 
@@ -1992,29 +1152,6 @@ msgstr ""
 #: ../epanel/shortcodes/shortcodes.php:1006
 #: ../epanel/shortcodes/shortcodes.php:1035
 #: ../epanel/shortcodes/shortcodes.php:1115
-#: ../et-pagebuilder/et-pagebuilder.php:1906
-#: ../et-pagebuilder/et-pagebuilder.php:2230
-#: ../et-pagebuilder/et-pagebuilder.php:2363
-#: ../et-pagebuilder/et-pagebuilder.php:2400
-#: ../et-pagebuilder/et-pagebuilder.php:2645
-#: ../et-pagebuilder/et-pagebuilder.php:2890
-#: ../et-pagebuilder/et-pagebuilder.php:3322
-#: ../et-pagebuilder/et-pagebuilder.php:3796
-#: ../et-pagebuilder/et-pagebuilder.php:4166
-#: ../et-pagebuilder/et-pagebuilder.php:4575
-#: ../et-pagebuilder/et-pagebuilder.php:4844
-#: ../et-pagebuilder/et-pagebuilder.php:5227
-#: ../et-pagebuilder/et-pagebuilder.php:5494
-#: ../et-pagebuilder/et-pagebuilder.php:6166
-#: ../et-pagebuilder/et-pagebuilder.php:7412
-#: ../et-pagebuilder/et-pagebuilder.php:7645
-#: ../et-pagebuilder/et-pagebuilder.php:7773
-#: ../et-pagebuilder/et-pagebuilder.php:7913
-#: ../et-pagebuilder/et-pagebuilder.php:8016
-#: ../et-pagebuilder/et-pagebuilder.php:8277
-#: ../et-pagebuilder/et-pagebuilder.php:8315
-#: ../et-pagebuilder/et-pagebuilder.php:8459
-#: ../et-pagebuilder/et-pagebuilder.php:9588
 msgid "Content"
 msgstr ""
 
@@ -2029,6 +1166,11 @@ msgstr ""
 #: ../epanel/shortcodes/shortcodes.php:1008
 #: ../epanel/shortcodes/shortcodes.php:1037
 msgid "Content text or html"
+msgstr ""
+
+#: ../epanel/shortcodes/shortcodes.php:999
+#: ../epanel/shortcodes/shortcodes.php:1021 ../functions.php:8610
+msgid "Type"
 msgstr ""
 
 #: ../epanel/shortcodes/shortcodes.php:1001
@@ -2048,7 +1190,6 @@ msgid "Choose button type"
 msgstr ""
 
 #: ../epanel/shortcodes/shortcodes.php:1028
-#: ../et-pagebuilder/et-pagebuilder.php:5921
 msgid "Color"
 msgstr ""
 
@@ -2061,7 +1202,6 @@ msgid "Link text"
 msgstr ""
 
 #: ../epanel/shortcodes/shortcodes.php:1041
-#: ../et-pagebuilder/et-pagebuilder.php:3439
 msgid "Icon"
 msgstr ""
 
@@ -2137,145 +1277,901 @@ msgstr ""
 msgid "+ Add One More Tab"
 msgstr ""
 
-#: ../epanel/shortcodes/shortcodes.php:1335
+#: ../epanel/shortcodes/shortcodes.php:1335 ../functions.php:3165
 msgid "Image Height"
 msgstr ""
 
-#: ../epanel/shortcodes/shortcodes.php:1336
+#: ../epanel/shortcodes/shortcodes.php:1336 ../functions.php:3146
 msgid "Image Width"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:33
-#: ../et-pagebuilder/et-pagebuilder.php:72
-msgid "Export Page Builder Layouts"
+#: ../footer.php:40
+#, php-format
+msgid "Designed by %1$s | Powered by %2$s"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:67
-msgid ""
-"You do not have sufficient permissions to export the content of this site."
+#: ../functions.php:30
+msgid "Primary Menu"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:73
-msgid ""
-"When you click the button below WordPress will create an XML file for you to "
-"save to your computer."
+#: ../functions.php:31
+msgid "Secondary Menu"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:74
-msgid ""
-"This format, which we call WordPress eXtended RSS or WXR, will contain all "
-"layouts you created using the Page Builder."
+#: ../functions.php:32 ../functions.php:706
+msgid "Footer Menu"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:75
-msgid ""
-"Once you&#8217;ve saved the download file, you can use the Import function "
-"in another WordPress installation to import all layouts from this site."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:81
-msgid "Download Export File"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:97
-#: ../et-pagebuilder/et-pagebuilder.php:99
-msgid "Use Default Editor"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:97
-#: ../et-pagebuilder/et-pagebuilder.php:98
-msgid "Use Page Builder"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:122
-msgid "Here you can create new widget areas for use in the Sidebar module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:123
-msgid ""
-"Note: Naming your widget area \"sidebar 1\", \"sidebar 2\", \"sidebar 3\", "
-"\"sidebar 4\" or \"sidebar 5\" will cause conflicts with this theme"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:124
-msgid "Widget Name"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:125
-msgid "Create"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:127
-#: ../et-pagebuilder/et-pagebuilder.php:267
-#: ../et-pagebuilder/et-pagebuilder.php:2300
-msgid "Delete"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:209
+#: ../functions.php:73
 #, php-format
 msgid ""
-"<strong>%1$s</strong> widget area has been created. You can create more "
-"areas, once you finish update the page to see all the areas."
+"Welcome to Divi! Before diving in to your new theme, please visit the <a "
+"style=\"color: #fff; font-weight: bold;\" href=\"%1$s\" target=\"_blank"
+"\">Divi Documentation</a> page for access to dozens of in-depth tutorials."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:238
-msgid "Replace the existing content with loaded layout"
+#: ../functions.php:97
+msgid "on"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:256
-msgid "Saved Layouts:"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:266
-#: ../et-pagebuilder/et-pagebuilder.php:298
-msgid "Load"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:288
-msgid "Predefined Layouts:"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:388
-msgid "The section should have at least one row."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:389
-msgid "Fullwidth module can't be used outside of the Fullwidth Section."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:390
-msgid "3 column row can't be used in this column."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:391
-msgid "Preview"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:392
-msgid "Module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:393
+#: ../functions.php:154
 msgid ""
-"Still images cannot be generated from this video service and/or this video "
-"format"
+"Please, check the fields below to make sure you entered the correct "
+"information."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:394
-msgid "Geocode was not successful for the following reason"
+#: ../functions.php:155
+msgid "Fill"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:395
-msgid "Geocoder failed due to"
+#: ../functions.php:156
+msgid "field"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:396
-msgid "No results found"
+#: ../functions.php:157
+msgid "Invalid email"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:397
-#: ../et-pagebuilder/et-pagebuilder.php:3586
-#: ../includes/widgets/widget-about.php:50
+#: ../functions.php:158
+msgid "Captcha"
+msgstr ""
+
+#: ../functions.php:159
+msgid "Prev"
+msgstr ""
+
+#: ../functions.php:208
+msgid "Select Page"
+msgstr ""
+
+#: ../functions.php:246
+msgid "Divi Page Settings"
+msgstr ""
+
+#: ../functions.php:247
+msgid "Divi Post Settings"
+msgstr ""
+
+#: ../functions.php:248
+msgid "Divi Product Settings"
+msgstr ""
+
+#: ../functions.php:249
+msgid "Divi Project Settings"
+msgstr ""
+
+#: ../functions.php:255
+msgid "Projects"
+msgstr ""
+
+#: ../functions.php:256
+msgid "Project"
+msgstr ""
+
+#: ../functions.php:257
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:258
+msgid "Add New Project"
+msgstr ""
+
+#: ../functions.php:259
+msgid "Edit Project"
+msgstr ""
+
+#: ../functions.php:260
+msgid "New Project"
+msgstr ""
+
+#: ../functions.php:261
+msgid "All Projects"
+msgstr ""
+
+#: ../functions.php:262
+msgid "View Project"
+msgstr ""
+
+#: ../functions.php:263
+msgid "Search Projects"
+msgstr ""
+
+#: ../functions.php:264
+msgid "Nothing found"
+msgstr ""
+
+#: ../functions.php:265
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../functions.php:293
+msgid "Category"
+msgstr ""
+
+#: ../functions.php:294
+msgid "Search Categories"
+msgstr ""
+
+#: ../functions.php:295
+msgid "All Categories"
+msgstr ""
+
+#: ../functions.php:296
+msgid "Parent Category"
+msgstr ""
+
+#: ../functions.php:297
+msgid "Parent Category:"
+msgstr ""
+
+#: ../functions.php:298
+msgid "Edit Category"
+msgstr ""
+
+#: ../functions.php:299
+msgid "Update Category"
+msgstr ""
+
+#: ../functions.php:300
+msgid "Add New Category"
+msgstr ""
+
+#: ../functions.php:301
+msgid "New Category Name"
+msgstr ""
+
+#: ../functions.php:314 ../functions.php:324
+msgid "Tags"
+msgstr ""
+
+#: ../functions.php:315
+msgid "Tag"
+msgstr ""
+
+#: ../functions.php:316
+msgid "Search Tags"
+msgstr ""
+
+#: ../functions.php:317
+msgid "All Tags"
+msgstr ""
+
+#: ../functions.php:318
+msgid "Parent Tag"
+msgstr ""
+
+#: ../functions.php:319
+msgid "Parent Tag:"
+msgstr ""
+
+#: ../functions.php:320
+msgid "Edit Tag"
+msgstr ""
+
+#: ../functions.php:321
+msgid "Update Tag"
+msgstr ""
+
+#: ../functions.php:322
+msgid "Add New Tag"
+msgstr ""
+
+#: ../functions.php:323
+msgid "New Tag Name"
+msgstr ""
+
+#: ../functions.php:340
+msgid "Skills"
+msgstr ""
+
+#: ../functions.php:343
+msgid "Posted on"
+msgstr ""
+
+#: ../functions.php:370
+msgid "Light"
+msgstr ""
+
+#: ../functions.php:371
+msgid "Dark"
+msgstr ""
+
+#: ../functions.php:384
+msgid "Page Layout"
+msgstr ""
+
+#: ../functions.php:398
+msgid "Dot Navigation"
+msgstr ""
+
+#: ../functions.php:401 ../functions.php:409
+msgid "Off"
+msgstr ""
+
+#: ../functions.php:402 ../functions.php:410
+msgid "On"
+msgstr ""
+
+#: ../functions.php:406
+msgid "Hide Nav Before Scroll"
+msgstr ""
+
+#: ../functions.php:416
+msgid "Post Title"
+msgstr ""
+
+#: ../functions.php:419
+msgid "Show"
+msgstr ""
+
+#: ../functions.php:420
+msgid "Hide"
+msgstr ""
+
+#: ../functions.php:425
+msgid "Use Background Color"
+msgstr ""
+
+#: ../functions.php:430 ../functions.php:5510
+msgid "Hex Value"
+msgstr ""
+
+#: ../functions.php:434 ../functions.php:1697 ../functions.php:1722
+#: ../functions.php:1845 ../functions.php:2350 ../functions.php:2449
+#: ../functions.php:2655
+msgid "Text Color"
+msgstr ""
+
+#: ../functions.php:626
+msgid "Typography"
+msgstr ""
+
+#: ../functions.php:631
+msgid "Mobile Styles"
+msgstr ""
+
+#: ../functions.php:636
+msgid "Tablet"
+msgstr ""
+
+#: ../functions.php:641
+msgid "Phone"
+msgstr ""
+
+#: ../functions.php:646
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../functions.php:651
+msgid "Background"
+msgstr ""
+
+#: ../functions.php:656
+msgid "Header & Navigation"
+msgstr ""
+
+#: ../functions.php:661
+msgid "Header Format"
+msgstr ""
+
+#: ../functions.php:666
+msgid "Primary Menu Bar"
+msgstr ""
+
+#: ../functions.php:671
+msgid "Secondary Menu Bar"
+msgstr ""
+
+#: ../functions.php:676
+msgid "Fixed Navigation Settings"
+msgstr ""
+
+#: ../functions.php:681
+msgid "Header Elements"
+msgstr ""
+
+#: ../functions.php:686
+msgid "Footer"
+msgstr ""
+
+#: ../functions.php:691
+msgid "Layout"
+msgstr ""
+
+#: ../functions.php:696
+msgid "Widgets"
+msgstr ""
+
+#: ../functions.php:701
+msgid "Footer Elements"
+msgstr ""
+
+#: ../functions.php:711
+msgid "Bottom Bar"
+msgstr ""
+
+#: ../functions.php:716 ../functions.php:1411
+msgid "Color Schemes"
+msgstr ""
+
+#: ../functions.php:718
+msgid ""
+"Note: Color settings set above should be applied to the Default color scheme."
+msgstr ""
+
+#: ../functions.php:722
+msgid "Buttons"
+msgstr ""
+
+#: ../functions.php:727
+msgid "Buttons Style"
+msgstr ""
+
+#: ../functions.php:732
+msgid "Buttons Hover Style"
+msgstr ""
+
+#: ../functions.php:737 ../functions.php:4774
+msgid "Blog"
+msgstr ""
+
+#: ../functions.php:742
+msgid "Post"
+msgstr ""
+
+#: ../functions.php:754
+msgid "Meta Text Size"
+msgstr ""
+
+#: ../functions.php:772
+msgid "Meta Line Height"
+msgstr ""
+
+#: ../functions.php:790
+msgid "Meta Letter Spacing"
+msgstr ""
+
+#: ../functions.php:808 ../functions.php:4845 ../functions.php:4931
+msgid "Meta Font Style"
+msgstr ""
+
+#: ../functions.php:812 ../functions.php:885 ../functions.php:1276
+#: ../functions.php:1598 ../functions.php:1682 ../functions.php:2119
+#: ../functions.php:2174 ../functions.php:2303 ../functions.php:2367
+#: ../functions.php:2546 ../functions.php:2825 ../functions.php:2864
+#: ../functions.php:2938 ../functions.php:3024 ../functions.php:3063
+#: ../functions.php:3091 ../functions.php:3111 ../functions.php:3215
+#: ../functions.php:3254 ../functions.php:3293 ../functions.php:3340
+#: ../functions.php:3406 ../functions.php:3445 ../functions.php:3492
+#: ../functions.php:3558 ../functions.php:3652 ../functions.php:3691
+#: ../functions.php:3766 ../functions.php:3805 ../functions.php:3844
+#: ../functions.php:3891 ../functions.php:3930 ../functions.php:4014
+#: ../functions.php:4053 ../functions.php:4100 ../functions.php:4139
+#: ../functions.php:4185 ../functions.php:4205 ../functions.php:4291
+#: ../functions.php:4311 ../functions.php:4396 ../functions.php:4435
+#: ../functions.php:4493 ../functions.php:4540 ../functions.php:4705
+#: ../functions.php:4744 ../functions.php:4810 ../functions.php:4849
+#: ../functions.php:4896 ../functions.php:4935 ../functions.php:4982
+#: ../functions.php:5021 ../functions.php:5060 ../functions.php:5099
+#: ../functions.php:5146 ../functions.php:5193 ../functions.php:5259
+#: ../functions.php:5298
+msgid "Bold"
+msgstr ""
+
+#: ../functions.php:813 ../functions.php:886 ../functions.php:1277
+#: ../functions.php:1599 ../functions.php:1683 ../functions.php:2120
+#: ../functions.php:2175 ../functions.php:2304 ../functions.php:2368
+#: ../functions.php:2547 ../functions.php:2826 ../functions.php:2865
+#: ../functions.php:2939 ../functions.php:3025 ../functions.php:3064
+#: ../functions.php:3092 ../functions.php:3112 ../functions.php:3216
+#: ../functions.php:3255 ../functions.php:3294 ../functions.php:3341
+#: ../functions.php:3407 ../functions.php:3446 ../functions.php:3493
+#: ../functions.php:3559 ../functions.php:3653 ../functions.php:3692
+#: ../functions.php:3767 ../functions.php:3806 ../functions.php:3845
+#: ../functions.php:3892 ../functions.php:3931 ../functions.php:4015
+#: ../functions.php:4054 ../functions.php:4101 ../functions.php:4140
+#: ../functions.php:4186 ../functions.php:4206 ../functions.php:4292
+#: ../functions.php:4312 ../functions.php:4397 ../functions.php:4436
+#: ../functions.php:4494 ../functions.php:4541 ../functions.php:4706
+#: ../functions.php:4745 ../functions.php:4811 ../functions.php:4850
+#: ../functions.php:4897 ../functions.php:4936 ../functions.php:4983
+#: ../functions.php:5022 ../functions.php:5061 ../functions.php:5100
+#: ../functions.php:5147 ../functions.php:5194 ../functions.php:5260
+#: ../functions.php:5299
+msgid "Italic"
+msgstr ""
+
+#: ../functions.php:814 ../functions.php:887 ../functions.php:1278
+#: ../functions.php:1600 ../functions.php:1684 ../functions.php:2121
+#: ../functions.php:2176 ../functions.php:2305 ../functions.php:2369
+#: ../functions.php:2548 ../functions.php:2827 ../functions.php:2866
+#: ../functions.php:2940 ../functions.php:3026 ../functions.php:3065
+#: ../functions.php:3093 ../functions.php:3113 ../functions.php:3217
+#: ../functions.php:3256 ../functions.php:3295 ../functions.php:3342
+#: ../functions.php:3408 ../functions.php:3447 ../functions.php:3494
+#: ../functions.php:3560 ../functions.php:3654 ../functions.php:3693
+#: ../functions.php:3768 ../functions.php:3807 ../functions.php:3846
+#: ../functions.php:3893 ../functions.php:3932 ../functions.php:4016
+#: ../functions.php:4055 ../functions.php:4102 ../functions.php:4141
+#: ../functions.php:4187 ../functions.php:4207 ../functions.php:4293
+#: ../functions.php:4313 ../functions.php:4398 ../functions.php:4437
+#: ../functions.php:4495 ../functions.php:4542 ../functions.php:4707
+#: ../functions.php:4746 ../functions.php:4812 ../functions.php:4851
+#: ../functions.php:4898 ../functions.php:4937 ../functions.php:4984
+#: ../functions.php:5023 ../functions.php:5062 ../functions.php:5101
+#: ../functions.php:5148 ../functions.php:5195 ../functions.php:5261
+#: ../functions.php:5300
+msgid "Uppercase"
+msgstr ""
+
+#: ../functions.php:815 ../functions.php:888 ../functions.php:1279
+#: ../functions.php:1601 ../functions.php:1685 ../functions.php:2122
+#: ../functions.php:2177 ../functions.php:2306 ../functions.php:2370
+#: ../functions.php:2549 ../functions.php:2828 ../functions.php:2867
+#: ../functions.php:2941 ../functions.php:3027 ../functions.php:3066
+#: ../functions.php:3094 ../functions.php:3114 ../functions.php:3218
+#: ../functions.php:3257 ../functions.php:3296 ../functions.php:3343
+#: ../functions.php:3409 ../functions.php:3448 ../functions.php:3495
+#: ../functions.php:3561 ../functions.php:3655 ../functions.php:3694
+#: ../functions.php:3769 ../functions.php:3808 ../functions.php:3847
+#: ../functions.php:3894 ../functions.php:3933 ../functions.php:4017
+#: ../functions.php:4056 ../functions.php:4103 ../functions.php:4142
+#: ../functions.php:4188 ../functions.php:4208 ../functions.php:4294
+#: ../functions.php:4314 ../functions.php:4399 ../functions.php:4438
+#: ../functions.php:4496 ../functions.php:4543 ../functions.php:4708
+#: ../functions.php:4747 ../functions.php:4813 ../functions.php:4852
+#: ../functions.php:4899 ../functions.php:4938 ../functions.php:4985
+#: ../functions.php:5024 ../functions.php:5063 ../functions.php:5102
+#: ../functions.php:5149 ../functions.php:5196 ../functions.php:5262
+#: ../functions.php:5301
+msgid "Underline"
+msgstr ""
+
+#: ../functions.php:827 ../functions.php:1218 ../functions.php:1291
+#: ../functions.php:1309 ../functions.php:2097
+msgid "Header Text Size"
+msgstr ""
+
+#: ../functions.php:845 ../functions.php:1254
+msgid "Header Line Height"
+msgstr ""
+
+#: ../functions.php:863 ../functions.php:1236
+msgid "Header Letter Spacing"
+msgstr ""
+
+#: ../functions.php:881 ../functions.php:1272 ../functions.php:2115
+#: ../functions.php:3020 ../functions.php:3211 ../functions.php:3336
+#: ../functions.php:3402 ../functions.php:3488 ../functions.php:3554
+#: ../functions.php:4392 ../functions.php:5142 ../functions.php:5255
+msgid "Header Font Style"
+msgstr ""
+
+#: ../functions.php:899
+msgid "Enable Boxed Layout"
+msgstr ""
+
+#: ../functions.php:912
+msgid "Website Content Width"
+msgstr ""
+
+#: ../functions.php:930
+msgid "Website Gutter Width"
+msgstr ""
+
+#: ../functions.php:947
+msgid "Use Custom Sidebar Width"
+msgstr ""
+
+#: ../functions.php:960
+msgid "Sidebar Width"
+msgstr ""
+
+#: ../functions.php:978 ../functions.php:996 ../functions.php:1014
+msgid "Section Height"
+msgstr ""
+
+#: ../functions.php:1032 ../functions.php:1050 ../functions.php:1068
+msgid "Row Height"
+msgstr ""
+
+#: ../functions.php:1086
+msgid "Stretch Background Image"
+msgstr ""
+
+#: ../functions.php:1093 ../functions.php:1748 ../functions.php:1819
+#: ../functions.php:1832 ../functions.php:2337 ../functions.php:2462
+#: ../functions.php:2668
+msgid "Background Color"
+msgstr ""
+
+#: ../functions.php:1100
+msgid "Background Image"
+msgstr ""
+
+#: ../functions.php:1106
+msgid "Background Repeat"
+msgstr ""
+
+#: ../functions.php:1110
+msgid "No Repeat"
+msgstr ""
+
+#: ../functions.php:1111
+msgid "Tile"
+msgstr ""
+
+#: ../functions.php:1112
+msgid "Tile Horizontally"
+msgstr ""
+
+#: ../functions.php:1113
+msgid "Tile Vertically"
+msgstr ""
+
+#: ../functions.php:1118 ../functions.php:1129
+msgid "Background Position"
+msgstr ""
+
+#: ../functions.php:1122 ../functions.php:2626
+msgid "Left"
+msgstr ""
+
+#: ../functions.php:1123
+msgid "Center"
+msgstr ""
+
+#: ../functions.php:1124 ../functions.php:2625
+msgid "Right"
+msgstr ""
+
+#: ../functions.php:1133
+msgid "Scroll"
+msgstr ""
+
+#: ../functions.php:1134
+msgid "Fixed"
+msgstr ""
+
+#: ../functions.php:1146 ../functions.php:1182 ../functions.php:1200
+msgid "Body Text Size"
+msgstr ""
+
+#: ../functions.php:1164
+msgid "Body Line Height"
+msgstr ""
+
+#: ../functions.php:1328
+msgid "Header Font"
+msgstr ""
+
+#: ../functions.php:1343
+msgid "Body Font"
+msgstr ""
+
+#: ../functions.php:1359
+msgid "Body Link Color"
+msgstr ""
+
+#: ../functions.php:1372
+msgid "Body Text Color"
+msgstr ""
+
+#: ../functions.php:1385
+msgid "Header Text Color"
+msgstr ""
+
+#: ../functions.php:1398
+msgid "Theme Accent Color"
+msgstr ""
+
+#: ../functions.php:1416 ../functions.php:1436 ../functions.php:5474
+msgid "Default"
+msgstr ""
+
+#: ../functions.php:1417
+msgid "Green"
+msgstr ""
+
+#: ../functions.php:1418
+msgid "Orange"
+msgstr ""
+
+#: ../functions.php:1419
+msgid "Pink"
+msgstr ""
+
+#: ../functions.php:1420
+msgid "Red"
+msgstr ""
+
+#: ../functions.php:1432
+msgid "Header Style"
+msgstr ""
+
+#: ../functions.php:1437
+msgid "Centered"
+msgstr ""
+
+#: ../functions.php:1438
+msgid "Centered Inline Logo"
+msgstr ""
+
+#: ../functions.php:1449
+msgid "Enable Vertical Navigation"
+msgstr ""
+
+#: ../functions.php:1461
+msgid "Hide Navigation Until Scroll"
+msgstr ""
+
+#: ../functions.php:1473 ../functions.php:2045
+msgid "Show Social Icons"
+msgstr ""
+
+#: ../functions.php:1486
+msgid "Show Search Icon"
+msgstr ""
+
+#: ../functions.php:1498 ../functions.php:1619
+msgid "Make Full Width"
+msgstr ""
+
+#: ../functions.php:1510 ../functions.php:1709 ../functions.php:1919
+msgid "Hide Logo Image"
+msgstr ""
+
+#: ../functions.php:1523
+msgid "Menu/Logo Height"
+msgstr ""
+
+#: ../functions.php:1541 ../functions.php:1625 ../functions.php:1950
+#: ../functions.php:2431
+msgid "Text Size"
+msgstr ""
+
+#: ../functions.php:1559 ../functions.php:1643 ../functions.php:2281
+#: ../functions.php:2524 ../functions.php:2712
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../functions.php:1578 ../functions.php:1662
+msgid "Font"
+msgstr ""
+
+#: ../functions.php:1594 ../functions.php:1678 ../functions.php:2299
+#: ../functions.php:2363
+msgid "Font Style"
+msgstr ""
+
+#: ../functions.php:1735
+msgid "Active Link Color"
+msgstr ""
+
+#: ../functions.php:1761 ../functions.php:1858
+msgid "Dropdown Menu Background Color"
+msgstr ""
+
+#: ../functions.php:1774
+msgid "Dropdown Menu Line Color"
+msgstr ""
+
+#: ../functions.php:1787 ../functions.php:1871
+msgid "Dropdown Menu Text Color"
+msgstr ""
+
+#: ../functions.php:1800 ../functions.php:1884
+msgid "Dropdown Menu Animation"
+msgstr ""
+
+#: ../functions.php:1804 ../functions.php:1888
+msgid "Fade"
+msgstr ""
+
+#: ../functions.php:1805 ../functions.php:1889
+msgid "Expand"
+msgstr ""
+
+#: ../functions.php:1806 ../functions.php:1890
+msgid "Slide"
+msgstr ""
+
+#: ../functions.php:1807 ../functions.php:1891
+msgid "Flip"
+msgstr ""
+
+#: ../functions.php:1932
+msgid "Fixed Menu/Logo Height"
+msgstr ""
+
+#: ../functions.php:1968
+msgid "Primary Menu Background Color"
+msgstr ""
+
+#: ../functions.php:1981
+msgid "Secondary Menu Background Color"
+msgstr ""
+
+#: ../functions.php:1994
+msgid "Menu Link Color"
+msgstr ""
+
+#: ../functions.php:2007
+msgid "Active Menu Link Color"
+msgstr ""
+
+#: ../functions.php:2020
+msgid "Phone Number"
+msgstr ""
+
+#: ../functions.php:2032
+msgid "Email"
+msgstr ""
+
+#: ../functions.php:2058
+msgid "Column Layout"
+msgstr ""
+
+#: ../functions.php:2063 ../functions.php:2064 ../functions.php:2065
+#: ../functions.php:2067 ../functions.php:2068 ../functions.php:2069
+#: ../functions.php:2070 ../functions.php:2071 ../functions.php:2072
+#, php-format
+msgid "%1$s Columns"
+msgstr ""
+
+#: ../functions.php:2066
+msgid "1 Column"
+msgstr ""
+
+#: ../functions.php:2084
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../functions.php:2134
+msgid "Body/Link Text Size"
+msgstr ""
+
+#: ../functions.php:2152
+msgid "Body/Link Line Height"
+msgstr ""
+
+#: ../functions.php:2170
+msgid "Body Font Style"
+msgstr ""
+
+#: ../functions.php:2189
+msgid "Widget Text Color"
+msgstr ""
+
+#: ../functions.php:2202
+msgid "Widget Link Color"
+msgstr ""
+
+#: ../functions.php:2215
+msgid "Widget Header Color"
+msgstr ""
+
+#: ../functions.php:2228
+msgid "Widget Bullet Color"
+msgstr ""
+
+#: ../functions.php:2242
+msgid "Footer Menu Background Color"
+msgstr ""
+
+#: ../functions.php:2255
+msgid "Footer Menu Text Color"
+msgstr ""
+
+#: ../functions.php:2268
+msgid "Footer Menu Active Link Color"
+msgstr ""
+
+#: ../functions.php:2318 ../functions.php:2382
+msgid "Font Size"
+msgstr ""
+
+#: ../functions.php:2400
+msgid "Social Icon Size"
+msgstr ""
+
+#: ../functions.php:2418
+msgid "Social Icon Color"
+msgstr ""
+
+#: ../functions.php:2475
+msgid "Border Width"
+msgstr ""
+
+#: ../functions.php:2493 ../functions.php:2681
+msgid "Border Color"
+msgstr ""
+
+#: ../functions.php:2506 ../functions.php:2694
+msgid "Border Radius"
+msgstr ""
+
+#: ../functions.php:2542 ../functions.php:5189
+msgid "Button Font Style"
+msgstr ""
+
+#: ../functions.php:2562
+msgid "Buttons Font"
+msgstr ""
+
+#: ../functions.php:2578
+msgid "Add Button Icon"
+msgstr ""
+
+#: ../functions.php:2582 ../functions.php:2642
+msgid "Yes"
+msgstr ""
+
+#: ../functions.php:2583 ../functions.php:2643
+msgid "No"
+msgstr ""
+
+#: ../functions.php:2595
+msgid "Select Icon"
+msgstr ""
+
+#: ../functions.php:2608
+msgid "Icon Color"
+msgstr ""
+
+#: ../functions.php:2621
+msgid "Icon Placement"
+msgstr ""
+
+#: ../functions.php:2638
+msgid "Only Show Icon on Hover"
+msgstr ""
+
+#: ../functions.php:2727
+msgid "Left to Right"
+msgstr ""
+
+#: ../functions.php:2728
+msgid "Right to Left"
+msgstr ""
+
+#: ../functions.php:2729
+msgid "Top to Bottom"
+msgstr ""
+
+#: ../functions.php:2730
+msgid "Bottom to Top"
+msgstr ""
+
+#: ../functions.php:2731
+msgid "Fade In"
+msgstr ""
+
+#: ../functions.php:2732
+msgid "No Animation"
+msgstr ""
+
+#: ../functions.php:2739 ../includes/widgets/widget-about.php:50
 #: ../includes/widgets/widget-ads.php:180
 #: ../includes/widgets/widget-ads.php:188
 #: ../includes/widgets/widget-ads.php:196
@@ -2287,2945 +2183,567 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:398
-msgid "Gallery"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:399
-msgid "Video"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:400
-msgid "Video Slider"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:401
-#: ../includes/widgets/widget-about.php:52
-msgid "Text"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:402
-msgid "Blurb"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:403
-msgid "Tabs"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:404
-#: ../et-pagebuilder/et-pagebuilder.php:1446
-msgid "Slider"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:405
-msgid "Testimonial"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:406
-msgid "Pricing Table"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:407
-msgid "Call To Action"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:408
-#: ../et-pagebuilder/et-pagebuilder.php:5572
-msgid "Audio"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:411
-msgid "Portfolio"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:412
-msgid "Filterable Portfolio"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:413
-msgid "Bar Counters"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:414
-msgid "Circle Counter"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:415
-msgid "Number Counter"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:416
-msgid "Accordion"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:417
-msgid "Fullwidth Header"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:418
-msgid "Fullwidth Menu"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:419
-msgid "Fullwidth Slider"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:420
-msgid "Fullwidth Portfolio"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:421
-msgid "Toggle"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:422
-msgid "Contact Form"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:423
-#: ../includes/functions/sidebars.php:4
-msgid "Sidebar"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:424
-msgid "Divider"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:425
-msgid "Person"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:426
-msgid "Blog"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:427
-msgid "Shop"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:428
-msgid "Countdown Timer"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:429
-msgid "Map"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:430
-msgid "Fullwidth Map"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:431
-msgid "Social Media Follow"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:445
-msgid "Page Builder"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:462
-msgid "Save Layout"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:467
-#: ../et-pagebuilder/et-pagebuilder.php:798
-msgid "Load Layout"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:472
-msgid "Clear Layout"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:482
-#: ../et-pagebuilder/et-pagebuilder.php:2305
-msgid "Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:487
-msgid "Clone Section"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:492
-msgid "Delete Section"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:502
-msgid "Add Section"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:506
-msgid "Add Fullwidth Section"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:510
-msgid "Add Specialty Section"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:519
-msgid "Clone Row"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:524
-msgid "Delete Row"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:533
-msgid "Insert Column(s)"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:540
-msgid "Add Row"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:548
-msgid "Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:553
-msgid "Clone Module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:558
-msgid "Delete Module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:568
-#: ../et-pagebuilder/et-pagebuilder.php:2314
-msgid "Close modal window"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:576
-#: ../et-pagebuilder/et-pagebuilder.php:2320
-#: ../et-pagebuilder/et-pagebuilder.php:9933
-msgid "Save"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:587
-msgid "Insert Columns"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:779
-msgid "Insert Module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:810
-msgid "Section Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:818
-#: ../et-pagebuilder/et-pagebuilder.php:3027
-msgid "Background Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:826
-#: ../et-pagebuilder/et-pagebuilder.php:1155
-#: ../et-pagebuilder/et-pagebuilder.php:1696
-#: ../et-pagebuilder/et-pagebuilder.php:2072
-#: ../et-pagebuilder/et-pagebuilder.php:3035
-#: ../et-pagebuilder/et-pagebuilder.php:3978
-#: ../et-pagebuilder/et-pagebuilder.php:4286
-#: ../et-pagebuilder/et-pagebuilder.php:5662
-msgid "Upload an image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:830
-#: ../et-pagebuilder/et-pagebuilder.php:3039
-msgid "Choose a Background Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:834
-#: ../et-pagebuilder/et-pagebuilder.php:3043
-msgid "Set As Background"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:840
-#: ../et-pagebuilder/et-pagebuilder.php:3048
-msgid ""
-"If defined, this image will be used as the background for this module. To "
-"remove a background image, simply delete the URL from the settings field."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:849
-msgid "Transparent Background Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:868
-msgid ""
-"Switch on this option if you need transparent background color for the "
-"section."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:890
-#: ../et-pagebuilder/et-pagebuilder.php:5126
-#: ../et-pagebuilder/et-pagebuilder.php:5394
-#: ../et-pagebuilder/et-pagebuilder.php:5700
-msgid ""
-"Define a custom background color for your module, or leave blank to use the "
-"default color."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:900
-#: ../et-pagebuilder/et-pagebuilder.php:3200
-msgid "Background Video MP4"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:908
-#: ../et-pagebuilder/et-pagebuilder.php:1637
-#: ../et-pagebuilder/et-pagebuilder.php:1666
-#: ../et-pagebuilder/et-pagebuilder.php:2017
-#: ../et-pagebuilder/et-pagebuilder.php:2042
-#: ../et-pagebuilder/et-pagebuilder.php:3208
-#: ../et-pagebuilder/et-pagebuilder.php:3238
-msgid "Upload a video"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:912
-#: ../et-pagebuilder/et-pagebuilder.php:3212
-msgid "Choose a Background Video MP4 File"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:916
-#: ../et-pagebuilder/et-pagebuilder.php:943
-#: ../et-pagebuilder/et-pagebuilder.php:3216
-#: ../et-pagebuilder/et-pagebuilder.php:3246
-msgid "Set As Background Video"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:922
-#: ../et-pagebuilder/et-pagebuilder.php:3221
-msgid ""
-"All videos should be uploaded in both .MP4 .WEBM formats to ensure maximum "
-"compatibility in all browsers. Upload the .MP4 version here. <b>Important "
-"Note: Video backgrounds are disabled from mobile devices. Instead, your "
-"background image will be used. For this reason, you should define both a "
-"background image and a background video to ensure best results.</b>"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:931
-#: ../et-pagebuilder/et-pagebuilder.php:3230
-msgid "Background Video Webm"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:939
-#: ../et-pagebuilder/et-pagebuilder.php:3242
-msgid "Choose a Background Video WEBM File"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:948
-#: ../et-pagebuilder/et-pagebuilder.php:3251
-msgid ""
-"All videos should be uploaded in both .MP4 .WEBM formats to ensure maximum "
-"compatibility in all browsers. Upload the .WEBM version here. <b>Important "
-"Note: Video backgrounds are disabled from mobile devices. Instead, your "
-"background image will be used. For this reason, you should define both a "
-"background image and a background video to ensure best results.</b>"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:957
-#: ../et-pagebuilder/et-pagebuilder.php:3260
-msgid "Background Video Width"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:965
-#: ../et-pagebuilder/et-pagebuilder.php:3268
-msgid ""
-"In order for videos to be sized correctly, you must input the exact width "
-"(in pixels) of your video here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:974
-#: ../et-pagebuilder/et-pagebuilder.php:3277
-msgid "Background Video Height"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:982
-#: ../et-pagebuilder/et-pagebuilder.php:3285
-msgid ""
-"In order for videos to be sized correctly, you must input the exact height "
-"(in pixels) of your video here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:991
-#: ../et-pagebuilder/et-pagebuilder.php:3294
-msgid "Pause Video"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:998
-#: ../et-pagebuilder/et-pagebuilder.php:1339
-#: ../et-pagebuilder/et-pagebuilder.php:1496
-#: ../et-pagebuilder/et-pagebuilder.php:3301
-#: ../et-pagebuilder/et-pagebuilder.php:3418
-#: ../et-pagebuilder/et-pagebuilder.php:3491
-#: ../et-pagebuilder/et-pagebuilder.php:3544
-#: ../et-pagebuilder/et-pagebuilder.php:4040
-#: ../et-pagebuilder/et-pagebuilder.php:4716
-#: ../et-pagebuilder/et-pagebuilder.php:5094
-#: ../et-pagebuilder/et-pagebuilder.php:5329
-#: ../et-pagebuilder/et-pagebuilder.php:5362
-#: ../et-pagebuilder/et-pagebuilder.php:8120
-#: ../et-pagebuilder/et-pagebuilder.php:9955
-msgid "No"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1003
-#: ../et-pagebuilder/et-pagebuilder.php:1344
-#: ../et-pagebuilder/et-pagebuilder.php:1491
-#: ../et-pagebuilder/et-pagebuilder.php:3306
-#: ../et-pagebuilder/et-pagebuilder.php:3423
-#: ../et-pagebuilder/et-pagebuilder.php:3496
-#: ../et-pagebuilder/et-pagebuilder.php:3549
-#: ../et-pagebuilder/et-pagebuilder.php:4035
-#: ../et-pagebuilder/et-pagebuilder.php:4711
-#: ../et-pagebuilder/et-pagebuilder.php:5089
-#: ../et-pagebuilder/et-pagebuilder.php:5334
-#: ../et-pagebuilder/et-pagebuilder.php:5357
-#: ../et-pagebuilder/et-pagebuilder.php:8115
-#: ../et-pagebuilder/et-pagebuilder.php:9950
-msgid "Yes"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1010
-#: ../et-pagebuilder/et-pagebuilder.php:3313
-msgid "Allow video to be paused by other players when they begin playing"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1019
-msgid "Inner Shadow"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1026
-msgid "Don't Show Inner Shadow"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1031
-msgid "Show Inner Shadow"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1038
-msgid ""
-"Here you can select whether or not your section has an inner shadow. This "
-"can look great when you have colored backgrounds or background images."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1047
-#: ../et-pagebuilder/et-pagebuilder.php:2589
-#: ../et-pagebuilder/et-pagebuilder.php:2834
-msgid "Parallax effect"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1054
-#: ../et-pagebuilder/et-pagebuilder.php:2596
-#: ../et-pagebuilder/et-pagebuilder.php:2841
-msgid "Don't Use Parallax Effect"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1059
-#: ../et-pagebuilder/et-pagebuilder.php:2601
-#: ../et-pagebuilder/et-pagebuilder.php:2846
-msgid "Use Parallax Effect"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1066
-msgid ""
-"If enabled, your background image will stay fixed as your scroll, creating a "
-"fun parallax-like effect."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1075
-#: ../et-pagebuilder/et-pagebuilder.php:2617
-#: ../et-pagebuilder/et-pagebuilder.php:2862
-msgid "Parallax method"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1082
-#: ../et-pagebuilder/et-pagebuilder.php:2624
-#: ../et-pagebuilder/et-pagebuilder.php:2869
-msgid "CSS"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1087
-#: ../et-pagebuilder/et-pagebuilder.php:2629
-#: ../et-pagebuilder/et-pagebuilder.php:2874
-msgid "True Parallax"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1094
-#: ../et-pagebuilder/et-pagebuilder.php:2636
-#: ../et-pagebuilder/et-pagebuilder.php:2881
-msgid "Define the method, used for the parallax effect."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1103
-#: ../et-pagebuilder/et-pagebuilder.php:1377
-#: ../et-pagebuilder/et-pagebuilder.php:1585
-#: ../et-pagebuilder/et-pagebuilder.php:1740
-#: ../et-pagebuilder/et-pagebuilder.php:1940
-#: ../et-pagebuilder/et-pagebuilder.php:2264
-#: ../et-pagebuilder/et-pagebuilder.php:2434
-#: ../et-pagebuilder/et-pagebuilder.php:2679
-#: ../et-pagebuilder/et-pagebuilder.php:2924
-#: ../et-pagebuilder/et-pagebuilder.php:3830
-#: ../et-pagebuilder/et-pagebuilder.php:4200
-#: ../et-pagebuilder/et-pagebuilder.php:4486
-#: ../et-pagebuilder/et-pagebuilder.php:4609
-#: ../et-pagebuilder/et-pagebuilder.php:4878
-#: ../et-pagebuilder/et-pagebuilder.php:5261
-#: ../et-pagebuilder/et-pagebuilder.php:5528
-#: ../et-pagebuilder/et-pagebuilder.php:5754
-#: ../et-pagebuilder/et-pagebuilder.php:5877
-#: ../et-pagebuilder/et-pagebuilder.php:6004
-#: ../et-pagebuilder/et-pagebuilder.php:6396
-#: ../et-pagebuilder/et-pagebuilder.php:6642
-#: ../et-pagebuilder/et-pagebuilder.php:6888
-#: ../et-pagebuilder/et-pagebuilder.php:7167
-#: ../et-pagebuilder/et-pagebuilder.php:7358
-#: ../et-pagebuilder/et-pagebuilder.php:7446
-#: ../et-pagebuilder/et-pagebuilder.php:7807
-#: ../et-pagebuilder/et-pagebuilder.php:7947
-#: ../et-pagebuilder/et-pagebuilder.php:8180
-#: ../et-pagebuilder/et-pagebuilder.php:8405
-#: ../et-pagebuilder/et-pagebuilder.php:8549
-#: ../et-pagebuilder/et-pagebuilder.php:8728
-#: ../et-pagebuilder/et-pagebuilder.php:8907
-#: ../et-pagebuilder/et-pagebuilder.php:9053
-#: ../et-pagebuilder/et-pagebuilder.php:9239
-#: ../et-pagebuilder/et-pagebuilder.php:9478
-#: ../et-pagebuilder/et-pagebuilder.php:9676
-msgid "CSS ID"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1111
-#: ../et-pagebuilder/et-pagebuilder.php:1385
-#: ../et-pagebuilder/et-pagebuilder.php:1593
-#: ../et-pagebuilder/et-pagebuilder.php:1748
-#: ../et-pagebuilder/et-pagebuilder.php:1948
-#: ../et-pagebuilder/et-pagebuilder.php:2272
-#: ../et-pagebuilder/et-pagebuilder.php:2442
-#: ../et-pagebuilder/et-pagebuilder.php:2687
-#: ../et-pagebuilder/et-pagebuilder.php:2932
-#: ../et-pagebuilder/et-pagebuilder.php:3838
-#: ../et-pagebuilder/et-pagebuilder.php:4208
-#: ../et-pagebuilder/et-pagebuilder.php:4494
-#: ../et-pagebuilder/et-pagebuilder.php:4617
-#: ../et-pagebuilder/et-pagebuilder.php:4886
-#: ../et-pagebuilder/et-pagebuilder.php:5269
-#: ../et-pagebuilder/et-pagebuilder.php:5536
-#: ../et-pagebuilder/et-pagebuilder.php:5762
-#: ../et-pagebuilder/et-pagebuilder.php:5885
-#: ../et-pagebuilder/et-pagebuilder.php:6012
-#: ../et-pagebuilder/et-pagebuilder.php:6404
-#: ../et-pagebuilder/et-pagebuilder.php:6650
-#: ../et-pagebuilder/et-pagebuilder.php:6896
-#: ../et-pagebuilder/et-pagebuilder.php:7175
-#: ../et-pagebuilder/et-pagebuilder.php:7366
-#: ../et-pagebuilder/et-pagebuilder.php:7454
-#: ../et-pagebuilder/et-pagebuilder.php:7815
-#: ../et-pagebuilder/et-pagebuilder.php:7955
-#: ../et-pagebuilder/et-pagebuilder.php:8188
-#: ../et-pagebuilder/et-pagebuilder.php:8413
-#: ../et-pagebuilder/et-pagebuilder.php:8557
-#: ../et-pagebuilder/et-pagebuilder.php:8736
-#: ../et-pagebuilder/et-pagebuilder.php:8915
-#: ../et-pagebuilder/et-pagebuilder.php:9061
-#: ../et-pagebuilder/et-pagebuilder.php:9247
-#: ../et-pagebuilder/et-pagebuilder.php:9486
-#: ../et-pagebuilder/et-pagebuilder.php:9684
-msgid ""
-"Enter an optional CSS ID to be used for this module. An ID can be used to "
-"create custom CSS styling, or to create links to particular sections of your "
-"page."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1120
-#: ../et-pagebuilder/et-pagebuilder.php:1394
-#: ../et-pagebuilder/et-pagebuilder.php:1602
-#: ../et-pagebuilder/et-pagebuilder.php:1757
-#: ../et-pagebuilder/et-pagebuilder.php:1957
-#: ../et-pagebuilder/et-pagebuilder.php:2281
-#: ../et-pagebuilder/et-pagebuilder.php:2451
-#: ../et-pagebuilder/et-pagebuilder.php:2696
-#: ../et-pagebuilder/et-pagebuilder.php:2941
-#: ../et-pagebuilder/et-pagebuilder.php:3847
-#: ../et-pagebuilder/et-pagebuilder.php:4217
-#: ../et-pagebuilder/et-pagebuilder.php:4503
-#: ../et-pagebuilder/et-pagebuilder.php:4626
-#: ../et-pagebuilder/et-pagebuilder.php:4895
-#: ../et-pagebuilder/et-pagebuilder.php:5278
-#: ../et-pagebuilder/et-pagebuilder.php:5545
-#: ../et-pagebuilder/et-pagebuilder.php:5771
-#: ../et-pagebuilder/et-pagebuilder.php:5894
-#: ../et-pagebuilder/et-pagebuilder.php:6021
-#: ../et-pagebuilder/et-pagebuilder.php:6413
-#: ../et-pagebuilder/et-pagebuilder.php:6659
-#: ../et-pagebuilder/et-pagebuilder.php:6905
-#: ../et-pagebuilder/et-pagebuilder.php:7184
-#: ../et-pagebuilder/et-pagebuilder.php:7375
-#: ../et-pagebuilder/et-pagebuilder.php:7463
-#: ../et-pagebuilder/et-pagebuilder.php:7824
-#: ../et-pagebuilder/et-pagebuilder.php:7964
-#: ../et-pagebuilder/et-pagebuilder.php:8197
-#: ../et-pagebuilder/et-pagebuilder.php:8422
-#: ../et-pagebuilder/et-pagebuilder.php:8566
-#: ../et-pagebuilder/et-pagebuilder.php:8745
-#: ../et-pagebuilder/et-pagebuilder.php:8924
-#: ../et-pagebuilder/et-pagebuilder.php:9070
-#: ../et-pagebuilder/et-pagebuilder.php:9256
-#: ../et-pagebuilder/et-pagebuilder.php:9495
-#: ../et-pagebuilder/et-pagebuilder.php:9693
-msgid "CSS Class"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1128
-#: ../et-pagebuilder/et-pagebuilder.php:1402
-#: ../et-pagebuilder/et-pagebuilder.php:1610
-#: ../et-pagebuilder/et-pagebuilder.php:1765
-#: ../et-pagebuilder/et-pagebuilder.php:1965
-#: ../et-pagebuilder/et-pagebuilder.php:2289
-#: ../et-pagebuilder/et-pagebuilder.php:2459
-#: ../et-pagebuilder/et-pagebuilder.php:2704
-#: ../et-pagebuilder/et-pagebuilder.php:2949
-#: ../et-pagebuilder/et-pagebuilder.php:3855
-#: ../et-pagebuilder/et-pagebuilder.php:4225
-#: ../et-pagebuilder/et-pagebuilder.php:4511
-#: ../et-pagebuilder/et-pagebuilder.php:4634
-#: ../et-pagebuilder/et-pagebuilder.php:4903
-#: ../et-pagebuilder/et-pagebuilder.php:5286
-#: ../et-pagebuilder/et-pagebuilder.php:5553
-#: ../et-pagebuilder/et-pagebuilder.php:5779
-#: ../et-pagebuilder/et-pagebuilder.php:5902
-#: ../et-pagebuilder/et-pagebuilder.php:6029
-#: ../et-pagebuilder/et-pagebuilder.php:6421
-#: ../et-pagebuilder/et-pagebuilder.php:6667
-#: ../et-pagebuilder/et-pagebuilder.php:6913
-#: ../et-pagebuilder/et-pagebuilder.php:7192
-#: ../et-pagebuilder/et-pagebuilder.php:7383
-#: ../et-pagebuilder/et-pagebuilder.php:7471
-#: ../et-pagebuilder/et-pagebuilder.php:7832
-#: ../et-pagebuilder/et-pagebuilder.php:7972
-#: ../et-pagebuilder/et-pagebuilder.php:8205
-#: ../et-pagebuilder/et-pagebuilder.php:8430
-#: ../et-pagebuilder/et-pagebuilder.php:8574
-#: ../et-pagebuilder/et-pagebuilder.php:8753
-#: ../et-pagebuilder/et-pagebuilder.php:8932
-#: ../et-pagebuilder/et-pagebuilder.php:9078
-#: ../et-pagebuilder/et-pagebuilder.php:9264
-#: ../et-pagebuilder/et-pagebuilder.php:9503
-#: ../et-pagebuilder/et-pagebuilder.php:9701
-msgid ""
-"Enter optional CSS classes to be used for this module. A CSS class can be "
-"used to create custom CSS styling. You can add multiple classes, separated "
-"with a space."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1139
+#: ../functions.php:2740
 msgid "Image Module Settings"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1147
-#: ../et-pagebuilder/et-pagebuilder.php:4278
-msgid "Image URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1163
-#: ../et-pagebuilder/et-pagebuilder.php:1704
-#: ../et-pagebuilder/et-pagebuilder.php:2080
-#: ../et-pagebuilder/et-pagebuilder.php:3601
-#: ../et-pagebuilder/et-pagebuilder.php:3986
-#: ../et-pagebuilder/et-pagebuilder.php:4294
-#: ../et-pagebuilder/et-pagebuilder.php:5670
-msgid "Set As Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1168
-#: ../et-pagebuilder/et-pagebuilder.php:3991
-#: ../et-pagebuilder/et-pagebuilder.php:4299
-#: ../et-pagebuilder/et-pagebuilder.php:5675
-msgid ""
-"Upload your desired image, or type in the URL to the image you would like to "
-"display."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1177
-#: ../et-pagebuilder/et-pagebuilder.php:3155
-msgid "Image Alternative Text"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1185
-msgid ""
-"This defines the HTML ALT text. A short description of your image can be "
-"placed here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1194
-msgid "Image Title Text"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1202
-msgid "This defines the HTML Title text."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1211
-msgid "Lightbox"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1218
-msgid "Don't Open In Lightbox"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1223
-msgid "Open In Lightbox"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1230
-msgid ""
-"Here you can choose whether or not the image should open in Lightbox. Note: "
-"if you select to open the image in Lightbox, url options below will be "
-"ignored."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1239
-msgid "Link URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1247
-msgid ""
-"If you would like your image to be a link, input your destination URL here. "
-"No link will be created if this field is left blank."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1256
-#: ../et-pagebuilder/et-pagebuilder.php:3383
-#: ../et-pagebuilder/et-pagebuilder.php:9605
-msgid "Url Opens"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1263
-#: ../et-pagebuilder/et-pagebuilder.php:3390
-#: ../et-pagebuilder/et-pagebuilder.php:3949
-#: ../et-pagebuilder/et-pagebuilder.php:9612
-msgid "In The Same Window"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1268
-#: ../et-pagebuilder/et-pagebuilder.php:3395
-#: ../et-pagebuilder/et-pagebuilder.php:3954
-#: ../et-pagebuilder/et-pagebuilder.php:9617
-msgid "In The New Tab"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1275
-#: ../et-pagebuilder/et-pagebuilder.php:3402
-#: ../et-pagebuilder/et-pagebuilder.php:9623
-msgid "Here you can choose whether or not your link opens in a new window"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1284
-#: ../et-pagebuilder/et-pagebuilder.php:4308
+#: ../functions.php:2750
 msgid "Animation"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1291
-#: ../et-pagebuilder/et-pagebuilder.php:3673
-#: ../et-pagebuilder/et-pagebuilder.php:4325
-msgid "Left To Right"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1296
-#: ../et-pagebuilder/et-pagebuilder.php:3678
-#: ../et-pagebuilder/et-pagebuilder.php:4330
-msgid "Right To Left"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1301
-#: ../et-pagebuilder/et-pagebuilder.php:3668
-#: ../et-pagebuilder/et-pagebuilder.php:4335
-msgid "Top To Bottom"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1306
-#: ../et-pagebuilder/et-pagebuilder.php:3683
-#: ../et-pagebuilder/et-pagebuilder.php:4340
-msgid "Bottom To Top"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1311
-#: ../et-pagebuilder/et-pagebuilder.php:4320
-msgid "Fade In"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1316
-#: ../et-pagebuilder/et-pagebuilder.php:3688
-#: ../et-pagebuilder/et-pagebuilder.php:4315
-msgid "No Animation"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1323
-#: ../et-pagebuilder/et-pagebuilder.php:3695
-#: ../et-pagebuilder/et-pagebuilder.php:4347
-msgid "This controls the direction of the lazy-loading animation."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1332
-msgid "Remove Space Below The Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1351
-msgid ""
-"Here you can choose whether or not the image should have a space below it."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1360
-#: ../et-pagebuilder/et-pagebuilder.php:1568
-#: ../et-pagebuilder/et-pagebuilder.php:1723
-#: ../et-pagebuilder/et-pagebuilder.php:1923
-#: ../et-pagebuilder/et-pagebuilder.php:1992
-#: ../et-pagebuilder/et-pagebuilder.php:2247
-#: ../et-pagebuilder/et-pagebuilder.php:2417
-#: ../et-pagebuilder/et-pagebuilder.php:2662
-#: ../et-pagebuilder/et-pagebuilder.php:2907
-#: ../et-pagebuilder/et-pagebuilder.php:3813
-#: ../et-pagebuilder/et-pagebuilder.php:4183
-#: ../et-pagebuilder/et-pagebuilder.php:4469
-#: ../et-pagebuilder/et-pagebuilder.php:4592
-#: ../et-pagebuilder/et-pagebuilder.php:4861
-#: ../et-pagebuilder/et-pagebuilder.php:5244
-#: ../et-pagebuilder/et-pagebuilder.php:5511
-#: ../et-pagebuilder/et-pagebuilder.php:5737
-#: ../et-pagebuilder/et-pagebuilder.php:5860
-#: ../et-pagebuilder/et-pagebuilder.php:5987
-#: ../et-pagebuilder/et-pagebuilder.php:6379
-#: ../et-pagebuilder/et-pagebuilder.php:6625
-#: ../et-pagebuilder/et-pagebuilder.php:6871
-#: ../et-pagebuilder/et-pagebuilder.php:7150
-#: ../et-pagebuilder/et-pagebuilder.php:7341
-#: ../et-pagebuilder/et-pagebuilder.php:7429
-#: ../et-pagebuilder/et-pagebuilder.php:7790
-#: ../et-pagebuilder/et-pagebuilder.php:7930
-#: ../et-pagebuilder/et-pagebuilder.php:8163
-#: ../et-pagebuilder/et-pagebuilder.php:8388
-#: ../et-pagebuilder/et-pagebuilder.php:8532
-#: ../et-pagebuilder/et-pagebuilder.php:8711
-#: ../et-pagebuilder/et-pagebuilder.php:8890
-#: ../et-pagebuilder/et-pagebuilder.php:9036
-#: ../et-pagebuilder/et-pagebuilder.php:9222
-#: ../et-pagebuilder/et-pagebuilder.php:9461
-#: ../et-pagebuilder/et-pagebuilder.php:9659
-msgid "Admin Label"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:1368
-#: ../et-pagebuilder/et-pagebuilder.php:1576
-#: ../et-pagebuilder/et-pagebuilder.php:1731
-#: ../et-pagebuilder/et-pagebuilder.php:1931
-#: ../et-pagebuilder/et-pagebuilder.php:2255
-#: ../et-pagebuilder/et-pagebuilder.php:2425
-#: ../et-pagebuilder/et-pagebuilder.php:2670
-#: ../et-pagebuilder/et-pagebuilder.php:2915
-#: ../et-pagebuilder/et-pagebuilder.php:3821
-#: ../et-pagebuilder/et-pagebuilder.php:4191
-#: ../et-pagebuilder/et-pagebuilder.php:4477
-#: ../et-pagebuilder/et-pagebuilder.php:4600
-#: ../et-pagebuilder/et-pagebuilder.php:4869
-#: ../et-pagebuilder/et-pagebuilder.php:5252
-#: ../et-pagebuilder/et-pagebuilder.php:5519
-#: ../et-pagebuilder/et-pagebuilder.php:5745
-#: ../et-pagebuilder/et-pagebuilder.php:5868
-#: ../et-pagebuilder/et-pagebuilder.php:5995
-#: ../et-pagebuilder/et-pagebuilder.php:6387
-#: ../et-pagebuilder/et-pagebuilder.php:6633
-#: ../et-pagebuilder/et-pagebuilder.php:6879
-#: ../et-pagebuilder/et-pagebuilder.php:7158
-#: ../et-pagebuilder/et-pagebuilder.php:7349
-#: ../et-pagebuilder/et-pagebuilder.php:7437
-#: ../et-pagebuilder/et-pagebuilder.php:7798
-#: ../et-pagebuilder/et-pagebuilder.php:7938
-#: ../et-pagebuilder/et-pagebuilder.php:8171
-#: ../et-pagebuilder/et-pagebuilder.php:8396
-#: ../et-pagebuilder/et-pagebuilder.php:8540
-#: ../et-pagebuilder/et-pagebuilder.php:8719
-#: ../et-pagebuilder/et-pagebuilder.php:8898
-#: ../et-pagebuilder/et-pagebuilder.php:9044
-#: ../et-pagebuilder/et-pagebuilder.php:9230
-#: ../et-pagebuilder/et-pagebuilder.php:9469
-#: ../et-pagebuilder/et-pagebuilder.php:9667
-msgid ""
-"This will change the label of the module in the builder for easy "
-"identification."
+#: ../functions.php:2751
+msgid "This controls default direction of the lazy-loading animation."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1413
-msgid "Gallery Module Settings"
+#: ../functions.php:2761
+msgid "Gallery"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1421
-msgid "Gallery Images"
+#: ../functions.php:2774 ../functions.php:3601 ../functions.php:3715
+msgid "Zoom Icon Color"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1430
-msgid "Update Gallery"
+#: ../functions.php:2788 ../functions.php:3615 ../functions.php:3729
+msgid "Hover Overlay Color"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1451
-#: ../et-pagebuilder/et-pagebuilder.php:6060
-#: ../et-pagebuilder/et-pagebuilder.php:6452
-#: ../et-pagebuilder/et-pagebuilder.php:6698
-#: ../et-pagebuilder/et-pagebuilder.php:6960
-msgid "Grid"
+#: ../functions.php:2802 ../functions.php:2915 ../functions.php:3629
+#: ../functions.php:3743 ../functions.php:4030 ../functions.php:4116
+#: ../functions.php:4162 ../functions.php:4268
+msgid "Title Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1458
-#: ../et-pagebuilder/et-pagebuilder.php:6067
-msgid "Toggle between the various blog layout types."
+#: ../functions.php:2821 ../functions.php:2934 ../functions.php:3648
+#: ../functions.php:3762 ../functions.php:4049 ../functions.php:4135
+#: ../functions.php:4806 ../functions.php:4892
+msgid "Title Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1467
-msgid "Images Number"
+#: ../functions.php:2841 ../functions.php:3668 ../functions.php:3782
+msgid "Caption Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1475
-msgid "Define the number of images that should be displayed per page."
+#: ../functions.php:2860 ../functions.php:3687 ../functions.php:3801
+msgid "Caption Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1484
-msgid "Show Title and Caption"
+#: ../functions.php:2875
+msgid "Blurb"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1503
-msgid ""
-"Here you can choose whether to show the images title and caption, if the "
-"image has them."
+#: ../functions.php:2888 ../functions.php:3001 ../functions.php:3192
+#: ../functions.php:3317 ../functions.php:3383 ../functions.php:3469
+#: ../functions.php:3535 ../functions.php:4373 ../functions.php:5123
+#: ../functions.php:5236
+msgid "Header Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1512
-#: ../et-pagebuilder/et-pagebuilder.php:6306
-#: ../et-pagebuilder/et-pagebuilder.php:6569
-#: ../et-pagebuilder/et-pagebuilder.php:6815
-msgid "Pagination"
+#: ../functions.php:2902
+msgid "Tabs"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1519
-#: ../et-pagebuilder/et-pagebuilder.php:6313
-#: ../et-pagebuilder/et-pagebuilder.php:6576
-#: ../et-pagebuilder/et-pagebuilder.php:6822
-msgid "Show Pagination"
+#: ../functions.php:2955 ../functions.php:3356 ../functions.php:3508
+#: ../functions.php:3574
+msgid "Padding"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1524
-#: ../et-pagebuilder/et-pagebuilder.php:6318
-#: ../et-pagebuilder/et-pagebuilder.php:6581
-#: ../et-pagebuilder/et-pagebuilder.php:6827
-msgid "Don't Show Pagination"
+#: ../functions.php:2969
+msgid "Slider"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1531
-#: ../et-pagebuilder/et-pagebuilder.php:6588
-#: ../et-pagebuilder/et-pagebuilder.php:6834
-msgid "Enable or disable pagination for this feed."
+#: ../functions.php:2982 ../functions.php:5217
+msgid "Top & Bottom Padding"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1559
-#: ../et-pagebuilder/et-pagebuilder.php:3723
-#: ../et-pagebuilder/et-pagebuilder.php:4096
-#: ../et-pagebuilder/et-pagebuilder.php:4772
-#: ../et-pagebuilder/et-pagebuilder.php:5154
-#: ../et-pagebuilder/et-pagebuilder.php:5422
-#: ../et-pagebuilder/et-pagebuilder.php:5728
-#: ../et-pagebuilder/et-pagebuilder.php:6370
-#: ../et-pagebuilder/et-pagebuilder.php:6616
-#: ../et-pagebuilder/et-pagebuilder.php:6862
-#: ../et-pagebuilder/et-pagebuilder.php:7096
-#: ../et-pagebuilder/et-pagebuilder.php:7714
-#: ../et-pagebuilder/et-pagebuilder.php:8097
-#: ../et-pagebuilder/et-pagebuilder.php:8675
-#: ../et-pagebuilder/et-pagebuilder.php:9027
-#: ../et-pagebuilder/et-pagebuilder.php:9579
-msgid ""
-"Here you can choose whether your text should be light or dark. If you are "
-"working with a dark background, then your text should be light. If your "
-"background is light, then your text should be set to dark."
+#: ../functions.php:3040 ../functions.php:5275
+msgid "Content Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1621
-msgid "Video Module Settings"
+#: ../functions.php:3059 ../functions.php:5294
+msgid "Content Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1629
-#: ../et-pagebuilder/et-pagebuilder.php:2009
-msgid "Video MP4/URL"
+#: ../functions.php:3074
+msgid "Testimonial"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1641
-#: ../et-pagebuilder/et-pagebuilder.php:2021
-msgid "Choose a Video MP4 File"
+#: ../functions.php:3087 ../functions.php:4701
+msgid "Name Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1645
-#: ../et-pagebuilder/et-pagebuilder.php:1674
-#: ../et-pagebuilder/et-pagebuilder.php:2050
-msgid "Set As Video"
+#: ../functions.php:3107
+msgid "Details Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1650
-#: ../et-pagebuilder/et-pagebuilder.php:2026
-msgid ""
-"Upload your desired video in .MP4 format, or type in the URL to the video "
-"you would like to display"
+#: ../functions.php:3127
+msgid "Portrait Border Radius"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1659
-#: ../et-pagebuilder/et-pagebuilder.php:2035
-msgid "Video Webm"
+#: ../functions.php:3179
+msgid "Pricing Table"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1670
-#: ../et-pagebuilder/et-pagebuilder.php:2046
-msgid "Choose a Video WEBM File"
+#: ../functions.php:3231 ../functions.php:3422 ../functions.php:4721
+msgid "Subheader Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1679
-#: ../et-pagebuilder/et-pagebuilder.php:2055
-msgid ""
-"Upload the .WEBM version of your video here. All uploaded videos should be "
-"in both .MP4 .WEBM formats to ensure maximum compatibility in all browsers."
+#: ../functions.php:3250 ../functions.php:3441 ../functions.php:4740
+msgid "Subheader Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1688
-#: ../et-pagebuilder/et-pagebuilder.php:2064
-msgid "Image Overlay URL"
+#: ../functions.php:3270 ../functions.php:5037
+msgid "Price Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1709
-#: ../et-pagebuilder/et-pagebuilder.php:2085
-msgid "Generate From Video"
+#: ../functions.php:3289
+msgid "Pricing Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1714
-#: ../et-pagebuilder/et-pagebuilder.php:2090
-msgid ""
-"Upload your desired image, or type in the URL to the image you would like to "
-"display over your video. You can also generate a still image from your video."
+#: ../functions.php:3304
+msgid "Call To Action"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1776
-msgid "Video Slider Module Settings"
+#: ../functions.php:3370
+msgid "Audio"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1786
-msgid "Add New Video"
+#: ../functions.php:3456
+msgid "Subscribe"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1794
-msgid "Display Image Overlays on Main Video"
+#: ../functions.php:3588
+msgid "Portfolio"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1801
-msgid "Hide"
+#: ../functions.php:3702
+msgid "Filterable Portfolio"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1806
-msgid "Show"
+#: ../functions.php:3821
+msgid "Filters Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1813
-msgid ""
-"This option will cover the player UI on the main video. This image can "
-"either be uploaded in each video setting or auto-generated by Divi."
+#: ../functions.php:3840
+msgid "Filters Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1822
-#: ../et-pagebuilder/et-pagebuilder.php:2488
-#: ../et-pagebuilder/et-pagebuilder.php:2733
-msgid "Arrows"
+#: ../functions.php:3855
+msgid "Bar Counter"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1829
-#: ../et-pagebuilder/et-pagebuilder.php:2495
-#: ../et-pagebuilder/et-pagebuilder.php:2740
-msgid "Show Arrows"
+#: ../functions.php:3868
+msgid "Label Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1834
-#: ../et-pagebuilder/et-pagebuilder.php:2500
-#: ../et-pagebuilder/et-pagebuilder.php:2745
-msgid "Hide Arrows"
+#: ../functions.php:3887
+msgid "Label Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1841
-#: ../et-pagebuilder/et-pagebuilder.php:2507
-msgid "This setting will turn on and off the navigation arrows."
+#: ../functions.php:3907
+msgid "Percent Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1850
-msgid "Slider Controls"
+#: ../functions.php:3926
+msgid "Percent Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1857
-msgid "Use Thumbnail Track"
+#: ../functions.php:3946
+msgid "Bar Padding"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1862
-msgid "Use Dot Navigation"
+#: ../functions.php:3965
+msgid "Bar Border Radius"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1869
-msgid ""
-"This setting will let you choose to use the thumbnail track controls below "
-"the slider or dot navigation at the bottom of the slider."
+#: ../functions.php:3979
+msgid "Circle Counter"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1878
-msgid "Slider Controls Color"
+#: ../functions.php:3991 ../functions.php:4077
+msgid "Number Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1897
-msgid ""
-"This setting will make your slider controls either light or dark in color. "
-"Slider controls are either the arrows on the thumbnail track or the circles "
-"in dot navigation."
+#: ../functions.php:4010 ../functions.php:4096
+msgid "Number Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1914
-#: ../et-pagebuilder/et-pagebuilder.php:2653
-msgid "Input the main text content for your slider here."
+#: ../functions.php:4064
+msgid "Number Counter"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1976
-msgid "New Video"
+#: ../functions.php:4150
+msgid "Accordion"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:1984
-msgid "Video Settings"
+#: ../functions.php:4181 ../functions.php:4287
+msgid "Opened Title Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2000
-msgid ""
-"This will change the label of the video in the builder for easy "
-"identification."
+#: ../functions.php:4201 ../functions.php:4307
+msgid "Closed Title Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2099
-msgid "Slider Arrows Color"
+#: ../functions.php:4221 ../functions.php:4327
+msgid "Toggle Icon Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2118
-msgid ""
-"This setting will make your slider arrows either light or dark in color."
+#: ../functions.php:4241 ../functions.php:4346
+msgid "Toggle Padding"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2129
-msgid "Text Module Settings"
+#: ../functions.php:4255
+msgid "Toggle"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2156
-#: ../et-pagebuilder/et-pagebuilder.php:4375
-#: ../et-pagebuilder/et-pagebuilder.php:9150
-#: ../et-pagebuilder/et-pagebuilder.php:9361
-msgid ""
-"Here you can choose the value of your text. If you are working with a dark "
-"background, then your text should be set to light. If you are working with a "
-"light background, then your text should be dark."
+#: ../functions.php:4360
+msgid "Contact Form"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2165
-#: ../et-pagebuilder/et-pagebuilder.php:3732
-#: ../et-pagebuilder/et-pagebuilder.php:4105
-#: ../et-pagebuilder/et-pagebuilder.php:4781
-#: ../et-pagebuilder/et-pagebuilder.php:5163
-#: ../et-pagebuilder/et-pagebuilder.php:5431
-#: ../et-pagebuilder/et-pagebuilder.php:9159
-#: ../et-pagebuilder/et-pagebuilder.php:9370
-msgid "Text Orientation"
+#: ../functions.php:4412
+msgid "Input Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2177
-#: ../et-pagebuilder/et-pagebuilder.php:3645
-#: ../et-pagebuilder/et-pagebuilder.php:3744
-#: ../et-pagebuilder/et-pagebuilder.php:4116
-#: ../et-pagebuilder/et-pagebuilder.php:4792
-#: ../et-pagebuilder/et-pagebuilder.php:5174
-#: ../et-pagebuilder/et-pagebuilder.php:5442
-#: ../et-pagebuilder/et-pagebuilder.php:8958
-#: ../et-pagebuilder/et-pagebuilder.php:9170
-#: ../et-pagebuilder/et-pagebuilder.php:9381
-msgid "Left"
+#: ../functions.php:4431
+msgid "Input Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2187
-#: ../et-pagebuilder/et-pagebuilder.php:2208
-#: ../et-pagebuilder/et-pagebuilder.php:3754
-#: ../et-pagebuilder/et-pagebuilder.php:3775
-#: ../et-pagebuilder/et-pagebuilder.php:4126
-#: ../et-pagebuilder/et-pagebuilder.php:4146
-#: ../et-pagebuilder/et-pagebuilder.php:4802
-#: ../et-pagebuilder/et-pagebuilder.php:4823
-#: ../et-pagebuilder/et-pagebuilder.php:5184
-#: ../et-pagebuilder/et-pagebuilder.php:5205
-#: ../et-pagebuilder/et-pagebuilder.php:5452
-#: ../et-pagebuilder/et-pagebuilder.php:5473
-#: ../et-pagebuilder/et-pagebuilder.php:8963
-#: ../et-pagebuilder/et-pagebuilder.php:9180
-#: ../et-pagebuilder/et-pagebuilder.php:9201
-#: ../et-pagebuilder/et-pagebuilder.php:9391
-#: ../et-pagebuilder/et-pagebuilder.php:9412
-msgid "Right"
+#: ../functions.php:4451
+msgid "Input Field Padding"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2197
-#: ../et-pagebuilder/et-pagebuilder.php:3117
-#: ../et-pagebuilder/et-pagebuilder.php:3764
-#: ../et-pagebuilder/et-pagebuilder.php:4136
-#: ../et-pagebuilder/et-pagebuilder.php:4812
-#: ../et-pagebuilder/et-pagebuilder.php:5194
-#: ../et-pagebuilder/et-pagebuilder.php:5462
-#: ../et-pagebuilder/et-pagebuilder.php:9190
-#: ../et-pagebuilder/et-pagebuilder.php:9401
-msgid "Center"
+#: ../functions.php:4470
+msgid "Captcha Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2221
-#: ../et-pagebuilder/et-pagebuilder.php:9213
-#: ../et-pagebuilder/et-pagebuilder.php:9424
-msgid "This controls the how your text is aligned within the module."
+#: ../functions.php:4489
+msgid "Captcha Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2238
-msgid "Here you can create the content that will be used within the module."
+#: ../functions.php:4504 ../includes/functions/sidebars.php:4
+msgid "Sidebar"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2330
-msgid "New Tab"
+#: ../functions.php:4517
+msgid "Widget Header Font Size"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2338
-msgid "Tab Settings"
+#: ../functions.php:4536
+msgid "Widget Header Font Style"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2346
-#: ../et-pagebuilder/et-pagebuilder.php:3349
-#: ../et-pagebuilder/et-pagebuilder.php:4530
-#: ../et-pagebuilder/et-pagebuilder.php:4653
-#: ../et-pagebuilder/et-pagebuilder.php:5048
-#: ../et-pagebuilder/et-pagebuilder.php:5305
-#: ../et-pagebuilder/et-pagebuilder.php:5603
-#: ../et-pagebuilder/et-pagebuilder.php:5843
-#: ../et-pagebuilder/et-pagebuilder.php:6513
-#: ../et-pagebuilder/et-pagebuilder.php:6759
-#: ../et-pagebuilder/et-pagebuilder.php:7021
-#: ../et-pagebuilder/et-pagebuilder.php:7526
-#: ../et-pagebuilder/et-pagebuilder.php:7859
-#: ../et-pagebuilder/et-pagebuilder.php:7999
-#: ../et-pagebuilder/et-pagebuilder.php:8232
-#: ../et-pagebuilder/et-pagebuilder.php:8594
-#: ../et-pagebuilder/et-pagebuilder.php:8773
-#: ../et-pagebuilder/et-pagebuilder.php:9097
-#: ../includes/widgets/widget-about.php:48
-#: ../includes/widgets/widget-ads.php:172
-#: ../includes/widgets/widget-ads.php:184
-#: ../includes/widgets/widget-ads.php:192
-#: ../includes/widgets/widget-ads.php:200
-#: ../includes/widgets/widget-ads.php:208
-#: ../includes/widgets/widget-ads.php:216
-#: ../includes/widgets/widget-ads.php:224
-#: ../includes/widgets/widget-ads.php:232
-#: ../includes/widgets/widget-ads.php:240
-#: ../includes/widgets/widget-adsense.php:46
-msgid "Title"
+#: ../functions.php:4556
+msgid "Remove Vertical Divider"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2354
-#: ../et-pagebuilder/et-pagebuilder.php:8240
-msgid "The title will be used within the tab button for this tab."
+#: ../functions.php:4565
+msgid "Divider"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:2371
-#: ../et-pagebuilder/et-pagebuilder.php:2408
-#: ../et-pagebuilder/et-pagebuilder.php:7921
-#: ../et-pagebuilder/et-pagebuilder.php:8024
-msgid ""
-"Here you can define the content that will be placed within the current tab."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2382
-msgid "Tabs Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2392
-msgid "Add New Tab"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2470
-msgid "Slider Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2480
-#: ../et-pagebuilder/et-pagebuilder.php:2725
-msgid "Add New Slide"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2516
-#: ../et-pagebuilder/et-pagebuilder.php:2761
-msgid "Controls"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2523
-#: ../et-pagebuilder/et-pagebuilder.php:2768
-msgid "Show Slider Controls"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2528
-#: ../et-pagebuilder/et-pagebuilder.php:2773
-msgid "Hide Slider Controls"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2535
-msgid ""
-"This setting will turn on and off the circle buttons at the bottom of the "
-"slider."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2544
-#: ../et-pagebuilder/et-pagebuilder.php:2789
-msgid "Automatic Animation"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2551
-#: ../et-pagebuilder/et-pagebuilder.php:2796
-#: ../et-pagebuilder/et-pagebuilder.php:7112
-msgid "Disabled"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2556
-#: ../et-pagebuilder/et-pagebuilder.php:2801
-#: ../et-pagebuilder/et-pagebuilder.php:7117
-msgid "Enabled"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2563
-#: ../et-pagebuilder/et-pagebuilder.php:2808
-msgid ""
-"If you would like the slider to slide automatically, without the visitor "
-"having to click the next button, enable this option and then adjust the "
-"rotation speed below if desired."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2572
-#: ../et-pagebuilder/et-pagebuilder.php:2817
-msgid "Automatic Animation Speed (in ms)"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2580
-#: ../et-pagebuilder/et-pagebuilder.php:2825
-msgid ""
-"Here you can designate how fast the slider fades between each slide, if "
-"'Automatic Animation' option is enabled above. The higher the number the "
-"longer the pause between each rotation."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2608
-msgid ""
-"Enabling this option will give your background images a fixed position as "
-"you scroll."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2715
-msgid "Fullwidth Slider Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2752
-msgid "This setting allows you to turn the navigation arrows on or off."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2780
-msgid ""
-"Disabling this option will remove the circle button at the bottom of the "
-"slider."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2853
-msgid ""
-"If enabled, your background images will have a fixed position as your "
-"scroll, creating a fun parallax-like effect."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2898
-msgid "Here you can define the text content that will be used in this slide."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2960
-msgid "New Slide"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2968
-msgid "Slide Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2976
-msgid "Heading"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2984
-msgid "Define the title text for your slide."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:2993
-#: ../et-pagebuilder/et-pagebuilder.php:4687
-#: ../et-pagebuilder/et-pagebuilder.php:5065
-#: ../et-pagebuilder/et-pagebuilder.php:7628
-msgid "Button Text"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3001
-msgid "Define the text for the slide button"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3010
-#: ../et-pagebuilder/et-pagebuilder.php:4670
-#: ../et-pagebuilder/et-pagebuilder.php:7611
-msgid "Button URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3018
-msgid "Input a destination URL for the slide button."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3070
-#: ../et-pagebuilder/et-pagebuilder.php:9332
-msgid "Use the color picker to choose a background color for this module."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3080
-msgid "Slide Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3087
-#: ../et-pagebuilder/et-pagebuilder.php:3593
-msgid "Upload an Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3091
-msgid "Choose a Slide Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3095
-msgid "Set As Slide Image"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3101
-msgid ""
-"If defined, this slide image will appear to the left of your slide text. "
-"Upload an image, or leave blank for a text-only slide."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3110
-msgid "Slide Image Vertical Alignment"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3122
-msgid "Bottom"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3129
-msgid ""
-"This setting determines the vertical alignment of your slide image. Your "
-"image can either be vertically centered, or aligned to the bottom of your "
-"slide."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3138
-msgid "Slide Video"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3146
-msgid ""
-"If defined, this video will appear to the left of your slide text. Enter "
-"youtube or vimeo page url, or leave blank for a text-only slide."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3163
-msgid ""
-"If you have a slide image defined, input your HTML ALT text for the image "
-"here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3191
-msgid ""
-"Here you can choose whether your text is light or dark. If you have a slide "
-"with a dark background, then choose light text. If you have a light "
-"background, then use dark text."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3330
-msgid "Input your main slide text content here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3341
-msgid "Blurb Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3357
-msgid "The title of your blurb will appear in bold below your blurb image."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3366
-#: ../includes/widgets/widget-ads.php:182
-#: ../includes/widgets/widget-ads.php:190
-#: ../includes/widgets/widget-ads.php:198
-#: ../includes/widgets/widget-ads.php:206
-#: ../includes/widgets/widget-ads.php:214
-#: ../includes/widgets/widget-ads.php:222
-#: ../includes/widgets/widget-ads.php:230
-#: ../includes/widgets/widget-ads.php:238
-msgid "Url"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3374
-msgid ""
-"If you would like to make your blurb a link, input your destination URL here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3411
-msgid "Use Icon"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3430
-msgid "Here you can choose whether icon set below should be used."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3450
-msgid "Choose an icon to display with your blurb."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3459
-#: ../et-pagebuilder/et-pagebuilder.php:9845
-msgid "Icon Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3475
-msgid "Here you can define a custom color for your icon."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3484
-msgid "Circle Icon"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3503
-msgid ""
-"Here you can choose whether icon set above should display within a circle."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3512
-msgid "Circle Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3528
-msgid "Here you can define a custom color for the icon circle."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3537
-msgid "Show Circle Border"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3556
-msgid "Here you can choose whether if the icon circle border should display."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3565
-msgid "Circle Border Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3577
-msgid "Here you can define a custom color for the icon circle border."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3607
-msgid "Upload an image to display at the top of your blurb."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3616
-msgid "Image Alt Text"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3624
-msgid "Define the HTML ALT text for your image here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3633
-msgid "Image/Icon Placement"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3640
-msgid "Top"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3652
-msgid "Here you can choose where to place the icon."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3661
-msgid "Image/Icon Animation"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3787
-msgid "This will control how your blurb text is aligned."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3804
-#: ../et-pagebuilder/et-pagebuilder.php:4174
-#: ../et-pagebuilder/et-pagebuilder.php:4460
-#: ../et-pagebuilder/et-pagebuilder.php:4583
-#: ../et-pagebuilder/et-pagebuilder.php:4852
-#: ../et-pagebuilder/et-pagebuilder.php:5235
-#: ../et-pagebuilder/et-pagebuilder.php:5502
-#: ../et-pagebuilder/et-pagebuilder.php:7420
-#: ../et-pagebuilder/et-pagebuilder.php:7781
-#: ../et-pagebuilder/et-pagebuilder.php:9596
-msgid "Input the main text content for your module here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3866
-msgid "Testimonial Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3874
-msgid "Author Name"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3882
-msgid "Input the name of the testimonial author."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3891
-msgid "Job Title"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3899
-msgid "Input the job title."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3908
-msgid "Company Name"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3916
-msgid "Input the name of the company."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3925
-msgid "Author/Company URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3933
-msgid "Input the website of the author or leave blank for no link."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3942
-msgid "URLs Open"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3961
-msgid "Choose whether or not the URL should open in a new window."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:3970
-msgid "Portrait Image URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4000
-msgid "Quote Icon"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4007
-msgid "Visible"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4012
-msgid "Hidden"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4019
-msgid "Choose whether or not the quote icon should be visible."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4047
-#: ../et-pagebuilder/et-pagebuilder.php:4723
-#: ../et-pagebuilder/et-pagebuilder.php:5101
-#: ../et-pagebuilder/et-pagebuilder.php:5369
-#: ../et-pagebuilder/et-pagebuilder.php:8126
-msgid ""
-"Here you can choose whether background color setting below should be used or "
-"not."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4068
-#: ../et-pagebuilder/et-pagebuilder.php:4744
-msgid "Here you can define a custom background color for your CTA."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4157
-#: ../et-pagebuilder/et-pagebuilder.php:4835
-msgid "This will adjust the alignment of the module text."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4236
-msgid "Person Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4252
-msgid "Input the name of the person"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4261
-msgid "Position"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4269
-msgid "Input the person's position."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4392
-msgid "Input Facebook Profile Url."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4409
-msgid "Input Twitter Profile Url"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4426
-msgid "Input Google+ Profile Url"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4435
-msgid "LinkedIn Profile Url"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4443
-msgid "Input LinkedIn Profile Url"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4452
-msgid "Description"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4522
-msgid "Toggle Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4538
-#: ../et-pagebuilder/et-pagebuilder.php:8007
-msgid ""
-"The toggle title will appear above the content and when the toggle is closed."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4554
-msgid "Close"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4559
-msgid "Open"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4566
-msgid ""
-"Choose whether or not this toggle should start in an open or closed state."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4645
-msgid "Call To Action Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4661
-msgid "Input your value to action title here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4678
-msgid "Input the destination URL for your CTA button."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4695
-msgid "Input your desired button text, or leave blank for no button."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4914
-msgid "Signup Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4922
-msgid "Service Provider"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4929
-msgid "MailChimp"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4934
-msgid "FeedBurner"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4939
-msgid "Aweber"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4946
-msgid "Here you can choose a service provider."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4955
-msgid "Feed Title"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4972
-msgid "MailChimp lists"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:4979
-#: ../et-pagebuilder/et-pagebuilder.php:5017
-msgid "Select the list"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5001
-msgid ""
-"Here you can choose MailChimp list to add customers to. If you don't see any "
-"lists here, you need to make sure MailChimp API key is set in ePanel and you "
-"have at least one list on a MailChimp account. If you added new list, but it "
-"doesn't appear here, activate 'Regenerate MailChimp Lists' option in ePanel. "
-"Don't forget to disable it once the list has been regenerated."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5010
-msgid "Aweber lists"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5039
-msgid ""
-"Here you can choose Aweber list to add customers to. If you don't see any "
-"lists here, you need to make sure Aweber is set up properly in ePanel and "
-"you have at least one list on a Aweber account. If you added new list, but "
-"it doesn't appear here, activate 'Regenerate Aweber Lists' option in ePanel. "
-"Don't forget to disable it once the list has been regenerated."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5056
-msgid "Choose a title of your signup box."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5073
-msgid "Here you can change the text used for the signup button."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5218
-#: ../et-pagebuilder/et-pagebuilder.php:5485
-msgid "Here you can adjust the alignment of your text."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5297
-msgid "Login Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5313
-msgid "Choose a title of your login box."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5322
-msgid "Redirect To The Current Page"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5341
-msgid ""
-"Here you can choose whether the user should be redirected to the current "
-"page."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5564
-msgid "Audio Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5580
-msgid "Upload an audio file"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5584
-msgid "Choose an Audio file"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5588
-msgid "Set As Audio for the module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5594
-msgid ""
-"Define the audio file for use in the module. To remove an audio file from "
-"the module, simply delete the URL from the settings field."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5611
-msgid "Define a title."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5620
-msgid "Artist Name"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5628
-msgid "Define an artist name."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5637
-msgid "Album name"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5645
-msgid "Define an album name."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5654
-msgid "Cover Art Image URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5790
-msgid "Contact Form Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5805
-msgid "Display Captcha"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5810
-msgid "Don't Display Captcha"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5817
-msgid "Turn the captcha on or off using this option."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5834
-msgid "Input the email address where messages should be sent."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5851
-msgid "Define a title for your contact form."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5913
-msgid "Divider Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5933
-msgid "This will adjust the color of the 1px divider line."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5942
-msgid "Visibility"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5949
-msgid "Don't Show Divider"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5954
+#: ../functions.php:4577
 msgid "Show Divider"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:5961
+#: ../functions.php:4591
+msgid "Divider Style"
+msgstr ""
+
+#: ../functions.php:4596
+msgid "Solid"
+msgstr ""
+
+#: ../functions.php:4597
+msgid "Dotted"
+msgstr ""
+
+#: ../functions.php:4598
+msgid "Dashed"
+msgstr ""
+
+#: ../functions.php:4599
+msgid "Double"
+msgstr ""
+
+#: ../functions.php:4600
+msgid "Groove"
+msgstr ""
+
+#: ../functions.php:4601
+msgid "Ridge"
+msgstr ""
+
+#: ../functions.php:4602
+msgid "Inset"
+msgstr ""
+
+#: ../functions.php:4603
+msgid "Outset"
+msgstr ""
+
+#: ../functions.php:4616
+msgid "Divider Weight"
+msgstr ""
+
+#: ../functions.php:4635
+msgid "Divider Height"
+msgstr ""
+
+#: ../functions.php:4654
+msgid "Divider Position"
+msgstr ""
+
+#: ../functions.php:4659
+msgid "Top"
+msgstr ""
+
+#: ../functions.php:4660
+msgid "Vertically Centered"
+msgstr ""
+
+#: ../functions.php:4661
+msgid "Bottom"
+msgstr ""
+
+#: ../functions.php:4669
+msgid "Person"
+msgstr ""
+
+#: ../functions.php:4682
+msgid "Name Font Size"
+msgstr ""
+
+#: ../functions.php:4760
+msgid "Social Network Icon Size"
+msgstr ""
+
+#: ../functions.php:4787 ../functions.php:4873
+msgid "Post Title Font Size"
+msgstr ""
+
+#: ../functions.php:4826 ../functions.php:4912
+msgid "Meta Font Size"
+msgstr ""
+
+#: ../functions.php:4860
+msgid "Masonry Blog"
+msgstr ""
+
+#: ../functions.php:4946
+msgid "Shop"
+msgstr ""
+
+#: ../functions.php:4959
+msgid "Product Name Font Size"
+msgstr ""
+
+#: ../functions.php:4978
+msgid "Product Name Font Style"
+msgstr ""
+
+#: ../functions.php:4998
+msgid "Sale Badge Font Size"
+msgstr ""
+
+#: ../functions.php:5017
+msgid "Sale Badge Font Style"
+msgstr ""
+
+#: ../functions.php:5056
+msgid "Price Font Style"
+msgstr ""
+
+#: ../functions.php:5076
+msgid "Sale Price Font Size"
+msgstr ""
+
+#: ../functions.php:5095
+msgid "Sale Price Font Style"
+msgstr ""
+
+#: ../functions.php:5110
+msgid "Countdown"
+msgstr ""
+
+#: ../functions.php:5157
+msgid "Social Follow"
+msgstr ""
+
+#: ../functions.php:5170
+msgid "Follow Font & Icon Size"
+msgstr ""
+
+#: ../functions.php:5204
+msgid "Full Width Slider"
+msgstr ""
+
+#: ../functions.php:7875
+msgid "0 comments"
+msgstr ""
+
+#: ../functions.php:7875
+msgid "1 comment"
+msgstr ""
+
+#: ../functions.php:7875
+msgid "comments"
+msgstr ""
+
+#: ../functions.php:8026
+msgid "No Gallery Found"
+msgstr ""
+
+#: ../functions.php:8028
+msgid "No items found"
+msgstr ""
+
+#: ../functions.php:8170
+msgid "Password Protected"
+msgstr ""
+
+#: ../functions.php:8171
+msgid "To view this protected post, enter the password below"
+msgstr ""
+
+#: ../functions.php:8174
+msgid "Password"
+msgstr ""
+
+#: ../functions.php:8175
+msgid "Submit"
+msgstr ""
+
+#: ../functions.php:8347
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ../functions.php:8349
+msgid "Item"
+msgstr ""
+
+#: ../functions.php:8349
+msgid "Items"
+msgstr ""
+
+#: ../functions.php:8524
+msgid "Connecting..."
+msgstr ""
+
+#: ../functions.php:8525
+msgid "Connection failed"
+msgstr ""
+
+#: ../functions.php:8526
+msgid "Removing connection..."
+msgstr ""
+
+#: ../functions.php:8527
+msgid "Done"
+msgstr ""
+
+#: ../functions.php:8556
+#, php-format
 msgid ""
-"This settings turns on and off the 1px divider line, but does not affect the "
-"divider height."
+"Step 1: <a href=\"%1$s\" target=\"_blank\">Generate authorization code</a>"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:5970
-msgid "Height"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:5978
-msgid "Define how much space should be added below the divider (in pixels)."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6040
-msgid "Blog Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6055
-#: ../et-pagebuilder/et-pagebuilder.php:6447
-#: ../et-pagebuilder/et-pagebuilder.php:6693
-msgid "Fullwidth"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6076
-#: ../et-pagebuilder/et-pagebuilder.php:6468
-#: ../et-pagebuilder/et-pagebuilder.php:6714
-#: ../et-pagebuilder/et-pagebuilder.php:7004
-#: ../et-pagebuilder/et-pagebuilder.php:7254
-msgid "Posts Number"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6084
-msgid "Choose how much posts you would like to display per page."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6093
-#: ../et-pagebuilder/et-pagebuilder.php:6485
-#: ../et-pagebuilder/et-pagebuilder.php:6731
-#: ../et-pagebuilder/et-pagebuilder.php:6976
-msgid "Include Categories"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6112
-msgid "Choose which categories you would like to include in the feed."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6121
-msgid "Meta Date Format"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6129
+#: ../functions.php:8557
 msgid ""
-"If you would like to adjust the date format, input the appropriate PHP date "
-"format here."
+"Step 2: Paste in the authorization code and click \"Make a connection\" "
+"button: "
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6138
-msgid "Featured Image"
+#: ../functions.php:8558
+msgid "Make a connection"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6145
-msgid "Show Featured Image"
+#: ../functions.php:8561
+msgid "Aweber is set up properly. You can remove connection here if you wish."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6150
-msgid "Don't Show Featured Image"
+#: ../functions.php:8562
+msgid "Remove the connection"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6157
-msgid "This will turn thumbnails on and off."
+#: ../functions.php:8570
+msgid "Nonce failed."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6173
-msgid "Show Excerpt"
+#: ../functions.php:8576
+msgid "Authorization code is empty."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6178
-msgid "Show Content"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6185
+#: ../functions.php:8587
 msgid ""
-"Showing the full content will not truncate your posts on the index page. "
-"Showing the excerpt will only display your excerpt text."
+"Authorization code is invalid. Try regenerating it and paste in the new code."
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6194
-msgid "Read More Button"
+#: ../functions.php:8609
+msgid "Aweber API Exception"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6213
+#: ../functions.php:8611
+msgid "Message"
+msgstr ""
+
+#: ../functions.php:8622
+msgid "Nonce failed"
+msgstr ""
+
+#: ../functions.php:8717
+msgid "Read more"
+msgstr ""
+
+#: ../functions.php:8845
+msgid "Configuration error"
+msgstr ""
+
+#: ../functions.php:8855
+msgid "Please enter first name"
+msgstr ""
+
+#: ../functions.php:8857
+msgid "Incorrect email"
+msgstr ""
+
+#: ../functions.php:8859
+msgid "Configuration error: List is not defined"
+msgstr ""
+
+#: ../functions.php:8861
 msgid ""
-"Here you can define whether to show \"read more\" link after the excerpts or "
-"not."
+"<h2 class=\"et_pb_subscribed\">Subscribed - look for the confirmation email!"
+"</h2>"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6222
-msgid "Author"
+#: ../functions.php:8873
+msgid "Configuration error: api key is not defined"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6229
-msgid "Show Author"
+#: ../functions.php:8910
+msgid "Aweber: Wrong configuration data"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6234
-msgid "Don't Show Author"
+#: ../functions.php:8940 ../functions.php:8961
+msgid "Theme Customizer"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6241
-msgid "Turn on or off the author link."
+#: ../functions.php:8941 ../functions.php:8971
+msgid "Module Customizer"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6250
-#: ../et-pagebuilder/et-pagebuilder.php:7049
-msgid "Date"
+#: ../functions.php:8942
+msgid "Divi Library"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6257
-#: ../et-pagebuilder/et-pagebuilder.php:7056
-msgid "Show Date"
+#: ../header.php:176
+msgid "Search &hellip;"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6262
-#: ../et-pagebuilder/et-pagebuilder.php:7061
-msgid "Don't Show Date"
+#: ../header.php:178
+msgid "Search for:"
 msgstr ""
 
-#: ../et-pagebuilder/et-pagebuilder.php:6269
-msgid "Turn the date on or off."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6285
-#: ../et-pagebuilder/et-pagebuilder.php:6548
-#: ../et-pagebuilder/et-pagebuilder.php:6794
-msgid "Show Categories"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6290
-#: ../et-pagebuilder/et-pagebuilder.php:6553
-#: ../et-pagebuilder/et-pagebuilder.php:6799
-msgid "Don't Show Categories"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6297
-#: ../et-pagebuilder/et-pagebuilder.php:6560
-#: ../et-pagebuilder/et-pagebuilder.php:6806
-msgid "Turn the category links on or off."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6325
-msgid "Turn pagination on and off."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6334
-msgid "Offset Number"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6342
-msgid "Choose how many posts you would like to offset by"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6432
-msgid "Portfolio Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6459
-#: ../et-pagebuilder/et-pagebuilder.php:6705
-#: ../et-pagebuilder/et-pagebuilder.php:6967
-msgid "Choose your desired portfolio layout style."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6476
-#: ../et-pagebuilder/et-pagebuilder.php:6722
-msgid "Define the number of projects that should be displayed per page."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6504
-#: ../et-pagebuilder/et-pagebuilder.php:6750
-#: ../et-pagebuilder/et-pagebuilder.php:6995
-msgid "Select the categories that you would like to include in the feed."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6520
-#: ../et-pagebuilder/et-pagebuilder.php:6766
-#: ../et-pagebuilder/et-pagebuilder.php:7028
-msgid "Show Title"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6525
-#: ../et-pagebuilder/et-pagebuilder.php:6771
-#: ../et-pagebuilder/et-pagebuilder.php:7033
-msgid "Don't Show Title"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6532
-#: ../et-pagebuilder/et-pagebuilder.php:6778
-#: ../et-pagebuilder/et-pagebuilder.php:7040
-msgid "Turn project titles on or off."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6678
-msgid "Filterable Portfolio Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6924
-msgid "Fullwidth Portfolio Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6932
-msgid "Portfolio Title"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6939
-msgid "Title displayed above the portfolio."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:6955
-msgid "Carousel"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7012
-msgid ""
-"Control how many projects are displayed. Leave blank or use 0 to not limit "
-"the amount."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7068
-msgid "Turn the date display on or off."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7105
-msgid "Automatic Carousel Rotation"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7124
-msgid ""
-"If you the carousel layout option is chosen and you would like the carousel "
-"to slide automatically, without the visitor having to click the next button, "
-"enable this option and then adjust the rotation speed below if desired."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7133
-msgid "Automatic Carousel Rotation Speed (in ms)"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7141
-msgid ""
-"Here you can designate how fast the carousel rotates, if 'Automatic Carousel "
-"Rotation' option is enabled above. The higher the number the longer the "
-"pause between each rotation. (Ex. 1000 = 1 sec)"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7203
-msgid "Shop Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7218
-msgid "Recent Products"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7223
-msgid "Featured Products"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7228
-msgid "Sale Products"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7233
-msgid "Best Selling Products"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7238
-msgid "Top Rated Products"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7245
-msgid "Choose which type of products you would like to display."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7262
-msgid "Control how many products are displayed."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7271
-msgid "Columns Number"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7284
-msgid ""
-"Choose how many columns to display. 4 columns should be used for a 1 column "
-"row. 2 columns should be used for a 1/2 row column. 1 column should be used "
-"for a 1/4 row column."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7293
-msgid "Order By"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7300
-msgid "Default Sorting"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7305
-msgid "Sort By Popularity"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7310
-msgid "Sort By Rating"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7315
-msgid "Sort By Date"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7320
-msgid "Sort By Price: Low To High"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7325
-msgid "Sort By Price: High To Low"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7332
-msgid "Choose how your products should be ordered."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7394
-msgid "Pricing Tables Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7404
-msgid "Add New Pricing Table"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7482
-msgid "New Pricing Table"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7490
-msgid "Pricing Table Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7498
-msgid "Featured"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7505
-msgid "Don't Make This Table Featured"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7510
-msgid "Make This Table Featured"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7517
-msgid "Featuring a table will make it stand out from the rest."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7534
-msgid "Define a title for the pricing table."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7543
-msgid "Subtitle"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7551
-msgid "Define a sub title for the table if desired."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7560
-msgid "Currency"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7568
-msgid "Input your desired currency symbol here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7577
-msgid "Per"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7585
-msgid ""
-"If your pricing is subscription based, input the subscription payment cycle "
-"here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7594
-msgid "Price"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7602
-msgid "Input the value of the product here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7619
-msgid "Input the destination URL for the signup button."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7636
-msgid "Adjust the text used from the signup button."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7653
-msgid ""
-"Input a list of features that are/are not included in the product. Separate "
-"items on a new line, and begin with either a + or - symbol: "
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7659
-msgid "Included option"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7665
-msgid "Excluded option"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7677
-msgid "Bar Counters Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7687
-msgid "Add New Bar Counter"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7736
-msgid ""
-"This will adjust the color of the empty space in the bar (currently gray)."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7746
-#: ../et-pagebuilder/et-pagebuilder.php:8684
-msgid "Bar Background Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7763
-#: ../et-pagebuilder/et-pagebuilder.php:8701
-#: ../et-pagebuilder/et-pagebuilder.php:8852
-msgid "This will change the fill color for the bar."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7843
-msgid "New Bar Counter"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7851
-msgid "Bar Counter Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7867
-msgid "Input a title for your bar."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7876
-msgid "Percent"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7884
-msgid "Define a percentage for this bar."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7895
-msgid "Accordion Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7905
-#: ../et-pagebuilder/et-pagebuilder.php:7983
-msgid "Add New Item"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:7991
-msgid "Accordion Item Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8035
-msgid "Countdown Timer Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8044
-msgid "Countdown Timer Title"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8052
-msgid "This is the title displayed for the countdown timer."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8061
-msgid "Countdown To"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8069
-msgid "This is the date the countdown timer is counting down to."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8153
-msgid "Here you can define a custom background color for your countdown timer."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8216
-msgid "New Pin"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8224
-msgid "Pin Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8249
-msgid "Map Pin Address"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8256
-#: ../et-pagebuilder/et-pagebuilder.php:8339
-#: ../et-pagebuilder/et-pagebuilder.php:8483
-msgid "Find"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8261
-msgid ""
-"Enter an address for this map pin, and the address will be geocoded and "
-"displayed on the map below."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8285
-#: ../et-pagebuilder/et-pagebuilder.php:8323
-#: ../et-pagebuilder/et-pagebuilder.php:8467
-msgid ""
-"Here you can define the content that will be placed within the infobox for "
-"the pin."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8297
-#: ../et-pagebuilder/et-pagebuilder.php:8441
-msgid "Map Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8307
-#: ../et-pagebuilder/et-pagebuilder.php:8451
-msgid "Add New Pin"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8332
-#: ../et-pagebuilder/et-pagebuilder.php:8476
-msgid "Map Center Address"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8344
-#: ../et-pagebuilder/et-pagebuilder.php:8488
-msgid ""
-"Enter an address for the map center point, and the address will be geocoded "
-"and displayed on the map below."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8360
-#: ../et-pagebuilder/et-pagebuilder.php:8504
-msgid "Mouse Wheel Zoom"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8379
-#: ../et-pagebuilder/et-pagebuilder.php:8523
-msgid ""
-"Here you can choose whether the zoom level will be controlled by mouse wheel "
-"or not."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8585
-msgid "Circle Counter Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8602
-msgid "Input a title for the circle counter."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8611
-#: ../et-pagebuilder/et-pagebuilder.php:8790
-msgid "Number"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8619
-msgid ""
-"Define a number for the circle counter. (Don't include the percentage sign, "
-"use the option below.). <strong>Note: You can use only natural numbers from "
-"0 to 100</strong>"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8628
-#: ../et-pagebuilder/et-pagebuilder.php:8807
-msgid "Percent Sign"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8647
-#: ../et-pagebuilder/et-pagebuilder.php:8826
-msgid ""
-"Here you can choose whether the percent sign should be added after the "
-"number set above."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8764
-msgid "Number Counter Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8781
-msgid "Input a title for the counter."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8798
-msgid ""
-"Define a number for the counter. (Don't include the percentage sign, use the "
-"option below.)"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8835
-msgid "Counter Text Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8881
-msgid ""
-"Here you can choose whether your title text should be light or dark. If you "
-"are working with a dark background, then your text should be light. If your "
-"background is light, then your text should be set to dark."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8943
-msgid "Sidebar Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8951
-msgid "Orientation"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8970
-msgid ""
-"Choose which side of the page your sidebar will be on. This setting controls "
-"text orientation and border position."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:8979
-msgid "Widget Area"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9000
-msgid ""
-"Select a widget-area that you would like to display. You can create new "
-"widget areas within the Appearances > Widgets tab."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9089
-msgid "Fullwidth Header Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9105
-msgid "Enter your page title here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9114
-msgid "Subheading Text"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9122
-msgid ""
-"If you would like to use a subhead, add it here. Your subhead will appear "
-"below your title in a small font."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9275
-msgid "Fullwidth Menu Module Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9283
-msgid "Menu"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9291
-msgid "Select a menu"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9308
-msgid "Select a menu that should be used in the module"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9309
-msgid "Click here to create new menu"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9433
-msgid "Sub-Menus Open"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9440
-msgid "Downwards"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9445
-msgid "Upwards"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9452
-msgid ""
-"Here you can choose the direction that your sub-menus will open. You can "
-"choose to have them open downwards or upwards."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9515
-msgid "Social Media Follow Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9525
-msgid "Add Social Network"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9533
-msgid "Link Shape"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9540
-msgid "Rounded Rectangle"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9545
-msgid "Circle"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9551
-msgid "Here you can choose the shape of your social network icons."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9632
-msgid "Follow Button"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9650
-msgid ""
-"Here you can choose whether or not to include the follow button next to the "
-"icon."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9712
-msgid "New Social Network"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9720
-msgid "Social Network Settings"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9729
-msgid "Social Network"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9736
-msgid "Select a Network"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9741
-msgid "facebook"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9756
-msgid "Pinterest"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9766
-msgid "tumblr"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9771
-msgid "Instagram"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9776
-msgid "skype"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9781
-msgid "flikr"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9786
-msgid "MySpace"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9791
-msgid "dribbble"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9796
-msgid "Youtube"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9801
-msgid "Vimeo"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9806 ../includes/social_icons.php:32
-msgid "RSS"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9813
-msgid "Choose the social network"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9828
-msgid "Account URL"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9836
-msgid "The URL for this social network link."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9862
-msgid "Reset Color"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9867
-msgid "This will change the icon color."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9883
-msgid "Insert Module(s)"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9891
-msgid ""
-"All content created in the Page Builder will be lost. Previous content will "
-"be restored."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9896
-#: ../et-pagebuilder/et-pagebuilder.php:9909
-msgid "Do you want to proceed?"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9904
-msgid "All content created in the Page Builder will be lost."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9917
-msgid "You can save the Page Builder Layout for later use here."
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9922
-msgid "Layout Name"
-msgstr ""
-
-#: ../et-pagebuilder/et-pagebuilder.php:9938
-msgid "Close Modal Window"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:58
-msgid "Homepage Basic"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:66
-msgid "Homepage Shop"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:76
-msgid "Homepage Portfolio"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:84
-msgid "Homepage Company"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:92
-msgid "Homepage Corporate"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:103
-msgid "Homepage Extended"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:112
-msgid "Page Fullwidth"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:146
-msgid "Page Right Sidebar"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:180
-msgid "Page Left Sidebar"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:214
-msgid "Page Dual Sidebars"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:236
-msgid "Portfolio Grid"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:244
-msgid "Portfolio 1 Column"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:252
-msgid "Portfolio Fullwidth Carousel"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:260
-msgid "Portfolio Fullwidth Grid"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:268
-msgid "Project Extended"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:278
-msgid "Project Extended 2"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:291
-msgid "Blog Masonry"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:299
-msgid "Blog Standard"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:307
-msgid "Shop Basic"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:315
-msgid "Shop Extended"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:323
-msgid "Splash Page"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:334
-msgid "Maintenance Mode"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:343
-msgid "Coming Soon"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:351
-msgid "Landing Page"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:360
-#: ../includes/widgets/widget-about.php:12
-#: ../includes/widgets/widget-about.php:41
-msgid "About Me"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:369
-msgid "About Us"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:378
-msgid "Contact Us"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:394
-msgid "Our Team"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:507
-msgid "Creative Agency"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:516
-msgid "Sales Page"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:552
-msgid "Case Study"
-msgstr ""
-
-#: ../et-pagebuilder/layouts/layouts.php:562
-msgid "Product Features"
-msgstr ""
-
-#: ../includes/navigation.php:2
-msgid "&laquo; Older Entries"
-msgstr ""
-
-#: ../includes/navigation.php:3
-msgid "Next Entries &raquo;"
-msgstr ""
-
-#: ../includes/no-results.php:3
-msgid "No Results Found"
-msgstr ""
-
-#: ../includes/no-results.php:4
-msgid ""
-"The page you requested could not be found. Try refining your search, or use "
-"the navigation above to locate the post."
-msgstr ""
-
-#: ../includes/social_icons.php:20
-msgid "Google"
-msgstr ""
-
+#. translators: 1: date, 2: time
 #: ../includes/functions/comments.php:15
 #, php-format
 msgid "on %1$s at %2$s"
@@ -5256,12 +2774,69 @@ msgstr ""
 msgid "Watch video tutorials"
 msgstr ""
 
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr ""
+
+#: ../includes/no-results.php:4
+msgid ""
+"The page you requested could not be found. Try refining your search, or use "
+"the navigation above to locate the post."
+msgstr ""
+
+#: ../includes/social_icons.php:6
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/social_icons.php:13
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/social_icons.php:20
+msgid "Google"
+msgstr ""
+
+#: ../includes/social_icons.php:32
+msgid "RSS"
+msgstr ""
+
 #: ../includes/widgets/widget-about.php:4
 msgid "Displays About Me Information"
 msgstr ""
 
 #: ../includes/widgets/widget-about.php:6
 msgid "ET About Me Widget"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:12
+#: ../includes/widgets/widget-about.php:41
+msgid "About Me"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:48
+#: ../includes/widgets/widget-ads.php:172
+#: ../includes/widgets/widget-ads.php:184
+#: ../includes/widgets/widget-ads.php:192
+#: ../includes/widgets/widget-ads.php:200
+#: ../includes/widgets/widget-ads.php:208
+#: ../includes/widgets/widget-ads.php:216
+#: ../includes/widgets/widget-ads.php:224
+#: ../includes/widgets/widget-ads.php:232
+#: ../includes/widgets/widget-ads.php:240
+#: ../includes/widgets/widget-adsense.php:46
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:52
+msgid "Text"
 msgstr ""
 
 #: ../includes/widgets/widget-ads.php:4
@@ -5320,6 +2895,17 @@ msgstr ""
 msgid "Banner"
 msgstr ""
 
+#: ../includes/widgets/widget-ads.php:182
+#: ../includes/widgets/widget-ads.php:190
+#: ../includes/widgets/widget-ads.php:198
+#: ../includes/widgets/widget-ads.php:206
+#: ../includes/widgets/widget-ads.php:214
+#: ../includes/widgets/widget-ads.php:222
+#: ../includes/widgets/widget-ads.php:230
+#: ../includes/widgets/widget-ads.php:238
+msgid "Url"
+msgstr ""
+
 #: ../includes/widgets/widget-ads.php:186
 #: ../includes/widgets/widget-ads.php:194
 #: ../includes/widgets/widget-ads.php:202
@@ -5351,4 +2937,17 @@ msgstr ""
 
 #: ../includes/widgets/widget-adsense.php:48
 msgid "Adsense Code"
+msgstr ""
+
+#: ../page-template-blank.php:49 ../page.php:48 ../single-project.php:53
+#: ../single.php:105
+msgid "Pages:"
+msgstr ""
+
+#: ../single-project.php:62
+msgid "&larr;"
+msgstr ""
+
+#: ../single-project.php:63
+msgid "&rarr;"
 msgstr ""

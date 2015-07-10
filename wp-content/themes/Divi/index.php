@@ -7,7 +7,7 @@
 		<?php
 			if ( have_posts() ) :
 				while ( have_posts() ) : the_post();
-					$post_format = get_post_format(); ?>
+					$post_format = et_pb_post_format(); ?>
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'et_pb_post' ); ?>>
 

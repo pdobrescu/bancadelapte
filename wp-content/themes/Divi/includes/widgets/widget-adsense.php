@@ -54,4 +54,4 @@ function AdsenseWidgetInit() {
 	register_widget('AdsenseWidget');
 }
 
-add_action('widgets_init', 'AdsenseWidgetInit'); ?>
+add_action('widgets_init', 'AdsenseWidgetInit');
