@@ -45,7 +45,7 @@ if ( ! function_exists( 'et_options_stored_in_one_row' ) ){
  * @return mixed Theme option value or false if not found.
  */
 if ( ! function_exists( 'et_get_option' ) ){
-	function et_get_option( $option_name, $default_value = '', $used_for_object = '', $force_default_value = false ){
+	function et_get_option( $option_name, $default_value = '', $used_for_object = '' ){
 		global $et_theme_options, $shortname;
 
 		if ( et_options_stored_in_one_row() ){
@@ -58,7 +58,7 @@ if ( ! function_exists( 'et_get_option' ) ){
 		}
 
 		// option value might be equal to false, so check if the option is not set in the database
-		if ( ! isset( $et_theme_options[ $option_name ] ) && ( '' != $default_value || $force_default_value ) ) {
+		if ( ! isset ( $et_theme_options[$option_name] ) && '' != $default_value ) {
 			$option_value = $default_value;
 		}
 
@@ -1780,7 +1780,7 @@ function et_gf_enqueue_fonts( $et_gf_font_names ) {
 		);
 
 		$et_gf_font_name_slug = strtolower( str_replace( ' ', '-', $et_gf_font_name ) );
-		wp_enqueue_style( 'et-gf-' . $et_gf_font_name_slug, esc_url( add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ) ), array(), null );
+		wp_enqueue_style( 'et-gf-' . $et_gf_font_name_slug, add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ), array(), null );
 	}
 }
 endif;
