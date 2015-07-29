@@ -3329,3 +3329,7 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
   border: 2px solid transparent; 
   padding: 6px 34px 6px 14px !important; 
 } 
+
+
+/*bancadelapte.ro*/
+.noPaddingAndMargin { padding: 0!important; margin: 0!important; }
