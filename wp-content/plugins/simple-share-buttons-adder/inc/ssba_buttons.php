@@ -25,12 +25,10 @@ function show_share_buttons($content, $booShortCode = FALSE, $atts = '') {
 
     // variables
     $htmlContent = $content;
-    $htmlShareButtons = '';
-    $strIsWhatFunction = '';
     $pattern = get_shortcode_regex();
 
     // ssba_hide shortcode is in the post content and instance is not called by shortcode ssba
-    if (preg_match_all( '/'. $pattern .'/s', $post->post_content, $matches )
+    if (isset($post->post_content) && preg_match_all( '/'. $pattern .'/s', $post->post_content, $matches )
         && array_key_exists( 2, $matches )
         && in_array('ssba_hide', $matches[2])
         && $booShortCode == FALSE) {
@@ -780,23 +778,8 @@ function ssba_buffer($arrSettings, $urlCurrentPage, $strPageTitle, $booShowShare
 
 // get tumblr button
 function ssba_tumblr($arrSettings, $urlCurrentPage, $strPageTitle, $booShowShareCount) {
-
-    // check if http:// is included
-    if (preg_match('[http://]', $urlCurrentPage)) {
-
-        // remove http:// from URL
-        $urlCurrentPage = str_replace('http://', '', $urlCurrentPage);
-    } else if (preg_match('[https://]', $urlCurrentPage)) { // check if https:// is included
-
-            // remove http:// from URL
-            $urlCurrentPage = str_replace('https://', '', $urlCurrentPage);
-        }
-
-    // strip http:// or https:// from URL (tumblr doesn't work with this set)
-    $urlCurrentPage =  str_replace("http://", '', $urlCurrentPage);
-
     // tumblr share link
-    $htmlShareButtons = '<a data-site="tumblr" class="ssba_tumblr_share" href="http://www.tumblr.com/share/link?url=' . $urlCurrentPage . '&amp;name=' . $strPageTitle . '" ' . ($arrSettings['ssba_share_new_window'] == 'Y' ? ' target="_blank" ' : NULL) . ($arrSettings['ssba_rel_nofollow'] == 'Y' ? ' rel="nofollow" ' : NULL) . '>';
+    $htmlShareButtons = '<a data-site="tumblr" class="ssba_tumblr_share" href="http://www.tumblr.com/share/link?url=' . $urlCurrentPage . '" ' . ($arrSettings['ssba_share_new_window'] == 'Y' ? ' target="_blank" ' : NULL) . ($arrSettings['ssba_rel_nofollow'] == 'Y' ? ' rel="nofollow" ' : NULL) . '>';
 
     // if image set is not custom
     if ($arrSettings['ssba_image_set'] != 'custom') {
@@ -815,8 +798,34 @@ function ssba_tumblr($arrSettings, $urlCurrentPage, $strPageTitle, $booShowShare
     // close href
     $htmlShareButtons .= '</a>';
 
+    // if show share count is set to Y
+    if ($arrSettings['ssba_show_share_count'] == 'Y' && $booShowShareCount == true) {
+
+        $htmlShareButtons .= '<span class="ssba_sharecount">' . getTumblrShareCount($urlCurrentPage) . '</span>';
+    }
+
     // return share buttons
     return $htmlShareButtons;
+}
+
+// get tumblr share count
+function getTumblrShareCount($urlCurrentPage)
+{
+    // get results from tumblr and return the number of shares
+    $result = wp_remote_get('http://api.tumblr.com/v2/share/stats?url=' . $urlCurrentPage, array('timeout' => 6));
+
+    // check there was an error
+    if (is_wp_error($result)) {
+        // return
+        return 0;
+    }
+
+    // decode data
+    $array = json_decode($result['body'], true);
+    $count = (isset($array['response']['note_count']) ? $array['response']['note_count'] : 0);
+
+    // return
+    return ($count) ? $count : '0';
 }
 
 // get print button
@@ -896,8 +905,34 @@ function ssba_yummly($arrSettings, $urlCurrentPage, $strPageTitle, $booShowShare
     // close href
     $htmlShareButtons .= '</a>';
 
+    // if show share count is set to Y
+    if ($arrSettings['ssba_show_share_count'] == 'Y' && $booShowShareCount == true) {
+
+        $htmlShareButtons .= '<span class="ssba_sharecount">' . getYummlyShareCount($urlCurrentPage) . '</span>';
+    }
+
     // return share buttons
     return $htmlShareButtons;
+}
+
+// get yummly share count
+function getYummlyShareCount($urlCurrentPage)
+{
+    // get results from yummly and return the number of shares
+    $result = wp_remote_get('http://www.yummly.com/services/yum-count?url=' . $urlCurrentPage, array('timeout' => 6));
+
+    // check there was an error
+    if (is_wp_error($result)) {
+        // return
+        return 0;
+    }
+
+    // decode data
+    $array = json_decode($result['body'], true);
+    $count = (isset($array['count']) ? $array['count'] : 0);
+
+    // return
+    return ($count) ? $count : '0';
 }
 
 // register shortcode [ssba] to show [ssba_hide]
