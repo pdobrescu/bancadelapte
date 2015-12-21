@@ -329,30 +329,8 @@ function ssba_twitter($arrSettings, $urlCurrentPage, $strPageTitle, $booShowShar
     // close href
     $htmlShareButtons .= '</a>';
 
-    // if show share count is set to Y
-    if ($arrSettings['ssba_show_share_count'] == 'Y' && $booShowShareCount == true) {
-
-        $htmlShareButtons .= '<span class="ssba_sharecount">' . getTwitterShareCount($urlCurrentPage) . '</span>';
-    }
-
     // return share buttons
     return $htmlShareButtons;
-}
-
-// get twitter share count
-function getTwitterShareCount($urlCurrentPage) {
-    // get results from twitter and return the number of shares
-    $htmlTwitterShareDetails = wp_remote_get('http://urls.api.twitter.com/1/urls/count.json?url='.$urlCurrentPage, array('timeout' => 6));
-
-    // if error
-    if (is_wp_error($htmlTwitterShareDetails)) {
-        return 0;
-    }
-
-    // get and decode count
-    $arrTwitterShareDetails = json_decode($htmlTwitterShareDetails['body'], true);
-    $intTwitterShareCount =  $arrTwitterShareDetails['count'];
-    return ($intTwitterShareCount) ? ssba_format_number($intTwitterShareCount) : '0';
 }
 
 // get google+ button
