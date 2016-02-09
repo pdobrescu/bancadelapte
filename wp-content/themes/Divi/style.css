@@ -1,7 +1,7 @@
-	/*
+/*
 Theme Name: Divi
 Theme URI: http://www.elegantthemes.com/gallery/divi/
-Version: 2.3.1
+Version: 2.3.3
 Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
 Author: Elegant Themes
 Author URI: http://www.elegantthemes.com
@@ -183,7 +183,7 @@ table.shop_table { margin-bottom: 30px !important; }
 		#top-header .container { padding-top: 10px; }
 	.et_fixed_nav #top-header { top: 0; left: 0; right: 0; }
 	.et_duplicate_social_icons { display: none; }
-	#main-header { line-height: 23px; font-weight: 500; top: 0; background-color: #fff; width: 100%; padding: 18px 0 0 0; min-height: 80px; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: relative; z-index: 99999; }
+	#main-header { line-height: 23px; font-weight: 500; top: 0; background-color: #fff; width: 100%; padding: 18px 0 0 0; min-height: 43px; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: relative; z-index: 99999; }
 	.et_fixed_nav #main-header, .et_fixed_nav #top-header { position: fixed; }
 	.et-fixed-header { padding: 10px 0 0 0 !important; min-height: 30px !important; box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important; -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important; -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important;  }
 	.et_header_style_centered #main-header .container { text-align: center; }
@@ -203,7 +203,7 @@ table.shop_table { margin-bottom: 30px !important; }
 		.et-fixed-header #top-menu > li > a { padding-bottom: 15px;}
 
 		#logo { float: left; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin-bottom: 18px; }
-		.et_fixed_nav #logo { width: 250px; max-height: 55px; margin-bottom: 0;  }
+		.et_fixed_nav #logo { max-height: 43px; margin-bottom: 0; }
 		.et-fixed-header #logo { max-height: 30px; }
 
 		#et-info { float: left; padding-bottom: 10px; }
@@ -1590,17 +1590,17 @@ li.et_pb_social_icon a span { display: none; }
 .et_pb_fullwidth_portfolio:hover .et-pb-arrow-prev { left: 22px; opacity: 1;  }
 .et_pb_fullwidth_portfolio:hover .et-pb-arrow-next { right: 22px; opacity: 1; }
 
-.et_color_scheme_green a { color: #8abc7a; }
+.et_color_scheme_green a { color: #7cc68d; }
 
-.et_color_scheme_green .et_pb_counter_amount, .et_color_scheme_green .et_pb_featured_table .et_pb_pricing_heading, .et_color_scheme_green #top-header { background: #8abc7a !important; }
+.et_color_scheme_green .et_pb_counter_amount, .et_color_scheme_green .et_pb_featured_table .et_pb_pricing_heading, .et_color_scheme_green #top-header { background: #7cc68d !important; }
 
-.et_color_scheme_green.woocommerce a.button.alt, .et_color_scheme_green.woocommerce-page a.button.alt, .et_color_scheme_green.woocommerce button.button.alt, .et_color_scheme_green.woocommerce-page button.button.alt, .et_color_scheme_green.woocommerce input.button.alt, .et_color_scheme_green.woocommerce-page input.button.alt, .et_color_scheme_green.woocommerce #respond input#submit.alt, .et_color_scheme_green.woocommerce-page #respond input#submit.alt, .et_color_scheme_green.woocommerce #content input.button.alt, .et_color_scheme_green.woocommerce-page #content input.button.alt, .et_color_scheme_green.woocommerce a.button, .et_color_scheme_green.woocommerce-page a.button, .et_color_scheme_green.woocommerce button.button, .et_color_scheme_green.woocommerce-page button.button, .et_color_scheme_green.woocommerce input.button, .et_color_scheme_green.woocommerce-page input.button, .et_color_scheme_green.woocommerce #respond input#submit, .et_color_scheme_green.woocommerce-page #respond input#submit, .et_color_scheme_green.woocommerce #content input.button, .et_color_scheme_green.woocommerce-page #content input.button, .et_color_scheme_green .woocommerce-message, .et_color_scheme_green .woocommerce-error, .et_color_scheme_green .woocommerce-info { background: #8abc7a !important; }
+.et_color_scheme_green.woocommerce a.button.alt, .et_color_scheme_green.woocommerce-page a.button.alt, .et_color_scheme_green.woocommerce button.button.alt, .et_color_scheme_green.woocommerce-page button.button.alt, .et_color_scheme_green.woocommerce input.button.alt, .et_color_scheme_green.woocommerce-page input.button.alt, .et_color_scheme_green.woocommerce #respond input#submit.alt, .et_color_scheme_green.woocommerce-page #respond input#submit.alt, .et_color_scheme_green.woocommerce #content input.button.alt, .et_color_scheme_green.woocommerce-page #content input.button.alt, .et_color_scheme_green.woocommerce a.button, .et_color_scheme_green.woocommerce-page a.button, .et_color_scheme_green.woocommerce button.button, .et_color_scheme_green.woocommerce-page button.button, .et_color_scheme_green.woocommerce input.button, .et_color_scheme_green.woocommerce-page input.button, .et_color_scheme_green.woocommerce #respond input#submit, .et_color_scheme_green.woocommerce-page #respond input#submit, .et_color_scheme_green.woocommerce #content input.button, .et_color_scheme_green.woocommerce-page #content input.button, .et_color_scheme_green .woocommerce-message, .et_color_scheme_green .woocommerce-error, .et_color_scheme_green .woocommerce-info { background: #7cc68d !important; }
 
-.et_color_scheme_green #et_search_icon:hover, .et_color_scheme_green .mobile_menu_bar:before, .et_color_scheme_green .footer-widget h4, .et_color_scheme_green .et_pb_sum, .et_color_scheme_green .et_pb_pricing li a, .et_color_scheme_green .et_pb_pricing_table_button, .et_color_scheme_green .comment-reply-link, .et_color_scheme_green .form-submit input, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_newsletter_button, .et_color_scheme_green .et_pb_contact_submit, .et_color_scheme_green .et_password_protected_form .et_submit_button, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_more_button, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_promo_button, .et_color_scheme_green .et_overlay:before, .et_color_scheme_green .entry-summary p.price ins, .et_color_scheme_green.woocommerce div.product span.price, .et_color_scheme_green.woocommerce-page div.product span.price, .et_color_scheme_green.woocommerce #content div.product span.price, .et_color_scheme_green.woocommerce-page #content div.product span.price, .et_color_scheme_green.woocommerce div.product p.price, .et_color_scheme_green.woocommerce-page div.product p.price, .et_color_scheme_green.woocommerce #content div.product p.price, .et_color_scheme_green.woocommerce-page #content div.product p.price, .et_color_scheme_green #top-menu li.current-menu-ancestor > a, .et_color_scheme_green #top-menu li.current-menu-item > a, .et_color_scheme_green .bottom-nav li.current-menu-item > a { color: #000!important; }
+.et_color_scheme_green #et_search_icon:hover, .et_color_scheme_green .mobile_menu_bar:before, .et_color_scheme_green .footer-widget h4, .et_color_scheme_green .et_pb_sum, .et_color_scheme_green .et_pb_pricing li a, .et_color_scheme_green .et_pb_pricing_table_button, .et_color_scheme_green .comment-reply-link, .et_color_scheme_green .form-submit input, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_newsletter_button, .et_color_scheme_green .et_pb_contact_submit, .et_color_scheme_green .et_password_protected_form .et_submit_button, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_more_button, .et_color_scheme_green .et_pb_bg_layout_light .et_pb_promo_button, .et_color_scheme_green .et_overlay:before, .et_color_scheme_green .entry-summary p.price ins, .et_color_scheme_green.woocommerce div.product span.price, .et_color_scheme_green.woocommerce-page div.product span.price, .et_color_scheme_green.woocommerce #content div.product span.price, .et_color_scheme_green.woocommerce-page #content div.product span.price, .et_color_scheme_green.woocommerce div.product p.price, .et_color_scheme_green.woocommerce-page div.product p.price, .et_color_scheme_green.woocommerce #content div.product p.price, .et_color_scheme_green.woocommerce-page #content div.product p.price, .et_color_scheme_green #top-menu li.current-menu-ancestor > a, .et_color_scheme_green #top-menu li.current-menu-item > a, .et_color_scheme_green .bottom-nav li.current-menu-item > a { color: #7cc68d !important; }
 
-.et_color_scheme_green.woocommerce .star-rating span:before, .et_color_scheme_green.woocommerce-page .star-rating span:before { color: #8abc7a !important; }
+.et_color_scheme_green.woocommerce .star-rating span:before, .et_color_scheme_green.woocommerce-page .star-rating span:before { color: #7cc68d !important; }
 
-.et_color_scheme_green .et-search-form, .et_color_scheme_green .nav li ul, .et_color_scheme_green .et_mobile_menu, .et_color_scheme_green .footer-widget li:before, .et_color_scheme_green .et_pb_pricing li:before { border-color: #8abc7a !important; }
+.et_color_scheme_green .et-search-form, .et_color_scheme_green .nav li ul, .et_color_scheme_green .et_mobile_menu, .et_color_scheme_green .footer-widget li:before, .et_color_scheme_green .et_pb_pricing li:before { border-color: #7cc68d !important; }
 
 
 .et_color_scheme_pink a { color: #c37cc6; }
@@ -3233,10 +3233,8 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_tabs_controls { border-bottom: none; }
 		.et_pb_tabs_controls li { float: none; border-right: none; border-bottom: 1px solid #d9d9d9; }
 
-.et_pb_slide_content, .et_pb_more_button {
-    display: block !important;
-}	
-.et_pb_slide_image { display: none !important; }
+	.et_pb_slide_content, .et_pb_more_button { display: none !important; }
+	.et_pb_slide_image { display: none !important; }
 	.et_pb_slider_fullwidth_off .et_pb_slide_description { width: 200px !important;}
 
 	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 280px!important; margin: 0 0px 53px 0!important; }
@@ -3272,63 +3270,3 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_column_3_8 .et_pb_blog_grid .et_audio_container .mejs-time.mejs-currenttime-container.custom {margin-left: 0; }
 	.et_pb_column_1_4 .et_pb_blog_grid .et_pb_post { width: 100%; }
 }
-
-.prima_banca .et_pb_slide_description,
-.how_works .et_pb_slide_description {
-	padding-top: 60px!important;
-	padding-bottom: 50px!important;
-}
-
-.table_home .et_pb_slide_description {
-	padding-top: 50px!important;
-	padding-bottom: 0px!important;
-}
-
-.entry-content table {
-    border: none!important;
-}
-.form_doneaza form table tr td {
-    border: none!important;
-}
-.entry-content tr td {
-    border-top: 1px solid rgba(175,175,175,.3)!important;
-}
-.fake_button .et_pb_slide {
-    box-shadow: none;
-}
-
-.fake_button .et_pb_slide_description {
-    padding: 0!important;	
-}
-.et_pb_row .et_pb_text.multumim {
-    padding: 0!important;	
-    margin-bottom: 0!important;
-}
-.button.dark_blue.altdonate {
-  color: #fff!important;
-  font-size: 20px; 
-  font-weight: 500; 
-  -moz-border-radius: 3px; 
-  -webkit-border-radius: 3px; 
-  border-radius: 3px; 
-  padding: 6px 20px; 
-  line-height: 1.7em; 
-  background: transparent; 
-  border: 2px solid; 
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale; 
-  -moz-transition: all 0.2s; 
-  -webkit-transition: all 0.2s; 
-  transition: all 0.2s; 
-  position: relative;
-}
-
-.button.dark_blue.altdonate:hover {   
-  background: rgba( 255, 255, 255, 0.2 ); 
-  border: 2px solid transparent; 
-  padding: 6px 34px 6px 14px !important; 
-} 
-
-
-/*bancadelapte.ro*/
-.noPaddingAndMargin { padding: 0!important; margin: 0!important; }

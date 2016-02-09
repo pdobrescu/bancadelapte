@@ -562,7 +562,6 @@
 					return ( el_a_position < el_b_position ) ? -1 : ( el_a_position > el_b_position ) ? 1 : 0;
 				});
 
-
 				$( sorted ).show().appendTo( $next_carousel_group );
 
 				var left = 0;
@@ -2736,7 +2735,5 @@
 			});
 		}
 
-	} ); 
-  
-  jQuery('.fake_button a').attr( 'target','_blank' );
+	} );
 })(jQuery)

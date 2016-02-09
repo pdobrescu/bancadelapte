@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Divi 1.0\n"
 "POT-Creation-Date: 2015-02-09 04:22+0300\n"
-"PO-Revision-Date: 2015-02-09 04:23+0300\n"
+"PO-Revision-Date: 2015-03-05 15:26+0300\n"
 "Last-Translator: \n"
 "Language-Team: Elegant Themes\n"
 "Language: tr\n"
@@ -2189,7 +2189,7 @@ msgstr "Altyazı"
 
 #: ../epanel/shortcodes/shortcodes.php:978
 msgid "Caption goes here"
-msgstr "Altyazı buraya gelecek "
+msgstr "Altyazı buraya gelecek"
 
 #: ../epanel/shortcodes/shortcodes.php:979
 msgid "Caption title goes here"
