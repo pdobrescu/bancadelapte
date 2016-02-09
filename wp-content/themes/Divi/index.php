@@ -7,7 +7,7 @@
 		<?php
 			if ( have_posts() ) :
 				while ( have_posts() ) : the_post();
-					$post_format = get_post_format(); ?>
+					$post_format = et_pb_post_format(); ?>
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'et_pb_post' ); ?>>
 
@@ -32,28 +32,29 @@
 								</div>',
 								$first_video
 							);
-						elseif ( 'gallery' === $post_format ) :
-							et_gallery_images();
-						elseif ( 'on' == et_get_option( 'divi_thumbnails_index', 'on' ) && '' !== $thumb  ) : ?>
+						elseif ( ! in_array( $post_format, array( 'gallery' ) ) && 'on' === et_get_option( 'divi_thumbnails_index', 'on' ) && '' !== $thumb ) : ?>
 							<a href="<?php the_permalink(); ?>">
 								<?php print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height ); ?>
 							</a>
 					<?php
+						elseif ( 'gallery' === $post_format ) :
+							et_pb_gallery_images();
 						endif;
 					} ?>
 
-				<?php if ( ! in_array( $post_format, array( 'link', 'audio', 'quote', 'gallery' ) ) ) : ?>
+				<?php if ( ! in_array( $post_format, array( 'link', 'audio', 'quote' ) ) ) : ?>
 					<?php if ( ! in_array( $post_format, array( 'link', 'audio' ) ) ) : ?>
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+						<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php endif; ?>
 
 					<?php
 						et_divi_post_meta();
 
-						if ( 'on' !== et_get_option( 'divi_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) )
+						if ( 'on' !== et_get_option( 'divi_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) ) {
 							truncate_post( 270 );
-						else
+						} else {
 							the_content();
+						}
 					?>
 				<?php endif; ?>
 

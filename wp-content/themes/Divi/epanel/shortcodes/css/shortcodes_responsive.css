@@ -1,6 +1,6 @@
 /* Responsive Shortcodes */
 body.et_right_sidebar .pricing-table, body.et_left_sidebar .pricing-table { width: 50%; }
-@media only screen and ( max-width: 959px ) {
+@media all and ( max-width: 959px ) {
 	body.et_right_sidebar .one_third, body.et_right_sidebar .one_half, body.et_right_sidebar .one_third, body.et_right_sidebar .two_third, body.et_right_sidebar .one_fourth, body.et_right_sidebar .three_fourth,
 	body.et_left_sidebar .one_third, body.et_left_sidebar .one_half, body.et_left_sidebar .one_third, body.et_left_sidebar .two_third, body.et_left_sidebar .one_fourth, body.et_left_sidebar .three_fourth { float: none; margin-right: 0; width: auto; margin-bottom: 10px; }
 
@@ -9,10 +9,10 @@ body.et_right_sidebar .pricing-table, body.et_left_sidebar .pricing-table { widt
 	body.et_right_sidebar .et-protected-form,
 	body.et_left_sidebar .et-protected-form { padding: 15px !important; }
 }
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media all and (min-width: 768px) and (max-width: 959px) {
 	body.et_full_width_page .pricing-table { width: 50%; }
 }
-@media only screen and ( max-width: 767px ) {
+@media all and ( max-width: 767px ) {
 	.et_left_tabs_bg { width: 50px; }
 	.tabs-left .et-tabs-control, .et-tabs-container .et-tabs-control { display: none; }
 	.tabs-left ul.et_shortcodes_mobile_nav { display: block; width: 51px; }
@@ -43,7 +43,7 @@ body.et_right_sidebar .pricing-table, body.et_left_sidebar .pricing-table { widt
 	body.et_right_sidebar .et_shortcodes_controls_arrows a,
 	body.et_left_sidebar .et_shortcodes_controls_arrows a { text-indent: -9999px; }
 }
-@media only screen and ( max-width: 479px ) {
+@media all and ( max-width: 479px ) {
 	.et-tabs-container ul.et_shortcodes_mobile_nav a.et_sc_nav_prev { padding-left: 26px; }
 		.et-tabs-container ul.et_shortcodes_mobile_nav .et_sc_nav_prev span { left: 10px; }
 	.et-tabs-container ul.et_shortcodes_mobile_nav a.et_sc_nav_next { padding-right: 26px; }

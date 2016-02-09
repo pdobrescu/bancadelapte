@@ -53,7 +53,7 @@
 	   </div>
 	<?php endif; ?>
 	<?php if ('open' == $post->comment_status) : ?>
-		<?php comment_form( array('label_submit' => esc_attr__( 'Submit Comment', 'Divi' ), 'title_reply' => '<span>' . esc_attr__( 'Submit a Comment', 'Divi' ) . '</span>', 'title_reply_to' => esc_attr__( 'Leave a Reply to %s' )) ); ?>
+		<?php comment_form( array('label_submit' => esc_attr__( 'Submit Comment', 'Divi' ), 'title_reply' => '<span>' . esc_attr__( 'Submit a Comment', 'Divi' ) . '</span>', 'title_reply_to' => esc_attr__( 'Leave a Reply to %s', 'Divi' ), 'class_submit' => 'submit et_pb_button' ) ); ?>
 	<?php else: ?>
 
 	<?php endif; // if you delete this the sky will fall on your head ?>

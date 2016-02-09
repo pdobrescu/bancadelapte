@@ -2,7 +2,7 @@
 
 /********* Shortcodes v.3.0 ************/
 
-define( 'ET_SHORTCODES_VERSION', '3.0' );
+if ( ! defined( 'ET_SHORTCODES_VERSION' ) ) define( 'ET_SHORTCODES_VERSION', '3.0' );
 if ( ! defined( 'ET_SHORTCODES_DIR' ) ) define( 'ET_SHORTCODES_DIR', get_template_directory_uri() . '/epanel/shortcodes' );
 
 add_action('wp_enqueue_scripts', 'et_shortcodes_css_and_js');
@@ -900,7 +900,7 @@ function et_columns($atts, $content = null, $name='') {
 	$pos = strpos($name,'_last');
 
 	if($pos !== false)
-		$name = str_replace('_last',' last',$name);
+		$name = str_replace('_last',' et_column_last',$name);
 
 	$output = "<div{$id} class='" . esc_attr( $name . $class ) . "'>
 					{$content}
