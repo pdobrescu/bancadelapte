@@ -3270,3 +3270,63 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_pb_column_3_8 .et_pb_blog_grid .et_audio_container .mejs-time.mejs-currenttime-container.custom {margin-left: 0; }
 	.et_pb_column_1_4 .et_pb_blog_grid .et_pb_post { width: 100%; }
 }
+
+.prima_banca .et_pb_slide_description,
+.how_works .et_pb_slide_description {
+	padding-top: 60px!important;
+	padding-bottom: 50px!important;
+}
+
+.table_home .et_pb_slide_description {
+	padding-top: 50px!important;
+	padding-bottom: 0px!important;
+}
+
+.entry-content table {
+    border: none!important;
+}
+.form_doneaza form table tr td {
+    border: none!important;
+}
+.entry-content tr td {
+    border-top: 1px solid rgba(175,175,175,.3)!important;
+}
+.fake_button .et_pb_slide {
+    box-shadow: none;
+}
+
+.fake_button .et_pb_slide_description {
+    padding: 0!important;	
+}
+.et_pb_row .et_pb_text.multumim {
+    padding: 0!important;	
+    margin-bottom: 0!important;
+}
+.button.dark_blue.altdonate {
+  color: #fff!important;
+  font-size: 20px; 
+  font-weight: 500; 
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px; 
+  padding: 6px 20px; 
+  line-height: 1.7em; 
+  background: transparent; 
+  border: 2px solid; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  -moz-transition: all 0.2s; 
+  -webkit-transition: all 0.2s; 
+  transition: all 0.2s; 
+  position: relative;
+}
+
+.button.dark_blue.altdonate:hover {   
+  background: rgba( 255, 255, 255, 0.2 ); 
+  border: 2px solid transparent; 
+  padding: 6px 34px 6px 14px !important; 
+} 
+
+
+/*bancadelapte.ro*/
+.noPaddingAndMargin { padding: 0!important; margin: 0!important; }
