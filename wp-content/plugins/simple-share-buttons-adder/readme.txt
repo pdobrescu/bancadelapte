@@ -2,8 +2,8 @@
 Contributors: DavidoffNeal
 Tags: share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest, yummly, vk
 Requires at least: 3.9
-Tested up to: 4.4
-Stable tag: 6.1.2
+Tested up to: 4.4.1
+Stable tag: 6.1.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,15 @@ A step by step guide on how to configure this plugin can be found <a href="http:
 8. This is an example of a set of Share Buttons you can add using Simple Share Buttons Adder
 
 == Changelog ==
+
+= 6.1.5 =
+* Feature: Add newsharecounts.com option and functionality to show Twitter share counts again
+
+= 6.1.4 =
+* Tweak: PHP notice
+
+= 6.1.3 =
+* Add sharedcount.com API functionality for Facebook share counts
 
 = 6.1.2 =
 * Reluctantly remove the twitter share count - https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform

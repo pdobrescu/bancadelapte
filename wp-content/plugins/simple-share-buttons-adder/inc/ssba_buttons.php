@@ -279,8 +279,8 @@ function ssba_facebook($arrSettings, $urlCurrentPage, $strPageTitle, $booShowSha
 
     // if show share count is set to Y
     if ($arrSettings['ssba_show_share_count'] == 'Y' && $booShowShareCount == true) {
-
-        $htmlShareButtons .= '<span class="ssba_sharecount">' . getFacebookShareCount($urlCurrentPage) . '</span>';
+        // get and add facebook share count
+        $htmlShareButtons .= '<span class="ssba_sharecount">' . getFacebookShareCount($urlCurrentPage, $arrSettings) . '</span>';
     }
 
     // return share buttons
@@ -288,19 +288,36 @@ function ssba_facebook($arrSettings, $urlCurrentPage, $strPageTitle, $booShowSha
 }
 
 // get facebook share count
-function getFacebookShareCount($urlCurrentPage) {
-    // get results from facebook
-    $htmlFacebookShareDetails = wp_remote_get('http://graph.facebook.com/'.$urlCurrentPage, array('timeout' => 6));
+function getFacebookShareCount($urlCurrentPage, $arrSettings)
+{
+    // if sharedcount.com is enabled
+    if ($arrSettings['sharedcount_enabled']) {
+        // request from sharedcount.com
+        $sharedcount = wp_remote_get('https://'.$arrSettings['sharedcount_plan'].'.sharedcount.com/url?url='.$urlCurrentPage.'&apikey='.$arrSettings['sharedcount_api_key'], array('timeout' => 6));
 
-    // if no error
-    if (is_wp_error($htmlFacebookShareDetails)) {
-        return 0;
+        // if no error
+        if (is_wp_error($sharedcount)) {
+            return 0;
+        }
+
+        // decode and return count
+        $sharedcount = json_decode($sharedcount['body'], true);
+        $sharedcount =  (isset($sharedcount['Facebook']['share_count']) ? $sharedcount['Facebook']['share_count'] : 0);
+        return ($sharedcount) ? ssba_format_number($sharedcount) : '0';
+    } else {
+        // get results from facebook
+        $htmlFacebookShareDetails = wp_remote_get('http://graph.facebook.com/'.$urlCurrentPage, array('timeout' => 6));
+
+        // if no error
+        if (is_wp_error($htmlFacebookShareDetails)) {
+            return 0;
+        }
+
+        // decode and return count
+        $arrFacebookShareDetails = json_decode($htmlFacebookShareDetails['body'], true);
+        $intFacebookShareCount =  (isset($arrFacebookShareDetails['shares']) ? $arrFacebookShareDetails['shares'] : 0);
+        return ($intFacebookShareCount) ? ssba_format_number($intFacebookShareCount) : '0';
     }
-
-    // decode and return count
-    $arrFacebookShareDetails = json_decode($htmlFacebookShareDetails['body'], true);
-    $intFacebookShareCount =  (isset($arrFacebookShareDetails['shares']) ? $arrFacebookShareDetails['shares'] : 0);
-    return ($intFacebookShareCount) ? ssba_format_number($intFacebookShareCount) : '0';
 }
 
 // get twitter button
@@ -329,8 +346,35 @@ function ssba_twitter($arrSettings, $urlCurrentPage, $strPageTitle, $booShowShar
     // close href
     $htmlShareButtons .= '</a>';
 
+    // if show share count is set to Y
+    if ($arrSettings['ssba_show_share_count'] == 'Y' && $booShowShareCount == true) {
+        // newsharedcount needs to be enabled
+        if ($arrSettings['twitter_newsharecounts'] == 'Y') {
+            $htmlShareButtons .= '<span class="ssba_sharecount">' . ssba_twitter_count($urlCurrentPage) . '</span>';
+        }
+    }
+
     // return share buttons
     return $htmlShareButtons;
+}
+
+// get twitter share count
+function ssba_twitter_count($urlCurrentPage)
+{
+    // get results from newsharecounts and return the number of shares
+    $result = wp_remote_get('http://public.newsharecounts.com/count.json?url=' . $urlCurrentPage, array('timeout' => 6));
+
+    // check there was an error
+    if (is_wp_error($result)) {
+        return 0;
+    }
+
+    // decode data
+    $result = json_decode($result['body'], true);
+    $count = (isset($result['count']) ? $result['count'] : 0);
+
+    // return
+    return ssba_format_number($count);
 }
 
 // get google+ button

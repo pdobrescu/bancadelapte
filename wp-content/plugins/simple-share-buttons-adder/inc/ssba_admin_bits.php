@@ -154,6 +154,14 @@ function ssba_settings() {
 
     		// included buttons
     		'ssba_selected_buttons' => $ssbaPost['ssba_selected_buttons'],
+
+            // sharedcount
+            'sharedcount_enabled' => $ssbaPost['sharedcount_enabled'],
+            'sharedcount_api_key' => $ssbaPost['sharedcount_api_key'],
+            'sharedcount_plan' => $ssbaPost['sharedcount_plan'],
+
+            // newsharecounts
+            'twitter_newsharecounts' => $ssbaPost['twitter_newsharecounts'],
         );
 
         // prepare array of buttons

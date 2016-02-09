@@ -75,6 +75,14 @@ function ssba_activate() {
         'ssba_custom_print' => '',
         'ssba_custom_vk' => '',
         'ssba_custom_yummly' => '',
+
+        // sharedcount
+        'sharedcount_enabled' => '',
+        'sharedcount_api_key' => '',
+        'sharedcount_plan' => 'free',
+
+        // newsharecounts
+        'twitter_newsharecounts' => '',
     );
 
     // json encode
@@ -171,6 +179,30 @@ function upgrade_ssba($arrSettings, $version) {
 
         // delete old options
         ssba_delete_old_options();
+    }
+
+    // if version is less than 6.1.3
+    if ($version < '6.1.3') {
+        // new settings
+        $new = array(
+            'sharedcount_enabled' => '',
+            'sharedcount_api_key' => '',
+            'sharedcount_plan' => 'free',
+        );
+
+        // update settings
+        ssba_update_options($new);
+    }
+
+    // if version is less than 6.1.5
+    if ($version < '6.1.5') {
+        // new settings
+        $new = array(
+            'twitter_newsharecounts' => '',
+        );
+
+        // update settings
+        ssba_update_options($new);
     }
 
 	// button helper array
