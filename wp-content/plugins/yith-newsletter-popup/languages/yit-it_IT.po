@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Newsletter Popup v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-24 12:18+0100\n"
+"PO-Revision-Date: 2013-08-01 07:58:30+0000\n"
+"Last-Translator: Your Inspiration Themes <yithemes@yopmail.com>\n"
+"Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: class.yith-newsletter-popup-admin.php:1
+#@ yit
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class.yith-newsletter-popup-admin.php:1
+#@ yit
+msgid "Docs"
+msgstr "Documentazione"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "General"
+msgstr "Generale"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The message displayed. You can also use HTML code."
+msgstr "Il messaggio mostrato. Puoi anche utilizzare del codice HTML."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Insert here your custom CSS style."
+msgstr "Aggiungi qui il tuo stile CSS personalizzato."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Typography"
+msgstr "Tipografia"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Title font of message"
+msgstr "Font del titolo all'interno del messaggio"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Paragraph font of message"
+msgstr "Font del paragrafo all'interno del messaggio"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Background Settings"
+msgstr "Impostazioni sfondo"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Enable Newsletter form"
+msgstr "Abilita il form per la newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter submit background"
+msgstr "Sfondo pulsante invia newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The submit button background."
+msgstr "Sfondo del pulsante di invio."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter submit hover background"
+msgstr "Font effetto hover pulsante invia"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The submit button hover background."
+msgstr "Colore di sfondo per il pulsante di invio all'hover del mouse."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Form configuration"
+msgstr "Configurazione form"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Configure the form and each field, to integrate the newsletter features of an external service."
+msgstr "Configura il form e ogni campo, per integrarlo con le caratteristiche di un servizio newsletter esterno."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Set the action url of the form."
+msgstr "Imposta l'url dell'attributo \"action\" del form."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Form method"
+msgstr "Metodo form"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Set the method for the form request."
+msgstr "Imposta il metodo con il quale il form invia la richiesta."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Submit button label"
+msgstr "Etichetta del pulsante invia"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter Hidden fields"
+msgstr "Campi nascosti newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Set the hidden fields to include in the form. Use the form: field1=value1&field2=value2&field3=value3"
+msgstr "Imposta i campi nascosti da includere nel form. Usa la struttura: field1=value1&field2=value2&field3=value3"
+
+#: yit-common/yith-panel.php:406
+#@ yit
+msgid "Select a date"
+msgstr "Seleziona una data"
+
+#: yit-common/yith-panel.php:407
+#@ yit
+msgid "Hours"
+msgstr "Ore"
+
+#: yit-common/yith-panel.php:408
+#: yit-common/yith-panel.php:409
+#@ yit
+msgid "Minutes"
+msgstr "Minuti"
+
+#: yit-common/yith-panel.php:417
+#@ yit
+msgid "Upload"
+msgstr "Carica"
+
+#: yit-common/yith-panel.php:444
+#@ yit
+msgid "px"
+msgstr "px"
+
+#: yit-common/yith-panel.php:445
+#@ yit
+msgid "em"
+msgstr "em"
+
+#: yit-common/yith-panel.php:446
+#@ yit
+msgid "pt"
+msgstr "pt"
+
+#: yit-common/yith-panel.php:447
+#@ yit
+msgid "rem"
+msgstr "rem"
+
+#: yit-common/yith-panel.php:457
+#@ yit
+msgid "Select a font family"
+msgstr "Seleziona la famiglia font"
+
+#: yit-common/yith-panel.php:465
+#@ yit
+msgid "Regular"
+msgstr "Normale"
+
+#: yit-common/yith-panel.php:466
+#@ yit
+msgid "Bold"
+msgstr "Grassetto"
+
+#: yit-common/yith-panel.php:467
+#@ yit
+msgid "Extra bold"
+msgstr "Extra bold"
+
+#: yit-common/yith-panel.php:468
+#@ yit
+msgid "Italic"
+msgstr "Corsivo"
+
+#: yit-common/yith-panel.php:469
+#@ yit
+msgid "Italic bold"
+msgstr "Grassetto corsivo"
+
+#: yit-common/yith-panel.php:481
+#@ yit
+msgid "Click to preview"
+msgstr "Clicca per anteprima"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The title displayed. You can also use HTML code."
+msgstr "Il titolo mostrato. Puoi usare anche codice HTML."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Hiding buttons fonts"
+msgstr "Font utilizzati nei pulsanti per nascondere il banner"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter Name and Email Inputs Font"
+msgstr "Font campi nome ed email"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose the font type, size and color for the name and email inputs field."
+msgstr "Scegli il font, la dimensione ed il colore per i campi nome ed email."
+
+#: class.yith-newsletter-popup-admin.php:1
+#@ yit
+msgid "YITH Newsletter Popup"
+msgstr "YITH Newsletter Popup"
+
+#: class.yith-newsletter-popup-admin.php:1
+#@ yit
+msgid "Newsletter Popup"
+msgstr "Newsletter Popup"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Enable Newsletter Popup"
+msgstr "Abilita Newsletter Popup"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Enable the newsletter popup. (Default: Off)"
+msgstr "Abilita newsletter popup. (Default: Off)"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Cookie Variable"
+msgstr "Variabile Cookie"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Write here a name to be given to the cookie generated by the closing link of the popup, in this way, as soon as you'll change this value all your visitors will see it again even if they disabled it. Don't abuse of this function!"
+msgstr "Scrivi qui il valore da dare al cookie qualora fosse settato per non aprirsi pi&ugrave;. Modificando questo valore il popup sar&agrave mostrato nuovamente a tutti. Non abusare di questa funzione!"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "yithpopup"
+msgstr "yithpopup"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Popup Title"
+msgstr "Titolo Popup"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Join our faboulous community today!"
+msgstr "Unisciti oggi alla nostra fantastica community!"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Upload an image. (Tip: best viewed with a rectangular image sized like 315px X 225px)"
+msgstr "Carica un'immagine. (Consiglio: i risultati migliori si ottengono con un'immagine di dimensioni pari a 315px X 225px)"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Popup Message"
+msgstr "Messaggio Popup"
+
+#: yith-newsletter-popup-options.php:1
+#, php-format
+#@ yit
+msgid "If you would like to be always informed about our latest templates, plugins and products, just fill the form with your name and email.We, Yithemes are here to help you succeed in your web based business.<a href='%s' title='Yithemes FREE  WordPress themes download'>Yithemes FREE  WordPress themes download.</a>"
+msgstr "Vuoi essere sempre informato sulle ultime novit&agrave; relative ai nostri template, plugin e prodotti? Compila il form con il tuo nome ed email. Noi di Yithemes siamo qui per aiutarti a raggiungere il successo con il tuo business basato sul web.<a href='%s' title='Yithemes FREE  WordPress themes download'>Yithemes Template WordPress FREE.</a>"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Hiding text"
+msgstr "Testo per nascondere"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The title displayed next to the checkbox that let users hide the popup forever. You can also use HTML code."
+msgstr "Il titolo mostrato a lato della checkbox che permette agli utenti di nascondere il popup per sempre. Puoi usare anche codice HTML."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Do not show it anymore."
+msgstr "Non mostrare pi&ugrave;"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose the font type, size and color for the title."
+msgstr "Scegli il font, la dimensione ed il colore del titolo."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose the font type, size and color for the message."
+msgstr "Scegli il font, la dimensione ed il colore del messaggio."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose the font type, size and color for the newsletter popup hiding buttons."
+msgstr "Scegli il font, la dimensione ed il colore del testo dei pulsanti per nascondere popup."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Customize the background of newsletter popup"
+msgstr "Personalizza il background del popup"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose a color to be used as background"
+msgstr "Scegli un colore da usare come sfondo"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose a color to be used as background."
+msgstr "Scegli un colore da usare come sfondo."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Add a newsletter form in your newsletter popup."
+msgstr "Aggiungi un form per la newsletter nel tuo popup."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose if you want to enable the newsletter form in the newsletter popup."
+msgstr "Scegli se vuoi abilitare un form per la newsletter nel popup."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Enable custom submit button's colors"
+msgstr "Abilita colori personalizzati per il pulsante di invio"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose if you want to use custom submit button's colors or your theme default ones.(Default: Custom)"
+msgstr "Scegli se vuoi utilizzare i colori personalizzati o quelli di default del tuo template per il pulsante di invio. (Default: personalizzati)"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter Action URL"
+msgstr "Action URL Newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Name \"name\""
+msgstr "Nome \"name\""
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The attribute \"name\" of the name field."
+msgstr "L'attributo \"name\" per il campo nome."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Name icon"
+msgstr "Icona nome"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Name field label"
+msgstr "Etichetta campo nome"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The name field label"
+msgstr "Il campo nome dell\\'etichetta"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Email \"name\""
+msgstr "Email \"name\""
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The attribute \"name\" of the email address field."
+msgstr "L'attributo \"name\" per il campo email."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Email icon"
+msgstr "Icona email"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Email field label"
+msgstr "Etichetta campo email"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "The email field label"
+msgstr "Etichetta campo email"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "WooCommerce Integration"
+msgstr "Integrazione WooCommerce"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Enable the WooCommerce integration"
+msgstr "Abilita integrazione WooCommerce"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "If the option is enabled, the popup shows the informations about the WooCommerce products selected below. (Default: Off)"
+msgstr "Se l'opzione &egrave; abilitata, il popup mostra le informazioni relative al prodotto WooCommerce selezionato qui sotto. (Default: Off)"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "WooCommerce Product ID"
+msgstr "ID Prodotto WooCommerce"
+
+#: yith-newsletter-popup-options.php:1
+#, php-format
+#@ yit
+msgid "Write here the ID of the product that you would like to show in your popup. <a href=\"%s\">More info</a>."
+msgstr "Scrivi qui l'ID del prodotto che vorresti mostrare nel popup. <a href=\"%s\">Maggiori informazioni</a>."
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Upload or select an icon to be shown in newsletter's name input field"
+msgstr "Carica o seleziona l'icona da mostrare nel campo nome della newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Upload or select an icon to be shown in newsletter's email input field"
+msgstr "Carica o seleziona un\\'icona da mostrare nel campo email della newsletter"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "WooCommerce Add to Cart Button Call to Action"
+msgstr "WooCommerce pulsante Aggiungi al carrello"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "ADD TO CART"
+msgstr "AGGIUNGI AL CARRELLO"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter Submit and Add to cart buttons font"
+msgstr "Font pulsanti iscrizione alla newsletter e aggiungi al carrello"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose the font type, size and color for the email submit button and Add to cart button."
+msgstr "Scegli il font, la dimensione ed il colore per i pulsanti iscrizione alla newsletter e aggiungi al carrello"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Newsletter Submit and Add to cart buttons font on hover status"
+msgstr "Font pulsanti iscrizione alla newsletter e aggiungi al carrello stato Hover"
+
+#: yith-newsletter-popup-options.php:1
+#@ yit
+msgid "Choose the font type, size and color for the email submit button and Add to cart button on hover status."
+msgstr "Scegli il font, la dimensione ed il colore per i pulsanti iscrizione alla newsletter e aggiungi al carrello in stato di Hover."
+
+#. translators: plugin header field 'Name'
+#: init.php:0
+#@ yit
+msgid "YITH Newsletter Popup * Plugin URI: http://yithemes.com/ * Description: YITH Newsletter Popup allows you to add a banner in your footer and customize it. * Version: 1.0.0 * Author: Your Inspiration Themes * Author URI: http://yithemes.com/ * Requires at least: 3.4 * Tested up to: 3.5 * * Text Domain: yit * Domain Path: /languages/ * * @author Your Inspiration Themes * @package YITH Newsletter Popup * @version 1.0.0"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: init.php:0
+#@ yit
+msgid "http://yithemes.com/ * Description: YITH Newsletter Popup allows you to add a banner in your footer and customize it. * Version: 1.0.0 * Author: Your Inspiration Themes * Author URI: http://yithemes.com/ * Requires at least: 3.4 * Tested up to: 3.5 * * Text Domain: yit * Domain Path: /languages/ * * @author Your Inspiration Themes * @package YITH Newsletter Popup * @version 1.0.0"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: init.php:0
+#@ yit
+msgid "YITH Newsletter Popup allows you to add a banner in your footer and customize it. * Version: 1.0.0 * Author: Your Inspiration Themes * Author URI: http://yithemes.com/ * Requires at least: 3.4 * Tested up to: 3.5 * * Text Domain: yit * Domain Path: /languages/ * * @author Your Inspiration Themes * @package YITH Newsletter Popup * @version 1.0.0"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: init.php:0
+#@ yit
+msgid "Your Inspiration Themes * Author URI: http://yithemes.com/ * Requires at least: 3.4 * Tested up to: 3.5 * * Text Domain: yit * Domain Path: /languages/ * * @author Your Inspiration Themes * @package YITH Newsletter Popup * @version 1.0.0"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: init.php:0
+#@ yit
+msgid "http://yithemes.com/ * Requires at least: 3.4 * Tested up to: 3.5 * * Text Domain: yit * Domain Path: /languages/ * * @author Your Inspiration Themes * @package YITH Newsletter Popup * @version 1.0.0"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: init.php:0
+#@ yit
+msgid "1.0.0 * Author: Your Inspiration Themes * Author URI: http://yithemes.com/ * Requires at least: 3.4 * Tested up to: 3.5 * * Text Domain: yit * Domain Path: /languages/ * * @author Your Inspiration Themes * @package YITH Newsletter Popup * @version 1.0.0"
+msgstr ""
+
