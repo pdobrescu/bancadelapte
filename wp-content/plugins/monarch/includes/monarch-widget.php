@@ -7,13 +7,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 class MonarchWidget extends WP_Widget
 {
 	function __construct(){
-		$widget_ops = array( 'description' => __( 'Monarch plugin widget, please configure all the settings in Monarch control panel', 'Monarch' ) );
-		parent::__construct( false, $name = __( 'Monarch Follow', 'Monarch' ), $widget_ops );
+		$widget_ops = array(
+			'description' => esc_html__( 'Monarch plugin widget, please configure all the settings in Monarch control panel', 'Monarch' ),
+		);
+		parent::__construct( false, $name = esc_html__( 'Monarch Follow', 'Monarch' ), $widget_ops );
 	}
 
 	/* Displays the Widget in the front-end */
 	function widget( $args, $instance ){
-		extract($args);
+		extract( $args );
 
 		$title = apply_filters( 'et_social_widget_title', esc_html( $instance['title'] ) );
 
@@ -39,7 +41,9 @@ class MonarchWidget extends WP_Widget
 	/* Creates the form for the widget in the back-end. */
 	function form( $instance ){
 		//Defaults
-		$instance = wp_parse_args( (array) $instance, array( 'title' => __( 'Follow Us', 'Monarch' ) ) );
+		$instance = wp_parse_args( (array) $instance, array(
+			'title' => esc_html__( 'Follow Us', 'Monarch' ),
+		) );
 
 		$title = $instance['title'];
 

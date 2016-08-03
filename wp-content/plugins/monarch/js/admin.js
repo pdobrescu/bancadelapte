@@ -641,6 +641,32 @@
 		});
 	});
 
+	$( '.et_social_form' ).on( 'click', '.et_authorize_updates', function() {
+		var $form_container = $( this ).closest( 'ul' ),
+			username = $form_container.find( '.updates_option_username' ).val(),
+			api_key = $form_container.find( '.updates_option_api_key' ).val(),
+			$spinner = $form_container.find( '.spinner' );
+
+		$.ajax({
+			type: 'POST',
+			url: monarchSettings.ajaxurl,
+			data: {
+				action : 'monarch_save_updates_settings',
+				updates_settings_nonce : monarchSettings.updates_settings,
+				et_monarch_updates_username : username,
+				et_monarch_updates_api_key : api_key
+			},
+			beforeSend: function() {
+				$spinner.addClass( 'spinner_visible' );
+			},
+			success: function( data ){
+				$spinner.removeClass( 'spinner_visible' );
+			}
+		});
+
+		return false;
+	});
+
 	});
 
 })(jQuery)

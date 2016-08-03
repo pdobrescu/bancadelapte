@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'ETmonarch';
-	src:url('fonts/ETmonarch_2.eot?gd6mr8');
-	src:url('fonts/ETmonarch_2.eot?#iefixgd6mr8') format('embedded-opentype'),
-		url('fonts/ETmonarch_2.woff?gd6mr8') format('woff'),
-		url('fonts/ETmonarch_2.ttf?gd6mr8') format('truetype'),
-		url('fonts/ETmonarch_2.svg?gd6mr8#ETmonarch') format('svg');
+	src:url('fonts/monarch.eot?gd6mr8');
+	src:url('fonts/monarch.eot?#iefixgd6mr8') format('embedded-opentype'),
+		url('fonts/monarch.woff?gd6mr8') format('woff'),
+		url('fonts/monarch.ttf?gd6mr8') format('truetype'),
+		url('fonts/monarch.svg?gd6mr8#ETmonarch') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
