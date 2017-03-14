@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Monarch Plugin
  * Plugin URI: http://www.elegantthemes.com
- * Version: 1.3.1
+ * Version: 1.3.2
  * Description: Social Media Plugin
  * Author: Elegant Themes
  * Author URI: http://www.elegantthemes.com
@@ -17,7 +17,7 @@ define( 'ET_MONARCH_PLUGIN_DIR', trailingslashit( dirname(__FILE__) ) );
 define( 'ET_MONARCH_PLUGIN_URI', plugins_url('', __FILE__) );
 
 class ET_Monarch {
-	var $plugin_version = '1.3.1';
+	var $plugin_version = '1.3.2';
 	var $db_version = '1.2';
 	var $monarch_options;
 	var $_options_pagename = 'et_monarch_options';
@@ -636,7 +636,7 @@ class ET_Monarch {
 			return;
 		}
 
-		wp_enqueue_style( 'et-open-sans-700', "{$this->protocol}://fonts.googleapis.com/css?family=Open+Sans:700", array(), $this->plugin_version );
+		et_core_load_main_fonts();
 		wp_enqueue_style( 'et-monarch-admin', ET_MONARCH_PLUGIN_URI . '/css/admin.css', array(), $this->plugin_version );
 	}
 

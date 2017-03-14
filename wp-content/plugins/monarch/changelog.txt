@@ -1,3 +1,10 @@
+version 1.3.2 ( updated 08-15-2016 )
+- Fixed settings page font issues in WordPress 4.6
+	* monarch.php
+	* css/admin.css
+	* core/admin/css/core.css
+	* core/functions.php
+
 version 1.3.1 ( updated 06-21-2016 )
 - Fixed the issue with Inline Sharing buttons jumping on page load
 - Fixed the issue with wrong hover effect for Outlook and Linkedin circle icons

@@ -14,7 +14,7 @@ button { border: none;}
 /*------------------[TYPOGRAPHY]------------------*/
 /*------------------------------------------------*/
 
-body, p, button { font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; color: #939AAA; line-height: 1.7em; }
+#et_social_wrapper_outer, p, button { font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; color: #939AAA; line-height: 1.7em; }
 
 h1, h2, h3, h4, h5, h6, button, .et_social_action_button a { line-height: 1.1em; padding-bottom: .5em; color: #373942; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 h1 { font-size: 26px; }
@@ -613,7 +613,7 @@ li.et_social_single_page_row:nth-child(even) { background-color: #e0e4e9; }
 	.et_social_warning .et_social_modal_header { height: 30px; }
 	.et_social_modal_footer .et_social_ok { margin-right: 130px !important; }
 
-.et_social_networks_modal { display: none; }
+.et_social_networks_modal { display: none; font-family: 'Open Sans', sans-serif; }
 .et_social_networks_modal.et_social_warning { display: block; }
 .et_social_save_changes { position: relative; width: 240px; }
 span.spinner { margin-top: 12px; margin-right: 30px; display: none; }
