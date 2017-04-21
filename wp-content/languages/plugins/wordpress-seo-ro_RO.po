@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-14 20:13:25+0000\n"
+"PO-Revision-Date: 2017-04-11 09:47:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,291 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ro\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: languages/yoast-components.php:81
+msgid "Enter authorization code here..."
+msgstr "Introdu codul de autorizare aici..."
+
+#. translators: 1: open link tag 2: close link tag
+#: admin/views/tabs/dashboard/features.php:45
+msgid "The Cornerstone content functionality enables you to mark and filter cornerstone content on your website. %1$sRead more about how cornerstone content can help you improve your site structure.%2$s"
+msgstr "Funcționalitatea Conținut fundamental îți permite să marchezi și să filtrezi conținutul fundamental pe situl tău web. %1$sCitește mai mult despre cum conținutul fundamental te poate ajuta să-ți îmbunătățești structura sitului.%2$s"
+
+#: admin/views/tabs/dashboard/features.php:41
+msgid "Cornerstone content"
+msgstr "Conținut fundamental"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/config-ui/fields/class-field-success-message.php:19
+msgid "%1$s will now take care of all the needed technical optimization of your site. To really improve your site's performance in the search results, it's important to start creating content that ranks well for keywords you care about. Check out this video in which we explain how to use the %1$s metabox when you edit posts or pages."
+msgstr "Acum %1$s va avea grijă de toate optimizările tehnice necesare sitului tău. Pentru a îmbunătăți cu adevărat performanța sitului în rezultatele căutării, este important să începi crearea de conținut care se clasează bine pentru cuvintele cheie care te interesează. Vezi acest video în care explicăm cum se folosește caseta meta %1$s când editezi articole sau pagini."
+
+#. translators: %s expands to Yoast SEO.
+#: admin/config-ui/fields/class-field-mailchimp-signup.php:25
+msgid "Your %1$s plugin is now set up. SEO, however, is subject to constant change. Sign up for our newsletter if you would like to keep up-to-date regarding %1$s, other plugins by Yoast and important news in the world of SEO."
+msgstr "Acum modulul tău %1$s este inițializat. Totuși, SEO este subiectul unor modificări constante. Înregistrează-te pentru buletinul nostru informativ ca fii la curent cu privire la %1$s, alte module de Yoast și știri importante din lumea SEO."
+
+#: admin/config-ui/fields/class-field-mailchimp-signup.php:20
+msgid "Stay up-to-date"
+msgstr "Fii la curent"
+
+#. translators: %1$s resolves to Local SEO
+#: admin/config-ui/components/class-component-suggestions.php:74
+msgid "If you want to outrank the competition in a specific town or region, check out our %1$s plugin! You’ll be able to easily insert Google maps, opening hours, contact information and a store locator. Besides that %1$s helps you to improve the usability of your contact page."
+msgstr "Dacă vrei să surclasezi concurența dintr-un anumit oraș sau dintr-o regiune, vezi modulul nostru %1$s! Vei putea insera cu ușurință hărți Google, ore de funcționare, informații de contact și localizarea magazinului. Pe lângă faptul că %1$s te ajută să-ți îmbunătățești gradul de utilizare a paginii tale de contact."
+
+#: admin/config-ui/components/class-component-suggestions.php:72
+msgid "Attract more customers near you"
+msgstr "Atrage mai mulți clienți din apropiere"
+
+#. translators: %1$s resolves to Yoast SEO
+#: admin/config-ui/components/class-component-suggestions.php:60
+msgid "Do you want to know all the ins and outs of the %1$s plugin? Do you want to learn all about our advanced settings? Want to be able to really get the most out of the %1$s plugin? Check out our %1$s plugin training and start outranking the competition!"
+msgstr "Vrei să știi toate dedesubturile modulului %1$s? Vrei să afli totul despre setările avansate? Vrei să poți să obții cu adevărat maximul de la modulul %1$s? Vezi instruirea noastră pentru modulul %1$s și începe surclasarea concurenței!"
+
+#. translators: %1$s resolves to Yoast SEO, %2$s resolves to Yoast SEO plugin
+#. training
+#: admin/config-ui/components/class-component-suggestions.php:58
+msgid "Get the most out of %1$s with the %2$s"
+msgstr "Obții maximul de la %1$s cu %2$s"
+
+#. translators: %1$s resolves to SEO copywriting training
+#: admin/config-ui/components/class-component-suggestions.php:47
+msgid "Do you want to learn how to write content that generates traffic? Check out our %1$s. We will help you to write awesome copy that will rank in the search engines. The %1$s covers all the main steps in SEO copywriting: from keyword research to publishing."
+msgstr "Vrei să înveți cum să scrii un conținut care generează trafic? Consultă %1$s. Te vom ajuta să scrii un text minunat care se va clasa bine în motoarele de căutare. %1$s cuprinde toți pașii importanți din copywriting SEO: de la căutare cuvânt/frază cheie la publicare."
+
+#: admin/config-ui/components/class-component-suggestions.php:45
+msgid "Learn how to write copy that ranks"
+msgstr "Învață cum să scrii text care se clasează bine"
+
+#: admin/config-ui/components/class-component-suggestions.php:36
+msgid "Upgrade to Premium"
+msgstr "Actualizează la Premium"
+
+#. translators: %1$s resolves to Yoast SEO Premium
+#: admin/config-ui/components/class-component-suggestions.php:34
+msgid "Do you want to outrank your competition? %1$s gives you awesome additional features that'll help you to set up your SEO strategy like a professional. Use the multiple focus keywords functionality, the redirect manager and our internal linking tool. %1$s will also give you access to premium support."
+msgstr "Vrei să-ți surclasezi concurența? %1$s îți oferă funcționalități suplimentare minunate care te vor ajuta să inițializezi strategia SEO ca un profesionist. Folosește funcționalitatea cuvinte/fraze cheie multiple, managerul de redirecționare și instrumentul nostru de legătură internă. De asemenea, %1$s își va oferi acces la suport premium."
+
+#. translators: %s resolves to Yoast SEO Premium
+#: admin/config-ui/components/class-component-suggestions.php:32
+msgid "Outrank the competition with %s"
+msgstr "Surclasează concurența cu %s"
+
+#: admin/config-ui/components/class-component-configuration-choices.php:50
+msgid "Configuration service"
+msgstr "Serviciu de configurare"
+
+#: admin/config-ui/components/class-component-configuration-choices.php:44
+msgid "While we strive to make setting up %1$s as easy as possible, we understand it can still be daunting. If you would rather have us set up %1$s for you (and get a copy of %2$s in the process), order a %1$s configuration service and sit back while we configure your site."
+msgstr "În timp ce ne străduim să facem inițializarea %1$s cât mai ușor posibilă, înțelegem că poate fi totuși descurajantă. Dacă preferi să ne lași să-ți inițializăm %1$s (și să obții o copie a %2$s în acest proces), comandă un serviciu de configurare %1$s și stai liniștit în timp ce noi îți configurăm situl."
+
+#: admin/config-ui/components/class-component-configuration-choices.php:42
+msgid "Let us set up Yoast SEO for you"
+msgstr "Lasă-ne să-ți inițializăm Yoast SEO"
+
+#: admin/config-ui/components/class-component-configuration-choices.php:36
+msgid "Configure %s"
+msgstr "Configurează %s"
+
+#: admin/config-ui/components/class-component-configuration-choices.php:33
+msgid "Welcome to the %1$s configuration wizard. In a few simple steps we'll help you configure your SEO settings to match your website's needs! %1$s will take care of all the technical optimizations your site needs."
+msgstr "Bine ai venit la asistentul de configurare %1$s. În câțiva pași simpli te vom ajuta să-ți configurezi setările SEO pentru a se potrivi cu nevoile sitului tău web! %1$s va avea grijă de toate optimizările tehnice de care are nevoie situl tău."
+
+#: admin/config-ui/components/class-component-configuration-choices.php:32
+msgid "Configure Yoast SEO in a few steps"
+msgstr "Configurează Yoast SEO în câțiva pași"
+
+#. translators: %s resolves to Yoast SEO
+#: admin/config-ui/components/class-component-configuration-choices.php:29
+msgid "Please choose the %s configuration of your liking:"
+msgstr "Te rog alege configurarea %s pe placul tău:"
+
+#: admin/config-ui/class-configuration-structure.php:61
+msgid "You might like"
+msgstr "S-ar putea să-ți placă"
+
+#: admin/config-ui/class-configuration-structure.php:58
+msgid "Newsletter"
+msgstr "Buletin informativ"
+
+#. translators: %1$s resolves to Yoast SEO, %2$s resolves to the starting tag
+#. of the link to the wizard, %3$s resolves to the closing link tag
+#: admin/config-ui/class-configuration-page.php:222
+msgid "We have detected that you have not finished this wizard yet, so we recommend you to %2$sstart the configuration wizard to configure %1$s%3$s."
+msgstr "Am detectat că nu ai finalizat încă cu acest asistent, așa că îți recomandăm să %2$spornești asistentul de configurare pentru a configura %1$s%3$s."
+
+#: admin/config-ui/class-configuration-page.php:218
+msgid "The configuration wizard helps you to easily configure your site to have the optimal SEO settings."
+msgstr "Asistentul de configurare te ajută să-ți configurezi cu ușurință situl pentru a avea setările SEO optime."
+
+#: admin/class-cornerstone-filter.php:39
+msgid "Cornerstone articles"
+msgstr "Articole fundamentale"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/class-cornerstone-field.php:30
+msgid "This article is %1$scornerstone content%2$s"
+msgstr "Acest articol este %1$sconținut fundamental%2$s"
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:49
+msgid "If you cannot upgrade your PHP version yourself, you can send an email to your host. We have %1$sexamples here%2$s. If they don't want to upgrade your PHP version, we would suggest you switch hosts. Have a look at one of our recommended %3$sWordPress hosting partners%4$s, they've all been vetted by our Yoast support team and provide all the features a modern host should provide."
+msgstr "Dacă nu poți să-ți actualizezi singur versiunea PHP, poți trimite un email la gazda ta. Avem %1$sexemple aici%2$s. Dacă nu vor să-ți actualizeze versiunea PHP, am sugera să-ți schimbi gazda. Uită-te la unul dintre %3$spartenerii noștri de găzduire WordPress%4$s recomandați, toți au fost verificați cu atenție de echipa noastră de suport de la Yoast și oferă toate funcționalitățile care ar trebui furnizate de o gazdă modernă."
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:47
+msgid "If you cannot upgrade your PHP version yourself, you can send an email to your host. We have %1$sexamples here%2$s. If they don't want to upgrade your PHP version, we would suggest you switch hosts. Have a look at one of the recommended %3$sWordPress hosting partners%4$s."
+msgstr "Dacă nu poți să-ți actualizezi singur versiunea PHP, poți trimite un email la gazda ta. Avem %1$sexemple aici%2$s. Dacă nu vor să-ți actualizeze versiunea PHP, am sugera să-ți schimbi gazda. Uită-te la unul dintre %3$spartenerii noștri de găzduire WordPress%4$s recomandați."
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:44
+msgid "Can't update? Ask your host!"
+msgstr "Nu poți actualiza? Întreabă-ți gazda!"
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:35
+msgid "You should update your PHP version to either 5.6 or to 7.0 or 7.1. On a normal WordPress site, switching to PHP 5.6 should never cause issues. We would however actually recommend you switch to PHP7. There are some plugins that are not ready for PHP7 though, so do some testing first. We have an article on how to test whether that's an option for you %1$shere%2$s. PHP7 is much faster than PHP 5.6. It's also the only PHP version still in active development and therefore the better option for your site in the long run."
+msgstr "Ar trebui să-ți actualizați versiunea PHP fie la 5.6 ori fie la 7.0 sau 7.1. Pe un sit WordPress obișnuit, trecerea la versiunea PHP 5.6 nu ar trebui să cauzeze probleme. Cu toate acestea, ți-am recomanda versiunea PHP 7. Există unele module care nu sunt pregătite pentru PHP 7, așa că fă niște teste mai întâi. Avem un articol %1$saici%2$s despre cum să testezi dacă este într-adevăr o opțiune pentru tine. PHP 7 este mult mai rapid decât PHP 5.6. De asemenea, este singura versiune PHP în dezvoltare activă și, prin urmare, cea mai bună opțiune pe termen lung pentru situl tău."
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:34
+msgid "To which version should I update?"
+msgstr "La care versiune ar trebui să actualizez?"
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:33
+msgid "Hosts have the ability to update your PHP version, but sometimes they don't dare to do that because they're afraid they'll break your site."
+msgstr "Gazdele au capacitatea de a actualiza versiunea ta PHP, dar uneori nu îndrăznesc să facă asta pentru că se tem că-ți vor strica situl."
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:32
+msgid "Hey, we've noticed that you're running an outdated version of PHP. PHP is the programming language that WordPress and Yoast SEO are built on. The version that is currently used for your site is no longer supported. Newer versions of PHP are both faster and more secure. In fact, your version of PHP no longer receives security updates, which is why we're sending you to this notice."
+msgstr "Hei, am observat că rulezi o versiune învechită a PHP. PHP este limbajul de programare pe care sunt construite WordPress și Yoast SEO. Versiunea care este folosită în prezent pe situl tău nu mai este suportată. Versiunile mai noi de PHP sunt atât mai rapide cât și mai sigure. De fapt, versiunea ta de PHP nu mai primește actualizări de securitate, de aceea îți trimitem la această notificare."
+
+#: vendor/yoast/whip/src/messages/Whip_UpgradePhpMessage.php:31
+msgid "Your site could be faster and more secure with a newer PHP version."
+msgstr "Situl tău ar putea fi mai rapid și mult mai sigur cu o versiune mai nouă de PHP."
+
+#: vendor/yoast/whip/src/messages/Whip_HostMessage.php:54
+msgid "A message from %1$s"
+msgstr "Un mesaj de la %1$s"
+
+#. translators: %s expands to Yoast SEO Premium
+#: admin/views/partial-help-center-video.php:31
+msgid "Get %s now &raquo;"
+msgstr "Ia %s acum &raquo;"
+
+#: admin/views/partial-help-center-video.php:28
+msgid "Go Premium and our experts will be there for you to answer any questions you might have about the setup and use of the plugin."
+msgstr "Ia Premium și experții noștri vor fi acolo pentru a-ți răspunde la orice fel de întrebări pe care ai putea să le ai despre inițializarea și utilizarea modulului."
+
+#: admin/banner/class-admin-banner-sidebar.php:97
+#: admin/metabox/class-metabox-add-keyword-tab.php:38
+msgid "24/7 support"
+msgstr "Suport 24/7"
+
+#: admin/metabox/class-metabox-add-keyword-tab.php:37
+msgid "<strong>Social media preview</strong>: Facebook &amp; Twitter"
+msgstr "<strong>Previzualizare media socială</strong>: Facebook și Twitter"
+
+#: admin/metabox/class-metabox-add-keyword-tab.php:36
+msgid "Superfast internal linking suggestions"
+msgstr "Sugestii de legare internă ultrarapidă"
+
+#: admin/metabox/class-metabox-add-keyword-tab.php:35
+msgid "<strong>No more dead links</strong>: easy redirect manager"
+msgstr "<strong>Nicio legătură moartă</strong>: manager de redirecționare simplu"
+
+#: admin/metabox/class-metabox-add-keyword-tab.php:33
+msgid "Other benefits of Yoast SEO Premium for you:"
+msgstr "Alte beneficii ale Yoast SEO Premium:"
+
+#. translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
+#. Premium plugin page.
+#: admin/metabox/class-metabox-add-keyword-tab.php:30
+msgid "Great news: you can, with %1$s!"
+msgstr "Vești bune: poți, cu %1$s!"
+
+#: admin/class-yoast-form.php:121
+msgid "Save changes"
+msgstr "Salvează modificările"
+
+#: admin/class-premium-popup.php:75
+msgid "1 year free updates and upgrades included!"
+msgstr "1 an de actualizări gratuite și incluse!"
+
+#. translators: %2$s expands to 'RS Head Cleaner' plugin name of possibly
+#. conflicting plugin with regard to differentiating output between search
+#. engines and normal users.
+#: admin/class-plugin-conflict.php:160
+msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
+msgstr "Modulul %2$s modifică ieșirea situl tău și face diferențieri între motoarele de căutare și utilizatorii normali, un proces care este denumit camuflare. Îți recomandăm să-l dezactivezi."
+
+#: admin/class-help-center.php:69
+msgid "Social media preview: Facebook & Twitter"
+msgstr "Previzualizare media socială: Facebook și Twitter"
+
+#: admin/class-help-center.php:68
+msgid "Superfast internal link suggestions"
+msgstr "Sugestii de legătură internă ultrarapidă"
+
+#: admin/class-help-center.php:67
+msgid "No more dead links: easy redirect manager"
+msgstr "Nicio legătură moartă: manager de redirecționare simplu"
+
+#. translators: %1$s: expands to 'Yoast SEO Premium'.
+#: admin/class-help-center.php:65
+msgid "Other benefits of %1$s for you:"
+msgstr "Alte beneficii ale %1$s:"
+
+#: admin/class-help-center.php:63
+msgid "Go Premium and our experts will be there for you to answer any questions you might have about the set-up and use of the plug-in!  "
+msgstr "Ia Premium și experții noștri vor fi acolo pentru a-ți răspunde la orice fel de întrebări pe care ai putea să le ai despre inițializarea și utilizarea modulului!"
+
+#: admin/metabox/class-metabox-add-keyword-tab.php:28
+msgid "Want to add more than one keyword?"
+msgstr "Vrei să adaugi mai mult decât un cuvânt cheie?"
+
+#: admin/banner/class-admin-banner-sidebar.php:102
+msgid "Prices start as low as 69,- for one site"
+msgstr "Prețurile pornesc de la 69 - pentru un sit"
+
+#: admin/banner/class-admin-banner-sidebar.php:98
+#: admin/class-help-center.php:70
+#: admin/metabox/class-metabox-add-keyword-tab.php:39
+msgid "No ads!"
+msgstr "Fără anunțuri!"
+
+#: admin/banner/class-admin-banner-sidebar.php:96
+msgid "Facebook & Twitter"
+msgstr "Facebook și Twitter"
+
+#: admin/banner/class-admin-banner-sidebar.php:96
+msgid "Social media preview"
+msgstr "Previzualizare media socială"
+
+#: admin/banner/class-admin-banner-sidebar.php:95
+msgid "Find related posts superfast"
+msgstr "Găsește articole similare ultrarapid."
+
+#: admin/banner/class-admin-banner-sidebar.php:95
+msgid "Internal linking suggestions"
+msgstr "Sugestii de legare internă"
+
+#: admin/banner/class-admin-banner-sidebar.php:94
+msgid "Easy redirect manager"
+msgstr "Manager de redirecționare simplu"
+
+#: admin/banner/class-admin-banner-sidebar.php:94
+msgid "No more dead links"
+msgstr "Nicio legătură moartă"
+
+#: admin/banner/class-admin-banner-sidebar.php:93
+msgid "Increase your SEO reach"
+msgstr "Mărește raza ta de acțiune SEO"
+
+#: admin/banner/class-admin-banner-sidebar.php:93
+msgid "Multiple keywords"
+msgstr "Cuvinte cheie multiple"
+
+#. translators: %1$s expands to the plugin name
+#: admin/banner/class-admin-banner-sidebar.php:91
+msgid "Get %1$s"
+msgstr "Ia %1$s"
 
 #. Translators: %1$s opens a link to a Yoast article about stop words, %2$s
 #. closes the link
@@ -28,18 +313,17 @@ msgstr "Variabilă"
 msgid "Available variables"
 msgstr "Variabile disponibile"
 
-#. translators: Text between %1$s and %2$s will be a link to a review
-#. explanation page. Text between %3$s and %4$s will be a link to an SEO
-#. copywriting course page.
+#. translators: %1$s will be a link to a review explanation page. Text between
+#. %2$s and %3$s will be a link to an SEO copywriting course page.
 #: admin/config-ui/fields/class-field-upsell-site-review.php:19
-msgid "If you want more help creating awesome content, check out our %3$sSEO copywriting course%4$s. Do you want to know all about the features of the plugin, consider doing our %1$Yoast SEO for WordPress training%2$s!"
-msgstr "Dacă vrei mai mult ajutor pentru crearea un conținut minunat, consultă %3$scursul nostru SEO copywriting%4$s. Dacă vrei să știi totul despre funcționalitățile modulului, ia în considerare participarea la %1$sinstruirea noastră Yoast SEO pentru WordPress%2$s!"
+msgid "If you want more help creating awesome content, check out our %2$sSEO copywriting course%3$s. Do you want to know all about the features of the plugin, consider doing our %1$s!"
+msgstr "Dacă vrei mai mult ajutor pentru crearea unui conținut minunat, vezi %2$scursul nostru SEO de copywriting%3$s. Dacă vrei să știi totul despre funcționalitățile modulului, ia în considerare participarea la %1$s!"
 
-#: admin/class-admin.php:646
+#: admin/class-admin.php:649
 msgid "Scroll to see the table content."
 msgstr "Derulează pentru a vedea conținutul tabelului."
 
-#: admin/banner/class-admin-banner-sidebar.php:339
+#: admin/banner/class-admin-banner-sidebar.php:362
 msgid "Take the online Technical SEO Training course and learn essential technical SEO-concepts!"
 msgstr "Participă online la cursul de instruire tehnică SEO și înveți concepte tehnice SEO esențiale!"
 
@@ -302,7 +586,7 @@ msgstr "Previzualizare desktop"
 msgid "Use queries instead"
 msgstr "Folosește interogări în schimb"
 
-#: admin/metabox/class-metabox.php:1239 admin/metabox/class-metabox.php:1261
+#: admin/metabox/class-metabox.php:1245 admin/metabox/class-metabox.php:1267
 #: deprecated/class-snippet-preview.php:9
 #: deprecated/class-snippet-preview.php:99
 #: deprecated/class-snippet-preview.php:109
@@ -318,7 +602,7 @@ msgstr "Folosește javascript în schimb."
 msgid "Select redirect"
 msgstr "Selectează redirecționare"
 
-#: admin/banner/class-admin-banner-sidebar.php:329
+#: admin/banner/class-admin-banner-sidebar.php:352
 msgid "Take the online Site Structure Training course and learn how to structure your website!"
 msgstr "Participă online la cursul de instruire structură sit și învăță cum să-ți structurezi situl web!"
 
@@ -476,25 +760,21 @@ msgstr "Fraza cheie are peste 10 cuvinte, o frază cheie ar trebui să fie mai s
 msgid "ok"
 msgstr "ok"
 
-#: languages/yoast-components.php:124
+#: languages/yoast-components.php:121
 msgid "Choose an image"
 msgstr "Alege o imagine"
 
-#: languages/yoast-components.php:120
+#: languages/yoast-components.php:117
 msgid "Remove the image"
 msgstr "Înlătură imaginea"
 
-#: languages/yoast-components.php:117
+#: languages/yoast-components.php:114
 msgid "company logo image preview"
 msgstr "previzualizare imagine logo companie"
 
-#: languages/yoast-components.php:114
+#: languages/yoast-components.php:111
 msgid "Choose image"
 msgstr "Alege imagine"
-
-#: languages/yoast-components.php:111
-msgid "Sign up for our newsletter!"
-msgstr "Înregistrează-te pentru buletinul nostru informativ!"
 
 #: languages/yoast-components.php:108
 msgid "MailChimp signup failed:"
@@ -519,10 +799,6 @@ msgstr "Selectează profil"
 #: languages/yoast-components.php:87
 msgid "Choose a profile"
 msgstr "Alege un profil"
-
-#: languages/yoast-components.php:81
-msgid "Authorization code"
-msgstr "Cod de autorizare"
 
 #: languages/yoast-components.php:75
 msgid "Reauthenticate with Google"
@@ -600,8 +876,11 @@ msgstr "Pasul următor"
 msgid "Export settings"
 msgstr "Exportă setări"
 
+#. translators: %s expands to Yoast SEO Premium
 #. translators: %s expands to Yoast SEO Premium.
-#: admin/metabox/class-metabox.php:482
+#. translators: %s expands to Yoast SEO Premium.
+#: admin/banner/class-admin-banner-sidebar.php:101
+#: admin/class-premium-popup.php:70 admin/metabox/class-metabox.php:482
 #: admin/taxonomy/class-taxonomy-metabox.php:274
 msgid "Get %s now!"
 msgstr "Ia %s acum!"
@@ -613,7 +892,7 @@ msgid "You're not getting the benefits of %1$s yet. If you had %1$s, you could u
 msgstr "Nu primești încă avantajele lui %1$s. Dacă ai fi avut %1$s, ai fi putut folosi funcționalitățile sale minunate."
 
 #. translators: %1$s expands to Yoast SEO.
-#: admin/config-ui/fields/class-field-success-message.php:31
+#: admin/config-ui/fields/class-field-success-message.php:29
 msgid "%1$s video tutorial"
 msgstr "Tutorial video %1$s"
 
@@ -642,14 +921,13 @@ msgstr "Am observat că ai folosit %1$s de ceva timp; sperăm să-l îndrăgeșt
 
 #. translators: %1$s expands to Yoast SEO for WordPress Training, %2$s to Yoast
 #. SEO for WordPress.
-#: admin/banner/class-admin-banner-sidebar.php:296
-#: admin/class-yoast-form.php:619
+#: admin/banner/class-admin-banner-sidebar.php:319
 msgid "Take the %1$s course and become a certified %2$s expert!"
 msgstr "Participă la cursul %1$s și devii un expert %2$s certificat!"
 
 #. translators: %1$s expands to a link start tag to the Yoast Services page,
 #. %2$s is the link closing tag.
-#: admin/banner/class-admin-banner-sidebar.php:272
+#: admin/banner/class-admin-banner-sidebar.php:295
 msgid "Do you want to get a grip on your own SEO-strategy? Learn all about it in one of %1$sour courses%2$s."
 msgstr "Vrei să obții un control propriu asupra strategiei SEO? Află totul despre ea într-unul din %1$scursurile noastre%2$s."
 
@@ -659,62 +937,36 @@ msgid "%s &rsaquo; Configuration Wizard"
 msgstr "%s &rsaquo; Asistent de configurare"
 
 #. translators: %1$s expands to Yoast WooCommerce SEO.
-#: admin/banner/class-admin-banner-sidebar.php:220
-#: admin/class-yoast-form.php:689
+#: admin/banner/class-admin-banner-sidebar.php:243
 msgid "Buy the %1$s plugin now and optimize your shop today to improve your product promotion!"
 msgstr "Cumpără modulul %1$s acum și îți optimizezi magazinul astăzi prin îmbunătățirea promovării produsului!"
 
 #. translators: %1$s expands to a link start tag to the Yoast plugin page, %2$s
 #. is the link closing tag.
-#: admin/banner/class-admin-banner-sidebar.php:189
+#: admin/banner/class-admin-banner-sidebar.php:212
 msgid "Take your SEO to the next level and outrank your competition with our %1$sSEO plugins%2$s."
 msgstr "Treci cu SEO la nivelul următor și depășește-ți competitorii cu %1$smodulele SEO%2$s."
 
-#. translators: %1$s expands to Yoast SEO Care.
-#: admin/banner/class-admin-banner-sidebar.php:153
-msgid "Let us help you take care of the SEO of your website. Order %1$s now!"
-msgstr "Lasă-ne să te ajutăm și să avem grijă de SEO pe situl tău web. Comandă %1$s acum!"
-
 #. translators: %1$s expands to Yoast SEO Premium.
-#: admin/banner/class-admin-banner-sidebar.php:139
-#: admin/class-yoast-form.php:585
+#: admin/banner/class-admin-banner-sidebar.php:160
 msgid "Let our experts set up your %1$s plugin!"
 msgstr "Lasă-i pe experții noștri să-ți inițializeze modulul %1$s!"
 
 #. translators: %1$s expands to a link start tag to the Yoast Services page,
 #. %2$s to Yoast, %3$s is the link closing tag.
-#: admin/banner/class-admin-banner-sidebar.php:124
+#: admin/banner/class-admin-banner-sidebar.php:145
 msgid "Do you want to know how to improve your rankings? %1$sLet team %2$s help you!%3$s"
 msgstr "Vrei să știi cum să-ți îmbunătățești ierarhiile de căutare? %1$sLasă echipa %2$s să te ajute!%3$s"
 
-#. translators: %1$s expands to a link start tag to the Yoast plugin page, %2$s
-#. is the link closing tag
-#: admin/banner/class-admin-banner-sidebar.php:90
-msgid "Want to get the most out of your SEO-strategy? %1$sGo premium!%2$s."
-msgstr "Vrei să obții maximul din strategia ta SEO? %1$sTreci la premium!%2$s."
-
-#: admin/banner/class-admin-banner-sidebar.php:319
+#: admin/banner/class-admin-banner-sidebar.php:342
 msgid "Take the online Keyword Research Training course and learn how to rank with your keywords!"
 msgstr "Participă online la cursul de instruire căutare cuvânt/frază cheie și înveți cum să crești clasificarea cu cuvintele/frazele tale cheie!"
 
-#: admin/banner/class-admin-banner-sidebar.php:267
+#: admin/banner/class-admin-banner-sidebar.php:290
 msgid "Courses"
 msgstr "Cursuri"
 
-#. translators: %1$s expands to Yoast SEO, %2$s to a link start tag to the
-#. Yoast plugin page, %3$s is the link closing tag.
-#: admin/class-yoast-form.php:642
-msgid "Extend your %1$s plugin with our %2$sSEO plugins%3$s."
-msgstr "Extinde-ți modulul %1$s cu %2$smodulele noaste SEO%3$s."
-
-#. translators: %1$s expands to a link start tag to the Yoast Services page,
-#. %2$s to Yoast, %3$s is the link closing tag.
-#: admin/class-yoast-form.php:560
-msgid "Don't want to dive into SEO yourself? %1$sLet team %2$s help you!%3$s"
-msgstr "Nu vrei să plonjezi singur în SEO? %1$sLasă echipa %2$s să te ajute!%3$s"
-
-#: admin/banner/class-admin-banner-sidebar.php:119
-#: admin/class-yoast-form.php:557
+#: admin/banner/class-admin-banner-sidebar.php:140
 msgid "Services"
 msgstr "Servicii"
 
@@ -740,7 +992,7 @@ msgstr "%1$s de %2$s"
 
 #. translators: %s: '%%term_title%%' variable used in titles and meta's
 #. template that's not compatible with the given template
-#: admin/class-help-center.php:197
+#: admin/class-help-center.php:203
 msgid "Warning: the variable %s cannot be used in this template. See the help center for more info."
 msgstr "Avertizare: variabila %s nu poate fi folosită în acest șablon. Vezi centrul de ajutor pentru mai multe informații."
 
@@ -775,7 +1027,7 @@ msgstr "Apropo, știai că avem, de asemenea, un %1$smodul Premium%2$s? Acesta o
 msgid "(no title)"
 msgstr "(fără titlu)"
 
-#: admin/views/tabs/dashboard/features.php:53
+#: admin/views/tabs/dashboard/features.php:63
 msgid "%1$s comes with a lot of features. You can enable / disable some of them below."
 msgstr "%1$s vine cu o mulțime de funcționalități. Poți activa / dezactiva unele dintre ele mai jos."
 
@@ -805,7 +1057,7 @@ msgstr "Setările avansate includ setări globale ale sitului pentru titlurile t
 msgid "Advanced settings pages"
 msgstr "Pagini setări avansate"
 
-#: admin/pages/dashboard.php:60 admin/views/tabs/dashboard/features.php:50
+#: admin/pages/dashboard.php:60 admin/views/tabs/dashboard/features.php:60
 msgid "Features"
 msgstr "Funcționalități"
 
@@ -858,16 +1110,6 @@ msgstr "În timp ce ne străduim să facem inițializarea %1$s cât mai ușoară
 #: admin/config-ui/fields/class-field-upsell-configuration-service.php:19
 msgid "Welcome to the %1$s configuration wizard. In a few simple steps we'll help you configure your SEO settings to match your website's needs!"
 msgstr "Bine ai venit la asistentul de configurare %1$s. În câțiva pași simpli te vom ajuta să-ți  configurezi setările SEO pentru a se potrivi nevoilor sitului tău web!"
-
-#. translators: %1$s expands to Yoast SEO.
-#: admin/config-ui/fields/class-field-success-message.php:24
-msgid "Check out the video below in which we explain how to use the %1$s metabox when you edit posts or pages"
-msgstr "Vezi videoul de mai jos în care explicăm cum se folosește caseta meta %1$s când editezi articole sau pagini"
-
-#. translators: %1$s expands to Yoast SEO.
-#: admin/config-ui/fields/class-field-success-message.php:19
-msgid "You&#039;ve done it! You&#039;ve set up %1$s, and %1$s will now take care of all the needed technical optimization of your site. To really improve your site&#039;s performance in the search results, it&#039;s important to start creating content that ranks well for keywords you care about."
-msgstr "Ai făcut-o! Ai inițializat %1$s și acum %1$s va avea grijă de toate optimizarea tehnică necesară sitului tău. Pentru a îmbunătăți într-adevăr performanța sitului tău în rezultatele căutării, este important să începi crearea unui conținut care se clasează bine pentru cuvintele/frazele cheie care te interesează."
 
 #: admin/config-ui/fields/class-field-social-profiles-intro.php:17
 msgid "Please add all your relevant social profiles. We use these to let search engines know about them, and to enhance your social metadata:"
@@ -978,15 +1220,6 @@ msgstr "Da"
 msgid "Does, or will, your site have multiple authors?"
 msgstr "Situl tău are sau va avea mai mulți autori?"
 
-#. translators: %s expands to Yoast SEO.
-#: admin/config-ui/fields/class-field-mailchimp-signup.php:25
-msgid "If you would like us to keep you up-to-date regarding %s, other plugins by Yoast and major news in the world of SEO, subscribe to our newsletter:"
-msgstr "Dacă vrei să te ținem la curent cu privire la %s, alte module de Yoast și știri importante din lumea SEO, abonează-te la buletinul nostru informativ:"
-
-#: admin/config-ui/fields/class-field-mailchimp-signup.php:20
-msgid "Newsletter signup"
-msgstr "Înscriere la buletin informativ"
-
 #: admin/config-ui/fields/class-field-environment.php:21
 msgid "Development (this site is running locally for development purposes)"
 msgstr "Dezvoltare (acest sit rulează la nivel local în scopuri de dezvoltare)"
@@ -1030,7 +1263,7 @@ msgstr "Tipul de articol \"%1$s\" ar trebui să fie"
 msgid "WordPress automatically generates an URL for each media item in the library. Enabling this will allow for google to index the generated URL."
 msgstr "WordPress generează automat un URL pentru fiecare element media din bibliotecă. Activând asta va permite ca Google să indexeze URL-ul generat."
 
-#: admin/config-ui/class-configuration-structure.php:58
+#: admin/config-ui/class-configuration-structure.php:64
 msgid "Success!"
 msgstr "Succes!"
 
@@ -1066,10 +1299,6 @@ msgstr "Mediu înconjurător"
 #: admin/config-ui/class-configuration-structure.php:19
 msgid "Welcome!"
 msgstr "Bine ai venit!"
-
-#: admin/config-ui/class-configuration-page.php:219
-msgid "Since you are new to %1$s you can configure the %2$splugin%3$s"
-msgstr "Întrucât ești nou la %1$s poți configura %2$smodulul%3$s"
 
 #. translators: %1$s resolves to the option name passed to the lookup
 #. registration
@@ -1107,7 +1336,7 @@ msgid "Note that links to archives might be still output by your theme and you w
 msgstr "Reține că legăturile către arhive ar putea fi încă ieșirea către tema ta și ar trebui să le înlături separat."
 
 #: admin/views/tabs/dashboard/general.php:46
-msgid "View Credits"
+msgid "View credits"
 msgstr "Vezi recunoștințe"
 
 #. translators: %1$s expands to Yoast SEO
@@ -1125,71 +1354,71 @@ msgid "Default for this taxonomy type, currently: %s"
 msgstr "Implicit pentru acest tip de taxonomie, în prezent: %s"
 
 #. translators: %1$s expands to Yoast SEO extensions
-#: admin/pages/licenses.php:182
+#: admin/pages/licenses.php:179
 msgid "%1$s to optimize your site even further"
 msgstr "%1$s pentru a-ți optimiza situl chiar mai mult"
 
 #. translators: %1$s expands to Yoast SEO
-#: admin/pages/licenses.php:177
+#: admin/pages/licenses.php:174
 msgid "%1$s extensions"
 msgstr "Extensii %1$s"
 
-#: admin/pages/licenses.php:169
+#: admin/pages/licenses.php:166
 msgid "Comes with our 30-day no questions asked money back guarantee"
 msgstr "Vine cu oferta noastră de 30 de zile fără întrebări pentru restituirea garantată a banilor"
 
 #. translators: Text between %1$s and %2$s will only be shown to screen
 #. readers. %3$s expands to the product name.
-#: admin/pages/licenses.php:162 admin/pages/licenses.php:216
+#: admin/pages/licenses.php:159 admin/pages/licenses.php:213
 msgid "More information %1$sabout %3$s%2$s"
 msgstr "Mai multe informații %1$sdespre %3$s%2$s"
 
 #. translators: $1$s expands to Yoast SEO Premium
-#: admin/pages/licenses.php:155
+#: admin/pages/licenses.php:152
 msgid "Buy %1$s"
 msgstr "Cumpără %1$s"
 
-#: admin/pages/licenses.php:151 admin/pages/licenses.php:204
+#: admin/pages/licenses.php:148 admin/pages/licenses.php:201
 msgid "Installed"
 msgstr "Instalat"
 
-#: admin/pages/licenses.php:146
+#: admin/pages/licenses.php:143
 msgid "gain access to our 24/7 support team."
 msgstr "obții acces la echipa noastră de suport 24/7."
 
-#: admin/metabox/class-metabox.php:478 admin/pages/licenses.php:145
+#: admin/metabox/class-metabox.php:478 admin/pages/licenses.php:142
 #: admin/taxonomy/class-taxonomy-metabox.php:270
 msgid "Premium support"
 msgstr "Suport premium"
 
-#: admin/pages/licenses.php:142
+#: admin/pages/licenses.php:139
 msgid "check what your Facebook or Twitter post will look like."
 msgstr "verifică cum va arăta articolul tău Facebook sau Twitter."
 
-#: admin/pages/licenses.php:141
+#: admin/pages/licenses.php:138
 msgid "Social previews"
 msgstr "Previzualizări sociale"
 
-#: admin/pages/licenses.php:138
+#: admin/pages/licenses.php:135
 msgid "optimize a single post for up to 5 keywords."
 msgstr "optimizează un articol singular pentru până la 5 cuvinte/fraze cheie."
 
-#: admin/metabox/class-metabox.php:474 admin/pages/licenses.php:137
+#: admin/metabox/class-metabox.php:474 admin/pages/licenses.php:134
 #: admin/taxonomy/class-taxonomy-metabox.php:266
 msgid "Multiple focus keywords"
 msgstr "Cuvinte/fraze cheie multiple"
 
-#: admin/pages/licenses.php:134
+#: admin/pages/licenses.php:131
 msgid "create and manage redirects from within your WordPress install."
 msgstr "creează și gestionează redirecționări din interiorul instalării tale WordPress."
 
-#: admin/metabox/class-metabox.php:472 admin/pages/licenses.php:133
+#: admin/metabox/class-metabox.php:472 admin/pages/licenses.php:130
 #: admin/taxonomy/class-taxonomy-metabox.php:264
 msgid "Redirect manager"
 msgstr "Manager de redirecționare"
 
 #. translators: %1$s expands to Yoast SEO Premium
-#: admin/pages/licenses.php:128
+#: admin/pages/licenses.php:125
 msgid "%1$s, take your optimization to the next level!"
 msgstr "%1$s, ia-ți optimizarea la nivelul următor!"
 
@@ -1260,7 +1489,7 @@ msgid "Crawl issues list navigation"
 msgstr "Navigare în listă probleme de accesare cu crawlere"
 
 #. translators: %d: number of knowledge base search results found.
-#: admin/class-help-center.php:201
+#: admin/class-help-center.php:207
 msgid "Number of search results: %d"
 msgstr "Numărul rezultatelor de căutare: %d"
 
@@ -1277,11 +1506,11 @@ msgstr "Filtrează după tip de articol"
 msgid "Show All Post Types"
 msgstr "Arată toate tipurile de articol"
 
-#: admin/banner/class-admin-banner-sidebar.php:85 admin/class-admin.php:243
+#: admin/class-admin.php:246
 msgid "Premium"
 msgstr "Premium"
 
-#: admin/class-admin.php:224 admin/metabox/class-metabox.php:437
+#: admin/class-admin.php:227 admin/metabox/class-metabox.php:437
 #: admin/taxonomy/class-taxonomy-metabox.php:229
 #: inc/wpseo-non-ajax-functions.php:312
 msgid "Go Premium"
@@ -1384,6 +1613,7 @@ msgid "Security setting"
 msgstr "Setare de securitate"
 
 #: admin/views/tabs/dashboard/general.php:50
+#: admin/views/tabs/dashboard/general.php:62
 msgid "Restore default settings"
 msgstr "Restabilește setările implicite"
 
@@ -1420,28 +1650,28 @@ msgstr "Introdu codul tău de autorizare Google și apasă butonul Autentificare
 msgid "To allow %1$s to fetch your %2$s information, please enter your Google Authorization Code. Clicking the button below will open a new window."
 msgstr "Pentru a-i permite lui %1$s să-ți aducă informațiile din %2$s, te rog introdu codul tău de autorizare Google. Dând clic pe butonul de mai jos se va deschide o fereastră nouă."
 
-#: admin/class-help-center.php:213
+#: admin/class-help-center.php:219
 msgid "Knowledge base article"
 msgstr "Articol bază de cunoștințe"
 
-#: admin/class-help-center.php:212
+#: admin/class-help-center.php:218
 msgid "Open the knowledge base article in a new window or read it in the iframe below"
 msgstr "Deschide articolul despre baza de cunoștințe într-o fereastră nouă sau citește-l în iframe-ul de mai jos"
 
-#: admin/class-help-center.php:210
+#: admin/class-help-center.php:216
 msgid "Back to search results"
 msgstr "Înapoi la rezultate căutare"
 
-#: admin/class-help-center.php:205
+#: admin/class-help-center.php:211
 msgid "Search results"
 msgstr "Rezultate căutare"
 
-#: admin/class-admin.php:645
+#: admin/class-admin.php:648
 msgid "Yoast SEO video tutorial"
 msgstr "Tutorial video Yoast SEO"
 
 #. translators: %s: number of notifications
-#: admin/class-admin.php:147 inc/wpseo-non-ajax-functions.php:88
+#: admin/class-admin.php:150 inc/wpseo-non-ajax-functions.php:88
 msgid "%s notification"
 msgid_plural "%s notifications"
 msgstr[0] "%s notificare"
@@ -1588,42 +1818,27 @@ msgid "Keyword:"
 msgstr "Cuvânt/frază cheie:"
 
 #. translators: %1$s expands to Yoast News SEO.
-#: admin/banner/class-admin-banner-sidebar.php:251
-#: admin/class-yoast-form.php:721
+#: admin/banner/class-admin-banner-sidebar.php:274
 msgid "Buy the %1$s plugin now and start optimizing to get your site featured in Google News!"
 msgstr "Cumpără acum modulul %1$s și începe optimizarea pentru ca situl tău să devină reprezentativ în Google News!"
 
 #. translators: %1$s expands to Yoast Local SEO.
-#: admin/banner/class-admin-banner-sidebar.php:235
-#: admin/class-yoast-form.php:705
+#: admin/banner/class-admin-banner-sidebar.php:258
 msgid "Buy the %1$s plugin now to improve your site&#8217;s Local SEO and ranking in Google Maps!"
 msgstr "Cumpără acum modulul %1$s pentru a-ți îmbunătăți localizarea SEO a sitului și ierarhizarea în Hărțile Google!"
 
 #. translators: %1$s expands to Yoast Video SEO.
-#: admin/banner/class-admin-banner-sidebar.php:204
-#: admin/class-yoast-form.php:673
+#: admin/banner/class-admin-banner-sidebar.php:227
 msgid "Buy the %1$s plugin now and optimize your videos for video search results and social media!"
 msgstr "Cumpără acum modulul %1$s și îți optimizezi videourile pentru rezultatele căutării video și media socială!"
 
-#. translators: %1$s expands to Yoast SEO Premium.
-#: admin/banner/class-admin-banner-sidebar.php:104
-#: admin/class-yoast-form.php:658
-msgid "Buy the %1$s plugin now and get access to extra features and 24/7 support!"
-msgstr "Cumpără acum modulul %1$s și primești acces la funcții suplimentare și suport 24/7!"
-
-#: admin/banner/class-admin-banner-sidebar.php:284
-#: admin/class-yoast-form.php:607
+#: admin/banner/class-admin-banner-sidebar.php:307
 msgid "Take the online Basic SEO Training course and learn the fundamentals of SEO!"
 msgstr "Participă online la cursul de instruire de bază SEO și învăță principiile fundamentale SEO!"
 
-#: admin/banner/class-admin-banner-sidebar.php:309
-#: admin/class-yoast-form.php:597
+#: admin/banner/class-admin-banner-sidebar.php:332
 msgid "Take the online SEO Copywriting Training course and learn how to write awesome copy that ranks!"
-msgstr "Participă online la cursul de instruire SEO Copywriting și învăță cum să scrii un text minunat care se așeză în rânduri!"
-
-#: admin/class-yoast-form.php:573
-msgid "Order a Website Review and we will tell you what to improve to attract more visitors!"
-msgstr "Comandă o recenzie a sitului web și îți vom spune ce să îmbunătățești pentru a atrage mai mulți vizitatori!"
+msgstr "Participă online la cursul de instruire SEO Copywriting și învăță cum să scrii un text minunat care se clasează bine!"
 
 #: admin/class-meta-columns.php:174
 msgid "Filter by SEO Score"
@@ -1633,19 +1848,13 @@ msgstr "Filtrează după scorul SEO"
 msgid "Meta description not set."
 msgstr "Descriere meta nesetată."
 
-#: admin/class-help-center.php:96 admin/views/partial-help-center-video.php:16
+#: admin/class-help-center.php:102 admin/views/partial-help-center-video.php:16
 msgid "Video tutorial"
 msgstr "Tutorial video"
 
-#: admin/class-help-center.php:70
+#: admin/class-help-center.php:76
 msgid "Email support"
 msgstr "Suport prin email"
-
-#. translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
-#. Premium plugin page.
-#: admin/class-help-center.php:63
-msgid "To be able to contact our support team, you need %1$s. You can buy the plugin, including one year of support, updates and upgrades, on %2$s."
-msgstr "Pentru a putea contacta echipa noastră de suport, ai nevoie de %1$s. Poți cumpăra modulul, inclusiv un an de suport și actualizări, de pe %2$s."
 
 #. translators: %s: expands to 'Yoast SEO Premium'.
 #: admin/class-help-center.php:61
@@ -1656,35 +1865,35 @@ msgstr "Suport prin email este o funcționalitate %s"
 msgid "Knowledge base"
 msgstr "Bază de cunoștințe"
 
-#: admin/class-help-center.php:211
+#: admin/class-help-center.php:217
 msgid "Open"
 msgstr "Deschide"
 
-#: admin/class-help-center.php:209
+#: admin/class-help-center.php:215
 msgid "Back"
 msgstr "Înapoi"
 
-#: admin/class-help-center.php:208
+#: admin/class-help-center.php:214
 msgid "search"
 msgstr "caută"
 
-#: admin/class-help-center.php:207
+#: admin/class-help-center.php:213
 msgid "Loading..."
 msgstr "Se încarcă..."
 
-#: admin/class-help-center.php:206
+#: admin/class-help-center.php:212
 msgid "Something went wrong. Please try again later."
 msgstr "Ceva n-a mers bine. Te rog încearcă din nou mai târziu."
 
-#: admin/class-help-center.php:203
+#: admin/class-help-center.php:209
 msgid "Search the Yoast knowledge base"
 msgstr "Caută în baza de cunoștințe Yoast"
 
-#: admin/class-help-center.php:202
+#: admin/class-help-center.php:208
 msgid "No results found."
 msgstr "Niciun rezultat găsit."
 
-#: admin/class-admin.php:150 admin/class-admin.php:260
+#: admin/class-admin.php:153 admin/class-admin.php:263
 #: admin/pages/dashboard.php:58 inc/wpseo-non-ajax-functions.php:268
 msgid "Dashboard"
 msgstr "Panou de control"
@@ -1743,28 +1952,23 @@ msgid "Webmaster Tools verification"
 msgstr "Verificare instrumente pentru webmasteri"
 
 #. translators: %s expands to Yoast SEO for WordPress
-#: admin/views/partial-help-center-video.php:46
+#: admin/views/partial-help-center-video.php:45
 msgid "Enroll in the %s training &raquo;"
 msgstr "Înscrie-te la instruirea %s &raquo;"
 
 #. translators: %$1s expands to Yoast SEO
-#: admin/views/partial-help-center-video.php:43
+#: admin/views/partial-help-center-video.php:42
 msgid "Follow our %1$s for WordPress training and become a certified %1$s Expert!"
 msgstr "Urmează instruirea noastră %1$s pentru WordPress și devii un expert %1$s certificat!"
 
 #. translators: %s expands to Yoast SEO.
-#: admin/views/partial-help-center-video.php:41
+#: admin/views/partial-help-center-video.php:40
 msgid "Want to be a %s Expert?"
 msgstr "Vrei să fii un expert %s?"
 
-#. translators: %s expands to Yoast SEO Premium
-#: admin/views/partial-help-center-video.php:29
-msgid "If you buy %s you'll get access to our support team and bonus features!"
-msgstr "Dacă cumperi %s vei avea acces la echipa noastră pentru suport și la funcționalități suplimentare!"
-
 #: admin/views/partial-help-center-video.php:27
-msgid "Need more help?"
-msgstr "Ai nevoie de mai mult ajutor?"
+msgid "Need some help?"
+msgstr "Ai nevoie de ajutor?"
 
 #: admin/metabox/class-metabox.php:81
 #: admin/taxonomy/class-taxonomy-content-fields.php:33
@@ -1781,9 +1985,8 @@ msgstr "Arată informații despre analiză conținut"
 msgid "Show information about the snippet editor"
 msgstr "Arată informații despre editor fragment"
 
-#. translators: %s expands to Yoast SEO Premium
 #. translators: %s expands to the product name
-#: admin/class-premium-popup.php:70 admin/pages/licenses.php:209
+#: admin/pages/licenses.php:206
 msgid "Buy %s"
 msgstr "Cumpără %s"
 
@@ -1811,7 +2014,7 @@ msgstr "Arată informații despre erorile din categoria 'Negăsit'"
 msgid "Show information about errors in category 'Access Denied'"
 msgstr "Arată informații despre erorile din categoria 'Acces refuzat'"
 
-#: admin/class-help-center.php:123
+#: admin/class-help-center.php:129
 #: admin/views/partial-settings-tab-video.php:19
 msgid "Help center"
 msgstr "Centru pentru ajutor"
@@ -1941,7 +2144,7 @@ msgstr "Secțiunea avansată a casetei meta %1$s permite unui utilizator să nu 
 msgid "Advanced part of the %1$s meta box"
 msgstr "Partea avansată a casetei meta %1$s"
 
-#: admin/class-yoast-form.php:301 admin/views/tabs/dashboard/features.php:63
+#: admin/class-yoast-form.php:301 admin/views/tabs/dashboard/features.php:73
 #: admin/views/tabs/dashboard/security.php:16
 #: admin/views/tabs/metas/archives.php:27
 #: admin/views/tabs/metas/archives.php:46
@@ -1950,8 +2153,8 @@ msgstr "Partea avansată a casetei meta %1$s"
 msgid "Enabled"
 msgstr "Activare"
 
-#: admin/class-admin.php:687 admin/class-yoast-form.php:301
-#: admin/views/tabs/dashboard/features.php:64
+#: admin/class-admin.php:690 admin/class-yoast-form.php:301
+#: admin/views/tabs/dashboard/features.php:74
 #: admin/views/tabs/dashboard/security.php:16
 #: admin/views/tabs/metas/archives.php:28
 #: admin/views/tabs/metas/archives.php:47
@@ -2049,22 +2252,7 @@ msgstr "Suplimente"
 msgid "Snippet editor"
 msgstr "Editor fragment"
 
-#. translators: %s expands to Yoast SEO Premium
-#: admin/views/partial-help-center-video.php:32
-msgid "Get %s &raquo;"
-msgstr "Obține %s &raquo;"
-
-#. translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
-#. Premium plugin page.
-#: admin/metabox/class-metabox-add-keyword-tab.php:33
-msgid "To be able to add and analyze multiple keywords for a post or page you need %1$s. You can buy the plugin, including one year of support, updates and upgrades, on %2$s."
-msgstr "Pentru a putea adăuga și analiza cuvinte/fraze cheie multiple pentru un articol sau o pagină ai nevoie de %1$s. Poți cumpăra acest modul, inclusiv suport și actualizări timp de un an, de pe %2$s."
-
-#: admin/metabox/class-metabox-add-keyword-tab.php:31
-msgid "Multiple focus keywords is a %s feature"
-msgstr "Cuvinte/fraze cheie multiple este o funcționalitate %s"
-
-#: admin/metabox/class-metabox-add-keyword-tab.php:26
+#: admin/metabox/class-metabox-add-keyword-tab.php:24
 msgid "Add keyword"
 msgstr "Adaugă cuvânt/frază cheie"
 
@@ -3401,12 +3589,12 @@ msgstr "Tipuri de articol"
 msgid "Homepage"
 msgstr "Prima pagină"
 
-#: admin/pages/licenses.php:235
+#: admin/pages/licenses.php:232
 msgid "This is where you would enter the license keys for one of our premium plugins, should you activate one."
 msgstr "Aici e locul unde ar trebui să introduci cheile de licență pentru unul dintre modulele noastre premium, ar trebui să activezi unul."
 
 #. translators: %1$s expands to Yoast SEO
-#: admin/pages/licenses.php:111
+#: admin/pages/licenses.php:108
 msgid "%1$s Extensions"
 msgstr "Extensii %1$s"
 
@@ -3449,11 +3637,11 @@ msgid "Your name"
 msgstr "Numele tău"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:43
-msgid "Company Logo"
+msgid "Company logo"
 msgstr "Logo companie"
 
 #: admin/views/tabs/dashboard/knowledge-graph.php:42
-msgid "Company Name"
+msgid "Company name"
 msgstr "Nume companie"
 
 #: admin/config-ui/fields/class-field-company-or-person.php:20
@@ -3506,24 +3694,20 @@ msgstr "Sigur vrei să-ți resetezi setările SEO?"
 msgid "If you want to restore a site to the default %s settings, press this button."
 msgstr "Dacă vrei să restabilești un sit la setările implicite %s, apasă acest buton."
 
-#: admin/views/tabs/dashboard/general.php:62
-msgid "Restore Default Settings"
-msgstr "Restaurează setări implicite"
-
 #: admin/pages/dashboard.php:64
 msgid "Security"
 msgstr "Securitate"
 
 #: admin/pages/dashboard.php:63
-msgid "Webmaster Tools"
+msgid "Webmaster tools"
 msgstr "Instrumente pentru webmasteri"
 
 #: admin/pages/dashboard.php:61
-msgid "Your Info"
+msgid "Your info"
 msgstr "Informații personale"
 
 #: admin/pages/dashboard.php:61
-msgid "Company Info"
+msgid "Company info"
 msgstr "Informații despre companie"
 
 #: admin/class-admin-init.php:197
@@ -3629,7 +3813,7 @@ msgstr "Datele %1$s au fost înlăturate. Va trebui să te reautentifici dacă v
 msgid "Crawl errors per page"
 msgstr "Erori de accesare cu crawlere per pagină"
 
-#: admin/class-help-center.php:204
+#: admin/class-help-center.php:210
 #: admin/google_search_console/class-gsc.php:133
 msgid "Search"
 msgstr "Caută"
@@ -3753,17 +3937,17 @@ msgstr "Dezactivează %s"
 msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
 msgstr "Modulul %1$s ar putea cauza probleme atunci când este folosit împreună cu %2$s."
 
-#: admin/class-yoast-form.php:463 admin/metabox/class-metabox.php:693
+#: admin/class-yoast-form.php:463 admin/metabox/class-metabox.php:699
 #: admin/taxonomy/class-taxonomy-fields-presenter.php:126
 msgid "Upload Image"
 msgstr "Încarcă imagine"
 
 #. translators: %1$s expands to Yoast SEO Premium
-#: admin/banner/class-admin-banner-sidebar.php:360
+#: admin/banner/class-admin-banner-sidebar.php:383
 msgid "Upgrade to %1$s &raquo;"
 msgstr "Actualizează la %1$s &raquo;"
 
-#: admin/banner/class-admin-banner-sidebar.php:354
+#: admin/banner/class-admin-banner-sidebar.php:377
 msgid "Remove these ads?"
 msgstr "Înlături aceste anunțuri?"
 
@@ -3904,7 +4088,7 @@ msgstr "Intrarea ta conține caractere invalide. Te rog asigură-te că ambele c
 msgid "Please make sure both fields are filled."
 msgstr "Te rog asigură-te că ambele câmpuri sunt completate."
 
-#: admin/pages/licenses.php:116
+#: admin/pages/licenses.php:113
 msgid "Licenses"
 msgstr "Licențe"
 
@@ -3938,25 +4122,25 @@ msgstr "Următor"
 msgid "Close"
 msgstr "Închide"
 
-#. translators: %1$s expands to Yoast SEO
-#: admin/class-plugin-conflict.php:149
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:155
 msgid "Configure %1$s's XML Sitemap settings"
 msgstr "Configurează setările %1$s pentru hartă sit XML"
 
 #. translators: %1$s expands to Yoast SEO, %2$s: 'Google XML Sitemaps' plugin
-#. name of possibly conflicting plugin with regard to the creation of sitemaps
-#: admin/class-plugin-conflict.php:145
+#. name of possibly conflicting plugin with regard to the creation of sitemaps.
+#: admin/class-plugin-conflict.php:151
 msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is not beneficial for search engines, yet might slow down your site."
 msgstr "Atât %1$s cât și %2$s pot crea hărți sit XML. Având două hărți sit XML nu este benefic pentru motoarele de căutare și ar putea încetini viteza sitului tău."
 
-#. translators: %1$s expands to Yoast SEO
-#: admin/class-plugin-conflict.php:137
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:143
 msgid "Configure %1$s's OpenGraph settings"
 msgstr "Configurează setările %1$s pentru OpenGraph"
 
 #. translators: %1$s expands to Yoast SEO, %2%s: 'Facebook' plugin name of
-#. possibly conflicting plugin with regard to creating OpenGraph output
-#: admin/class-plugin-conflict.php:133
+#. possibly conflicting plugin with regard to creating OpenGraph output.
+#: admin/class-plugin-conflict.php:139
 msgid "Both %1$s and %2$s create OpenGraph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
 msgstr "Atât %1$s cât și %2$s crează o ieșire OpenGraph, care ar putea face ca Facebook, Twitter, LinkedIn și alte rețele sociale să folosească texte și imagini greșite atunci când paginile sunt partajate. "
 
@@ -4209,7 +4393,7 @@ msgstr "SEO: slab"
 msgid "SEO: No Focus Keyword"
 msgstr "SEO: fără cuvânt/frază cheie"
 
-#: admin/metabox/class-metabox.php:908
+#: admin/metabox/class-metabox.php:914
 msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
 msgstr "Problemă SEO: imaginea reprezentativă trebuie să fie de cel puțin de 200 pe 200 pixeli pentru a putea fi preluată de către Facebook și alte situri de media socială."
 
@@ -4375,7 +4559,7 @@ msgstr "Setările SEO din cadrul WooThemes s-au importat cu succes."
 msgid "HeadSpace2 data successfully imported"
 msgstr "Datele HeadSpace2 importate cu succes"
 
-#: admin/class-export.php:183
+#: admin/class-export.php:184
 msgid "No taxonomy metadata found"
 msgstr "Nu s-au găsit metadate taxonomie"
 
@@ -4392,7 +4576,7 @@ msgstr "Acesta este un fișier cu setări de export pentru modulul %1$s de Yoast
 msgid "Could not write settings to file."
 msgstr "Nu se pot scrie setările în fișier."
 
-#: admin/class-export.php:221
+#: admin/class-export.php:222
 msgid "Could not zip settings-file."
 msgstr "Nu pot arhiva fișierul setări."
 
@@ -4433,7 +4617,7 @@ msgstr "Înlătură pagină de blog din firimituri"
 msgid "%s Breadcrumbs"
 msgstr "Firimituri %s"
 
-#: admin/class-config.php:112 admin/metabox/class-metabox.php:921
+#: admin/class-config.php:112 admin/metabox/class-metabox.php:927
 #: admin/taxonomy/class-taxonomy.php:112
 msgid "Use Image"
 msgstr "Folosește imaginea"
@@ -4493,9 +4677,9 @@ msgstr "Filtrează"
 msgctxt "posts"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "Coș de gunoi <span class=\"count\">(%s)</span>"
-msgstr[1] "Coș de gunoi <span class=\"count\">(%s)</span>"
-msgstr[2] "Coș de gunoi <span class=\"count\">(%s)</span>"
+msgstr[0] "Gunoi <span class=\"count\">(%s)</span>"
+msgstr[1] "Gunoi <span class=\"count\">(%s)</span>"
+msgstr[2] "Gunoi <span class=\"count\">(%s)</span>"
 
 #: admin/class-bulk-editor-list-table.php:299
 msgctxt "posts"
@@ -4517,27 +4701,27 @@ msgstr "Descriere meta Yoast nouă"
 msgid "Existing Yoast Meta Description"
 msgstr "Descriere meta Yoast existentă"
 
-#: admin/class-admin.php:521
+#: admin/class-admin.php:524
 msgid "Facebook profile URL"
 msgstr "URL profil Facebook"
 
-#: admin/class-admin.php:519
+#: admin/class-admin.php:522
 msgid "Twitter username (without @)"
 msgstr "Nume utilizator Twitter (fără @)"
 
-#: admin/class-admin.php:517 admin/pages/social.php:20
+#: admin/class-admin.php:520 admin/pages/social.php:20
 msgid "Google+"
 msgstr "Google+"
 
-#: admin/class-admin.php:480
+#: admin/class-admin.php:483
 msgid "FAQ"
 msgstr "Întrebări frecvente"
 
-#: admin/class-admin.php:476
+#: admin/class-admin.php:479
 msgid "Premium Support"
 msgstr "Suport premium"
 
-#: admin/class-admin.php:464
+#: admin/class-admin.php:467
 #: admin/google_search_console/class-gsc-platform-tabs.php:40
 #: admin/taxonomy/class-taxonomy-metabox.php:147
 #: admin/taxonomy/class-taxonomy-metabox.php:155
@@ -4555,83 +4739,83 @@ msgstr "Trebuie %1$ssă mergi la setările de Afișare%2$s și să debifezi case
 msgid "Huge SEO Issue: You're blocking access to robots."
 msgstr "Problemă SEO foarte mare: blochezi accesul roboților."
 
-#: admin/class-admin.php:428
+#: admin/class-admin.php:431
 msgid "Posts"
 msgstr "Articole"
 
-#: admin/class-admin.php:348
+#: admin/class-admin.php:351
 msgid "Edit Files"
 msgstr "Editează fișiere"
 
-#: admin/class-admin.php:342 admin/pages/network.php:93
+#: admin/class-admin.php:345 admin/pages/network.php:93
 msgid "MultiSite Settings"
 msgstr "Setări multi-sit"
 
-#: admin/class-admin.php:328 admin/class-admin.php:329 admin/pages/metas.php:61
+#: admin/class-admin.php:331 admin/class-admin.php:332 admin/pages/metas.php:61
 #: admin/pages/metas.php:63
 msgid "Advanced Variables"
 msgstr "Variabile avansate"
 
-#: admin/class-admin.php:320 admin/class-admin.php:321 admin/pages/metas.php:53
+#: admin/class-admin.php:323 admin/class-admin.php:324 admin/pages/metas.php:53
 #: admin/pages/metas.php:55
 msgid "Basic Variables"
 msgstr "Variabile de bază"
 
-#: admin/class-admin.php:313 admin/pages/metas.php:47
+#: admin/class-admin.php:316 admin/pages/metas.php:47
 msgid "Note that not all variables can be used in every template."
 msgstr "Reține că nu toate variabilele pot fi folosite în fiecare șablon."
 
 #. translators: %1$s expands to Yoast SEO.
-#: admin/class-admin.php:311 admin/pages/metas.php:45
+#: admin/class-admin.php:314 admin/pages/metas.php:45
 msgid "The title &amp; metas settings for %1$s are made up of variables that are replaced by specific values from the page when the page is displayed. The tabs on the left explain the available variables."
 msgstr "Setările pentru titlu și meta ale %1$s sunt formate din variabile care sunt înlocuite cu valorile specifice din pagină atunci când pagina este afișată. Filele din stânga explică variabilele disponibile."
 
-#: admin/class-admin.php:307 admin/class-admin.php:308 admin/pages/metas.php:40
+#: admin/class-admin.php:310 admin/class-admin.php:311 admin/pages/metas.php:40
 #: admin/pages/metas.php:42
 msgid "Template explanation"
 msgstr "Explicație șablon"
 
-#: admin/class-admin.php:301
+#: admin/class-admin.php:304
 msgid "Why Google won't display the right page title"
 msgstr "De ce Google nu va afișa corect titlul paginii"
 
-#: admin/class-admin.php:300
+#: admin/class-admin.php:303
 msgid "Title optimization"
 msgstr "Optimizare titlu"
 
-#: admin/class-admin.php:299
+#: admin/class-admin.php:302
 msgid "For more information:"
 msgstr "Pentru mai multe informații:"
 
-#: admin/class-admin.php:162 admin/pages/dashboard.php:59
+#: admin/class-admin.php:165 admin/pages/dashboard.php:59
 #: admin/pages/metas.php:20 admin/pages/xml-sitemaps.php:30
 msgid "General"
 msgstr "General"
 
-#: admin/banner/class-admin-banner-sidebar.php:184 admin/class-admin.php:355
-#: admin/class-yoast-form.php:639 admin/pages/licenses.php:115
+#: admin/banner/class-admin-banner-sidebar.php:207 admin/class-admin.php:358
+#: admin/pages/licenses.php:112
 msgid "Extensions"
 msgstr "Extensii"
 
-#: admin/class-admin.php:215 inc/wpseo-non-ajax-functions.php:306
+#: admin/class-admin.php:218 inc/wpseo-non-ajax-functions.php:306
 msgid "Search Console"
 msgstr "Consolă de căutare"
 
-#: admin/class-admin.php:206 inc/wpseo-non-ajax-functions.php:299
+#: admin/class-admin.php:209 inc/wpseo-non-ajax-functions.php:299
 msgid "Tools"
 msgstr "Unelte"
 
-#: admin/class-admin.php:197 admin/metabox/class-metabox.php:412
+#: admin/class-admin.php:200 admin/metabox/class-metabox.php:412
 #: admin/metabox/class-metabox.php:420 admin/metabox/class-metabox.php:423
 #: inc/wpseo-non-ajax-functions.php:293
 msgid "Advanced"
 msgstr "Avansat"
 
-#: admin/class-admin.php:188 inc/wpseo-non-ajax-functions.php:287
+#: admin/class-admin.php:191 inc/wpseo-non-ajax-functions.php:287
 msgid "XML Sitemaps"
 msgstr "Hărți sit XML"
 
-#: admin/class-admin.php:179 admin/class-social-admin.php:114
+#: admin/class-admin.php:182 admin/class-social-admin.php:114
 #: admin/class-social-admin.php:117
 #: admin/taxonomy/class-taxonomy-metabox.php:212
 #: admin/taxonomy/class-taxonomy-metabox.php:215
@@ -4639,11 +4823,11 @@ msgstr "Hărți sit XML"
 msgid "Social"
 msgstr "Social"
 
-#: admin/class-admin.php:171 inc/wpseo-non-ajax-functions.php:275
+#: admin/class-admin.php:174 inc/wpseo-non-ajax-functions.php:275
 msgid "Titles &amp; Metas"
 msgstr "Titluri și meta"
 
-#: admin/class-admin.php:150 admin/class-admin.php:342
+#: admin/class-admin.php:153 admin/class-admin.php:345
 #: admin/class-meta-columns.php:61
 #: admin/formatter/class-metabox-formatter.php:72
 #: admin/taxonomy/class-taxonomy-columns.php:51
