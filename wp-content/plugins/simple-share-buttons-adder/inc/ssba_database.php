@@ -83,6 +83,11 @@ function ssba_activate() {
 
         // newsharecounts
         'twitter_newsharecounts' => '',
+
+        // new with sharethis
+        'facebook_insights' => '',
+        'facebook_app_id' => '',
+        'accepted_sharethis_terms' => 'Y',
     );
 
     // json encode
@@ -205,8 +210,24 @@ function upgrade_ssba($arrSettings, $version) {
         ssba_update_options($new);
     }
 
+    // if version is less than 6.2.0
+    if ($version < '6.2.0') {
+        // new settings
+        $new = array(
+            'facebook_insights' => '',
+            'facebook_app_id' => '',
+            'accepted_sharethis_terms' => '',
+        );
+
+        // update settings
+        ssba_update_options($new);
+    }
+
 	// button helper array
 	ssba_button_helper_array();
+
+    // Show the ST terms notice after upgrades if the user hasn't agreed.
+    ssba_update_options( array( 'hide_sharethis_terms' => false ) );
 
 	// update version number
 	update_option('ssba_version', SSBA_VERSION);
@@ -229,6 +250,9 @@ function ssba_button_helper_array()
 		'facebook' => array(
 			'full_name' 	=> 'Facebook'
 		),
+        'facebook_save' => array(
+            'full_name' 	=> 'Facebook Save'
+        ),
 		'flattr' => array(
 			'full_name' 	=> 'Flattr'
 		),

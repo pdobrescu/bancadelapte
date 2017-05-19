@@ -109,7 +109,22 @@ function ssba_admin_footer()
 	return $htmlFooter;
 }
 
-function ssba_admin_panel($arrSettings) {
+function ssba_admin_panel($arrSettings)
+{
+    // set var
+    $htmlShareButtonsForm = '';
+
+	// if user is accepting terms
+	if (isset($_GET['accept-terms']) && $_GET['accept-terms'] == 'Y') {
+		// save acceptance
+		ssba_update_options(array('accepted_sharethis_terms' => 'Y'));
+
+        // hide the notice for now, it will disappear upon reload
+        $htmlShareButtonsForm .= '<style>#sharethis_terms_notice { display: none }.ssbp-facebook_save { background-color: #365397 !important; }</style>';
+
+		// show notice
+		add_action( 'admin_notices', 'accepted_sharethis_terms_notice' );
+	}
 
 	// include the forms helper
 	include_once 'ssbp_forms.php';
@@ -118,7 +133,7 @@ function ssba_admin_panel($arrSettings) {
     $arrButtons = json_decode(get_option('ssba_buttons'), true);
 
 	// get the font family needed
-	$htmlShareButtonsForm = '<style>'.ssba_get_font_family().'</style>';
+	$htmlShareButtonsForm .= '<style>'.ssba_get_font_family().'</style>';
 
 	// if left to right
 	if (is_rtl()) {
@@ -140,6 +155,17 @@ function ssba_admin_panel($arrSettings) {
 
 	// heading
 	$htmlShareButtonsForm .= '<h2>Share Buttons Settings</h2>';
+
+	// if terms have just been accepted
+	if (isset($_GET['accept-terms']) && $_GET['accept-terms'] == 'Y') {
+		$htmlShareButtonsForm.= '<div class="alert alert-success text-center">
+			<p>Thanks for accepting the terms, you can now take advantage of the great new features!</p>
+		</div>';
+	} elseif ($arrSettings['accepted_sharethis_terms'] != 'Y') {
+        $htmlShareButtonsForm.= '<div class="alert alert-warning text-center">
+			<p>The Facebook save button requires acceptance of the terms before it can be used. <a href="options-general.php?page=simple-share-buttons-adder&accept-terms=Y"><span class="button button-secondary">I accept</span></a></p>
+		</div>';
+    }
 
 	// tabs
 	$htmlShareButtonsForm .= '<ul class="nav nav-tabs">
@@ -239,7 +265,7 @@ function ssba_admin_panel($arrSettings) {
 					$htmlShareButtonsForm .= '<div class="ssbp-wrap ssbp--centred ssbp--theme-4">
 													<div class="ssbp-container">
 														<ul id="ssbasort1" class="ssbp-list ssbaSortable">';
-								$htmlShareButtonsForm .= getAvailableSSBA($arrSettings['ssba_selected_buttons']);
+								$htmlShareButtonsForm .= getAvailableSSBA($arrSettings['ssba_selected_buttons'], $arrSettings);
 							$htmlShareButtonsForm .= '</ul>
 													</div>
 												</div>';
@@ -248,7 +274,7 @@ function ssba_admin_panel($arrSettings) {
 						$htmlShareButtonsForm .= '<div class="ssbp-wrap ssbp--centred ssbp--theme-4">
 													<div class="ssbp-container">
 														<ul id="ssbasort2" class="ssba-include-list ssbp-list ssbaSortable">';
-								$htmlShareButtonsForm .= getSelectedSSBA($arrSettings['ssba_selected_buttons']);
+								$htmlShareButtonsForm .= getSelectedSSBA($arrSettings['ssba_selected_buttons'], $arrSettings);
 							$htmlShareButtonsForm .= '</ul>
 												</div>';
 						$htmlShareButtonsForm .= '</div>';
@@ -782,7 +808,39 @@ function ssba_admin_panel($arrSettings) {
                 );
                 $htmlShareButtonsForm .= $ssbpForm->ssbp_input($opts);
 
-                // twitter share text
+				// facebook app id
+				$opts = array(
+					'form_group'    => false,
+					'type'          => 'text',
+					'placeholder'	=> '123456789123',
+					'name'          => 'facebook_app_id',
+					'label'        	=> 'Facebook App ID',
+					'tooltip'       => 'Enter your Facebook App ID, e.g. 123456789123',
+					'value'         => $arrSettings['facebook_app_id'],
+                    'disabled'      => ($arrSettings['accepted_sharethis_terms'] != 'Y' ? 'disabled' : null),
+				);
+				$htmlShareButtonsForm .= $ssbpForm->ssbp_input($opts);
+
+				// info
+				$htmlShareButtonsForm .= '<p>You shall need to follow the instructions here before enabling this feature - <a target="_blank" href="https://developers.facebook.com/docs/apps/register">https://developers.facebook.com/docs/apps/register</a></p>';
+
+				// facebook insights
+				$opts = array(
+					'form_group'	=> false,
+					'type'          => 'checkbox',
+					'name'          => 'facebook_insights',
+					'label'        	=> 'Facebook Insights',
+					'tooltip'       => 'Enable this feature to enable Facebook Insights',
+					'value'         => 'Y',
+					'checked'       => ($arrSettings['facebook_insights'] == 'Y'  ? 'checked' : null),
+                    'disabled'      => ($arrSettings['accepted_sharethis_terms'] != 'Y' ? 'disabled' : null),
+				);
+				$htmlShareButtonsForm .= $ssbpForm->ssbp_input($opts);
+
+				// info
+				$htmlShareButtonsForm .= '<p>You shall need have created and added a Facebook App ID above to make use of this feature</p>';
+
+				// twitter share text
                 $opts = array(
                     'form_group'    => false,
                     'type'          => 'text',
@@ -961,7 +1019,7 @@ function ssba_admin_panel($arrSettings) {
 }
 
 // get an html formatted of currently selected and ordered buttons
-function getSelectedSSBA($strSelectedSSBA) {
+function getSelectedSSBA($strSelectedSSBA, $arrSettings) {
     //variables
     $htmlSelectedList = '';
 
@@ -979,9 +1037,11 @@ function getSelectedSSBA($strSelectedSSBA) {
 
 			// for each included button
 			foreach ($arrSelectedSSBA as $strSelected) {
+                // if share this terms haven't been accepted and it's the facebook save button then make the button look disabled
+                $disabled = ($arrSettings['accepted_sharethis_terms'] != 'Y' && $strSelected == 'facebook_save' ? 'style="background-color:#eaeaea;"' : null);
 
 				// add a list item for each selected option
-				$htmlSelectedList .= '<li class="ssbp-option-item" id="'.$strSelected.'"><a title="'.$arrButtons[$strSelected]["full_name"].'" href="javascript:;" class="ssbp-btn ssbp-'.$strSelected.'"></a></li>';
+				$htmlSelectedList .= '<li class="ssbp-option-item" id="'.$strSelected.'"><a title="'.$arrButtons[$strSelected]["full_name"].'" href="javascript:;" class="ssbp-btn ssbp-'.$strSelected.'" '.$disabled.'></a></li>';
 			}
 		}
 	}
@@ -990,7 +1050,7 @@ function getSelectedSSBA($strSelectedSSBA) {
 	return $htmlSelectedList;
 }
 
-function getAvailableSSBA($strSelectedSSBA)
+function getAvailableSSBA($strSelectedSSBA, $arrSettings)
 {
 	// variables
 	$htmlAvailableList = '';
@@ -1008,10 +1068,12 @@ function getAvailableSSBA($strSelectedSSBA)
 	if($arrSelectedSSBA != '')
 	{
 		// for each included button
-		foreach($arrAvailableSSBA as $strAvailable)
-		{
+		foreach($arrAvailableSSBA as $strAvailable) {
+            // if share this terms haven't been accepted and it's the facebook save button then make the button look disabled
+            $disabled = ($arrSettings['accepted_sharethis_terms'] != 'Y' && $strAvailable == 'facebook_save' ? 'style="background-color:#eaeaea;"' : null);
+
 			// add a list item for each available option
-			$htmlAvailableList .= '<li class="ssbp-option-item" id="'.$strAvailable.'"><a title="'.$arrButtons[$strAvailable]["full_name"].'" href="javascript:;" class="ssbp-btn ssbp-'.$strAvailable.'"></a></li>';
+			$htmlAvailableList .= '<li class="ssbp-option-item" id="'.$strAvailable.'"><a title="'.$arrButtons[$strAvailable]["full_name"].'" href="javascript:;" class="ssbp-btn ssbp-'.$strAvailable.'" '.$disabled.'></a></li>';
 		}
 	}
 
@@ -1037,4 +1099,3 @@ function ssba_get_font_family()
 				-moz-osx-font-smoothing: grayscale;
 			}";
 }
-

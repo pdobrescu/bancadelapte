@@ -32,4 +32,5 @@
 <glyph unicode="&#xe616;" glyph-name="chevron-right" d="M366.293 236.374l195.627 195.627-195.627 195.627 60.373 60.373 256-256-256-256z" />
 <glyph unicode="&#xe617;" glyph-name="chevron-left" d="M657.707 241.707l-195.627 195.627 195.627 195.627-60.373 60.373-256-256 256-256z" />
 <glyph unicode="&#xe618;" glyph-name="chevron-down" d="M321.707 572.374l195.627-195.627 195.627 195.627 60.373-60.373-256-256-256 256z" />
+<glyph unicode="&#xe900;" glyph-name="facebook_save" d="M495.232 337.248l-270.432-272.032v733.568h542.432v-733.568l-272 272.032z" />
 </font></defs></svg>

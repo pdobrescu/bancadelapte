@@ -125,7 +125,7 @@ Class ssbpForms {
 		{
 			case 'text':
 			default:
-				$input.='<input class="form-control" name="'.$opts['name'].'" id="'.$opts['name'].'" type="text" value="'.$opts['value'].'" placeholder="'.$opts['placeholder'].'" />';
+				$input.='<input class="form-control" name="'.$opts['name'].'" id="'.$opts['name'].'" type="text" value="'.$opts['value'].'" placeholder="'.$opts['placeholder'].'" '.(isset($opts['disabled']) ? $opts['disabled'] : null).' />';
 			break;
 
 			case 'text_prefix':
@@ -160,7 +160,6 @@ Class ssbpForms {
 			break;
 
 			case 'colorpicker':
-
 				$input.= '<input id="'.$opts['name'].'" name="'.$opts['name'].'" type="text" class="ssba-colorpicker form-control" value="'.$opts['value'].'" placeholder="#4582ec" style="border-color: '.($opts['value'] != '' ? $opts['value'] : '#eaeaea').'" />';
 			break;
 
@@ -169,7 +168,7 @@ Class ssbpForms {
 			break;
 
 			case 'checkbox':
-				$input.='<input class="'.(isset($opts['class']) ? $opts['class'] : null).'" name="'.$opts['name'].'" id="'.$opts['name'].'" type="checkbox" '.$opts['checked'].' value="'.$opts['value'].'" />';
+				$input.='<input class="'.(isset($opts['class']) ? $opts['class'] : null).'" name="'.$opts['name'].'" id="'.$opts['name'].'" type="checkbox" '.$opts['checked'].' value="'.$opts['value'].'" '.(isset($opts['disabled']) ? $opts['disabled'] : null).' />';
 			break;
 
 			case 'select':

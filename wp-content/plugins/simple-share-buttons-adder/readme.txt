@@ -2,8 +2,8 @@
 Contributors: DavidoffNeal
 Tags: share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest, yummly, vk
 Requires at least: 3.9
-Tested up to: 4.4.1
-Stable tag: 6.1.5
+Tested up to: 4.7
+Stable tag: 6.3.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,37 +17,38 @@ This plugin has a dedicated website! Check out <a href="https://simplesharebutto
 
 Looking for even more? <a href="https://simplesharebuttons.com/plus/" target="_blank">Checkout the Plus version</a>!
 
-No hotlinking to another website to slow downloading or for tracking use, it's simple, as promised.
-
 You can even upload and use your own custom images if you wish!
 
 Visit <a href="http://make.simplesharebuttons.com" target="_blank">make.simplesharebuttons.com</a> to make your own custom-coloured share buttons!
 
 The Simple Share Buttons Adder utilises features that, as a WordPress user, you will be familiar with. A self-explanatory administration screen will have you showing your Share Buttons on your posts and pages in no time!
 
+By downloading and installing this plugin you are agreeing to the <a href="https://simplesharebuttons.com/privacy/" target="_blank">Privacy Policy</a> and <a href="https://simplesharebuttons.com/privacy/" target="_blank">Terms of Service</a>.
+
+
 == Installation ==
 
-For full configuration instructions<a href="http://www.simplesharebuttons.com/wordpress/wordpress-configuration/" target="_blank"> visit this page</a>
+For full configuration instructions<a href="http://simplesharebuttons.com/wordpress/wordpress-configuration/" target="_blank"> visit this page</a>
 
 Visit <a href="http://make.simplesharebuttons.com" target="_blank">make.simplesharebuttons.com</a> to make your own custom-coloured share buttons!
 
 1. Upload the 'simple-share-buttons-adder' folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Navigate to the SSBA Admin Panel via ‘Plugins’ -> ‘Share Buttons’ to change the settings as desired.
-4. Follow the instructions on <a href="http://www.simplesharebuttons.com/wordpress/wordpress-configuration/" target="_blank">this page</a> to customise your buttons to your liking.
+4. Follow the instructions on <a href="http://simplesharebuttons.com/wordpress/wordpress-configuration/" target="_blank">this page</a> to customise your buttons to your liking.
 5. Watch <a href="http://www.youtube.com/watch?v=p03B4C3QMzs" target="_blank">this video</a> to learn how to configure your buttons if you prefer.
 6. Watch <a href="https://www.youtube.com/watch?v=dkte9uu2o0M" target="_blank">this video</a> to see how you can upload and use your own custom images.
 
 
 == Frequently Asked Questions ==
 
-This plugin has a dedicated website! Check out the<a href="www.simplesharebuttons.com/wordpress-faq/" target="_blank"> FAQs page</a>
+This plugin has a dedicated website! Check out the <a href="http://simplesharebuttons.com/wordpress-faq/" target="_blank"> FAQs page</a>
 
 Visit <a href="http://make.simplesharebuttons.com" target="_blank">make.simplesharebuttons.com</a> to make your own custom-coloured share buttons!
 
-Please visit the <a href="http://www.simplesharebuttons.com/forums/forum/wordpress-forum/">WordPress Support Forum</a> for any assistance you may need.
+Please visit the <a href="http://simplesharebuttons.com/forums/forum/wordpress-forum/">WordPress Support Forum</a> for any assistance you may need.
 
-A step by step guide on how to configure this plugin can be found <a href="http://www.simplesharebuttons.com/wordpress/wordpress-configuration/">here</a>.
+A step by step guide on how to configure this plugin can be found <a href="http://simplesharebuttons.com/wordpress/wordpress-configuration/">here</a>.
 
 == Screenshots ==
 
@@ -61,6 +62,41 @@ A step by step guide on how to configure this plugin can be found <a href="http:
 8. This is an example of a set of Share Buttons you can add using Simple Share Buttons Adder
 
 == Changelog ==
+
+= 6.3.4 =
+* Fixes for FB open graph tags (so it doesn't add extra text)
+* W3C code validation (thanks @olga22)
+* Other bug fixes
+
+= 6.3.3 =
+* Fixes for old versions of PHP
+
+= 6.3.2 =
+* Minor bug fixes
+
+= 6.3.1 =
+* Added a caching layer on top of Facebook's API to ensure fallback share counts.
+
+= 6.3 =
+* Facebook share counts are back! We implemented a solution to Facebook’s deprecated API.
+* Added the ability to close the update notice when updating from old plugin versions. You will still need to accept the new terms to receive the new features, however you can now more easily choose to continue using the old version.
+
+= 6.2.4 =
+* Fixes the Facebook page widget style bug.
+
+= 6.2.3 =
+* Fixes an issue with the Facebook like widget.
+
+= 6.2.2 =
+* Improves performance over previous two plugin updates.
+
+= 6.2.1 =
+* Fix bug affecting older versions of PHP that didn’t allow people to close the notice.
+
+= 6.2.0 =
+* Feature: Add Facebook Save button
+* Feature: Add Facebook insights
+* Feature: Add Facebook iframe sharing
 
 = 6.1.5 =
 * Feature: Add newsharecounts.com option and functionality to show Twitter share counts again
@@ -258,13 +294,13 @@ A step by step guide on how to configure this plugin can be found <a href="http:
 
 = 2.6 =
 * Tumblr button added!
-* You can now order your own custom-colour share buttons!! http://www.simplesharebuttons.com/custom-share-buttons/
+* You can now order your own custom-colour share buttons!! http://simplesharebuttons.com/custom-share-buttons/
 
 = 2.5 =
 * Further Twitter customisation for Twitter under 'Advanced' options!
 * Buffer and Flattr buttons added! (share counts still to come!)
 * Flattr requires you to enter your user ID under the advanced tab, you must also submit pages/posts here http://flattr.com/submit
-* You can now set a specified URL and Title when using shortcode - [ssba url="http://www.simplesharebuttons.com" title="Simple Share Buttons"]!
+* You can now set a specified URL and Title when using shortcode - [ssba url="http://simplesharebuttons.com" title="Simple Share Buttons"]!
 * When doing the above, both a title and url must be specified.
 * 'Default' image set has been removed! If you are currently using this image set, it will be replaced with 'Somacro'!
 * Only relevant fonts are loaded if specified.
