@@ -59,7 +59,7 @@ msgstr ""
 #: ../yith-mm-options.php:31
 msgid ""
 "The user roles enabled to see the frontend. Check a role to enable it to "
-"show the website with footer banner active."
+"show the website with maintenance mode active."
 msgstr ""
 
 #: ../yith-mm-options.php:38
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../yith-mm-options.php:66
 msgid ""
-"If you want, you can set here an image to show above the main box, "
+"If you want, you can set here a mascotte image to show above the main box, "
 "in the right side."
 msgstr ""
 
@@ -285,7 +285,7 @@ msgid "Newsletter"
 msgstr ""
 
 #: ../yith-mm-options.php:222
-msgid "Add a newsletter form in your footer banner."
+msgid "Add a newsletter form in your maintenance mode page."
 msgstr ""
 
 #: ../yith-mm-options.php:225
@@ -294,7 +294,7 @@ msgstr ""
 
 #: ../yith-mm-options.php:226
 msgid ""
-"Choose if you want to enable the newsletter form in the footer banner "
+"Choose if you want to enable the newsletter form in the maintenance mode "
 "page."
 msgstr ""
 
