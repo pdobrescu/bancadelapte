@@ -69,9 +69,9 @@ class Smpl_Shortcode_Generator {
 	function filter_mce_external_plugins( $plugins ) {
 		global $wp_version;
 		if ($wp_version >= 3.9) {
-    	    $plugins['SmplShortcodes'] = SMPL_SHORTCODES_PLUGIN_URI . '/includes/admin/generator/editor_plugin_mce_v4.php';
+    	    $plugins['SmplShortcodes'] = SMPL_SHORTCODES_PLUGIN_URI . '/includes/admin/generator/editor_plugin_mce_v4.js';
 		} else {
-    	    $plugins['SmplShortcodes'] = SMPL_SHORTCODES_PLUGIN_URI . '/includes/admin/generator/editor_plugin_mce_v3.php';
+    	    $plugins['SmplShortcodes'] = SMPL_SHORTCODES_PLUGIN_URI . '/includes/admin/generator/editor_plugin_mce_v3.js';
 		}
         return $plugins;
 	}

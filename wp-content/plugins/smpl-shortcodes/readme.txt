@@ -3,8 +3,8 @@ Contributors: simplethemes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=orders%40simplethemes%2ecom&item_name=smpl%20shortcodes&item_number=Support%20Open%20Source&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: shortcodes, columns, notifications, buttons, skeleton, editor, callout, youtube, vimeo
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 1.0.18
+Tested up to: 4.5.3
+Stable tag: 1.0.20
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,11 @@ This plugin works with any theme, but was made specifically to work with themes 
 4. Tab Panels
 
 == Changelog ==
+
+= 1.0.20 =
+* fixed an issue caused by some Plesk hosting environments
+* removed raw tags from inserted shortcodes
+* UI cleanup
 
 = 1.0.18 =
 * fixed issue with sixth column class
