@@ -14,6 +14,8 @@ if ( ! function_exists( 'et_setup_theme' ) ){
 
 		require_once( $template_directory . '/epanel/custom_functions.php' );
 
+		require_once( $template_directory . '/includes/functions/sanitization.php' );
+
 		require_once( $template_directory . '/includes/functions/comments.php' );
 
 		require_once( $template_directory . '/includes/functions/sidebars.php' );
@@ -22,11 +24,13 @@ if ( ! function_exists( 'et_setup_theme' ) ){
 
 		require_once( $template_directory . '/epanel/core_functions.php' );
 
-		require_once( $template_directory . '/epanel/post_thumbnails_nimble.php' );
+		require_once( $template_directory . '/includes/post_thumbnails_nimble.php' );
 
 		include( $template_directory . '/includes/widgets.php' );
 
 		require_once( $template_directory . '/includes/additional_functions.php' );
+
+		remove_action( 'admin_init', 'et_epanel_register_portability' );
 
 		add_action( 'init', 'et_register_main_menus' );
 
@@ -57,8 +61,23 @@ if ( ! function_exists( 'et_setup_theme' ) ){
 		add_action( 'init', 'et_create_portfolio_taxonomies', 0 );
 
 		add_filter( 'et_fullwidth_view_body_class', 'et_homepage_fullwidth_class' );
+
+		add_theme_support( 'title-tag' );
 	}
 }
+
+if ( ! function_exists( '_wp_render_title_tag' ) ) :
+/**
+ * Manually add <title> tag in head for WordPress 4.1 below for backward compatibility
+ * Title tag is automatically added for WordPress 4.1 above via theme support
+ * @return void
+ */
+	function et_add_title_tag_back_compat() { ?>
+		<title><?php wp_title( '-', true, 'right' ); ?></title>
+<?php
+	}
+	add_action( 'wp_head', 'et_add_title_tag_back_compat' );
+endif;
 
 function et_register_main_menus() {
 	register_nav_menus(
@@ -99,11 +118,11 @@ function et_nimble_load_scripts_styles(){
 			'subset' => $subsets
 		);
 
-		wp_enqueue_style( 'nimble-fonts', add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ), array(), null );
+		wp_enqueue_style( 'nimble-fonts', esc_url( add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ) ), array(), null );
 	}
 
 	wp_register_script( 'flexslider', $template_dir . '/js/jquery.flexslider-min.js', array( 'jquery' ), '1.0', true );
-	wp_enqueue_script( 'superfish', $template_dir . '/js/superfish.js', array( 'jquery' ), '1.0', true );
+	wp_enqueue_script( 'superfish', $template_dir . '/js/superfish.min.js', array( 'jquery' ), '1.0', true );
 	wp_enqueue_script( 'modernizr', $template_dir . '/js/modernizr-min.js', array( 'jquery' ), '1.0', true );
 	wp_enqueue_script( 'custom_script', $template_dir . '/js/custom.js', array( 'jquery' ), '1.0', true );
 
@@ -369,9 +388,10 @@ if ( function_exists( 'get_custom_header' ) ) {
 		) );
 
 		$wp_customize->add_setting( 'et_nimble[heading_font]', array(
-			'default'		=> 'none',
-			'type'			=> 'option',
-			'capability'	=> 'edit_theme_options'
+			'default'		    => 'none',
+			'type'			    => 'option',
+			'capability'	    => 'edit_theme_options',
+			'sanitize_callback' => 'et_sanitize_font_choices',
 		) );
 
 		$wp_customize->add_control( 'et_nimble[heading_font]', array(
@@ -383,9 +403,10 @@ if ( function_exists( 'get_custom_header' ) ) {
 		) );
 
 		$wp_customize->add_setting( 'et_nimble[body_font]', array(
-			'default'		=> 'none',
-			'type'			=> 'option',
-			'capability'	=> 'edit_theme_options'
+			'default'		    => 'none',
+			'type'			    => 'option',
+			'capability'	    => 'edit_theme_options',
+			'sanitize_callback' => 'et_sanitize_font_choices',
 		) );
 
 		$wp_customize->add_control( 'et_nimble[body_font]', array(
@@ -428,3 +449,21 @@ if ( function_exists( 'get_custom_header' ) ) {
 		wp_enqueue_style( 'et_google_fonts_style', get_template_directory_uri() . '/epanel/google-fonts/et_google_fonts.css', array(), null );
 	}
 }
+
+function et_remove_additional_epanel_styles() {
+	return true;
+}
+add_filter( 'et_epanel_is_divi', 'et_remove_additional_epanel_styles' );
+
+function et_register_updates_component() {
+	require_once( get_template_directory() . '/core/updates_init.php' );
+
+	et_core_enable_automatic_updates( get_template_directory_uri(), et_get_theme_version() );
+}
+add_action( 'admin_init', 'et_register_updates_component' );
+
+if ( ! function_exists( 'et_core_portability_link' ) && ! class_exists( 'ET_Builder_Plugin' ) ) :
+function et_core_portability_link() {
+	return '';
+}
+endif;

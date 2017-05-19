@@ -48,7 +48,7 @@
 						?>
 						<?php esc_html_e('Posts by ','Nimble'); echo ' ',$curauth->nickname; ?>
 					<?php } elseif (is_page()) { ?>
-						<?php wp_title(''); ?>
+						<?php single_post_title(); ?>
 					<?php }; ?>
 		<?php } ?>
 		</div> <!-- end #breadcrumbs_box -->

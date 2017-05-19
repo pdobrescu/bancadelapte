@@ -1,8 +1,8 @@
 <?php class ETSearchWidget extends WP_Widget
 {
-    function ETSearchWidget(){
+    function __construct(){
 		$widget_ops = array('description' => 'Display custom search field.');
-		parent::WP_Widget(false,$name='ET Search',$widget_ops);
+		parent::__construct(false,$name='ET Search',$widget_ops);
     }
 
   /* Displays the Widget in the front-end */

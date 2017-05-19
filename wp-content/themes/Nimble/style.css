@@ -1,7 +1,7 @@
 /*
 Theme Name: Nimble
 Theme URI: http://www.elegantthemes.com/gallery/
-Version: 2.1
+Version: 2.2.7
 Description: 2 Column theme from Elegant Themes
 Author: Elegant Themes
 Author URI: http://www.elegantthemes.com
@@ -685,6 +685,8 @@ img.alignright { display:inline; float:right; margin-left:15px; }
 
 .nav li li:hover ul, ul.nav li li.sfHover ul { left: 210px; top: -30px; }
 
+.nav.sf-arrows li.menu-item-has-children > a:after { content: " \00bb"; }
+
 /*------------------------------------------------*/
 /*-----------------[WP CALENDAR]-----------------*/
 /*------------------------------------------------*/
@@ -993,3 +995,5 @@ embed, iframe, object, video { max-width: 100%; }
 #content-area.fullwidth:before { display: none; }
 
 .et_pt_portfolio_item h2, #content-area h2, #content-area h3, #content-area h4, #content-area h5, #content-area h6 { letter-spacing: -1px; }
+
+#et_pt_gallery img { height: 136px; width: 207px; }

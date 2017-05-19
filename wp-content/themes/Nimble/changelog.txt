@@ -1,3 +1,89 @@
+version 2.2.7 ( updated 12-06-2016 )
+- Fixed ePanel font issues in WordPress 4.6
+    * core/admin/css/core.css
+    * core/functions.php
+    * epanel/core_functions.php
+    * epanel/css/panel.css
+- Added support for WordPress 4.7's new Custom CSS setting in the Theme Customizer. This will now be synced with the Custom CSS area in the Theme Options and can be edited using either interface.
+    * epanel/core_functions.php
+    * epanel/custom_functions.php
+- Fixed the bug with lowercase theme name, preventing a theme to update correctly, when an update is being performed via Themes page
+    * epanel/custom_functions.php
+- Fixed updates issues on some sites
+    * core/admin/includes/class-updates.php
+- Theme Options: Fixed the issue with Reset button, not working properly
+    * epanel/core_functions.php
+- Theme Options: Added RTL support
+    * epanel/css/panel.css
+- Bumped version number
+    * style.css
+
+version 2.2.6 ( updated 06-20-2016 )
+- Fixed some inconsistencies with ePanel integration
+	* epanel/core_functions.php
+	* epanel/custom_functions.php
+- Bumped version number
+	* style.css
+
+version 2.2.5 ( updated 05-06-2016 )
+- Updated ePanel styles
+	* epanel/
+	* core/
+- Replaced outdated Fancybox with Magnific Popup plugin
+	* includes/page_templates/js/magnific_popup/
+	* includes/page_templates/js/magnific_popup/et-ptemplates-frontend.js
+	* page-template-portfolio.php
+- Upgraded Superfish plugin to the latest version
+	* includes/scripts.php
+	* js/superfish.js
+	* js/superfish.min.js
+	* style.css
+- Bumped version number
+	* style.css
+
+version 2.2.4 ( updated 12-12-2015 )
+- Fixed the issue with SEO titles, not working in ePanel
+	* epanel/custom_functions.php
+- Fixed the issue with a site title, appended to breadcrumbs
+	* includes/breadcrumbs.php
+- Bumped version number
+	* style.css
+
+version 2.2.3 ( updated 10-23-2015 )
+- Fixed the issue with deprecated wp_title function in WordPress 4.4
+	* header.php
+	* functions.php
+	* epanel/custom_functions.php
+	* includes/breadcrumbs.php
+- Bumped version number
+	* style.css
+
+version 2.2.2 ( updated 10-21-2015 )
+- Added sanitization to Customizer settings
+	* functions.php
+	* includes/functions/sanitization.php
+- Bumped version number
+	* style.css
+
+version 2.2.1 ( updated 08-18-2015 )
+- Fixed issue with WordPress 4.3 that caused shortened post titles and excerpts to not be truncated correctly
+	* epanel/custom_functions.php
+- Fixed WP_Widget class constructor warning message
+	* includes/widgets/widget-about.php
+	* includes/widgets/widget-ads.php
+	* includes/widgets/widget-adsense.php
+	* includes/widgets/widget-customlogo.php
+	* includes/widgets/widget-search.php
+- Bumped version number
+	* style.css
+
+version 2.2 ( updated 04-23-2015 )
+- Added minor security hardening
+	* epanel/custom_functions.php
+	* functions.php
+- Bumped version number
+	* style.css
+
 version 2.1 ( updated 02-25-2014 )
 - Fixed the issue with slashes added to Name, Subject and Message fields in the contact form
 	* page-contact.php
