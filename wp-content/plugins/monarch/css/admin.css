@@ -75,7 +75,8 @@ button.et_social_addnetwork { margin-bottom: 30px; }
 /*-------------------[HEADER]---------------------*/
 /*------------------------------------------------*/
 
-.tools_page_et_monarch_options .update-nag { margin: 25px 20px 0 15px; }
+.et_social.notice.notice-warning  { margin: 25px 20px 10px 15px; position: relative; }
+.et_social.notice.notice-warning  p { padding-right: 30px; }
 
 #et_social_header { width: 100%; background-color: #FF6E24; float: left; }
 

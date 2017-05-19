@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Monarch Plugin
  * Plugin URI: http://www.elegantthemes.com
- * Version: 1.3.2
+ * Version: 1.3.5
  * Description: Social Media Plugin
  * Author: Elegant Themes
  * Author URI: http://www.elegantthemes.com
@@ -17,8 +17,8 @@ define( 'ET_MONARCH_PLUGIN_DIR', trailingslashit( dirname(__FILE__) ) );
 define( 'ET_MONARCH_PLUGIN_URI', plugins_url('', __FILE__) );
 
 class ET_Monarch {
-	var $plugin_version = '1.3.2';
-	var $db_version = '1.2';
+	var $plugin_version = '1.3.5';
+	var $db_version = '1.3';
 	var $monarch_options;
 	var $_options_pagename = 'et_monarch_options';
 	var $menu_page;
@@ -93,9 +93,9 @@ class ET_Monarch {
 
 		add_action( 'wp_ajax_monarch_save_updates_settings', array( $this, 'save_updates_settings' ) );
 
-		// Exports/imports settings
-		add_action( 'admin_init', array( $this, 'process_settings_export' ) );
-		add_action( 'admin_init', array( $this, 'process_settings_import' ) );
+		// Exports/imports settings. Add them with low priority to make sure include_options() fired before them
+		add_action( 'admin_init', array( $this, 'process_settings_export' ), 99 );
+		add_action( 'admin_init', array( $this, 'process_settings_import' ), 99 );
 
 		add_action( 'wp_ajax_monarch_authorize_network', array( $this, 'api_generate_authorization_url' ) );
 
@@ -132,8 +132,9 @@ class ET_Monarch {
 
 		add_action( 'admin_init', array( $this, 'include_options' ) );
 
-		// Plugins Updates system should be loaded before a theme core loads
-		$this->add_updates();
+		add_action( 'after_setup_theme', array( $this, 'add_updates' ), 9 );
+
+		add_action( 'after_setup_theme', array( $this, 'maybe_load_core' ), 11 );
 	}
 
 	/**
@@ -146,13 +147,59 @@ class ET_Monarch {
 	}
 
 	function add_updates() {
-		require_once( ET_MONARCH_PLUGIN_DIR . 'core/updates_init.php' );
-
+		require_once ET_MONARCH_PLUGIN_DIR . 'core/updates_init.php';
 		et_core_enable_automatic_updates( ET_MONARCH_PLUGIN_URI, $this->plugin_version );
 	}
 
+	public function maybe_load_core() {
+		if ( ! defined( 'ET_CORE' ) ) {
+			require_once ET_MONARCH_PLUGIN_DIR . 'core/init.php';
+
+			et_core_setup( ET_MONARCH_PLUGIN_URI );
+		}
+	}
+
+
 	public static function get_options_array() {
 		return get_option( 'et_monarch_options' ) ? get_option( 'et_monarch_options' ) : array();
+	}
+
+	function update_saved_networks( $options = false ) {
+		$monarch_options = false !== $options ? $options : $this->get_options_array();
+		$updated_networks_list = array();
+		$retired_networks = array( 'friendfeed' );
+
+		$updated_networks_list['sharing_networks_networks_sorting'] = isset( $monarch_options['sharing_networks_networks_sorting'] ) ? $monarch_options['sharing_networks_networks_sorting'] : array();
+		$updated_networks_list['follow_networks_networks_sorting'] = isset( $monarch_options['follow_networks_networks_sorting'] ) ? $monarch_options['follow_networks_networks_sorting'] : array();
+
+		foreach( array( 'sharing_networks_networks_sorting', 'follow_networks_networks_sorting' ) as $networks_type ) {
+
+			if ( isset( $updated_networks_list[ $networks_type ] ) && ! empty( $updated_networks_list[ $networks_type ] ) && ! empty( $updated_networks_list[ $networks_type ]['class'] ) ) {
+
+				foreach( $retired_networks as $network ) {
+					$network_index = array_search( $network, $updated_networks_list[ $networks_type ]['class'] );
+
+					if ( false !== $network_index ) {
+						$indexes = array( 'label', 'class' );
+
+						if ( 'follow_networks_networks_sorting' === $networks_type ) {
+							$indexes[] = 'username';
+							$indexes[] = 'count';
+							$indexes[] = 'client_name';
+							$indexes[] = 'client_id';
+						}
+
+						foreach( $indexes as $single_index ) {
+							if ( isset( $updated_networks_list[ $networks_type ][ $single_index ][ $network_index ] ) ) {
+								unset( $updated_networks_list[ $networks_type ][ $single_index ][ $network_index ] );
+							}
+						}
+					}
+				}
+			}
+		}
+
+		return $updated_networks_list;
 	}
 
 	/**
@@ -222,9 +269,11 @@ class ET_Monarch {
 
 		foreach ( $notices as $notice ) {
 			$notice['tab'] = sanitize_text_field( $notice['tab'] );
+			$notice['type'] = sanitize_text_field( $notice['type'] );
+			$output = '';
 
 			$notice_link = sprintf(
-				'<a href="%1$s" class="et_social_notice_link">%2$s.</a>',
+				'<a href="%1$s" class="et_social_notice_link">%2$s</a>.',
 				esc_url( admin_url( "tools.php?page=et_monarch_options#tab_et_social_tab_content_{$notice['tab']}" ) ),
 				esc_html__( 'here', 'Monarch' )
 			);
@@ -232,7 +281,7 @@ class ET_Monarch {
 			$notice['network'] = sanitize_text_field( $notice['network'] );
 
 			$hide_button = sprintf(
-				'<a href="%1$s">%2$s</a>',
+				'<a href="%1$s" class="notice-dismiss"></a>',
 				esc_url( sprintf(
 					'?%1$signore_monarch_notice=1&network=%2$s',
 					( 'tools_page_et_monarch_options' === $screen->base
@@ -240,20 +289,28 @@ class ET_Monarch {
 						: ''
 					),
 					$notice['network']
-				) ),
-				__( 'Hide Notice', 'Monarch' )
+				) )
 			);
 
-			$output = sprintf(
-				__( 'Due to changes in %1$s\'s API, Monarch must be authorized to obtain %2$s counts from %1$s. Please get %3$s from %1$s and save them %4$s | %5$s.', 'Monarch' ),
-				esc_html( $notice['Network'] ),
-				esc_html( $notice['counts'] ),
-				esc_html( $notice['credentials'] ),
-				$notice_link,
-				$hide_button
-			);
+			if ( 'api_key_required' === $notice['type'] ) {
+				$output = sprintf(
+					__( 'Due to changes in %1$s\'s API, Monarch must be authorized to obtain %2$s counts from %1$s. Please get %3$s from %1$s and save them %4$s', 'Monarch' ),
+					esc_html( $notice['Network'] ),
+					esc_html( $notice['counts'] ),
+					esc_html( $notice['credentials'] ),
+					$notice_link
+				);
+			} else if ( 'reauth_required' === $notice['type'] ) {
+				$output = sprintf(
+					__( 'Monarch\'s %1$s for %2$s will expire soon. In order for your %3$s counts to continue working properly you must reauthorize the %1$s %4$s', 'Monarch' ),
+					esc_html( $notice['credentials'] ),
+					esc_html( $notice['Network'] ),
+					esc_html( $notice['counts'] ),
+					$notice_link
+				);
+			}
 
-			printf( '<div class="update-nag"><p>%1$s</p></div>', $output );
+			printf( '<div class="et_social notice notice-warning"><p>%1$s %2$s</p></div>', $output, $hide_button );
 		}
 	}
 
@@ -266,24 +323,19 @@ class ET_Monarch {
 		$screen = get_current_screen();
 		$notices = array();
 
-		if ( in_array( $screen->base, array( 'tools_page_et_monarch_options', 'plugins' ) ) && ! isset( $monarch_options['ignore_monarch_fb_notice'] ) ) {
-			$notices[] = array(
-				'Network'     => 'Facebook',
-				'network'     => 'fb',
-				'counts'      => esc_html__( 'follow and share', 'Monarch' ),
-				'credentials' => esc_html__( 'an App ID and App Secret', 'Monarch' ),
-				'tab'         => 'general_main',
-			);
-		}
+		if ( in_array( $screen->base, array( 'tools_page_et_monarch_options', 'plugins', 'dashboard' ) ) ) {
+			$expiration_date = isset( $monarch_options['monarch_fb_last_auth_date'] ) ? strtotime( '+53 days', $monarch_options['monarch_fb_last_auth_date'] ) : 999999999999;
 
-		if ( in_array( $screen->base, array( 'tools_page_et_monarch_options', 'plugins' ) ) && ! isset( $monarch_options['ignore_monarch_youtube_notice'] ) ) {
-			$notices[] = array(
-				'Network'     => 'Youtube',
-				'network'     => 'youtube',
-				'counts'      => esc_html__( 'subscriber', 'Monarch' ),
-				'credentials' => esc_html__( 'an API Key', 'Monarch' ),
-				'tab'         => 'follow_networks',
-			);
+			if (  time() >= $expiration_date && ! isset( $monarch_options['ignore_monarch_fb_reauth_notice'] ) ) {
+				$notices[] = array(
+					'Network'     => 'Facebook',
+					'network'     => 'fb_reauth',
+					'counts'      => esc_html__( 'follow and share', 'Monarch' ),
+					'credentials' => esc_html__( 'API token', 'Monarch' ),
+					'tab'         => 'general_main',
+					'type'        => 'reauth_required'
+				);
+			}
 		}
 
 		if ( ! empty( $notices ) ) {
@@ -297,7 +349,7 @@ class ET_Monarch {
 		}
 
 		if ( isset( $_GET['ignore_monarch_notice'] ) && '1' === $_GET['ignore_monarch_notice'] ) {
-			$network = in_array( $_GET['network'], array( 'fb', 'youtube' ) ) ? sanitize_text_field( $_GET['network'] ) : '';
+			$network = in_array( $_GET['network'], array( 'fb_reauth' ) ) ? sanitize_text_field( $_GET['network'] ) : '';
 			if ( '' !== $network ) {
 				$new_options["ignore_monarch_{$network}_notice"] = '1';
 				$this->update_option( $new_options );
@@ -638,6 +690,10 @@ class ET_Monarch {
 
 		et_core_load_main_fonts();
 		wp_enqueue_style( 'et-monarch-admin', ET_MONARCH_PLUGIN_URI . '/css/admin.css', array(), $this->plugin_version );
+
+		if ( is_rtl() ) {
+			wp_enqueue_style( 'et-monarch-admin-rtl', ET_MONARCH_PLUGIN_URI . '/css/admin-rtl.css', array(), $this->plugin_version );
+		}
 	}
 
 	function register_settings() {
@@ -707,8 +763,9 @@ class ET_Monarch {
 	 */
 	function upgrade_plugin() {
 		$monarch_options = $this->monarch_options;
+		$new_options = array();
+
 		if ( isset( $monarch_options['db_version'] ) && '1.0' === $monarch_options['db_version'] ) {
-			$new_options = array();
 			if ( isset( $monarch_options[ 'sharing_flyin_trigger_leave' ] ) && true == $monarch_options[ 'sharing_flyin_trigger_leave' ] ) {
 				$new_options['sharing_flyin_trigger_idle'] = true;
 				$new_options['sharing_flyin_idle_timeout'] = 15;
@@ -728,6 +785,15 @@ class ET_Monarch {
 		// "location" field was added into stats table in the 1.2 version.
 		if ( isset( $monarch_options['db_version'] ) && version_compare( $monarch_options['db_version'], '1.2', '<' ) ) {
 			$this->db_install( false );
+		}
+
+		// update saved networks list
+		// FriendFeed was retired in 1.3 version so it should be removed from the list of saved networks
+		if ( isset( $monarch_options['db_version'] ) && version_compare( $monarch_options['db_version'], '1.3', '<' ) ) {
+			$updated_networks_list = $this->update_saved_networks();
+
+			$new_options[ 'follow_networks_networks_sorting' ] = $updated_networks_list[ 'follow_networks_networks_sorting' ];
+			$new_options[ 'sharing_networks_networks_sorting' ] = $updated_networks_list[ 'sharing_networks_networks_sorting' ];
 		}
 
 		$new_options['db_version'] = $this->db_version;
@@ -890,7 +956,7 @@ class ET_Monarch {
 		foreach ( $selected_locations_array as $single_location ) {
 			$single_location = sanitize_text_field( $single_location );
 
-			if ( ! ( 'media' == $single_location && 'post' != $post_type ) ){
+			if ( ! ( 'media' === $single_location && ! in_array( $post_type, array( 'post', 'product', 'project' ) ) ) ) {
 				$current_option_name = 'sharing_' . $single_location . '_post_types';
 
 				$current_option_value = ( isset( $monarch_options[ $current_option_name ] ) && '' != $monarch_options[ $current_option_name ] )
@@ -1660,7 +1726,7 @@ class ET_Monarch {
 									echo '<li><ul class="inline">';
 									$i = 0;
 									$current_option_value = '' == $current_option_value ? array() : $current_option_value;
-									$post_types = ! empty( $option[ 'value' ] ) ? $option[ 'value' ] : $monarch_post_types;
+									$post_types = ! empty( $option[ 'value' ] ) ? array_intersect( $option[ 'value' ], $monarch_post_types ) : $monarch_post_types;
 
 									if ( isset( $option[ 'include_home' ] ) && true == $option[ 'include_home' ] ) {
 										$post_types = array_merge( array( 'home' => 'home' ), $post_types );
@@ -1696,9 +1762,7 @@ class ET_Monarch {
 									);
 
 									if( isset( $monarch_options[ $current_option_name ] ) && '' != $monarch_options[ $current_option_name ] && count( $monarch_options[ $current_option_name ] ) > 0 ) {
-										$networks_count = count( $monarch_options[ $current_option_name ]['class'] );
-
-										for( $i = 0; $i < $networks_count; $i++ ) {
+										foreach( $monarch_options[ $current_option_name ]['class'] as $i => $class_name ) {
 											$network_class = sanitize_text_field( $current_option_value['class'][ $i ] );
 
 											printf(
@@ -2190,6 +2254,8 @@ class ET_Monarch {
 		if ( '' !== $authorization_url ) {
 			if ( 'facebook' === $network_name ) {
 				$redirect_url = rawurlencode( esc_url( admin_url( 'tools.php?page=et_monarch_options#tab_et_social_tab_content_general_main' ) ) );
+			} else if ( 'linkedin' === $network_name ) {
+				$redirect_url = rawurlencode( esc_url( admin_url( 'tools.php?page=et_monarch_options' ) ) );
 			} else {
 				$redirect_url = rawurlencode( esc_url( admin_url( 'tools.php?page=et_monarch_options#tab_et_social_tab_content_follow_networks' ) ) );
 			}
@@ -2288,13 +2354,13 @@ class ET_Monarch {
 	 */
 	function api_maybe_get_access_token() {
 		if ( ! current_user_can( 'manage_options' ) ) {
-			return;
+			return false;
 		}
 
 		$screen = get_current_screen();
 
 		if ( "tools_page_{$this->_options_pagename}" !== $screen->id ) {
-			return;
+			return false;
 		}
 
 		$api_settings = $this->monarch_options;
@@ -2308,7 +2374,7 @@ class ET_Monarch {
 
 			// Valid nonce should have an underscore ( e.g vimeo_58787324 )
 			if ( false === $underscore_position ) {
-				return;
+				return false;
 			}
 
 			$network_name = substr( $state, 0, $underscore_position );
@@ -2334,7 +2400,7 @@ class ET_Monarch {
 
 					break;
 				case 'facebook':
-					$access_token_url = 'https://graph.facebook.com/v2.6/oauth/access_token';
+					$access_token_url = 'https://graph.facebook.com/v2.8/oauth/access_token';
 
 					break;
 			}
@@ -2342,6 +2408,9 @@ class ET_Monarch {
 			if ( 'facebook' === $network_name ) {
 				$options_prefix = 'general_main';
 				$redirect_url   = admin_url( 'tools.php?page=et_monarch_options#tab_et_social_tab_content_general_main' );
+			} else if ( 'linkedin' === $network_name ) {
+				$options_prefix = 'follow_networks';
+				$redirect_url   = admin_url( 'tools.php?page=et_monarch_options' );
 			} else {
 				$options_prefix = 'follow_networks';
 				$redirect_url   = admin_url( 'tools.php?page=et_monarch_options#tab_et_social_tab_content_follow_networks' );
@@ -2367,6 +2436,11 @@ class ET_Monarch {
 				// If we received a valid access token, update the access_tokens option
 				if ( isset( $response->access_token ) ) {
 					$api_settings['access_tokens'][ $network_name ] = sanitize_text_field( $response->access_token );
+
+					if ( 'facebook' === $network_name ) {
+						unset( $api_settings['ignore_monarch_fb_reauth_notice'] );
+						$api_settings['monarch_fb_last_auth_date'] = time();
+					}
 
 					$this->update_option( $api_settings );
 
@@ -2450,6 +2524,11 @@ class ET_Monarch {
 
 		// Retrieve the settings from the file and convert the json object to an array.
 		$monarch_settings = (array) json_decode( file_get_contents( $import_file ), true );
+
+		// update the networks list and remove retired networks
+		$updated_networks = $this->update_saved_networks( $monarch_settings );
+		$monarch_settings['follow_networks_networks_sorting'] = $updated_networks['follow_networks_networks_sorting'];
+		$monarch_settings['sharing_networks_networks_sorting'] = $updated_networks['sharing_networks_networks_sorting'];
 
 		$error_message = $this->process_and_update_options( $monarch_settings );
 
@@ -3008,11 +3087,11 @@ class ET_Monarch {
 				break;
 
 				case 'twitter' :
-					$link = sprintf( 'http://twitter.com/share?text=%2$s&url=%1$s&via=%3$s',
+					$link = sprintf( 'http://twitter.com/share?text=%2$s&url=%1$s%3$s',
 						esc_attr( $permalink ),
 						esc_attr( $title ),
 						( ! empty( $this->monarch_options['sharing_networks_networks_sorting']['username'][ $i ] )
-							? esc_attr( $this->monarch_options['sharing_networks_networks_sorting']['username'][ $i ] )
+							? sprintf( '&via=%1$s', esc_attr( $this->monarch_options['sharing_networks_networks_sorting']['username'][ $i ] ) )
 							: ''
 						)
 					);
@@ -3061,7 +3140,7 @@ class ET_Monarch {
 				break;
 
 				case 'delicious' :
-					$link = sprintf( 'https://delicious.com/post?url=%1$s&title=%2$s',
+					$link = sprintf( 'https://del.icio.us/post?url=%1$s&title=%2$s',
 						esc_attr( $permalink ),
 						esc_attr( $title )
 					);
@@ -3131,13 +3210,6 @@ class ET_Monarch {
 
 				case 'livejournal' :
 					$link = sprintf( 'http://www.livejournal.com/update.bml?subject=%2$s&event=%1$s',
-						esc_attr( $permalink ),
-						esc_attr( $title )
-					);
-				break;
-
-				case 'friendfeed' :
-					$link = sprintf( 'http://friendfeed.com/?url=%1$s&title=%2$s',
 						esc_attr( $permalink ),
 						esc_attr( $title )
 					);
@@ -3515,7 +3587,7 @@ class ET_Monarch {
 			switch ( $social_network ) {
 				case 'facebook' :
 					if ( isset( $monarch_options['access_tokens']['facebook'] ) ) {
-						$request_url = sprintf( 'https://graph.facebook.com/v2.6/?access_token=%1$s&id=', esc_attr( $monarch_options['access_tokens']['facebook'] ) );
+						$request_url = sprintf( 'https://graph.facebook.com/v2.8/?access_token=%1$s&id=', esc_attr( $monarch_options['access_tokens']['facebook'] ) );
 					}
 
 					break;
@@ -3773,7 +3845,6 @@ class ET_Monarch {
 			}
 
 			$sharing_icons = empty( $exclude_array ) ? '<ul class="et_social_icons_container">' : '';
-			$i = 0;
 
 			if ( '' !== $current_id ) {
 				$post_id = $current_id;
@@ -3781,7 +3852,7 @@ class ET_Monarch {
 				$post_id = $this->is_homepage() && ! is_page() ? '-1' : get_the_ID();
 			}
 
-			foreach ( $current_networks as $icon ) {
+			foreach ( $current_networks as $i => $icon ) {
 				$icon_name   = true == $all_networks ? $icon : $monarch_options[ 'sharing_networks_networks_sorting' ][ 'label' ][ $i ];
 				$social_type = 'like' == $icon ? 'like' : 'share';
 
@@ -3872,7 +3943,7 @@ class ET_Monarch {
 						case 'media' :
 							$sharing_icons .= sprintf(
 								'<li class="et_social_%1$s">
-									<div data-social_link="%3$s" rel="nofollow" class="et_social_share" data-social_name="%1$s" data-social_type="%4$s" data-post_id="%5$s" data-location="%6$s">
+									<div data-social_link="%3$s" class="et_social_share" data-social_name="%1$s" data-social_type="%4$s" data-post_id="%5$s" data-location="%6$s">
 										<i class="et_social_icon et_social_icon_%1$s"></i>
 										%2$s
 										<span class="et_social_overlay"></span>
@@ -3895,8 +3966,6 @@ class ET_Monarch {
 						break;
 					}
 				}
-
-				$i++;
 			}
 
 			if ( true == $display_all ) {
@@ -3922,7 +3991,7 @@ class ET_Monarch {
 					case 'media' :
 						$sharing_icons .= sprintf(
 							'<li class="et_social_all_button">
-								<div rel="nofollow" class="et_social_open_all" data-location="%1$s" data-page_id="%2$s" data-permalink="%3$s" data-title="%4$s" data-media="%5$s">
+								<div class="et_social_open_all" data-location="%1$s" data-page_id="%2$s" data-permalink="%3$s" data-title="%4$s" data-media="%5$s">
 									<i class="et_social_icon et_social_icon_all_button"></i>
 									<span class="et_social_overlay"></span>
 								</div>
@@ -4135,11 +4204,11 @@ class ET_Monarch {
 					)
 					: '',
 				$this->get_icons_list( 'sidebar', '', false, $display_all_button ),
-				esc_attr( $monarch_options[ 'sharing_sidebar_icon_shape' ] ),
-				true == $monarch_options[ 'sharing_sidebar_spacing' ] ? ' et_social_space' : '',
+				esc_attr( $monarch_options['sharing_sidebar_icon_shape'] ),
+				( isset( $monarch_options['sharing_sidebar_spacing'] ) && true == $monarch_options['sharing_sidebar_spacing'] ) ? ' et_social_space' : '',
 				esc_attr( $monarch_options[ 'sharing_sidebar_animation' ] . ' et_social_animated' ),
-				true == $monarch_options[ 'sharing_sidebar_mobile' ] ? ' et_social_mobile_off' : ' et_social_mobile_on',
-				'right' == $monarch_options[ 'sharing_sidebar_sidebar_orientation' ] ? ' et_social_sidebar_networks_right' : '' //#10
+				( isset( $monarch_options['sharing_sidebar_mobile'] ) && true == $monarch_options['sharing_sidebar_mobile'] ) ? ' et_social_mobile_off' : ' et_social_mobile_on',
+				( isset( $monarch_options['sharing_sidebar_sidebar_orientation'] ) && 'right' == $monarch_options['sharing_sidebar_sidebar_orientation'] ) ? ' et_social_sidebar_networks_right' : '' //#10
 			);
 
 			if ( true != $monarch_options[ 'sharing_sidebar_mobile' ] ) {
@@ -4569,7 +4638,7 @@ class ET_Monarch {
 			case 'facebook' :
 				if ( isset( $settings['access_tokens']['facebook'] ) && isset( $settings['follow_networks_networks_sorting']['client_id'][ $index ] ) ) {
 					$url = sprintf(
-						'https://graph.facebook.com/v2.6/?id=%1$s&access_token=%2$s&fields=fan_count',
+						'https://graph.facebook.com/v2.8/?id=%1$s&access_token=%2$s&fields=fan_count',
 						esc_attr( $settings['follow_networks_networks_sorting']['client_id'][ $index ] ),
 						esc_attr( $settings['access_tokens']['facebook'] )
 					);
@@ -4587,10 +4656,50 @@ class ET_Monarch {
 				break;
 			case 'vkontakte' :
 				if ( isset( $settings['follow_networks_networks_sorting']['client_id'][ $index ] ) ) {
-					$url = sprintf(
-						'https://api.vk.com/method/friends.get?user_id=%1$s&count=1&v=5.8',
+					$url = '';
+
+					// we need numberic user id to retrieve friends count, but it can be specified as string, so determine the real id
+					$get_user_id_url = sprintf(
+						'https://api.vk.com/method/users.get?user_ids=%1$s',
 						esc_attr( $settings['follow_networks_networks_sorting']['client_id'][ $index ] )
 					);
+
+					$user_id_request = wp_remote_get( esc_url_raw( $get_user_id_url ) );
+
+					if ( ! is_wp_error( $user_id_request ) && wp_remote_retrieve_response_code( $user_id_request ) == 200 ) {
+						$user_data_raw = wp_remote_retrieve_body( $user_id_request );
+						$user_data_decoded = json_decode( $user_data_raw );
+
+						// if no error received, then get the numeric ID from the response
+						if ( ! empty( $user_data_decoded->response ) && isset( $user_data_decoded->response[0]->uid ) ) {
+							$url = sprintf(
+								'https://api.vk.com/method/friends.get?user_id=%1$s&count=1&v=5.8',
+								esc_attr( $user_data_decoded->response[0]->uid )
+							);
+						}
+					}
+
+					// prepare url for the group if user url was not generated
+					if ( '' === $url ) {
+						$group_info_url = sprintf( 'https://api.vk.com/method/groups.getById?group_id=%1$s',
+							esc_attr( $settings['follow_networks_networks_sorting']['client_id'][ $index ] )
+						);
+
+						$group_request = wp_remote_get( esc_url_raw( $group_info_url ) );
+
+						if ( ! is_wp_error( $group_request ) && wp_remote_retrieve_response_code( $group_request ) == 200 ) {
+							$group_data_raw = wp_remote_retrieve_body( $group_request );
+							$group_data_decoded = json_decode( $group_data_raw );
+
+							// if no error received, then generate URL to get the group members
+							if ( ! isset( $group_data_decoded->error ) ) {
+								$url = sprintf(
+									'https://api.vk.com/method/groups.getMembers?group_id=%1$s&count=1&v=5.8',
+									esc_attr( $settings['follow_networks_networks_sorting']['client_id'][ $index ] )
+								);
+							}
+						}
+					}
 				}
 
 				break;
@@ -4675,8 +4784,8 @@ class ET_Monarch {
 
 					break;
 				case 'vkontakte':
-					if ( isset( $data->response ) ) {
-						$result = count( $data->response );
+					if ( isset( $data->response ) && isset( $data->response->count ) ) {
+						$result = $data->response->count;
 					} else {
 						return -1;
 					}
@@ -4759,11 +4868,9 @@ class ET_Monarch {
 
 			$sharing_icons = '<ul class="et_social_icons_container">';
 
-			$i = 0;
-
 			$post_id = is_singular() ? get_the_ID() : 0;
 
-			foreach ( $monarch_options[ 'follow_networks_networks_sorting' ][ 'class' ] as $icon ) {
+			foreach ( $monarch_options[ 'follow_networks_networks_sorting' ][ 'class' ] as $i => $icon ) {
 				$icon_name = $monarch_options[ 'follow_networks_networks_sorting' ][ 'label' ][ $i ];
 
 				$is_follows_cached = ET_Monarch::check_cached_counts( get_the_ID(), $icon, 'follow', $monarch_options[ 'follow_networks_use_api' ] );
@@ -4796,7 +4903,6 @@ class ET_Monarch {
 					ET_Monarch::get_follow_link( $icon, isset( $monarch_options[ 'follow_networks_networks_sorting' ][ 'username' ][ $i ] ) ? $monarch_options[ 'follow_networks_networks_sorting' ][ 'username' ][ $i ] : '' ),
 					true == $monarch_options[ 'follow_networks_new_window' ] ? ' target="_blank"' : ''
 				);
-				$i++;
 			}
 			$sharing_icons .= '</ul>';
 
@@ -5076,4 +5182,4 @@ class ET_Monarch {
 
 }
 
-new ET_Monarch();
+$GLOBALS['et_monarch'] = new ET_Monarch();
