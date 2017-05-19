@@ -31,21 +31,20 @@ function responsive_mobile_header_branding() {
 	<?php else : ?>
 		<div id="site-header-text">
 			<?php if ( 'blank' != get_theme_mod( 'header_textcolor' ) ) : ?>
-				<h1 class="site-name" itemprop="headline">
+				<div class="site-name" itemprop="headline">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-				</h1>
-				<h2 class="site-description" itemprop="description"><?php bloginfo( 'description' ); ?></h2>
+				</div>
+				<div class="site-description" itemprop="description"><?php bloginfo( 'description' ); ?></div>
 			<?php endif; // End header text check. ?>
 		</div>
 	<?php endif; // End header image check.
 }
 add_action( 'responsive_mobile_header_one', 'responsive_mobile_header_branding' );
 
-/**
+/** 
  * Adds sidebar-top to header
  */
 function responsive_mobile_sidebar_top() {
 	get_sidebar( 'top' );
 }
-
 add_action( 'responsive_mobile_header_two', 'responsive_mobile_sidebar_top' );

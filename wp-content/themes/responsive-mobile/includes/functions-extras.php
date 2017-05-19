@@ -279,13 +279,3 @@ function responsive_mobile_esc_content( $content ) {
 	$content = str_replace( ']]>', ']]&gt;', $content );
 	echo $content;
 }
-
-function responsive_mobile_default_front_page( $options ) {
-	if ( 'wp-themes.com' == $_SERVER['SERVER_NAME'] && 'wp-themes.com' == $_SERVER['HTTP_HOST'] ) {
-		$options['home_page']['fields']['0']['default'] = 1;
-	} else {
-		$options['home_page']['fields']['0']['default'] = '';
-	}
-	return $options;
-}
-add_filter( 'responsive_mobile_option_options_filter', 'responsive_mobile_default_front_page' );

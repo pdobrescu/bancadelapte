@@ -1,0 +1,1289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Resposnive Mobile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-30 06:36:20 UTC\n"
+"PO-Revision-Date: 2015-03-10 22:26+0100\n"
+"Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
+"Language-Team: Hindi, India\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Language: hi_IN\n"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "यह चिट्ठा कूट शब्द या पासवर्ड से सुरक्षित है ।चिट्ठे को देखने को देखने के लिए कूट शब्द या पासवर्ड का प्रयोग करे।"
+
+#: build/responsive-mobile/comments.php comments.php
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "\"%2$ s\" पर एक टिप्पणी"
+msgstr[1] "\"%2$ s\" पर एक टिप्पणी"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Comment navigation"
+msgstr "नेविगेशन टिप्पणी"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "&larr; Older Comments"
+msgstr "&larr; पुराना टिप्पणियाँ"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Newer Comments &rarr;"
+msgstr "टिप्पणियां नए &rarr;"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Comments are closed."
+msgstr "टिप्पणियाँ बंद हो जाती हैं."
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Pings&#47;Trackbacks"
+msgstr "पिंग्स / Trackbacks"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s के लिए \"%3$s\""
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Name"
+msgstr "नाम"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "E-mail"
+msgstr "ईमेल"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Website"
+msgstr "साइट"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Settings saved and %s activated successfully."
+msgstr "सहेजी गई सेटिंग्स और %s सफलतापूर्वक सक्रिय कर दिया।"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "%s activated successfully."
+msgstr "%s सफलतापूर्वक सक्रिय कर दिया।"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Visit site"
+msgstr "साईट देखें"
+
+#: build/responsive-mobile/core/functions-install.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: core/functions-install.php includes/functions-theme-options-page.php
+#: libraries/class-responsive-options.php
+msgid "Theme Options"
+msgstr "थीम विकल्प"
+
+#: build/responsive-mobile/core/functions-install.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: core/functions-install.php includes/functions-theme-options-page.php
+msgid "Help"
+msgstr "मदद"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "This theme recommends the following plugins:"
+msgstr "यह विषय निम्नलिखित plugins अनुशंसा करता है:"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Activate"
+msgstr "सक्रिय करें"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Install"
+msgstr "स्थापित करना"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "%s is not installed. Please install this plugin manually."
+msgstr "%s स्थापित नहीं किया गया है। कृपया इस प्लगइन मैन्युअल रूप से स्थापित करें।"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Hide Notice"
+msgstr "सूचना छुपाएँ"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: core/functions-theme-upsell.php includes/functions-theme-options-page.php
+msgid "More Themes"
+msgstr "और Theme"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Themes You Can Trust"
+msgstr "तुम पर भरोसा कर सकते हैं विषयों"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Current theme"
+msgstr "मौजूदा थीम"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Already installed"
+msgstr "पहले से ही स्थापित"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Install Now"
+msgstr "अभी इंस्टॉल करें"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Live Preview"
+msgstr "लाइव पूर्वावलोकन"
+
+#: build/responsive-mobile/footer.php
+#: build/responsive-mobile/includes/functions-plugins.php footer.php
+#: includes/functions-plugins.php
+msgid "%1$s powered by %2$s"
+msgstr "%1$ s %2$ s द्वारा संचालित"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "Responsive II"
+msgstr "उत्तरदायी II"
+
+#: build/responsive-mobile/footer.php
+#: build/responsive-mobile/includes/functions-plugins.php footer.php
+#: includes/functions-plugins.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "scroll to top"
+msgstr "ऊपर जाये"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Skip to content"
+msgstr "सामग्री पर जाएं"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Skip to main menu"
+msgstr "मुख्य मेनू पर जाएं"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Mobile menu toggle"
+msgstr "मोबाइल मेनू टॉगल करें"
+
+#: build/responsive-mobile/image.php image.php
+msgid "&#8249; Return to"
+msgstr "&#8249;यहाँ लौटे"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "No Comments &darr;"
+msgstr "कोई टिप्पणी नहीं &darr;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "1 Comment &darr;"
+msgstr "1 टिप्पणी &darr;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "% Comments &darr;"
+msgstr "% टिप्पणी &darr;"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Read more &#8250;"
+msgstr "अधिक पढ़िए &#8250;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/content-excerpt.php
+#: build/responsive-mobile/template-parts/content-page.php
+#: build/responsive-mobile/template-parts/content-single.php
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: build/responsive-mobile/template-parts/content.php image.php
+#: template-parts/content-excerpt.php template-parts/content-page.php
+#: template-parts/content-single.php template-parts/content-sitemap.php
+#: template-parts/content.php
+msgid "Pages:"
+msgstr "पृष्ठ"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Tagged with:"
+msgstr "चिन्हित है:"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Posted in %s"
+msgstr "प्रेषित किया गया %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/template-parts/content-none.php
+#: includes/functions-extentions.php template-parts/content-none.php
+msgid "Home"
+msgstr "घर"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Archive for %s"
+msgstr "संग्रह के लिए %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Search results for: %s"
+msgstr "खोज परिणाम के लिए: %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Posts tagged %s"
+msgstr "चिट्ठा चिन्हित है %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-extentions.php includes/functions-template-tags.php
+msgid "View all posts by %s"
+msgstr "सभी चिठ्ठीयां या पोस्ट देखे %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Error 404"
+msgstr "त्रुटि 404"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/includes/functions-extras.php
+#: includes/functions-extentions.php includes/functions-extras.php
+msgid "Page %s"
+msgstr "पृष्ठ %s"
+
+#: build/responsive-mobile/includes/functions-extras.php
+#: includes/functions-extras.php
+msgid "Read more %s"
+msgstr "%S और अधिक पढ़ें"
+
+#: build/responsive-mobile/includes/functions-layout.php
+#: includes/functions-layout.php
+msgid "Layout"
+msgstr "ख़ाका"
+
+#: build/responsive-mobile/includes/functions-meta-box.php
+#: includes/functions-meta-box.php
+msgid "Page Title"
+msgstr "पृष्ठ शीर्षक"
+
+#: build/responsive-mobile/includes/functions-meta-box.php
+#: includes/functions-meta-box.php
+msgid "Page Options"
+msgstr "पृष्ठ विकल्प"
+
+#: build/responsive-mobile/includes/functions-plugins.php
+#: includes/functions-plugins.php
+msgid "Responsive Theme"
+msgstr "संवेदनशील विषय"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Main Sidebar"
+msgstr "मुख्य साइडबार"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr "क्षेत्र 1 - sidebar.php - पेज टेम्पलेट्स डिफ़ॉल्ट, ब्लॉग, ब्लॉग अंश पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Right Sidebar"
+msgstr "दाया Sidebar"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 2 - sidebar-right.php - Displays on Content/Sidebar page templates"
+msgstr "क्षेत्र 2-साइडबार right.php - सामग्री/साइडबार पृष्ठ टेम्पलेट्स पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Left Sidebar"
+msgstr "बाया Sidebar"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 3 - sidebar-left.php - Displays on Sidebar/Content page templates"
+msgstr "क्षेत्र 3-साइडबार left.php - साइडबार/सामग्री पृष्ठ टेम्पलेट्स पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Left Sidebar Half Page"
+msgstr "बाया Sidebar आधा पृष्ठ"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 4 - sidebar-left-half.php - Displays on Sidebar Half Page/Content page templates"
+msgstr "क्षेत्र 4 - साइडबार-वाम-half.php - साइडबार आधे पेज/सामग्री पृष्ठ टेम्पलेट्स पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Right Sidebar Half Page"
+msgstr "दाया Sidebar आधा पृष्ठ"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 5 - sidebar-right-half.php - Displays on Content/Sidebar Half Page page templates"
+msgstr "क्षेत्र 5 - साइडबार-दाएँ-half.php - सामग्री/साइडबार आधा पृष्ठ पृष्ठ टेम्पलेट्स पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 1"
+msgstr "गृह विजेट 1"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "क्षेत्र 6-साइडबार home.php - मुख पृष्ठ पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 2"
+msgstr "गृह विजेट 2"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "7-साइडबार home.php - क्षेत्र के मुख पृष्ठ पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 3"
+msgstr "गृह विजेट 3"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "8-साइडबार home.php - क्षेत्र के मुख पृष्ठ पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Gallery Sidebar"
+msgstr "चित्रशाला साइड बार"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "एक छवि एक गैलरी में क्लिक किया गया है के बाद क्षेत्र - साइडबार-gallery.php - 9 पृष्ठ पर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Colophon Widget"
+msgstr "पुष्पिका Widget"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "क्षेत्र 10 - साइडबार-colophon.php, 100% चौड़ाई पाद लेख विजेट"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Top Widget"
+msgstr "शीर्ष Widget"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr "क्षेत्र 11-साइडबार top.php - शीर्ष लेख के दाईं ओर प्रदर्शित करता है"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Footer Widget"
+msgstr "पाद लेख विजेट"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 12 - sidebar-footer.php - Maximum of 3 widgets per row"
+msgstr "क्षेत्र 12 - साइडबार-footer. php - अधिकतम पंक्ति प्रति 3 विगेट्स के"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: build/responsive-mobile/page-templates/blog.php
+#: includes/functions-template-tags.php page-templates/blog.php
+msgid "Posts navigation"
+msgstr "डाक नेविगेशन"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\"> &larr;</span> पु्राने पोस्ट"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "नए पोस्ट <span class=\"meta-nav\"> &rarr;</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: includes/functions-template-tags.php template-parts/loop-nav.php
+msgid "Post navigation"
+msgstr "पोस्ट नेविगेशन"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\"> &larr;</span> % शीर्षक"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "% शीर्षक <span class=\"meta-nav\"> &rarr;</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Posted on"
+msgstr "पर पोस्ट किया गया"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "by"
+msgstr "द्वारा"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\"> %1$ s पर पोस्ट किया गया</span><span class=\"byline\"> %2$ s द्वारा</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Author: %s"
+msgstr "लेखक: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Daily Archives: %s"
+msgstr "नित्य संग्रह: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Monthly Archives: %s"
+msgstr "मासिक संग्रह: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "च Y"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Yearly Archives: %s"
+msgstr "वार्षिक संग्रह: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Asides"
+msgstr "Asides"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Galleries"
+msgstr "गैलेरियां"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Images"
+msgstr "छवियाँ"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Videos"
+msgstr "वीडियो"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Quotes"
+msgstr "उद्धरण"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Links"
+msgstr "कड़ियाँ"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Statuses"
+msgstr "स्थितियाँ"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Audios"
+msgstr "Audios"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Chats"
+msgstr "चैट"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Archives"
+msgstr "अभिलेख"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Menu"
+msgstr "मेन्यू, मेनू"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Welcome to %s!"
+msgstr "%S के लिए आपका स्वागत है!"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Get more features with %s!"
+msgstr "%S के साथ और अधिक सुविधाएँ मिल!"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Guides"
+msgstr "मार्गदर्शिकाएँ"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Instructions"
+msgstr "निर्देश"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Translate"
+msgstr "अनुवाद"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Showcase"
+msgstr "प्रदर्शन"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "The Custom Front Page is enabled. You can disable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "कस्टम सामने पृष्ठ सक्षम किया गया है। आप यह <a href=\"%1$s\"> विषयवस्तु सेटिंग्स</a> में अक्षम कर सकते हैं।"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "The Custom Front Page is disabled. You can enable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "कस्टम सामने पृष्ठ अक्षम किया गया है। आप इसे में <a href=\"%1$s\"> विषयवस्तु सेटिंग्स</a> को सक्षम कर सकते हैं।"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default"
+msgstr "मूलभूत"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content/Sidebar"
+msgstr "सामग्री/पार्श्व पट्टी"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Sidebar/Content"
+msgstr "पार्श्व पट्टी/सामग्री"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content/Sidebar Half Page"
+msgstr "सामग्री/पार्श्व पट्टी आधा पृष्ठ"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Sidebar/Content Half Page"
+msgstr "पार्श्व पट्टी/सामग्री आधा पृष्ठ"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Full Width Page (no sidebar)"
+msgstr "पूर्ण चौड़ा पृष्ठ (पार्श्व पट्टी नहीं)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Theme Elements"
+msgstr "थीम तत्व"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Disable breadcrumb list?"
+msgstr "ब्रेडक्रम्ब सूची को निष्क्रिय?"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Check to disable"
+msgstr "निष्क्रिय करने के लिए क्लिक करे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Use minified CSS"
+msgstr "Minified सीएसएस का उपयोग करें"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Disable Call to Action Button?"
+msgstr "क्रिया बटन को निष्क्रिय करे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Logo Upload"
+msgstr "लोगो अपलोड करे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom Header"
+msgstr "कस्टम हैडर"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Need to replace or remove default logo?"
+msgstr "क्या default logo बदलने की आवश्यकता है?"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Click here"
+msgstr "यहाँ क्लिक करें"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Home Page"
+msgstr "गृह या होम पृष्ठ"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enable Custom Front Page"
+msgstr "कस्टम फ्रंट पेज को सक्षम करें"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Overrides the WordPress %1sfront page option%2s"
+msgstr "WordPress % 1sfront पृष्ठ विकल्प % 2s को ओवरराइड करता है"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Headline"
+msgstr "शीर्षक"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your headline"
+msgstr "यहाँ अपना शीर्षक लिखिए"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Hello, World!"
+msgstr "नमस्कार !"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Subheadline"
+msgstr "उप-शीर्षक"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your subheadline"
+msgstr "अपना उप-शीर्षक लिखिए"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Your H2 subheadline here"
+msgstr "आपका H2 उपशीर्षक यहाँ है"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content Area"
+msgstr "विषय-वस्तु एरिया"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your content"
+msgstr "विषय-वस्तु यहाँ लिखिए"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "आपका शीर्षक, उपशीर्षक,क्रिया बटन, URL और यह सामग्री थीम विकल्प से परिवर्तन योग्य है। दायी छवि के स्थान को आप किसी भी छवि या You Tube Video से बदल सकते है ।"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Call to Action (URL)"
+msgstr "क्रिया-बटन (URL)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your call to action URL"
+msgstr "यहाँ क्रिया-बटन (URL) दीजिये"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Call to Action (Text)"
+msgstr "क्रिया-बटन (मूलशब्द)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your call to action text"
+msgstr "यहाँ क्रिया-बटन (मूलशब्द) लिखिए"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Call to Action"
+msgstr "क्रिया बटन"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Featured Content"
+msgstr "प्रधान सामग्री"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "See Docs"
+msgstr "लेख्य पत्र देखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Paste your shortcode, video or image source"
+msgstr "कृप्या अपना shortcode, video या छवि यहाँ लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Layouts"
+msgstr "पूर्वतय खाका"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Static Page Layout"
+msgstr "डिफ़ॉल्ट स्थैतिक पृष्ठ लेआउट"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Single Blog Post Layout"
+msgstr "डिफ़ॉल्ट एकल ब्लॉग पोस्ट लेआउट"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Blog Posts Index Layout"
+msgstr "डिफ़ॉल्ट ब्लॉग पोस्ट अनुक्रमणिका लेआउट"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Social Icons"
+msgstr "सामाजिक प्रतीक"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Twitter"
+msgstr "चहचहाना"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Twitter URL"
+msgstr "अपना Twitter URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Facebook"
+msgstr "फेसबुक"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Facebook URL"
+msgstr "अपना Facebook URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your LinkedIn URL"
+msgstr "अपना LinkedIn URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "YouTube"
+msgstr "यूट्यूब"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your YouTube URL"
+msgstr "अपना YouTube URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your StumbleUpon URL"
+msgstr "अपना StumbleUpon URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "RSS Feed"
+msgstr "आरएसएस फ़ीड"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your RSS Feed URL"
+msgstr "अपना RSS Feed URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Google+"
+msgstr "गूगल +"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Google+ URL"
+msgstr "अपना Google+ URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Instagram"
+msgstr "Instagram"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Instagram URL"
+msgstr "अपना Instagram URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Pinterest URL"
+msgstr "अपना Pinterest URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Vimeo URL"
+msgstr "अपना Vimeo URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "foursquare"
+msgstr "सचाई"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your foursquare URL"
+msgstr "अपना foursquare URL लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "CSS Styles"
+msgstr "सीएसएस शैलियाँ"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom CSS Styles"
+msgstr "अपनी रूचि के अनुसार CSS Styles"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "CSS Tutorial"
+msgstr "CSS प्रशिक्षण"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom CSS styles."
+msgstr "अपनी रूचि के अनुसार CSS Styles यहाँ लिखिए"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Scripts"
+msgstr "लिपियों"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom Scripts for Header and Footer"
+msgstr "Custom Scripts Header और Footer के लिए"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Quick Tutorial"
+msgstr "त्वरित शिक्षण"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Embeds to header.php &darr;"
+msgstr "Header. php के लिए embeds &darr;"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom header script."
+msgstr "अपने custom header का code लिखे"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Embeds to footer.php &darr;"
+msgstr "Embeds footer. php के लिए &darr;"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom footer script."
+msgstr "अपने custom footer का code लिखे"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Top Menu"
+msgstr "टॉप मेनू"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Header Menu"
+msgstr "हैडर मेनू"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Sub-Header Menu"
+msgstr "सब-हैडर मेनू"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Footer Menu"
+msgstr "फूटर मेनू"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "क्षमा करें, आप इस फ़ील्ड के लिए इस प्रकार की फ़ाइल को अपलोड नहीं कर सकते।"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "Upload"
+msgstr "अपलोड"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "or enter URL"
+msgstr "या URL दर्ज करें"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Do you want to restore the default settings?"
+msgstr "क्या आप डिफ़ॉल्ट सेटिंग्स पुनर्स्थापित करना चाहते हैं?"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "All theme settings will be lost!"
+msgstr "सभी विषयवस्तु सेटिंग्स खो जाएँगे!"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Click OK to restore."
+msgstr "पुनर्स्थापित करने के लिए ठीक क्लिक करें।"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Options Saved"
+msgstr "विकल्पों को बचाया"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Save Options"
+msgstr "सहेजें विकल्प"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Restore Defaults"
+msgstr "पूर्वतय पुनस्थापित करें"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Options Imported"
+msgstr "आयात विकल्प"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Invalid Data for Import"
+msgstr "आयात के लिए अमान्य डेटा"
+
+#: build/responsive-mobile/page-templates/blog-excerpt.php
+#: build/responsive-mobile/page-templates/blog.php
+#: page-templates/blog-excerpt.php page-templates/blog.php
+msgid "&#8249; Older posts"
+msgstr "&#8249;पुराने चिट्ठे या पोस्ट"
+
+#: build/responsive-mobile/page-templates/blog-excerpt.php
+#: build/responsive-mobile/page-templates/blog.php
+#: page-templates/blog-excerpt.php page-templates/blog.php
+msgid "Newer posts &#8250;"
+msgstr "नए चिट्ठे या पोस्ट &#8250;"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Image Information"
+msgstr "प्रतिबिंब के बारे में"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Full Size:"
+msgstr "पूरा आकार"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Aperture: f&#47;"
+msgstr "कैमरा"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Focal Length:"
+msgstr "फोकल लंबाई"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "mm"
+msgstr "मिमी"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "ISO:"
+msgstr "ISO:"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Shutter:"
+msgstr "किवाड़"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Camera:"
+msgstr "कैमरा"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "यह आपका पहला home widget box है | परिवर्तन करने के लिए कृप्या जाये Appearance > Widgets पर और चुने ऊपर से 6th widget, इसे home widget 1 कहते है । यह widget से भी प्रबंधनीय है ।"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "यह आपका दूसरा home widget box है | परिवर्तन करने के लिए कृप्या जाये Appearance > Widgets पर और चुने ऊपर से 7th widget, इसे home widget 2 कहते है । यह widget से भी प्रबंधनीय है ।"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "यह आपका तीसरा home widget box है | परिवर्तन करने के लिए कृप्या जाये Appearance > Widgets पर और चुने ऊपर से 8th widget, इसे home widget 3 कहते है । यह widget से भी प्रबंधनीय है ।"
+
+#: build/responsive-mobile/sidebar-left-half.php
+#: build/responsive-mobile/sidebar-left.php
+#: build/responsive-mobile/sidebar-right-half.php
+#: build/responsive-mobile/sidebar-right.php
+#: build/responsive-mobile/sidebar.php sidebar-left-half.php sidebar-left.php
+#: sidebar-right-half.php sidebar-right.php sidebar.php
+msgid "In Archive"
+msgstr "संग्रह में"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "आश्चर्य आपसे मिलन यहाँ इस जगह पर!"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Ready to publish your first post?"
+msgstr "अपनी पहली पोस्ट प्रकाशित करने के लिए तैयार है?"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Get started here"
+msgstr "यहाँ शुरू हो जाओ"
+
+#: build/responsive-mobile/template-parts/content-none.php
+msgid "Your search for %s did not match any entries."
+msgstr "आपकी खोज %s किसी भी प्रविष्टियों से मेल नहीं खाता"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "कृपया घबड़ाना नही, हम लोग इसे साथ में समझेंगे, चलिए हम अपने विकल्प की खोज करते है|"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "The URL may be misspelled or the page you are looking for is no longer available."
+msgstr "URL गलत वर्तनी हो सकते हैं या पृष्ठ आप के लिए देख रहे हैं अब उपलब्ध नहीं है।"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "You can return %s or search for the page you were looking for."
+msgstr "या खोज करते है उस पेज की जिसे आप देख रहे थे %s आप यहां लौट सकते है"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "&larr; Home"
+msgstr "&larr; गृह"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Categories"
+msgstr "श्रेणी"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Latest Posts"
+msgstr "नवीनतम चिट्ठे"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Permanent Link to %s"
+msgstr "स्थायी सम्बन्ध %s"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Pages"
+msgstr "पृष्ठ"
+
+#: build/responsive-mobile/template-parts/loop-header.php
+#: template-parts/loop-header.php
+msgid "Search Results for: %s"
+msgstr "खोज परिणाम के लिए: %s"
+
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: template-parts/loop-nav.php
+msgid "&larr;"
+msgstr "&larr;"
+
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: template-parts/loop-nav.php
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid ", "
+msgstr ", "
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Posted in %1$s"
+msgstr "%1$ s में तैनात"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Tagged with %1$s"
+msgstr "%1$ s के साथ टैग की गईं"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Edit"
+msgstr "पसंद"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgid "Hello World"
+msgstr "हैलो वर्ल्ड"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgctxt "verb"
+msgid "Post"
+msgstr "पोस्ट"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgid "%d apple"
+msgid_plural "%d apples"
+msgstr[0] "%d सेब"
+msgstr[1] "%d सेब"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgctxt "noun, job positions"
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d पोस्ट"
+msgstr[1] "%d पोस्ट"
+
+#: node_modules/grunt-pot/test/fixtures/some-file.php
+msgid "I'm a translatable string."
+msgstr "मैं एक अनुवाद का लायक़ स्ट्रिंग कर रहा हूँ।"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "Me too"
+msgstr "मैं भी"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "I have %d apple"
+msgid_plural "I have %d apples"
+msgstr[0] "मैं %d एप्पल है"
+msgstr[1] "मैं %d एप्पल है"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/basic-theme/exclude/file.php
+#: node_modules/grunt-wp-i18n/test/fixtures/plugin-include/plugin-include.php
+msgid "Exclude"
+msgstr "बाहर निकालें"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/plugin-include/include/file.php
+msgid "Include"
+msgstr "शामिल करें"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/text-domains/add-domain.php
+#: node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php
+msgid "String"
+msgstr "स्ट्रिंग"
+
+#: template-parts/content-none.php
+msgid "No posts published yet"
+msgstr "अभी तक कोई पोस्ट नहीं प्रकाशित"
+
+#: template-parts/content-none.php
+msgid "No results"
+msgstr "कोई परिणाम नहीं"
+
+#: template-parts/content-none.php
+msgid "Your search for \"%s\" did not match any entries."
+msgstr "\"%S\" के लिए अपनी खोज किसी भी प्रविष्टियों से मेल नहीं खाती।"

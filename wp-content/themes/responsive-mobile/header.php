@@ -14,9 +14,9 @@
  * should be made in a child theme.
  */
 
-// Exit if accessed directly
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
 }
 ?>
 <!DOCTYPE html>
@@ -32,8 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php responsive_mobile_head_top(); ?>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<title><?php wp_title( '&#124;', true, 'right' ); ?></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /> 
 
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">

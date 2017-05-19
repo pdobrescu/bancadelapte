@@ -1,0 +1,1293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Resposnive Mobile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-30 06:36:20 UTC\n"
+"PO-Revision-Date: 2015-03-10 22:26+0100\n"
+"Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
+"Language-Team: Norwegian Bokmål, Norway\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: nb_NO\n"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dette innlegget er passord beskyttet. Skriv inn passordet for å se kommentarer."
+
+#: build/responsive-mobile/comments.php comments.php
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "En kommentar på \"%2$ s\""
+msgstr[1] "En kommentar på \"%2$ s\""
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Comment navigation"
+msgstr "Kommentarnavigasjon"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "&larr; Older Comments"
+msgstr "&larr; Eldre kommentarer"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Comments are closed."
+msgstr "Kommentarer er stengt."
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Pings&#47;Trackbacks"
+msgstr "Ping / Tilbakesporinger"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$ d %2$ s for \"%3$ s\""
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Name"
+msgstr "Navn (bare synlig for deg)"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "E-mail"
+msgstr "E-post"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Website"
+msgstr "nettsted"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Settings saved and %s activated successfully."
+msgstr "Innstillingene lagres og %s ble aktivert."
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "%s activated successfully."
+msgstr "%s ble aktivert."
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Visit site"
+msgstr "Besøk side"
+
+#: build/responsive-mobile/core/functions-install.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: core/functions-install.php includes/functions-theme-options-page.php
+#: libraries/class-responsive-options.php
+msgid "Theme Options"
+msgstr "Temavalg"
+
+#: build/responsive-mobile/core/functions-install.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: core/functions-install.php includes/functions-theme-options-page.php
+msgid "Help"
+msgstr "HJELP"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "This theme recommends the following plugins:"
+msgstr "Dette temaet anbefaler følgende plugins:"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Activate"
+msgstr "Avbryt"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Install"
+msgstr "Installer"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "%s is not installed. Please install this plugin manually."
+msgstr "%s er ikke installert. Installer denne plugin manuelt."
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Hide Notice"
+msgstr "Skjul merknad"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: core/functions-theme-upsell.php includes/functions-theme-options-page.php
+msgid "More Themes"
+msgstr "Flere Temaer"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Themes You Can Trust"
+msgstr "Temaer du kan stole på"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Current theme"
+msgstr "Gjeldende tema"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Already installed"
+msgstr "Installert"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Install Now"
+msgstr "Installer nå"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Live Preview"
+msgstr "Bo forpremière"
+
+#: build/responsive-mobile/footer.php
+#: build/responsive-mobile/includes/functions-plugins.php footer.php
+#: includes/functions-plugins.php
+msgid "%1$s powered by %2$s"
+msgstr "%1$ s drevet av %2$ s"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "Responsive II"
+msgstr "Forståelsesfull II"
+
+#: build/responsive-mobile/footer.php
+#: build/responsive-mobile/includes/functions-plugins.php footer.php
+#: includes/functions-plugins.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "scroll to top"
+msgstr "Bla til toppen"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Skip to content"
+msgstr "Gå til innhold"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Skip to main menu"
+msgstr "Hopp til Hovedmeny"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Mobile menu toggle"
+msgstr "Mobile menyen Vis/Skjul"
+
+#: build/responsive-mobile/image.php image.php
+msgid "&#8249; Return to"
+msgstr "Tilbake til"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "No Comments &darr;"
+msgstr "Ingen Kommentarer"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "1 Comment &darr;"
+msgstr "1 Kommentar"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "% Comments &darr;"
+msgstr "% Kommentarer"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Read more &#8250;"
+msgstr "Les mer &#8250;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/content-excerpt.php
+#: build/responsive-mobile/template-parts/content-page.php
+#: build/responsive-mobile/template-parts/content-single.php
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: build/responsive-mobile/template-parts/content.php image.php
+#: template-parts/content-excerpt.php template-parts/content-page.php
+#: template-parts/content-single.php template-parts/content-sitemap.php
+#: template-parts/content.php
+msgid "Pages:"
+msgstr "Sider"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Tagged with:"
+msgstr "Tagget med:"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Posted in %s"
+msgstr "Postet i %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/template-parts/content-none.php
+#: includes/functions-extentions.php template-parts/content-none.php
+msgid "Home"
+msgstr "Hjem"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Archive for %s"
+msgstr "Arkiv for %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Search results for: %s"
+msgstr "Søkeresultater for: %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Posts tagged %s"
+msgstr "Innlegg tagget %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-extentions.php includes/functions-template-tags.php
+msgid "View all posts by %s"
+msgstr "Se alle innlegg av %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Error 404"
+msgstr "Feil 404"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/includes/functions-extras.php
+#: includes/functions-extentions.php includes/functions-extras.php
+msgid "Page %s"
+msgstr "Side %s"
+
+#: build/responsive-mobile/includes/functions-extras.php
+#: includes/functions-extras.php
+msgid "Read more %s"
+msgstr "Lese flere %s"
+
+#: build/responsive-mobile/includes/functions-layout.php
+#: includes/functions-layout.php
+msgid "Layout"
+msgstr "Utseende"
+
+#: build/responsive-mobile/includes/functions-meta-box.php
+#: includes/functions-meta-box.php
+msgid "Page Title"
+msgstr "Sidetittel"
+
+#: build/responsive-mobile/includes/functions-meta-box.php
+#: includes/functions-meta-box.php
+msgid "Page Options"
+msgstr "Sidealternativer"
+
+#: build/responsive-mobile/includes/functions-plugins.php
+#: includes/functions-plugins.php
+msgid "Responsive Theme"
+msgstr "Forståelsesfull tema"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Main Sidebar"
+msgstr "Hovedsidepanel"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr ""
+"Område 1 - sidebar.php - Vil vises som standard, Blog, Blog utrag side\n"
+"maler"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Right Sidebar"
+msgstr "Høyre sidepanel"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 2 - sidebar-right.php - Displays on Content/Sidebar page templates"
+msgstr "Område 2 - sidebar-right.php - Vises under innhold/Sidebar side maler"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Left Sidebar"
+msgstr "Venstre sidepanel"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 3 - sidebar-left.php - Displays on Sidebar/Content page templates"
+msgstr ""
+"Område 3 - sidebar-left-php - Vises under sidebar/innhold side\n"
+"maler"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Left Sidebar Half Page"
+msgstr "Venstre sidepanel halvside"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 4 - sidebar-left-half.php - Displays on Sidebar Half Page/Content page templates"
+msgstr "Området 4 - side-venstre-half.php - vises på Sidepanel halv side/innhold sidemaler"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Right Sidebar Half Page"
+msgstr "Høyre sidepanel halvside"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 5 - sidebar-right-half.php - Displays on Content/Sidebar Half Page page templates"
+msgstr "Området 5 - side-høyre-half.php - vise innhold/Sidebar halv side sidemaler"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 1"
+msgstr "Hjem Widget 1"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "Området 6-side home.php - vises på hjemmesiden"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 2"
+msgstr "Hjem Widget 2"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "Området 7-side home.php - vises på hjemmesiden"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 3"
+msgstr "Hjem Widget 3"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "Området 8-side home.php - vises på hjemmesiden"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Gallery Sidebar"
+msgstr "Galleri Sidebar"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "Området 9-side gallery.php - vises på siden etter et bilde er klikket i et galleri"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Colophon Widget"
+msgstr "Kolofon-widget"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "Området 10 - side-colophon.php, 100% bredde bunntekst widgets"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Top Widget"
+msgstr "Topp-widget"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr "Området 11-side top.php - vises til høyre for overskriften"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Footer Widget"
+msgstr "Bunntekst-dings"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 12 - sidebar-footer.php - Maximum of 3 widgets per row"
+msgstr "Område 12 - side-footer.php - maksimalt 3 widgeter per rad"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: build/responsive-mobile/page-templates/blog.php
+#: includes/functions-template-tags.php page-templates/blog.php
+msgid "Posts navigation"
+msgstr "Innlegg navigasjon"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre innlegg"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere innlegg <span class=\"meta-nav\">&rarr;</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: includes/functions-template-tags.php template-parts/loop-nav.php
+msgid "Post navigation"
+msgstr "Innleggsnavigasjon"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\"> &larr;</span> % tittel"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "% tittelen <span class=\"meta-nav\"> &rarr;</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Posted on"
+msgstr "Postet på"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "by"
+msgstr "av"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\"> postet på %1$ s</span><span class=\"byline\"> av %2$ s</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Author: %s"
+msgstr "Forfatter: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Daily Archives: %s"
+msgstr "Dagsarkiv: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Monthly Archives: %s"
+msgstr "Månedsarkiv: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Asides"
+msgstr "Asides"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Images"
+msgstr "Bilder"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Videos"
+msgstr "VIDEOER"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Quotes"
+msgstr "Sitater"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Links"
+msgstr "Koblinger"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Statuses"
+msgstr "Statuser"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Audios"
+msgstr "Hørlig"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Chats"
+msgstr "Samtaler"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Archives"
+msgstr "Arkiv"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Menu"
+msgstr "Meny"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Welcome to %s!"
+msgstr "Velkommen til %s!"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Get more features with %s!"
+msgstr "Få flere funksjoner med %s!"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Guides"
+msgstr "Guider"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Instructions"
+msgstr "Instruksjoner"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Translate"
+msgstr "Oversett"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Showcase"
+msgstr "Utstilling"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "The Custom Front Page is enabled. You can disable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "Tilpasset forsiden er aktivert. Du kan deaktivere den i <a href=\"%1$s\"> Temainnstillinger</a>."
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "The Custom Front Page is disabled. You can enable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "Tilpasset forsiden er deaktivert. Du kan aktivere den i <a href=\"%1$s\"> Temainnstillinger</a>."
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default"
+msgstr "Slett"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content/Sidebar"
+msgstr "Innhold/Sidepanel"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Sidebar/Content"
+msgstr "Sidepanel/Innhold"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content/Sidebar Half Page"
+msgstr "Innhold/Halvsides Sidepanel"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Sidebar/Content Half Page"
+msgstr "Sidepanel/Halvsides innhold"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Full Width Page (no sidebar)"
+msgstr "Side i Fullbredde (ingen sidepanel)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Theme Elements"
+msgstr "Temaelementer"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Disable breadcrumb list?"
+msgstr "Deaktivere breadcrumb listen?"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Check to disable"
+msgstr "Velg for å deaktivere"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Use minified CSS"
+msgstr "Bruk minified CSS"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Disable Call to Action Button?"
+msgstr "Innaktiver Call to Action-knappen?"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Logo Upload"
+msgstr "Last opp logo"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom Header"
+msgstr "Egendefinert overskrift"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Need to replace or remove default logo?"
+msgstr "Vil du bytte ut eller fjerne standardlogoen?"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Click here"
+msgstr "klikk her"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Home Page"
+msgstr "Siden"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enable Custom Front Page"
+msgstr "Aktiver egendefinert fremside"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Overrides the WordPress %1sfront page option%2s"
+msgstr "Dette vil overstyre%1sførstesidevalg%2s"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Headline"
+msgstr "Overskrift"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your headline"
+msgstr "Skriv inn Overskrift"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Hello, World!"
+msgstr "Hallo verden"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Subheadline"
+msgstr "Mellomoverskrift"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your subheadline"
+msgstr "Skriv in underoverskrift"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Your H2 subheadline here"
+msgstr "Din H2 - overskrift her"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content Area"
+msgstr "Innholdsområdet"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your content"
+msgstr "Endre ditt innhold"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "Din title, mellomtittel og dette viktige innholdet kan redigeres fra Temainstillninger. Call to Action og dens destinasjons link også. Kan være et bilde eller en Youtube video."
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Call to Action (URL)"
+msgstr "Handlingsoppfordring (URL)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your call to action URL"
+msgstr "Ange din call to action-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Call to Action (Text)"
+msgstr "Handlingsoppfordring (Tekst)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your call to action text"
+msgstr "Skriv inn din call to action-text"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Call to Action"
+msgstr "Handlingsoppfordring"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Featured Content"
+msgstr "Fokusinnhold"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "See Docs"
+msgstr "Se Dokumentasjonen"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Paste your shortcode, video or image source"
+msgstr "Lim inn din hurtigkode, video eller bildekilde"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Layouts"
+msgstr "Standard Utformingsoppsett"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Static Page Layout"
+msgstr "Standard utforming for statisk side"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Single Blog Post Layout"
+msgstr "Standard utforming for Enkelt Blogginnlegg"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Blog Posts Index Layout"
+msgstr "Standard utformingsoppsett for Oversikt over Blogginnlegg"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Social Icons"
+msgstr "Sosial ikoner"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Twitter"
+msgstr "Twitter"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Twitter URL"
+msgstr "Angi din Twitter-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Facebook"
+msgstr "Facebook"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Facebook URL"
+msgstr "Angi din Facebook-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your LinkedIn URL"
+msgstr "Angi din LinkedIn-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "YouTube"
+msgstr "YouTube"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your YouTube URL"
+msgstr "Angi din YouTube-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your StumbleUpon URL"
+msgstr "Angi din StumbleUpon-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "RSS Feed"
+msgstr "RSS-strøm"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your RSS Feed URL"
+msgstr "Angi ditt RSS-flod URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Google+"
+msgstr "Google +"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Google+ URL"
+msgstr "Ange din Google+-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Instagram"
+msgstr "Instagram"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Instagram URL"
+msgstr "Angi din Instagram URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Pinterest URL"
+msgstr "Angi din Pinterest-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Vimeo URL"
+msgstr "Angi din Vimeo-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "foursquare"
+msgstr "firkantet"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your foursquare URL"
+msgstr "Angi din foursquare-URL"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "CSS Styles"
+msgstr "CSS-stiler"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom CSS Styles"
+msgstr "Egne CSS-stiler"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "CSS Tutorial"
+msgstr "CSS-veiledning"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom CSS styles."
+msgstr "Fyll inn din egen CSSkode."
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Scripts"
+msgstr "Skript"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom Scripts for Header and Footer"
+msgstr "Egendefinerte skript til Topp- og bunnområde av siden."
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Quick Tutorial"
+msgstr "Rask Veiledning"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Embeds to header.php &darr;"
+msgstr "Innebygd i header.php"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom header script."
+msgstr "Skriv eller lim inn egendefinert skript"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Embeds to footer.php &darr;"
+msgstr "Bygd inn i footer.php"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom footer script."
+msgstr "Skriv eller lim inn egendefinert skript for bunnområdet."
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Top Menu"
+msgstr "Toppmeny"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Header Menu"
+msgstr "Overskrift Meny"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Sub-Header Menu"
+msgstr "Menyen under toppområdet"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Footer Menu"
+msgstr "Fot Meny"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "Beklager, du ikke kan laste opp denne filtypen for dette feltet."
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "Upload"
+msgstr "last opp"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "or enter URL"
+msgstr "eller skriv inn URL"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Do you want to restore the default settings?"
+msgstr "Vil du gjenopprette standardinnstillingene?"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "All theme settings will be lost!"
+msgstr "Alle temainnstillinger går tapt!"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Click OK to restore."
+msgstr "Klikk OK for å gjenopprette."
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Options Saved"
+msgstr "Innstillninger lagret"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Save Options"
+msgstr "Lagre innstillinger"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Restore Defaults"
+msgstr "Slett"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Options Imported"
+msgstr "Alternativer for importert"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Invalid Data for Import"
+msgstr "Ugyldige Data for Import"
+
+#: build/responsive-mobile/page-templates/blog-excerpt.php
+#: build/responsive-mobile/page-templates/blog.php
+#: page-templates/blog-excerpt.php page-templates/blog.php
+msgid "&#8249; Older posts"
+msgstr "&#8249; Eldre innlegg"
+
+#: build/responsive-mobile/page-templates/blog-excerpt.php
+#: build/responsive-mobile/page-templates/blog.php
+#: page-templates/blog-excerpt.php page-templates/blog.php
+msgid "Newer posts &#8250;"
+msgstr "Nyere innlegg &#8250;"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Image Information"
+msgstr "Bildeinformasjon"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Full Size:"
+msgstr "Full størrelse:"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Aperture: f&#47;"
+msgstr " Blender:f&#47;"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Focal Length:"
+msgstr "Brennvidde"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "mm"
+msgstr "mm"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "ISO:"
+msgstr "ISO:"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Shutter:"
+msgstr "Lukker:"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Camera:"
+msgstr "Kamera"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "Dette er din første hjem-widget-box For å redigere, gå til Utseende > Widgets og velg den sjette widget fra toppen i område seks navngitt \"Home Widget 1\". Tittelen er også håndterbar fra widgeten."
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "Dette er din andre hjem.widget-box. For å redigere, gå til Utseesnde > Widgets og velg den sjuende widgeten fra toppen i omrede sju ved navn Hjem Widget 2. Tittelen er også håndterbar fra widgeten."
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "Dette er din tredje hjem-widgetboks. For å redigere, gå til Utseende > Widgeter og velg den 8. widgeten fra toppen i område 8, navngitt \"Hjem Widget 3\". Tittelen kan også velges fra widgeten."
+
+#: build/responsive-mobile/sidebar-left-half.php
+#: build/responsive-mobile/sidebar-left.php
+#: build/responsive-mobile/sidebar-right-half.php
+#: build/responsive-mobile/sidebar-right.php
+#: build/responsive-mobile/sidebar.php sidebar-left-half.php sidebar-left.php
+#: sidebar-right-half.php sidebar-right.php sidebar.php
+msgid "In Archive"
+msgstr "I Arkiv"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "Hyggelig å treffe på deg her!"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Ready to publish your first post?"
+msgstr "Klar til å publisere din første beskjed?"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Get started here"
+msgstr "Start her."
+
+#: build/responsive-mobile/template-parts/content-none.php
+msgid "Your search for %s did not match any entries."
+msgstr "Ditt søk %s samsvarte ikke med noen oppføringer"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "Ikke få panikk, vi skal få til dette sammen. La oss se på alternativene."
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "The URL may be misspelled or the page you are looking for is no longer available."
+msgstr "URL-adressen kan være feilstavet, eller siden du leter etter er ikke lenger tilgjengelig."
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "You can return %s or search for the page you were looking for."
+msgstr "Du kan gå tilbake %s eller søke etter siden du leter etter"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "&larr; Home"
+msgstr "&larr; Hjem"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Categories"
+msgstr "Kategorier"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Latest Posts"
+msgstr "Siste innlegg"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Permanent Link to %s"
+msgstr "Permanent Link til %s"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Pages"
+msgstr "Sider"
+
+#: build/responsive-mobile/template-parts/loop-header.php
+#: template-parts/loop-header.php
+msgid "Search Results for: %s"
+msgstr "Søkeresultater for: %s"
+
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: template-parts/loop-nav.php
+msgid "&larr;"
+msgstr "&larr;"
+
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: template-parts/loop-nav.php
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid ", "
+msgstr ", "
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Posted in %1$s"
+msgstr "Skrevet i %1$ s"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Tagged with %1$s"
+msgstr "Merket med %1$ s"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Edit"
+msgstr "Lyd"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgid "Hello World"
+msgstr "Hallo, verden"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgctxt "verb"
+msgid "Post"
+msgstr "Innlegg"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgid "%d apple"
+msgid_plural "%d apples"
+msgstr[0] "%d apple"
+msgstr[1] "%d apple"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgctxt "noun, job positions"
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d innlegg"
+msgstr[1] "%d innlegg"
+
+#: node_modules/grunt-pot/test/fixtures/some-file.php
+msgid "I'm a translatable string."
+msgstr "Jeg er en oversettbare streng."
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "Me too"
+msgstr "jeg også"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "I have %d apple"
+msgid_plural "I have %d apples"
+msgstr[0] "Jeg har %d apple"
+msgstr[1] "Jeg har %d apple"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "yyyy-mm-dd"
+msgstr "åååå-mm-dd"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/basic-theme/exclude/file.php
+#: node_modules/grunt-wp-i18n/test/fixtures/plugin-include/plugin-include.php
+msgid "Exclude"
+msgstr "Ekskluder"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/plugin-include/include/file.php
+msgid "Include"
+msgstr "Inkluderer"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/text-domains/add-domain.php
+#: node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php
+msgid "String"
+msgstr "Streng"
+
+#: template-parts/content-none.php
+msgid "No posts published yet"
+msgstr "Ingen innlegg publisert ennå"
+
+#: template-parts/content-none.php
+msgid "No results"
+msgstr "Ingen resultater"
+
+#: template-parts/content-none.php
+msgid "Your search for \"%s\" did not match any entries."
+msgstr "Søket etter \"%s\" samsvarte ikke med noen oppføringer."

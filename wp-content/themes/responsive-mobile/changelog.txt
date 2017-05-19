@@ -4,9 +4,67 @@ Changelog Legend:
 [+] = Added
 [*] = Changed
 [^] = Moved
-[=] = No Changes
 [x] = Deleted
 [!] = Bugs
+
+(07/12/16) - Improvements - Version 1.1
+
+[!] - Fixed customizer issue for widget 
+
+(26/10/16) - Improvements - Version 1.0
+
+[!] - SEO improvement (removed H1 tag for site title).
+
+(13/09/16) - Improvements - Version 0.0.11
+
+[!] - Fixed issue with searchbar display in sidebar.
+
+(05/08/16) - Improvements - Version 0.0.10
+
+[!] - Updated as per latest Theme Check guidelines
+
+(27/04/16) - Improvements - Version 0.0.9
+
+[!] - Fixed scroll-top jquery conflict with WordPress 4.5 version
+
+(07/04/16) - Improvements - Version 0.0.8
+
+[!] - Fixed PHP 7 compatibility issue
+[!] - Fixed translation issue
+[+] - Added featured image support for Pages
+
+(07/01/15) - Improvements - Version 0.0.7
+
+[!] - Fixed header image crop issue
+
+(03/15/14) - Improvements - Version 0.0.6
+
+[*] - Updated translations
+[!] - Fixed code on 404.php
+
+(02/04/14) - Improvements - Version 0.0.5
+
+[*] - Change check if file is called directly.
+[+] - Added check for pro feature plugin.
+[+] - Add post password form css.
+[!] - Fixed page title option issue.
+[!] - Fixed custom css issue.
+[+] - Added new plugin suggestion.
+
+
+(12/28/14) - Improvements - Version 0.0.4
+
+[!] Fix issues with IE code
+[!] Initiate FitVids correctly
+[!] Fix search button alignment in FF
+[*] Only minify js and not concentrate
+[*] Allow mobile menu to opened by clicking on the whole bar
+[*] Reduce padding of #featured-content on smaller screens
+[*] Readd blog templates
+[+] Add class to home widget titles
+[+] Add featured image to single posts
+
+-----
 
 (11/15/14) - Improvements - Version 0.0.3
 

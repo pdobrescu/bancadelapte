@@ -1,0 +1,1285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Resposnive Mobile\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-30 06:36:20 UTC\n"
+"PO-Revision-Date: 2015-03-10 22:28+0100\n"
+"Last-Translator: Ulrich Pogson <grapplerulrich@gmail.com>\n"
+"Language-Team: Chinese, Taiwan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "文章已被鎖定，請輸入密碼查看迴響。"
+
+#: build/responsive-mobile/comments.php comments.php
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Comment navigation"
+msgstr "評論導航"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "&larr; Older Comments"
+msgstr "&larr; 較早的評論"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Newer Comments &rarr;"
+msgstr "新評論 &rarr;"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Comments are closed."
+msgstr "評論功能已關閉。"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Pings&#47;Trackbacks"
+msgstr "Ping / 引用通告"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "%1$d %2$s for \"%3$s\""
+msgstr "%1$d %2$s 於 \"%3$s\""
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Name"
+msgstr "名字(只有你自己看得到)"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "E-mail"
+msgstr "電郵"
+
+#: build/responsive-mobile/comments.php comments.php
+msgid "Website"
+msgstr "地點"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Settings saved and %s activated successfully."
+msgstr "保存設置和 %s 已成功啟動。"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "%s activated successfully."
+msgstr "%s 已成功啟動。"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Visit site"
+msgstr "訪問網站"
+
+#: build/responsive-mobile/core/functions-install.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: core/functions-install.php includes/functions-theme-options-page.php
+#: libraries/class-responsive-options.php
+msgid "Theme Options"
+msgstr "主題選項"
+
+#: build/responsive-mobile/core/functions-install.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: core/functions-install.php includes/functions-theme-options-page.php
+msgid "Help"
+msgstr "求助"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "This theme recommends the following plugins:"
+msgstr "本主題建議了以下外掛程式："
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Activate"
+msgstr "啟動"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Install"
+msgstr "安裝"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "%s is not installed. Please install this plugin manually."
+msgstr "不安裝 %s。請手動安裝此外掛程式。"
+
+#: build/responsive-mobile/core/functions-install.php
+#: core/functions-install.php
+msgid "Hide Notice"
+msgstr "隱藏通知"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: core/functions-theme-upsell.php includes/functions-theme-options-page.php
+msgid "More Themes"
+msgstr "更多佈景主題"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Themes You Can Trust"
+msgstr "你可以信任的主題"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Current theme"
+msgstr "當前主題"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Already installed"
+msgstr "已安裝"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Install Now"
+msgstr "現在安裝"
+
+#: build/responsive-mobile/core/functions-theme-upsell.php
+#: core/functions-theme-upsell.php
+msgid "Live Preview"
+msgstr "即時預覽"
+
+#: build/responsive-mobile/footer.php
+#: build/responsive-mobile/includes/functions-plugins.php footer.php
+#: includes/functions-plugins.php
+msgid "%1$s powered by %2$s"
+msgstr "由 %2$ s 提供動力的 %1$ s"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "Responsive II"
+msgstr "回應二"
+
+#: build/responsive-mobile/footer.php
+#: build/responsive-mobile/includes/functions-plugins.php footer.php
+#: includes/functions-plugins.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "scroll to top"
+msgstr "回到頂部"
+
+#: build/responsive-mobile/footer.php footer.php
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Skip to content"
+msgstr "跳轉到內容"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Skip to main menu"
+msgstr "跳到主功能表"
+
+#: build/responsive-mobile/header.php header.php
+msgid "Mobile menu toggle"
+msgstr "移動功能表切換"
+
+#: build/responsive-mobile/image.php image.php
+msgid "&#8249; Return to"
+msgstr "&#8249; 返回"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "No Comments &darr;"
+msgstr "暫無迴響 &darr;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "1 Comment &darr;"
+msgstr "1 個迴響 &darr;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/post-meta-page.php
+#: build/responsive-mobile/template-parts/post-meta.php image.php
+#: template-parts/post-meta-page.php template-parts/post-meta.php
+msgid "% Comments &darr;"
+msgstr "% 個迴響 &darr;"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Read more &#8250;"
+msgstr "查閱全文 &#8250;"
+
+#: build/responsive-mobile/image.php
+#: build/responsive-mobile/template-parts/content-excerpt.php
+#: build/responsive-mobile/template-parts/content-page.php
+#: build/responsive-mobile/template-parts/content-single.php
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: build/responsive-mobile/template-parts/content.php image.php
+#: template-parts/content-excerpt.php template-parts/content-page.php
+#: template-parts/content-single.php template-parts/content-sitemap.php
+#: template-parts/content.php
+msgid "Pages:"
+msgstr "頁"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Tagged with:"
+msgstr "標籤:"
+
+#: build/responsive-mobile/image.php image.php
+msgid "Posted in %s"
+msgstr "文章分類 %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/template-parts/content-none.php
+#: includes/functions-extentions.php template-parts/content-none.php
+msgid "Home"
+msgstr "我家"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Archive for %s"
+msgstr "文章歸檔於 %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Search results for: %s"
+msgstr "搜尋結果: %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Posts tagged %s"
+msgstr "標籤 %s"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-extentions.php includes/functions-template-tags.php
+msgid "View all posts by %s"
+msgstr "查看 %s 的所有文章"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: includes/functions-extentions.php
+msgid "Error 404"
+msgstr "錯誤 404"
+
+#: build/responsive-mobile/includes/functions-extentions.php
+#: build/responsive-mobile/includes/functions-extras.php
+#: includes/functions-extentions.php includes/functions-extras.php
+msgid "Page %s"
+msgstr "頁面 %s"
+
+#: build/responsive-mobile/includes/functions-extras.php
+#: includes/functions-extras.php
+msgid "Read more %s"
+msgstr "閱讀更多 %s"
+
+#: build/responsive-mobile/includes/functions-layout.php
+#: includes/functions-layout.php
+msgid "Layout"
+msgstr "佈局"
+
+#: build/responsive-mobile/includes/functions-meta-box.php
+#: includes/functions-meta-box.php
+msgid "Page Title"
+msgstr "列印"
+
+#: build/responsive-mobile/includes/functions-meta-box.php
+#: includes/functions-meta-box.php
+msgid "Page Options"
+msgstr "頁面選項"
+
+#: build/responsive-mobile/includes/functions-plugins.php
+#: includes/functions-plugins.php
+msgid "Responsive Theme"
+msgstr "反應迅速的主題"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Main Sidebar"
+msgstr "主邊欄"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr "地區 1-用法-在預設情況下，博客，博客節選上顯示網頁範本"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Right Sidebar"
+msgstr "右側邊欄"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 2 - sidebar-right.php - Displays on Content/Sidebar page templates"
+msgstr "區域 2 側邊欄-right.php-顯示對內容/側邊欄的網頁範本"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Left Sidebar"
+msgstr "左側邊欄"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 3 - sidebar-left.php - Displays on Sidebar/Content page templates"
+msgstr "區域 3 側邊欄-left.php-顯示在側邊欄/內容頁範本"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Left Sidebar Half Page"
+msgstr "半頁左側邊欄"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 4 - sidebar-left-half.php - Displays on Sidebar Half Page/Content page templates"
+msgstr "區 4-側邊欄-左-half.php-顯示在側邊欄一半的頁面內容頁範本"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Right Sidebar Half Page"
+msgstr "半頁右側邊欄"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 5 - sidebar-right-half.php - Displays on Content/Sidebar Half Page page templates"
+msgstr "地區 5-側邊欄-右-half.php-顯示內容/側邊欄半頁上的頁範本"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 1"
+msgstr "首頁模組 1"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "區域 6 側邊欄-這個文檔-顯示在主頁上"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 2"
+msgstr "首頁模組 2"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "區域 7 側邊欄-這個文檔-顯示在主頁上"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: build/responsive-mobile/sidebar-home.php includes/functions-sidebar.php
+#: sidebar-home.php
+msgid "Home Widget 3"
+msgstr "首頁模組 3"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "區域 8 側邊欄-這個文檔-顯示在主頁上"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Gallery Sidebar"
+msgstr "相簿邊欄"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "9 側邊欄-gallery.php-之後區域會顯示在頁面上圖像已被按一下庫中"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Colophon Widget"
+msgstr "頁尾模組"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "面積 10-側邊欄 colophon.php，100%的寬度頁腳部件"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Top Widget"
+msgstr "頁首模組"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr "區域 11 側邊欄-top.php-顯示在標題的右側"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Footer Widget"
+msgstr "頁腳部件"
+
+#: build/responsive-mobile/includes/functions-sidebar.php
+#: includes/functions-sidebar.php
+msgid "Area 12 - sidebar-footer.php - Maximum of 3 widgets per row"
+msgstr "地區 12-側邊欄-footer.php-3 的小部件，每行最多"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: build/responsive-mobile/page-templates/blog.php
+#: includes/functions-template-tags.php page-templates/blog.php
+msgid "Posts navigation"
+msgstr "職位導航"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\"> &larr;</span>較舊的文章"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "較新的職位 <span class=\"meta-nav\"> &rarr;</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: includes/functions-template-tags.php template-parts/loop-nav.php
+msgid "Post navigation"
+msgstr "郵政導航"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\"> &larr;</span> %標題"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%標題 <span class=\"meta-nav\"> &rarr;</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "%1$s %2$s"
+msgstr "%1$ s %2$ s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Posted on"
+msgstr "張貼在"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "by"
+msgstr "由"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\"> 張貼在 %1$ s</span><span class=\"byline\"> 通過 %2$ s</span>"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Author: %s"
+msgstr "作者： %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Daily Archives: %s"
+msgstr "按日查看: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Monthly Archives: %s"
+msgstr "按月查看: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Yearly Archives: %s"
+msgstr "按年查看: %s"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Asides"
+msgstr "旁白"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Galleries"
+msgstr "畫廊"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Images"
+msgstr "影像"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Videos"
+msgstr "影片"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Quotes"
+msgstr "報價"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Links"
+msgstr "類型："
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Statuses"
+msgstr "狀態"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Audios"
+msgstr "音訊"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Chats"
+msgstr "聊天"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Archives"
+msgstr "封存"
+
+#: build/responsive-mobile/includes/functions-template-tags.php
+#: includes/functions-template-tags.php
+msgid "Menu"
+msgstr "選單"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Welcome to %s!"
+msgstr "歡迎到 %s ！"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Get more features with %s!"
+msgstr "得到更多的功能與 %s ！"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Guides"
+msgstr "指南"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Instructions"
+msgstr "指令"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Translate"
+msgstr "翻譯"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "Showcase"
+msgstr "成果展示"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "The Custom Front Page is enabled. You can disable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "啟用自訂前臺頁面。你可以在 <a href=\"%1$s\"> 主題設置</a> 中禁用它。"
+
+#: build/responsive-mobile/includes/functions-theme-options-page.php
+#: includes/functions-theme-options-page.php
+msgid "The Custom Front Page is disabled. You can enable it in the <a href=\"%1$s\">theme settings</a>."
+msgstr "自訂前臺頁面將被禁用。你可以在 <a href=\"%1$s\"> 主題設置</a> 中啟用它。"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default"
+msgstr "默認"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content/Sidebar"
+msgstr "內容/邊欄"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Sidebar/Content"
+msgstr "邊欄/內容"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content/Sidebar Half Page"
+msgstr "內容/邊欄 半頁"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Sidebar/Content Half Page"
+msgstr "邊欄/內容 半頁"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Full Width Page (no sidebar)"
+msgstr "全寬頁 (無邊欄)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Theme Elements"
+msgstr "主題元素"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Disable breadcrumb list?"
+msgstr "禁用軌跡瀏覽清單嗎？"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Check to disable"
+msgstr "勾選以取消"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Use minified CSS"
+msgstr "使用縮小的 CSS"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Disable Call to Action Button?"
+msgstr "取消“開始行動”按鈕？"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Logo Upload"
+msgstr "上傳 Logo"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom Header"
+msgstr "自訂 Header"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Need to replace or remove default logo?"
+msgstr "需要取代或移除預設 Logo？"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Click here"
+msgstr "按這裡"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Home Page"
+msgstr "首頁"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enable Custom Front Page"
+msgstr "啟用自訂前臺頁面"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Overrides the WordPress %1sfront page option%2s"
+msgstr "重寫的 WordPress %1sfront 頁選項 %2s"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Headline"
+msgstr "標題"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your headline"
+msgstr "輸入標題"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Hello, World!"
+msgstr "哈囉，世界！"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Subheadline"
+msgstr "副標題"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your subheadline"
+msgstr "輸入副標題"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Your H2 subheadline here"
+msgstr "這是您的 H2 副標題"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Content Area"
+msgstr "正文"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your content"
+msgstr "輸入正文"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "您可以在主題設置編輯標題、副標題，以及“開始行動”按鈕， 右側可以放置圖片或者影片。"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Call to Action (URL)"
+msgstr "開始行動 (連結)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your call to action URL"
+msgstr "輸入“開始行動”按鈕的連結"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Call to Action (Text)"
+msgstr "開始行動 (文字)"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your call to action text"
+msgstr "輸入“開始行動”按鈕的文字"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: build/responsive-mobile/template-parts/featured-area.php
+#: includes/functions-theme-options.php template-parts/featured-area.php
+msgid "Call to Action"
+msgstr "開始行動"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Featured Content"
+msgstr "右側內容"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "See Docs"
+msgstr "查閱說明文件"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Paste your shortcode, video or image source"
+msgstr "貼上您的短碼、影片或圖片原始碼"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Layouts"
+msgstr "預設版面"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Static Page Layout"
+msgstr "預設固定頁面樣式"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Single Blog Post Layout"
+msgstr "預設單一網誌文章樣式"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Default Blog Posts Index Layout"
+msgstr "預設網誌文章目錄樣式"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Social Icons"
+msgstr "社交網路圖示"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Twitter"
+msgstr "推特"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Twitter URL"
+msgstr "輸入您的 Twitter 網址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Facebook"
+msgstr "臉譜網"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Facebook URL"
+msgstr "輸入您的 Facebook 位址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your LinkedIn URL"
+msgstr "輸入您的 LinkedIn 位址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "YouTube"
+msgstr "YouTube"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your YouTube URL"
+msgstr "輸入您的 YouTube 位址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your StumbleUpon URL"
+msgstr "輸入您的 StumbleUpon 位址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "RSS Feed"
+msgstr "Rss 訂閱源"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your RSS Feed URL"
+msgstr "輸入您的 RSS Feed 位址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Google+"
+msgstr "Google +"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Google+ URL"
+msgstr "輸入您的 Google+ 網址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Instagram"
+msgstr "Instagram"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Instagram URL"
+msgstr "輸入您的 Instagram 網址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Pinterest URL"
+msgstr "輸入您的 Pinterest 網址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your Vimeo URL"
+msgstr "輸入您的 Vimeo 網址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "foursquare"
+msgstr "四方"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your foursquare URL"
+msgstr "輸入你的 foursquare 網址"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "CSS Styles"
+msgstr "CSS 樣式"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom CSS Styles"
+msgstr "自訂 CSS 樣式"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "CSS Tutorial"
+msgstr "CSS 自訂指南"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom CSS styles."
+msgstr "輸入自訂的 CSS 樣式。"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Scripts"
+msgstr "腳本"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Custom Scripts for Header and Footer"
+msgstr "頁首及頁尾自訂程序"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Quick Tutorial"
+msgstr "快速教學"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Embeds to header.php &darr;"
+msgstr "嵌入至 header.php &darr;"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom header script."
+msgstr "輸入您的自訂頁首程序。"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Embeds to footer.php &darr;"
+msgstr "嵌入至 footer.php &darr;"
+
+#: build/responsive-mobile/includes/functions-theme-options.php
+#: includes/functions-theme-options.php
+msgid "Enter your custom footer script."
+msgstr "輸入您的自訂頁尾程序。"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Top Menu"
+msgstr "頂部選單"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Header Menu"
+msgstr "導覽列"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Sub-Header Menu"
+msgstr "次導覽列"
+
+#: build/responsive-mobile/includes/functions.php includes/functions.php
+msgid "Footer Menu"
+msgstr "底部選單"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "對不起，您不能上載此檔案類型為此欄位。"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "Upload"
+msgstr "上傳"
+
+#: build/responsive-mobile/libraries/class-meta-box.php
+#: libraries/class-meta-box.php
+msgid "or enter URL"
+msgstr "或輸入 URL"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Do you want to restore the default settings?"
+msgstr "你想要恢復預設設置嗎？"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "All theme settings will be lost!"
+msgstr "所有的主題設置將會丟失!"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Click OK to restore."
+msgstr "按一下確定來恢復。"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Options Saved"
+msgstr "選項已儲存"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Save Options"
+msgstr "儲存選項"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Restore Defaults"
+msgstr "還原預設"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Options Imported"
+msgstr "導入選項"
+
+#: build/responsive-mobile/libraries/class-responsive-options.php
+#: libraries/class-responsive-options.php
+msgid "Invalid Data for Import"
+msgstr "導入的資料無效"
+
+#: build/responsive-mobile/page-templates/blog-excerpt.php
+#: build/responsive-mobile/page-templates/blog.php
+#: page-templates/blog-excerpt.php page-templates/blog.php
+msgid "&#8249; Older posts"
+msgstr "&#8249; 較早文章"
+
+#: build/responsive-mobile/page-templates/blog-excerpt.php
+#: build/responsive-mobile/page-templates/blog.php
+#: page-templates/blog-excerpt.php page-templates/blog.php
+msgid "Newer posts &#8250;"
+msgstr "較新文章 &#8250;"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Image Information"
+msgstr "圖片資訊"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Full Size:"
+msgstr "完整尺寸:"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Aperture: f&#47;"
+msgstr "光圈: f&#47;"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Focal Length:"
+msgstr "焦距"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "mm"
+msgstr "毫米"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "ISO:"
+msgstr "ISO:"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Shutter:"
+msgstr "快門速度"
+
+#: build/responsive-mobile/sidebar-gallery.php sidebar-gallery.php
+msgid "Camera:"
+msgstr "照相機"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "這是首頁上第一個模組，請在控制台 > 外觀 > 模組中修改此處的文字。"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "這是首頁上第二個模組，請在控制台 > 外觀 > 控制台中修改此處的文字。"
+
+#: build/responsive-mobile/sidebar-home.php sidebar-home.php
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "這是首頁上第三個模組，請在控制台 > 外觀 > 控制台中修改此處的文字。"
+
+#: build/responsive-mobile/sidebar-left-half.php
+#: build/responsive-mobile/sidebar-left.php
+#: build/responsive-mobile/sidebar-right-half.php
+#: build/responsive-mobile/sidebar-right.php
+#: build/responsive-mobile/sidebar.php sidebar-left-half.php sidebar-left.php
+#: sidebar-right-half.php sidebar-right.php sidebar.php
+msgid "In Archive"
+msgstr "歸檔"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 &#8212; 真湊巧，竟在這兒遇見您！"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Ready to publish your first post?"
+msgstr "準備發佈您的第一篇文章了嗎？"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Get started here"
+msgstr "從這裡開始吧"
+
+#: build/responsive-mobile/template-parts/content-none.php
+msgid "Your search for %s did not match any entries."
+msgstr "您搜尋的 %s 沒有搜尋到相應內容"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "別慌張，我們將一起解決這問題。我們來看看有什麼辦法。"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "The URL may be misspelled or the page you are looking for is no longer available."
+msgstr "可能拼寫錯誤的 URL 或你正在尋找的頁面將不再可用。"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "You can return %s or search for the page you were looking for."
+msgstr "您可以返回 %s 或搜尋您正在尋找的頁面"
+
+#: build/responsive-mobile/template-parts/content-none.php
+#: template-parts/content-none.php
+msgid "&larr; Home"
+msgstr "&larr; 首頁"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Categories"
+msgstr "分類"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Permanent Link to %s"
+msgstr "固定連結 %s"
+
+#: build/responsive-mobile/template-parts/content-sitemap.php
+#: template-parts/content-sitemap.php
+msgid "Pages"
+msgstr "頁"
+
+#: build/responsive-mobile/template-parts/loop-header.php
+#: template-parts/loop-header.php
+msgid "Search Results for: %s"
+msgstr "搜尋結果: %s"
+
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: template-parts/loop-nav.php
+msgid "&larr;"
+msgstr "&larr;"
+
+#: build/responsive-mobile/template-parts/loop-nav.php
+#: template-parts/loop-nav.php
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid ", "
+msgstr ","
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Posted in %1$s"
+msgstr "張貼在 %1$ s"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Tagged with %1$s"
+msgstr "使用 %1$ s 標記"
+
+#: build/responsive-mobile/template-parts/post-data.php
+#: template-parts/post-data.php
+msgid "Edit"
+msgstr "編輯"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgid "Hello World"
+msgstr "世界您好"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgctxt "verb"
+msgid "Post"
+msgstr "發佈"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgid "%d apple"
+msgid_plural "%d apples"
+msgstr[0] "%d 個蘋果"
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php
+msgctxt "noun, job positions"
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d 個職位"
+
+#: node_modules/grunt-pot/test/fixtures/some-file.php
+msgid "I'm a translatable string."
+msgstr "我是可翻譯的字串。"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "Me too"
+msgstr "我也是"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "I have %d apple"
+msgid_plural "I have %d apples"
+msgstr[0] "我有 %d 個蘋果"
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php
+msgid "yyyy-mm-dd"
+msgstr "yyyy mm dd"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/basic-theme/exclude/file.php
+#: node_modules/grunt-wp-i18n/test/fixtures/plugin-include/plugin-include.php
+msgid "Exclude"
+msgstr "排除"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/plugin-include/include/file.php
+msgid "Include"
+msgstr "包括"
+
+#: node_modules/grunt-wp-i18n/test/fixtures/text-domains/add-domain.php
+#: node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php
+msgid "String"
+msgstr "字串"
+
+#: template-parts/content-none.php
+msgid "No posts published yet"
+msgstr "沒有文章尚未發佈"
+
+#: template-parts/content-none.php
+msgid "No results"
+msgstr "沒有結果"
+
+#: template-parts/content-none.php
+msgid "Your search for \"%s\" did not match any entries."
+msgstr "\"%S\"您搜索不匹配的任何條目。"

@@ -79,6 +79,12 @@
 	};
 })(jQuery);
 
+// FitVids
+jQuery(function($) {
+// Target your #container, #wrapper etc.
+	$("#wrapper").fitVids({ ignore: '.ls-container'});
+});
+
 /*!
  * Mobile Menu
  *
@@ -93,7 +99,7 @@
 
     };
 
-    $("button#mobile-nav-button").on("click", obj.onClick);
+    $("nav#main-navigation").on("click", obj.onClick);
 })(jQuery);
 
 /*! http://mths.be/placeholder v2.0.7 by @mathias */
@@ -1182,7 +1188,7 @@
  * GPL V2 License (c) CyberChimps
  */
 jQuery(document).ready(function ($) {
-	$('a[href=#scroll-top]').click(function () {
+	$('a[href="#scroll-top"]').click(function () {
 		$('html, body').animate({
 			scrollTop: 0
 		}, 'slow');
