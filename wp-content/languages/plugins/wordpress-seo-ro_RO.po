@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-11 09:47:02+0000\n"
+"PO-Revision-Date: 2017-05-09 15:51:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,50 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ro\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: languages/yoast-seo-js.php:38
+msgid "No internal links appear in this page, consider adding some as appropriate."
+msgstr "Nu apare nicio legătură internă în această pagină, ia în considerare adăugarea unora adecvate."
+
+#. Translators: %1$s expands to the number of internal links
+#: languages/yoast-seo-js.php:49
+msgid "This page has %1$s internal link(s)."
+msgstr "Această pagină are %1$s legătură internă (legături interne)."
+
+#: languages/yoast-seo-js.php:45
+msgid "This page has %1$s nofollowed internal link(s) and %2$s normal internal link(s)."
+msgstr "Această pagină are %1$s legătură internă (legături interne) nofollow și %2$s legătură internă normală (legături interne normale)."
+
+#. Translators: %1$s expands the number of internal links
+#: languages/yoast-seo-js.php:42
+msgid "This page has %1$s internal link(s), all nofollowed."
+msgstr "Această pagină are %1$s legătură internă (legături interne), toate nofollow."
+
+#. translators: %s expands to 'Yoast SEO Premium'.
+#: admin/metabox/class-metabox-add-keyword-tab.php:35
+msgid "Other benefits of %s for you:"
+msgstr "Alte avantaje ale %s pentru tine:"
+
+#. translators: %s expands to 'Yoast SEO'.
+#: admin/config-ui/components/class-component-configuration-choices.php:57
+msgid "Let us set up %s for you"
+msgstr "Lasă-ne să inițializăm %s pentru tine"
+
+#. translators: %s expands to 'Yoast SEO'.
+#: admin/config-ui/components/class-component-configuration-choices.php:36
+msgid "Configure %s in a few steps"
+msgstr "Configurează %s în câțiva pași"
+
+#. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
+#. tag.
+#: admin/class-help-center.php:76
+#: admin/metabox/class-metabox-add-keyword-tab.php:45
+msgid "%1$sSocial media preview%2$s: Facebook &amp; Twitter"
+msgstr "%1$sPrevizualizare media socială%2$s: Facebook și Twitter"
+
+#: languages/yoast-seo-js.php:391
+msgid "Scroll to see the preview content."
+msgstr "Derulează pentru a vedea conținutul previzualizării."
 
 #: languages/yoast-components.php:81
 msgid "Enter authorization code here..."
@@ -81,32 +125,28 @@ msgstr "Vrei să-ți surclasezi concurența? %1$s îți oferă funcționalităț
 msgid "Outrank the competition with %s"
 msgstr "Surclasează concurența cu %s"
 
-#: admin/config-ui/components/class-component-configuration-choices.php:50
+#: admin/config-ui/components/class-component-configuration-choices.php:67
 msgid "Configuration service"
 msgstr "Serviciu de configurare"
 
-#: admin/config-ui/components/class-component-configuration-choices.php:44
+#. translators: %1$s expands to 'Yoast SEO', %2$s expands to 'Yoast SEO
+#. Premium'.
+#: admin/config-ui/components/class-component-configuration-choices.php:61
 msgid "While we strive to make setting up %1$s as easy as possible, we understand it can still be daunting. If you would rather have us set up %1$s for you (and get a copy of %2$s in the process), order a %1$s configuration service and sit back while we configure your site."
 msgstr "În timp ce ne străduim să facem inițializarea %1$s cât mai ușor posibilă, înțelegem că poate fi totuși descurajantă. Dacă preferi să ne lași să-ți inițializăm %1$s (și să obții o copie a %2$s în acest proces), comandă un serviciu de configurare %1$s și stai liniștit în timp ce noi îți configurăm situl."
 
-#: admin/config-ui/components/class-component-configuration-choices.php:42
-msgid "Let us set up Yoast SEO for you"
-msgstr "Lasă-ne să-ți inițializăm Yoast SEO"
-
-#: admin/config-ui/components/class-component-configuration-choices.php:36
+#. translators: %s expands to 'Yoast SEO'.
+#: admin/config-ui/components/class-component-configuration-choices.php:48
 msgid "Configure %s"
 msgstr "Configurează %s"
 
-#: admin/config-ui/components/class-component-configuration-choices.php:33
+#. translators: %1$s expands to 'Yoast SEO'.
+#: admin/config-ui/components/class-component-configuration-choices.php:41
 msgid "Welcome to the %1$s configuration wizard. In a few simple steps we'll help you configure your SEO settings to match your website's needs! %1$s will take care of all the technical optimizations your site needs."
 msgstr "Bine ai venit la asistentul de configurare %1$s. În câțiva pași simpli te vom ajuta să-ți configurezi setările SEO pentru a se potrivi cu nevoile sitului tău web! %1$s va avea grijă de toate optimizările tehnice de care are nevoie situl tău."
 
-#: admin/config-ui/components/class-component-configuration-choices.php:32
-msgid "Configure Yoast SEO in a few steps"
-msgstr "Configurează Yoast SEO în câțiva pași"
-
-#. translators: %s resolves to Yoast SEO
-#: admin/config-ui/components/class-component-configuration-choices.php:29
+#. translators: %s expands to 'Yoast SEO'.
+#: admin/config-ui/components/class-component-configuration-choices.php:30
 msgid "Please choose the %s configuration of your liking:"
 msgstr "Te rog alege configurarea %s pe placul tău:"
 
@@ -183,28 +223,13 @@ msgid "Go Premium and our experts will be there for you to answer any questions 
 msgstr "Ia Premium și experții noștri vor fi acolo pentru a-ți răspunde la orice fel de întrebări pe care ai putea să le ai despre inițializarea și utilizarea modulului."
 
 #: admin/banner/class-admin-banner-sidebar.php:97
-#: admin/metabox/class-metabox-add-keyword-tab.php:38
+#: admin/class-help-center.php:78
+#: admin/metabox/class-metabox-add-keyword-tab.php:47
 msgid "24/7 support"
 msgstr "Suport 24/7"
 
-#: admin/metabox/class-metabox-add-keyword-tab.php:37
-msgid "<strong>Social media preview</strong>: Facebook &amp; Twitter"
-msgstr "<strong>Previzualizare media socială</strong>: Facebook și Twitter"
-
-#: admin/metabox/class-metabox-add-keyword-tab.php:36
-msgid "Superfast internal linking suggestions"
-msgstr "Sugestii de legare internă ultrarapidă"
-
-#: admin/metabox/class-metabox-add-keyword-tab.php:35
-msgid "<strong>No more dead links</strong>: easy redirect manager"
-msgstr "<strong>Nicio legătură moartă</strong>: manager de redirecționare simplu"
-
-#: admin/metabox/class-metabox-add-keyword-tab.php:33
-msgid "Other benefits of Yoast SEO Premium for you:"
-msgstr "Alte beneficii ale Yoast SEO Premium:"
-
-#. translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
-#. Premium plugin page.
+#. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
+#. yoast.com website.
 #: admin/metabox/class-metabox-add-keyword-tab.php:30
 msgid "Great news: you can, with %1$s!"
 msgstr "Vești bune: poți, cu %1$s!"
@@ -224,17 +249,17 @@ msgstr "1 an de actualizări gratuite și incluse!"
 msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
 msgstr "Modulul %2$s modifică ieșirea situl tău și face diferențieri între motoarele de căutare și utilizatorii normali, un proces care este denumit camuflare. Îți recomandăm să-l dezactivezi."
 
-#: admin/class-help-center.php:69
-msgid "Social media preview: Facebook & Twitter"
-msgstr "Previzualizare media socială: Facebook și Twitter"
+#: admin/class-help-center.php:72
+#: admin/metabox/class-metabox-add-keyword-tab.php:42
+msgid "Superfast internal links suggestions"
+msgstr "Sugestii de legături interne ultrarapide"
 
-#: admin/class-help-center.php:68
-msgid "Superfast internal link suggestions"
-msgstr "Sugestii de legătură internă ultrarapidă"
-
-#: admin/class-help-center.php:67
-msgid "No more dead links: easy redirect manager"
-msgstr "Nicio legătură moartă: manager de redirecționare simplu"
+#. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
+#. tag.
+#: admin/class-help-center.php:70
+#: admin/metabox/class-metabox-add-keyword-tab.php:40
+msgid "%1$sNo more dead links%2$s: easy redirect manager"
+msgstr "%1$sNicio legătură moartă%2$s: manager de redirecționare simplu"
 
 #. translators: %1$s: expands to 'Yoast SEO Premium'.
 #: admin/class-help-center.php:65
@@ -242,7 +267,7 @@ msgid "Other benefits of %1$s for you:"
 msgstr "Alte beneficii ale %1$s:"
 
 #: admin/class-help-center.php:63
-msgid "Go Premium and our experts will be there for you to answer any questions you might have about the set-up and use of the plug-in!  "
+msgid "Go Premium and our experts will be there for you to answer any questions you might have about the set-up and use of the plug-in!"
 msgstr "Ia Premium și experții noștri vor fi acolo pentru a-ți răspunde la orice fel de întrebări pe care ai putea să le ai despre inițializarea și utilizarea modulului!"
 
 #: admin/metabox/class-metabox-add-keyword-tab.php:28
@@ -254,8 +279,8 @@ msgid "Prices start as low as 69,- for one site"
 msgstr "Prețurile pornesc de la 69 - pentru un sit"
 
 #: admin/banner/class-admin-banner-sidebar.php:98
-#: admin/class-help-center.php:70
-#: admin/metabox/class-metabox-add-keyword-tab.php:39
+#: admin/class-help-center.php:79
+#: admin/metabox/class-metabox-add-keyword-tab.php:48
 msgid "No ads!"
 msgstr "Fără anunțuri!"
 
@@ -298,7 +323,7 @@ msgstr "Ia %1$s"
 
 #. Translators: %1$s opens a link to a Yoast article about stop words, %2$s
 #. closes the link
-#: languages/yoast-seo-js.php:69
+#: languages/yoast-seo-js.php:83
 msgid "The focus keyword contains a stop word. This may or may not be wise depending on the circumstances. %1$sLearn more about the stop words%2$s."
 msgid_plural "The focus keyword contains %3$d stop words. This may or may not be wise depending on the circumstances. %1$sLearn more about the stop words%2$s."
 msgstr[0] "Cuvântul/fraza cheie conține un cuvânt stop. Acest lucru poate fi înțelept sau dimpotrivă, în funcție de circumstanțe. %1$sAflă mai mult despre cuvinte stop%2$s."
@@ -319,7 +344,7 @@ msgstr "Variabile disponibile"
 msgid "If you want more help creating awesome content, check out our %2$sSEO copywriting course%3$s. Do you want to know all about the features of the plugin, consider doing our %1$s!"
 msgstr "Dacă vrei mai mult ajutor pentru crearea unui conținut minunat, vezi %2$scursul nostru SEO de copywriting%3$s. Dacă vrei să știi totul despre funcționalitățile modulului, ia în considerare participarea la %1$s!"
 
-#: admin/class-admin.php:649
+#: admin/class-admin.php:651
 msgid "Scroll to see the table content."
 msgstr "Derulează pentru a vedea conținutul tabelului."
 
@@ -330,12 +355,12 @@ msgstr "Participă online la cursul de instruire tehnică SEO și înveți conce
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to
 #. the keyword count, 	   %3$s expands to the maximum keyword density
 #. percentage.
-#: languages/yoast-seo-js.php:52
+#: languages/yoast-seo-js.php:66
 msgid "The keyword density is %1$s, which is way over the advised %3$s maximum; the focus keyword was found %2$d times."
 msgstr "Densitatea cuvântului/frazei cheie este de %1$s, care este mult peste recomandarea maximă de %3$s; cuvântul/fraza cheie a fost găsit/ă de %2$d ori."
 
 #. Translators: %1$s expands to the name of the assessment.
-#: languages/yoast-seo-js.php:285
+#: languages/yoast-seo-js.php:298
 msgid "An error occurred in the '%1$s' assessment"
 msgstr "A apărut o eroare în evaluarea '%1$s'"
 
@@ -343,7 +368,7 @@ msgstr "A apărut o eroare în evaluarea '%1$s'"
 #. to a link on yoast.com, 	   %3$d expands to the recommended maximum number
 #. of syllables, 	   %4$s expands to the anchor end tag, %5$s expands to the
 #. recommended maximum number of syllables.
-#: languages/yoast-seo-js.php:281
+#: languages/yoast-seo-js.php:294
 msgid "%1$s of the words contain %2$sover %3$s syllables%4$s, which is more than the recommended maximum of %5$s."
 msgstr "%1$s din cuvinte conțin %2$speste %3$s silabe%4$s, care este mai mult decât recomandarea maximă de %5$s."
 
@@ -351,13 +376,13 @@ msgstr "%1$s din cuvinte conțin %2$speste %3$s silabe%4$s, care este mai mult d
 #. to a link on yoast.com, 	   %3$d expands to the recommended maximum number
 #. of syllables, 	   %4$s expands to the anchor end tag, %5$s expands to the
 #. recommended maximum number of syllables.
-#: languages/yoast-seo-js.php:275
+#: languages/yoast-seo-js.php:288
 msgid "%1$s of the words contain %2$sover %3$s syllables%4$s, which is less than or equal to the recommended maximum of %5$s."
 msgstr "%1$s din cuvinte conțin %2$speste %3$s silabe%4$s, care este mai puțin sau egal decât recomandarea maximă de %5$s."
 
 #. Translators: %1$s opens a link to a wikipedia article about stop words, %2$s
 #. closes the link
-#: languages/yoast-seo-js.php:265
+#: languages/yoast-seo-js.php:278
 msgid "The slug for this page contains a %1$sstop word%2$s, consider removing it."
 msgid_plural "The slug for this page contains %1$sstop words%2$s, consider removing them."
 msgstr[0] "Descriptorul pentru această pagină conține un %1$scuvânt stop%2$s, ia în considerare să-l înlături."
@@ -367,18 +392,18 @@ msgstr[2] "Descriptorul pentru această pagină conține %1$scuvinte stop%2$s, i
 #. Translators: %1$s expands to the number of sentences containing transition
 #. words, %2$s expands to a link on yoast.com, 	   %3$s expands to the anchor
 #. end tag.
-#: languages/yoast-seo-js.php:252
+#: languages/yoast-seo-js.php:265
 msgid "%1$s of the sentences contain a %2$stransition word%3$s or phrase, which is great."
 msgstr "%1$s dintre propoziții conțin un %2$scuvânt de tranziție%3$s sau o frază, foarte bine."
 
 #. Translators: %1$s expands to the number of sentences containing transition
 #. words, %2$s expands to a link on yoast.com, 	   %3$s expands to the anchor
 #. end tag, %4$s expands to the recommended value.
-#: languages/yoast-seo-js.php:247
+#: languages/yoast-seo-js.php:260
 msgid "%1$s of the sentences contain a %2$stransition word%3$s or phrase, which is less than the recommended minimum of %4$s."
 msgstr "%1$s dintre propoziții conțin un %2$scuvânt de tranziție%3$s sau o frază, care este mai puțin decât recomandarea minimă de %4$s."
 
-#: languages/yoast-seo-js.php:236
+#: languages/yoast-seo-js.php:249
 msgid "The focus keyword '%1$s' does not appear in the SEO title."
 msgstr "Cuvântul/fraza cheie '%1$s' nu apare în titlul SEO."
 
@@ -386,7 +411,7 @@ msgstr "Cuvântul/fraza cheie '%1$s' nu apare în titlul SEO."
 #. expands to the recommended minimum of words. 	   Translators: The preceding
 #. sentence is "The text contains x words.", %2$s expands to the recommended
 #. minimum of words
-#: languages/yoast-seo-js.php:197
+#: languages/yoast-seo-js.php:225
 msgid "This is far below the recommended minimum of %2$d word. Add more content that is relevant for the topic."
 msgid_plural "This is far below the recommended minimum of %2$d words. Add more content that is relevant for the topic."
 msgstr[0] "Este cu mult sub recomandarea minimă de %2$d cuvânt. Adaugă mai mult conținut care să fie relevant pentru acest subiect."
@@ -397,7 +422,7 @@ msgstr[2] "Este cu mult sub recomandarea minimă de %2$d de cuvinte. Adaugă mai
 #. expands to the recommended minimum of words. 	   Translators: The preceding
 #. sentence is "The text contains x words.", %2$s expands to the recommended
 #. minimum of words
-#: languages/yoast-seo-js.php:191
+#: languages/yoast-seo-js.php:219
 msgid "This is below the recommended minimum of %2$d word. Add more content that is relevant for the topic."
 msgid_plural "This is below the recommended minimum of %2$d words. Add more content that is relevant for the topic."
 msgstr[0] "Este sub recomandarea minimă de %2$d cuvânt. Adaugă mai mult conținut care să fie relevant pentru acest subiect."
@@ -408,7 +433,7 @@ msgstr[2] "Este sub recomandarea minimă de %2$d de cuvinte. Adaugă mai mult co
 #. expands to the recommended minimum of words. 	   Translators: The preceding
 #. sentence is "The text contains x words.", %2$s expands to the recommended
 #. minimum of words
-#: languages/yoast-seo-js.php:183
+#: languages/yoast-seo-js.php:211
 msgid "This is slightly below the recommended minimum of %2$d word. Add a bit more copy."
 msgid_plural "This is slightly below the recommended minimum of %2$d words. Add a bit more copy."
 msgstr[0] "Este puțin sub recomandarea minimă de %2$d cuvânt. Mai adaugă un pic de text."
@@ -417,7 +442,7 @@ msgstr[2] "Este puțin sub recomandarea minimă de %2$d de cuvinte. Mai adaugă 
 
 #. Translators: The preceding sentence is "The text contains x words.", %2$s
 #. expands to the recommended minimum of words.
-#: languages/yoast-seo-js.php:177
+#: languages/yoast-seo-js.php:205
 msgid "This is more than or equal to the recommended minimum of %2$d word."
 msgid_plural "This is more than or equal to the recommended minimum of %2$d words."
 msgstr[0] "Este mai mult sau egal cu recomandarea minimă de %2$d cuvânt."
@@ -426,21 +451,21 @@ msgstr[2] "Este mai mult sau egal cu recomandarea minimă de %2$d de cuvinte."
 
 #. Translators: %1$d expands to the number of words in the text.
 #. Translators: %1$d expands to the number of words in the text
-#: languages/yoast-seo-js.php:172
+#: languages/yoast-seo-js.php:200
 msgid "The text contains %1$d word."
 msgid_plural "The text contains %1$d words."
 msgstr[0] "Textul conține %1$d cuvânt."
 msgstr[1] "Textul conține %1$d cuvinte."
 msgstr[2] "Textul conține %1$d de cuvinte."
 
-#: languages/yoast-seo-js.php:152
+#: languages/yoast-seo-js.php:180
 msgid "%1$d subheading is followed by more than the recommended maximum of %2$d words. Try to insert another subheading."
 msgid_plural "%1$d of the subheadings are followed by more than the recommended maximum of %2$d words. Try to insert additional subheadings."
 msgstr[0] "%1$d subtitlu este urmat de mai mult decât recomandarea maximă de %2$d de cuvinte. Încearcă să introduci un alt subtitlu."
 msgstr[1] "%1$d subtitluri sunt urmate de mai mult decât recomandarea maximă de %2$d de cuvinte. Încearcă să introduci subtitluri suplimentare."
 msgstr[2] "%1$d de subtitluri sunt urmate de mai mult decât recomandarea maximă de %2$d de cuvinte. Încearcă să introduci subtitluri suplimentare."
 
-#: languages/yoast-seo-js.php:149
+#: languages/yoast-seo-js.php:177
 msgid "The amount of words following each of the subheadings doesn't exceed the recommended maximum of %1$d words, which is great."
 msgstr "Numărul de cuvinte care urmează după fiecare subtitlu nu depășește recomandarea maximă de %1$d de cuvinte, foarte bine."
 
@@ -448,7 +473,7 @@ msgstr "Numărul de cuvinte care urmează după fiecare subtitlu nu depășește
 #. on yoast.com, 	   %3$s expands to the recommended maximum sentence length,
 #. %4$s expands to the anchor end tag, 	   %5$s expands to the recommended
 #. maximum percentage.
-#: languages/yoast-seo-js.php:143
+#: languages/yoast-seo-js.php:171
 msgid "%1$s of the sentences contain %2$smore than %3$s words%4$s, which is more than the recommended maximum of %5$s. Try to shorten the sentences."
 msgstr "%1$s dintre propoziții conțin %2$smai mult de %3$s de cuvinte%4$s, care este mai mult decât recomandarea maximă de %5$s. Încearcă să scurtezi propozițiile."
 
@@ -456,14 +481,14 @@ msgstr "%1$s dintre propoziții conțin %2$smai mult de %3$s de cuvinte%4$s, car
 #. on yoast.com, 	   %3$s expands to the recommended maximum sentence length,
 #. %4$s expands to the anchor end tag, 	   %5$s expands to the recommended
 #. maximum percentage.
-#: languages/yoast-seo-js.php:137
+#: languages/yoast-seo-js.php:165
 msgid "%1$s of the sentences contain %2$smore than %3$s words%4$s, which is less than or equal to the recommended maximum of %5$s."
 msgstr "%1$s dintre propoziții conțin %2$smai mult de %3$s de cuvinte%4$s, care este mai puțin sau egal cu recomandarea maximă de %5$s."
 
 #. Translators: %1$d expands to number of sentences, %2$s expands to a link on
 #. yoast.com, 	   %3$s expands to the recommended maximum sentence length, %4$s
 #. expands to the anchor end tag.
-#: languages/yoast-seo-js.php:131
+#: languages/yoast-seo-js.php:159
 msgid "The meta description contains %1$d sentence %2$sover %3$s words%4$s. Try to shorten this sentence."
 msgid_plural "The meta description contains %1$d sentences %2$sover %3$s words%4$s. Try to shorten these sentences."
 msgstr[0] "Descrierea meta conține %1$d propoziție %2$scu peste %3$s de cuvinte%4$s. Încearcă să scurtezi această propoziție."
@@ -472,14 +497,14 @@ msgstr[2] "Descrierea meta conține %1$d de propoziții %2$scu peste %3$s de cuv
 
 #. Translators: %1$s expands to a link on yoast.com, %2$s expands to the
 #. recommended maximum sentence length, 	   %3$s expands to the anchor end tag.
-#: languages/yoast-seo-js.php:126
+#: languages/yoast-seo-js.php:154
 msgid "The meta description contains no sentences %1$sover %2$s words%3$s."
 msgstr "Descrierea meta conține nicio propoziție %1$s cu peste %2$s de cuvinte%3$s."
 
 #. Translators: %1$d expands to the number of instances where 3 or more
 #. consecutive sentences start with the same word. 	   %2$d expands to the
 #. number of consecutive sentences starting with the same word.
-#: languages/yoast-seo-js.php:121
+#: languages/yoast-seo-js.php:149
 msgid "The text contains %2$d consecutive sentences starting with the same word. Try to mix things up!"
 msgid_plural "The text contains %1$d instances where %2$d or more consecutive sentences start with the same word. Try to mix things up!"
 msgstr[0] "Textul conține %2$d propoziții consecutive care încep cu același cuvânt. Încearcă să amesteci cuvintele!"
@@ -489,33 +514,33 @@ msgstr[2] "Textul conține %1$d de cazuri în care %2$d sau mai multe propoziți
 #. Translators: %1$s expands to the number of sentences in passive voice, %2$s
 #. expands to a link on yoast.com, 	   %3$s expands to the anchor end tag, %4$s
 #. expands to the recommended value.
-#: languages/yoast-seo-js.php:116
+#: languages/yoast-seo-js.php:144
 msgid "%1$s of the sentences contain %2$spassive voice%3$s, which is more than the recommended maximum of %4$s. Try to use their active counterparts."
 msgstr "%1$s dintre propoziții conțin %2$sdiateză pasivă%3$s, care este mai mult decât recomandarea maximă de %4$s. Încearcă să folosești echivalenții activi."
 
 #. Translators: %1$s expands to the number of sentences in passive voice, %2$s
 #. expands to a link on yoast.com, 	   %3$s expands to the anchor end tag, %4$s
 #. expands to the recommended value.
-#: languages/yoast-seo-js.php:111
+#: languages/yoast-seo-js.php:139
 msgid "%1$s of the sentences contain %2$spassive voice%3$s, which is less than or equal to the recommended maximum of %4$s."
 msgstr "%1$s dintre propoziții conțin %2$sdiateză pasivă%3$s, care este mai mai puțin sau egal cu recomandarea maximă de %4$s."
 
 #. Translators: %1$d expands to the number of paragraphs, %2$d expands to the
 #. recommended value
-#: languages/yoast-seo-js.php:106
+#: languages/yoast-seo-js.php:134
 msgid "%1$d of the paragraphs contains more than the recommended maximum of %2$d words. Are you sure all information is about the same topic, and therefore belongs in one single paragraph?"
 msgid_plural "%1$d of the paragraphs contain more than the recommended maximum of %2$d words. Are you sure all information within each of these paragraphs is about the same topic, and therefore belongs in a single paragraph?"
 msgstr[0] "%1$d dintre paragrafe conține mai mult decât recomandarea maximă de %2$d de cuvinte. Sigur toate informațiile sunt despre același subiect și de aceea se găsesc într-un singur paragraf?"
 msgstr[1] "%1$d dintre paragrafe conțin mai mult decât recomandarea maximă de %2$d de cuvinte. Sigur toate informațiile din fiecare paragraf sunt despre același subiect și de aceea se găsesc într-un singur paragraf?"
 msgstr[2] "%1$d dintre paragrafe conțin mai mult decât recomandarea maximă de %2$d de cuvinte. Sigur toate informațiile din fiecare paragraf sunt despre același subiect și de aceea se găsesc într-un singur paragraf?"
 
-#: languages/yoast-seo-js.php:84
+#: languages/yoast-seo-js.php:98
 msgid "The meta description is over %1$d characters. Reducing the length will ensure the entire description will be visible."
 msgstr "Descrierea meta are peste %1$d de caractere. Reducerea lungimii va garanta că întreaga descriere va fi vizibilă."
 
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to
 #. the keyword count.
-#: languages/yoast-seo-js.php:65
+#: languages/yoast-seo-js.php:79
 msgid "The keyword density is %1$s, which is too low; the focus keyword was found %2$d times."
 msgstr "Densitatea cuvântului/frazei cheie este de %1$s, care este prea mică; cuvântul/fraza cheie a fost găsit/ă de %2$d ori."
 
@@ -574,11 +599,11 @@ msgstr "Datele All in One SEO s-au importat cu succes. Vrei să %1$sdezactivezi 
 msgid "All in One SEO data successfully imported. Would you like to %1$sdisable the All in One SEO plugin%3$s? You've had Google Analytics enabled in All in One SEO, would you like to install our %2$sGoogle Analytics plugin%3$s?"
 msgstr "Datele All in One SEO s-au importat cu succes. Vrei să %1$sdezactivezi modulul All in One SEO%3$s? Ai avut Google Analytics activat în All in One SEO, vrei să instalezi %2$smodulul nostru Google Analytics%3$s?"
 
-#: languages/yoast-seo-js.php:375
+#: languages/yoast-seo-js.php:388
 msgid "Mobile preview"
 msgstr "Previzualizare mobil"
 
-#: languages/yoast-seo-js.php:372
+#: languages/yoast-seo-js.php:385
 msgid "Desktop preview"
 msgstr "Previzualizare desktop"
 
@@ -630,129 +655,129 @@ msgstr "<b>Avertizare!</b> Licența ta %s este inactivă ceea ce înseamnă că 
 msgid "<b>Warning!</b> You didn't set your %s license key yet, which means you're missing out on updates and support! <a href=\"%s\">Enter your license key</a> or <a href=\"%s\" target=\"_blank\">get a license here</a>."
 msgstr "<b>Avertizare!</b> Nu ți-ai setat încă cheia licenței %s, ceea ce înseamnă că pierzi actualizările și suportul! <a href=\"%s\">Introdu cheia licenței tale</a> sau <a href=\"%s\" target=\"_blank\">obține o licență aici</a>."
 
-#: languages/yoast-seo-js.php:378
+#: languages/yoast-seo-js.php:394
 msgid "Please provide an SEO title by editing the snippet below."
 msgstr "Te rog furnizează un titlu SEO prin editarea fragmentului de mai jos."
 
-#: languages/yoast-seo-js.php:366
+#: languages/yoast-seo-js.php:379
 msgid "Meta description preview:"
 msgstr "Previzualizare descriere meta:"
 
-#: languages/yoast-seo-js.php:363
+#: languages/yoast-seo-js.php:376
 msgid "Slug preview:"
 msgstr "Previzualizare descriptor:"
 
-#: languages/yoast-seo-js.php:360
+#: languages/yoast-seo-js.php:373
 msgid "SEO title preview:"
 msgstr "Previzualizare titlu SEO:"
 
-#: languages/yoast-seo-js.php:354
+#: languages/yoast-seo-js.php:367
 msgid "Close snippet editor"
 msgstr "Închide editor fragment"
 
-#: languages/yoast-seo-js.php:348
+#: languages/yoast-seo-js.php:361
 msgid "Slug"
 msgstr "Descriptor"
 
-#: languages/yoast-seo-js.php:339
+#: languages/yoast-seo-js.php:352
 msgid "Remove marks in the text"
 msgstr "Înlătură marcaje în text"
 
-#: languages/yoast-seo-js.php:336
+#: languages/yoast-seo-js.php:349
 msgid "Mark this result in the text"
 msgstr "Marchează acest rezultat în text"
 
-#: languages/yoast-seo-js.php:333
+#: languages/yoast-seo-js.php:346
 msgid "Marks are disabled in current view"
 msgstr "Marcajele sunt dezactivate în vizualizarea curentă"
 
-#: languages/yoast-seo-js.php:327
+#: languages/yoast-seo-js.php:340
 msgid "Content optimization: Good SEO score"
 msgstr "Optimizare conținut: scor SEO bun"
 
-#: languages/yoast-seo-js.php:324
+#: languages/yoast-seo-js.php:337
 msgid "Good SEO score"
 msgstr "Scor SEO bun"
 
-#: languages/yoast-seo-js.php:318
+#: languages/yoast-seo-js.php:331
 msgid "Content optimization: OK SEO score"
 msgstr "Optimizare conținut: scor SEO OK"
 
-#: languages/yoast-seo-js.php:315
+#: languages/yoast-seo-js.php:328
 msgid "OK SEO score"
 msgstr "Scor SEO OK"
 
-#: languages/yoast-seo-js.php:309
+#: languages/yoast-seo-js.php:322
 msgid "Content optimization: Bad SEO score"
 msgstr "Optimizare conținut: scor SEO slab"
 
-#: languages/yoast-seo-js.php:306
+#: languages/yoast-seo-js.php:319
 msgid "Bad SEO score"
 msgstr "Scor SEO slab"
 
-#: languages/yoast-seo-js.php:303
+#: languages/yoast-seo-js.php:316
 msgid "Content optimization: Has feedback"
 msgstr "Optimizare conținut: are impresii"
 
-#: languages/yoast-seo-js.php:300
+#: languages/yoast-seo-js.php:313
 msgid "Feedback"
 msgstr "Impresii"
 
 #. Translators: this link is referred to in the content analysis when a slug
 #. contains one or more stop words
-#: languages/yoast-seo-js.php:269
+#: languages/yoast-seo-js.php:282
 msgid "http://en.wikipedia.org/wiki/Stop_words"
 msgstr "http://en.wikipedia.org/wiki/Stop_words"
 
-#: languages/yoast-seo-js.php:255
+#: languages/yoast-seo-js.php:268
 msgid "The focus keyword appears in the URL for this page."
 msgstr "Cuvântul/fraza cheie apare în URL-ul acestei pagini."
 
-#: languages/yoast-seo-js.php:233
+#: languages/yoast-seo-js.php:246
 msgid "You have far too little content, please add some content to enable a good analysis."
 msgstr "Ai mult prea puțin conținut, te rog mai adaugă conținut pentru a realiza o analiză bună."
 
-#: languages/yoast-seo-js.php:212
+#: languages/yoast-seo-js.php:240
 msgid "The images on this page contain alt attributes."
 msgstr "Imaginile din această pagină conțin atribute alt."
 
-#: languages/yoast-seo-js.php:209
+#: languages/yoast-seo-js.php:237
 msgid "The images on this page do not have alt attributes containing the focus keyword."
 msgstr "Imaginile din această pagină nu au atribute alt cu cuvântul/fraza cheie."
 
-#: languages/yoast-seo-js.php:206
+#: languages/yoast-seo-js.php:234
 msgid "The images on this page contain alt attributes with the focus keyword."
 msgstr "Imaginile din această pagină conțin atribute alt cu cuvântul/fraza cheie."
 
-#: languages/yoast-seo-js.php:146
+#: languages/yoast-seo-js.php:174
 msgid "The text does not contain any subheadings. Add at least one subheading."
 msgstr "Textul nu conține niciun subtitlu. Adaugă cel puțin un subtitlu."
 
-#: languages/yoast-seo-js.php:102
+#: languages/yoast-seo-js.php:130
 msgid "None of the paragraphs are too long, which is great."
 msgstr "Niciunul dintre paragrafe nu este prea lung, foarte bine."
 
-#: languages/yoast-seo-js.php:96
+#: languages/yoast-seo-js.php:124
 msgid "The page title is wider than the viewable limit."
 msgstr "Titlul paginii este mai mare decât limita vizibilă."
 
-#: languages/yoast-seo-js.php:93
+#: languages/yoast-seo-js.php:121
 msgid "The page title has a nice length."
 msgstr "Titlul paginii are o lungime bună."
 
-#: languages/yoast-seo-js.php:90
+#: languages/yoast-seo-js.php:118
 msgid "The page title is too short. Use the space to add keyword variations or create compelling call-to-action copy."
 msgstr "Titlul paginii este prea scurt. Folosește spațiul pentru a adăuga variații ale cuvântului/frazei cheie sau creează un text apel la acțiune convingător."
 
-#: languages/yoast-seo-js.php:87
+#: languages/yoast-seo-js.php:101
 msgid "The length of the meta description is sufficient."
 msgstr "Lungimea descrierii meta este suficientă."
 
-#: languages/yoast-seo-js.php:72
+#: languages/yoast-seo-js.php:86
 msgid "The meta description contains the focus keyword."
 msgstr "Descrierea meta conține cuvântul/fraza cheie."
 
-#: languages/yoast-seo-js.php:47
+#: languages/yoast-seo-js.php:61
 msgid "The keyphrase is over 10 words, a keyphrase should be shorter."
 msgstr "Fraza cheie are peste 10 cuvinte, o frază cheie ar trebui să fie mai scurtă."
 
@@ -816,11 +841,11 @@ msgstr "Previzualizare rezultat căutare"
 msgid "URL preview: "
 msgstr "Previzualizare URL:"
 
-#: languages/yoast-components.php:60 languages/yoast-seo-js.php:381
+#: languages/yoast-components.php:60 languages/yoast-seo-js.php:397
 msgid "Please provide a meta description by editing the snippet below."
 msgstr "Te rog furnizează o descriere meta prin editarea fragmentului de mai jos."
 
-#: languages/yoast-components.php:57 languages/yoast-seo-js.php:342
+#: languages/yoast-components.php:57 languages/yoast-seo-js.php:355
 msgid "Edit snippet"
 msgstr "Editează fragment"
 
@@ -828,7 +853,7 @@ msgstr "Editează fragment"
 msgid "Search Result Form"
 msgstr "Formular rezultat căutare"
 
-#: languages/yoast-components.php:51 languages/yoast-seo-js.php:369
+#: languages/yoast-components.php:51 languages/yoast-seo-js.php:382
 msgid "You can click on each element in the preview to jump to the Snippet Editor."
 msgstr "Poți da clic pe fiecare element din previzualizare pentru a sări la editor fragment."
 
@@ -992,7 +1017,7 @@ msgstr "%1$s de %2$s"
 
 #. translators: %s: '%%term_title%%' variable used in titles and meta's
 #. template that's not compatible with the given template
-#: admin/class-help-center.php:203
+#: admin/class-help-center.php:212
 msgid "Warning: the variable %s cannot be used in this template. See the help center for more info."
 msgstr "Avertizare: variabila %s nu poate fi folosită în acest șablon. Vezi centrul de ajutor pentru mai multe informații."
 
@@ -1096,7 +1121,7 @@ msgstr "Creează și administrează redirecționările în instalarea WordPress.
 msgid "Meta robots index"
 msgstr "Index roboți meta"
 
-#: admin/metabox/class-metabox.php:83 languages/yoast-seo-js.php:345
+#: admin/metabox/class-metabox.php:83 languages/yoast-seo-js.php:358
 msgid "SEO title"
 msgstr "Titlu SEO"
 
@@ -1489,7 +1514,7 @@ msgid "Crawl issues list navigation"
 msgstr "Navigare în listă probleme de accesare cu crawlere"
 
 #. translators: %d: number of knowledge base search results found.
-#: admin/class-help-center.php:207
+#: admin/class-help-center.php:216
 msgid "Number of search results: %d"
 msgstr "Numărul rezultatelor de căutare: %d"
 
@@ -1506,11 +1531,11 @@ msgstr "Filtrează după tip de articol"
 msgid "Show All Post Types"
 msgstr "Arată toate tipurile de articol"
 
-#: admin/class-admin.php:246
+#: admin/class-admin.php:160 admin/class-admin.php:248
 msgid "Premium"
 msgstr "Premium"
 
-#: admin/class-admin.php:227 admin/metabox/class-metabox.php:437
+#: admin/class-admin.php:160 admin/metabox/class-metabox.php:437
 #: admin/taxonomy/class-taxonomy-metabox.php:229
 #: inc/wpseo-non-ajax-functions.php:312
 msgid "Go Premium"
@@ -1615,7 +1640,7 @@ msgstr "Setare de securitate"
 #: admin/views/tabs/dashboard/general.php:50
 #: admin/views/tabs/dashboard/general.php:62
 msgid "Restore default settings"
-msgstr "Restabilește setările implicite"
+msgstr "Restaurează setări implicite"
 
 #: admin/views/tabs/advanced/rss.php:15
 msgid "RSS feed settings"
@@ -1650,23 +1675,23 @@ msgstr "Introdu codul tău de autorizare Google și apasă butonul Autentificare
 msgid "To allow %1$s to fetch your %2$s information, please enter your Google Authorization Code. Clicking the button below will open a new window."
 msgstr "Pentru a-i permite lui %1$s să-ți aducă informațiile din %2$s, te rog introdu codul tău de autorizare Google. Dând clic pe butonul de mai jos se va deschide o fereastră nouă."
 
-#: admin/class-help-center.php:219
+#: admin/class-help-center.php:228
 msgid "Knowledge base article"
 msgstr "Articol bază de cunoștințe"
 
-#: admin/class-help-center.php:218
+#: admin/class-help-center.php:227
 msgid "Open the knowledge base article in a new window or read it in the iframe below"
 msgstr "Deschide articolul despre baza de cunoștințe într-o fereastră nouă sau citește-l în iframe-ul de mai jos"
 
-#: admin/class-help-center.php:216
+#: admin/class-help-center.php:225
 msgid "Back to search results"
 msgstr "Înapoi la rezultate căutare"
 
-#: admin/class-help-center.php:211
+#: admin/class-help-center.php:220
 msgid "Search results"
 msgstr "Rezultate căutare"
 
-#: admin/class-admin.php:648
+#: admin/class-admin.php:650
 msgid "Yoast SEO video tutorial"
 msgstr "Tutorial video Yoast SEO"
 
@@ -1691,7 +1716,7 @@ msgid "Readability analysis"
 msgstr "Analiză lizibilitate"
 
 #: admin/formatter/class-metabox-formatter.php:76
-#: languages/yoast-seo-js.php:312
+#: languages/yoast-seo-js.php:325
 msgid "Needs improvement"
 msgstr "Are nevoie de îmbunătățire"
 
@@ -1848,11 +1873,11 @@ msgstr "Filtrează după scorul SEO"
 msgid "Meta description not set."
 msgstr "Descriere meta nesetată."
 
-#: admin/class-help-center.php:102 admin/views/partial-help-center-video.php:16
+#: admin/class-help-center.php:111 admin/views/partial-help-center-video.php:16
 msgid "Video tutorial"
 msgstr "Tutorial video"
 
-#: admin/class-help-center.php:76
+#: admin/class-help-center.php:85
 msgid "Email support"
 msgstr "Suport prin email"
 
@@ -1865,35 +1890,35 @@ msgstr "Suport prin email este o funcționalitate %s"
 msgid "Knowledge base"
 msgstr "Bază de cunoștințe"
 
-#: admin/class-help-center.php:217
+#: admin/class-help-center.php:226
 msgid "Open"
 msgstr "Deschide"
 
-#: admin/class-help-center.php:215
+#: admin/class-help-center.php:224
 msgid "Back"
 msgstr "Înapoi"
 
-#: admin/class-help-center.php:214
+#: admin/class-help-center.php:223
 msgid "search"
 msgstr "caută"
 
-#: admin/class-help-center.php:213
+#: admin/class-help-center.php:222
 msgid "Loading..."
 msgstr "Se încarcă..."
 
-#: admin/class-help-center.php:212
+#: admin/class-help-center.php:221
 msgid "Something went wrong. Please try again later."
 msgstr "Ceva n-a mers bine. Te rog încearcă din nou mai târziu."
 
-#: admin/class-help-center.php:209
+#: admin/class-help-center.php:218
 msgid "Search the Yoast knowledge base"
 msgstr "Caută în baza de cunoștințe Yoast"
 
-#: admin/class-help-center.php:208
+#: admin/class-help-center.php:217
 msgid "No results found."
 msgstr "Niciun rezultat găsit."
 
-#: admin/class-admin.php:153 admin/class-admin.php:263
+#: admin/class-admin.php:153 admin/class-admin.php:265
 #: admin/pages/dashboard.php:58 inc/wpseo-non-ajax-functions.php:268
 msgid "Dashboard"
 msgstr "Panou de control"
@@ -2014,7 +2039,7 @@ msgstr "Arată informații despre erorile din categoria 'Negăsit'"
 msgid "Show information about errors in category 'Access Denied'"
 msgstr "Arată informații despre erorile din categoria 'Acces refuzat'"
 
-#: admin/class-help-center.php:129
+#: admin/class-help-center.php:138
 #: admin/views/partial-settings-tab-video.php:19
 msgid "Help center"
 msgstr "Centru pentru ajutor"
@@ -2153,7 +2178,7 @@ msgstr "Partea avansată a casetei meta %1$s"
 msgid "Enabled"
 msgstr "Activare"
 
-#: admin/class-admin.php:690 admin/class-yoast-form.php:301
+#: admin/class-admin.php:692 admin/class-yoast-form.php:301
 #: admin/views/tabs/dashboard/features.php:74
 #: admin/views/tabs/dashboard/security.php:16
 #: admin/views/tabs/metas/archives.php:28
@@ -2637,7 +2662,7 @@ msgid "Bad"
 msgstr "Slab"
 
 #: admin/formatter/class-metabox-formatter.php:78 inc/class-wpseo-rank.php:105
-#: languages/yoast-seo-js.php:330
+#: languages/yoast-seo-js.php:343
 msgid "Good"
 msgstr "Bun"
 
@@ -3813,7 +3838,7 @@ msgstr "Datele %1$s au fost înlăturate. Va trebui să te reautentifici dacă v
 msgid "Crawl errors per page"
 msgstr "Erori de accesare cu crawlere per pagină"
 
-#: admin/class-help-center.php:210
+#: admin/class-help-center.php:219
 #: admin/google_search_console/class-gsc.php:133
 msgid "Search"
 msgstr "Caută"
@@ -4217,7 +4242,7 @@ msgid "fairly difficult"
 msgstr "destul de dificil"
 
 #: admin/formatter/class-metabox-formatter.php:77 inc/class-wpseo-rank.php:104
-#: languages/yoast-seo-js.php:321
+#: languages/yoast-seo-js.php:334
 msgid "OK"
 msgstr "OK"
 
@@ -4241,96 +4266,94 @@ msgstr "foarte ușor"
 msgid "The copy scores %1$s in the %2$s test, which is considered %3$s to read. %4$s"
 msgstr "Textul a primit %1$s puncte în testul %2$s, este considerat %3$s la citit. %4$s"
 
-#: languages/yoast-seo-js.php:38
+#: languages/yoast-seo-js.php:52
 msgid "The focus keyword appears in the first paragraph of the copy."
 msgstr "Cuvântul/fraza cheie apare în primul paragraf al textului."
 
-#: languages/yoast-seo-js.php:41
+#: languages/yoast-seo-js.php:55
 msgid "The focus keyword doesn't appear in the first paragraph of the copy. Make sure the topic is clear immediately."
 msgstr "Cuvântul/fraza cheie nu apare în primul paragraf al textului. Asigură-te că rezolvi asta imediat."
 
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to
 #. the keyword count.
-#: languages/yoast-seo-js.php:61
+#: languages/yoast-seo-js.php:75
 msgid "The keyword density is %1$s, which is great; the focus keyword was found %2$d times."
 msgstr "Densitatea cuvântului/frazei cheie este de %1$s, foarte bine; cuvântul/fraza cheie a fost găsit/ă de %2$d ori."
 
 #. Translators: %1$s expands to the keyword density percentage, %2$d expands to
 #. the keyword count, 	   %3$s expands to the maximum keyword density
 #. percentage.
-#: languages/yoast-seo-js.php:57
+#: languages/yoast-seo-js.php:71
 msgid "The keyword density is %1$s, which is over the advised %3$s maximum; the focus keyword was found %2$d times."
 msgstr "Densitatea cuvântului/frazei cheie este de %1$s, care este peste recomandarea maximă de %3$s; cuvântul/fraza cheie a fost găsit/ă de %2$d ori."
 
-#: languages/yoast-seo-js.php:75
+#: languages/yoast-seo-js.php:89
 msgid "A meta description has been specified, but it does not contain the focus keyword."
 msgstr "A fost specificată o descriere meta, dar ea nu conține cuvântul/fraza cheie."
 
-#: languages/yoast-seo-js.php:78
+#: languages/yoast-seo-js.php:92
 msgid "No meta description has been specified. Search engines will display copy from the page instead."
 msgstr "N-a fost specificată nicio descriere meta. În schimb, motoarele de căutare vor afișa text din pagină."
 
-#: languages/yoast-seo-js.php:81
+#: languages/yoast-seo-js.php:95
 msgid "The meta description is under %1$d characters long. However, up to %2$d characters are available."
 msgstr "Descrierea meta are mai puțin de %1$d de caractere. Totuși, sunt disponibile până la %2$d de caractere."
 
-#: languages/yoast-seo-js.php:155
+#: languages/yoast-seo-js.php:183
 msgid "You have not used the focus keyword in any subheading (such as an H2) in your copy."
 msgstr "Nu ai folosit cuvântul/fraza cheie în niciun subtitlu (cum ar fi un H2) din text."
 
-#: languages/yoast-seo-js.php:158
+#: languages/yoast-seo-js.php:186
 msgid "The focus keyword appears in %2$d (out of %1$d) subheadings in the copy. While not a major ranking factor, this is beneficial."
 msgstr "Cuvântul/fraza cheie apare în %2$d subtitluri (din %1$d) în text. Deși nu este un factor important de ierarhizare, acest lucru este benefic."
 
-#: languages/yoast-seo-js.php:215
+#: languages/yoast-seo-js.php:243
 msgid "The images on this page are missing alt attributes."
 msgstr "Imaginilor din această pagină le lipsesc atributele alt."
 
-#: languages/yoast-seo-js.php:218
-msgid "No links appear in this page, consider adding some as appropriate."
-msgstr "Nu apare nicio legătură în această pagină, ia în considerare adăugarea unora adecvate."
+#: languages/yoast-seo-js.php:104
+msgid "No outbound links appear in this page, consider adding some as appropriate."
+msgstr "Nu apare nicio legătură externă în această pagină, ia în considerare adăugarea unora adecvate."
 
-#. Translators: %1$s expands to the number of nofollow links, %2$s to the
-#. number of outbound links
-#: languages/yoast-seo-js.php:226
-msgid "This page has %1$s nofollowed link(s) and %2$s normal outbound link(s)."
-msgstr "Această pagină are %1$s legătură(i) nofollow și %2$s legătură(i) externă(e) normală(e)."
+#: languages/yoast-seo-js.php:111
+msgid "This page has %1$s nofollowed outbound link(s) and %2$s normal outbound link(s)."
+msgstr "Această pagină are %1$s legătură externă (legături externe) nofollow și %2$s legătură externă normală (legături externe normale)."
 
 #. Translators: %1$s expands the number of outbound links
-#: languages/yoast-seo-js.php:222
+#: languages/yoast-seo-js.php:108
 msgid "This page has %1$s outbound link(s), all nofollowed."
 msgstr "Această pagină are %1$s legătură(i) externă(e), toate nofollow."
 
 #. Translators: %1$s expands to the number of outbound links
-#: languages/yoast-seo-js.php:230
+#: languages/yoast-seo-js.php:115
 msgid "This page has %1$s outbound link(s)."
 msgstr "Această pagină are %1$s legătură(i) externă(e)."
 
-#: languages/yoast-seo-js.php:200
+#: languages/yoast-seo-js.php:228
 msgid "You're linking to another page with the focus keyword you want this page to rank for. Consider changing that if you truly want this page to rank."
 msgstr "Ești legat la o altă pagină cu cuvântul/fraza cheie pe care vrei să-l/s-o folosești pentru această pagină. Ia în considerare modificarea dacă vrei cu adevărat ca această pagină să apară în căutare."
 
-#: languages/yoast-seo-js.php:203
+#: languages/yoast-seo-js.php:231
 msgid "No images appear in this page, consider adding some as appropriate."
 msgstr "Nu apare nicio imagine în această pagină, ia în considerare adăugarea unora adecvate."
 
-#: languages/yoast-seo-js.php:242
+#: languages/yoast-seo-js.php:255
 msgid "The SEO title contains the focus keyword, but it does not appear at the beginning; try and move it to the beginning."
 msgstr "Titlul SEO conține cuvântul/fraza cheie, dar nu apare la începutul lui; încearcă să muți cuvântul/fraza cheie la început."
 
-#: languages/yoast-seo-js.php:239
+#: languages/yoast-seo-js.php:252
 msgid "The SEO title contains the focus keyword, at the beginning which is considered to improve rankings."
 msgstr "Titlul SEO conține cuvântul/fraza cheie la început, deci este luat în considerare pentru a îmbunătăți rezultatele de căutare."
 
-#: languages/yoast-seo-js.php:99
+#: languages/yoast-seo-js.php:127
 msgid "Please create a page title."
 msgstr "Te rog creează un titlu pentru pagină."
 
-#: languages/yoast-seo-js.php:261
+#: languages/yoast-seo-js.php:274
 msgid "The slug for this page is a bit long, consider shortening it."
 msgstr "Descriptorul acestei pagini este un pic cam lung, ia în considerare scurtarea lui."
 
-#: languages/yoast-seo-js.php:258
+#: languages/yoast-seo-js.php:271
 msgid "The focus keyword does not appear in the URL for this page. If you decide to rename the URL be sure to check the old URL 301 redirects to the new one!"
 msgstr "Cuvântul/fraza cheie nu apare în URL-ul acestei pagini. Dacă decizi să redenumești URL-ul, asigură-te să verifici că vechiul URL face redirecționări 301 către cel nou!"
 
@@ -4338,21 +4361,21 @@ msgstr "Cuvântul/fraza cheie nu apare în URL-ul acestei pagini. Dacă decizi s
 #. keyword, %2$d expands to the number of times this focus 	   keyword has been
 #. used before, %4$s and %5$s expand to a link to an article on yoast.com about
 #. cornerstone content
-#: languages/yoast-seo-js.php:297
+#: languages/yoast-seo-js.php:310
 msgid "You've used this focus keyword %1$s%2$d times before%3$s, it's probably a good idea to read %4$sthis post on cornerstone content%5$s and improve your keyword strategy."
 msgstr "Ai folosit acest cuvânt/această frază cheie %1$s de%2$d ori mai înainte%3$s, probabil ar fi bine să citești %4$sacest articol despre conținutul de bază%5$s și să-ți îmbunătățești strategia pentru cuvânt/frază cheie."
 
 #. Translators: %1$s and %2$s expand to an admin link where the focus keyword
 #. is already used
-#: languages/yoast-seo-js.php:292
+#: languages/yoast-seo-js.php:305
 msgid "You've used this focus keyword %1$sonce before%2$s, be sure to make very clear which URL on your site is the most important for this keyword."
 msgstr "Ai folosit acest cuvânt/această frază cheie %1$smai înainte%2$s, asigură-te să-ți fie foarte clar care URL de pe sit este cel mai important pentru acest cuvânt/această frază cheie."
 
-#: languages/yoast-seo-js.php:288
+#: languages/yoast-seo-js.php:301
 msgid "You've never used this focus keyword before, very good."
 msgstr "N-ai mai folosit acest cuvânt/această frază cheie, foarte bine."
 
-#: languages/yoast-seo-js.php:44
+#: languages/yoast-seo-js.php:58
 msgid "No focus keyword was set for this page. If you do not set a focus keyword, no score can be calculated."
 msgstr "Nu ai stabilit un cuvânt/o frază cheie pentru acestă pagină. Dacă nu setezi cuvântul/fraza cheie, scorul nu poate fi calculat."
 
@@ -4503,7 +4526,7 @@ msgid "Meta keywords"
 msgstr "Cuvinte/fraze cheie meta"
 
 #: admin/metabox/class-metabox.php:85 admin/views/tabs/metas/post-types.php:67
-#: languages/yoast-seo-js.php:351
+#: languages/yoast-seo-js.php:364
 msgid "Meta description"
 msgstr "Descriere meta"
 
@@ -4517,7 +4540,7 @@ msgstr "Titlu SEO"
 msgid "Focus keyword"
 msgstr "Cuvânt/frază cheie"
 
-#: languages/yoast-seo-js.php:357
+#: languages/yoast-seo-js.php:370
 msgid "Snippet preview"
 msgstr "Previzualizare fragment"
 
@@ -4701,27 +4724,27 @@ msgstr "Descriere meta Yoast nouă"
 msgid "Existing Yoast Meta Description"
 msgstr "Descriere meta Yoast existentă"
 
-#: admin/class-admin.php:524
+#: admin/class-admin.php:526
 msgid "Facebook profile URL"
 msgstr "URL profil Facebook"
 
-#: admin/class-admin.php:522
+#: admin/class-admin.php:524
 msgid "Twitter username (without @)"
 msgstr "Nume utilizator Twitter (fără @)"
 
-#: admin/class-admin.php:520 admin/pages/social.php:20
+#: admin/class-admin.php:522 admin/pages/social.php:20
 msgid "Google+"
 msgstr "Google+"
 
-#: admin/class-admin.php:483
+#: admin/class-admin.php:485
 msgid "FAQ"
 msgstr "Întrebări frecvente"
 
-#: admin/class-admin.php:479
+#: admin/class-admin.php:481
 msgid "Premium Support"
 msgstr "Suport premium"
 
-#: admin/class-admin.php:467
+#: admin/class-admin.php:469
 #: admin/google_search_console/class-gsc-platform-tabs.php:40
 #: admin/taxonomy/class-taxonomy-metabox.php:147
 #: admin/taxonomy/class-taxonomy-metabox.php:155
@@ -4739,83 +4762,83 @@ msgstr "Trebuie %1$ssă mergi la setările de Afișare%2$s și să debifezi case
 msgid "Huge SEO Issue: You're blocking access to robots."
 msgstr "Problemă SEO foarte mare: blochezi accesul roboților."
 
-#: admin/class-admin.php:431
+#: admin/class-admin.php:433
 msgid "Posts"
 msgstr "Articole"
 
-#: admin/class-admin.php:351
+#: admin/class-admin.php:353
 msgid "Edit Files"
 msgstr "Editează fișiere"
 
-#: admin/class-admin.php:345 admin/pages/network.php:93
+#: admin/class-admin.php:347 admin/pages/network.php:93
 msgid "MultiSite Settings"
 msgstr "Setări multi-sit"
 
-#: admin/class-admin.php:331 admin/class-admin.php:332 admin/pages/metas.php:61
+#: admin/class-admin.php:333 admin/class-admin.php:334 admin/pages/metas.php:61
 #: admin/pages/metas.php:63
 msgid "Advanced Variables"
 msgstr "Variabile avansate"
 
-#: admin/class-admin.php:323 admin/class-admin.php:324 admin/pages/metas.php:53
+#: admin/class-admin.php:325 admin/class-admin.php:326 admin/pages/metas.php:53
 #: admin/pages/metas.php:55
 msgid "Basic Variables"
 msgstr "Variabile de bază"
 
-#: admin/class-admin.php:316 admin/pages/metas.php:47
+#: admin/class-admin.php:318 admin/pages/metas.php:47
 msgid "Note that not all variables can be used in every template."
 msgstr "Reține că nu toate variabilele pot fi folosite în fiecare șablon."
 
 #. translators: %1$s expands to Yoast SEO.
-#: admin/class-admin.php:314 admin/pages/metas.php:45
+#: admin/class-admin.php:316 admin/pages/metas.php:45
 msgid "The title &amp; metas settings for %1$s are made up of variables that are replaced by specific values from the page when the page is displayed. The tabs on the left explain the available variables."
 msgstr "Setările pentru titlu și meta ale %1$s sunt formate din variabile care sunt înlocuite cu valorile specifice din pagină atunci când pagina este afișată. Filele din stânga explică variabilele disponibile."
 
-#: admin/class-admin.php:310 admin/class-admin.php:311 admin/pages/metas.php:40
+#: admin/class-admin.php:312 admin/class-admin.php:313 admin/pages/metas.php:40
 #: admin/pages/metas.php:42
 msgid "Template explanation"
 msgstr "Explicație șablon"
 
-#: admin/class-admin.php:304
+#: admin/class-admin.php:306
 msgid "Why Google won't display the right page title"
 msgstr "De ce Google nu va afișa corect titlul paginii"
 
-#: admin/class-admin.php:303
+#: admin/class-admin.php:305
 msgid "Title optimization"
 msgstr "Optimizare titlu"
 
-#: admin/class-admin.php:302
+#: admin/class-admin.php:304
 msgid "For more information:"
 msgstr "Pentru mai multe informații:"
 
-#: admin/class-admin.php:165 admin/pages/dashboard.php:59
+#: admin/class-admin.php:167 admin/pages/dashboard.php:59
 #: admin/pages/metas.php:20 admin/pages/xml-sitemaps.php:30
 msgid "General"
 msgstr "General"
 
-#: admin/banner/class-admin-banner-sidebar.php:207 admin/class-admin.php:358
+#: admin/banner/class-admin-banner-sidebar.php:207 admin/class-admin.php:360
 #: admin/pages/licenses.php:112
 msgid "Extensions"
 msgstr "Extensii"
 
-#: admin/class-admin.php:218 inc/wpseo-non-ajax-functions.php:306
+#: admin/class-admin.php:220 inc/wpseo-non-ajax-functions.php:306
 msgid "Search Console"
 msgstr "Consolă de căutare"
 
-#: admin/class-admin.php:209 inc/wpseo-non-ajax-functions.php:299
+#: admin/class-admin.php:211 inc/wpseo-non-ajax-functions.php:299
 msgid "Tools"
 msgstr "Unelte"
 
-#: admin/class-admin.php:200 admin/metabox/class-metabox.php:412
+#: admin/class-admin.php:202 admin/metabox/class-metabox.php:412
 #: admin/metabox/class-metabox.php:420 admin/metabox/class-metabox.php:423
 #: inc/wpseo-non-ajax-functions.php:293
 msgid "Advanced"
 msgstr "Avansat"
 
-#: admin/class-admin.php:191 inc/wpseo-non-ajax-functions.php:287
+#: admin/class-admin.php:193 inc/wpseo-non-ajax-functions.php:287
 msgid "XML Sitemaps"
 msgstr "Hărți sit XML"
 
-#: admin/class-admin.php:182 admin/class-social-admin.php:114
+#: admin/class-admin.php:184 admin/class-social-admin.php:114
 #: admin/class-social-admin.php:117
 #: admin/taxonomy/class-taxonomy-metabox.php:212
 #: admin/taxonomy/class-taxonomy-metabox.php:215
@@ -4823,11 +4846,11 @@ msgstr "Hărți sit XML"
 msgid "Social"
 msgstr "Social"
 
-#: admin/class-admin.php:174 inc/wpseo-non-ajax-functions.php:275
+#: admin/class-admin.php:176 inc/wpseo-non-ajax-functions.php:275
 msgid "Titles &amp; Metas"
 msgstr "Titluri și meta"
 
-#: admin/class-admin.php:153 admin/class-admin.php:345
+#: admin/class-admin.php:153 admin/class-admin.php:347
 #: admin/class-meta-columns.php:61
 #: admin/formatter/class-metabox-formatter.php:72
 #: admin/taxonomy/class-taxonomy-columns.php:51
