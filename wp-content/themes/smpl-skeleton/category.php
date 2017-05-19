@@ -2,7 +2,7 @@
 /**
  * The template for displaying Category Archive pages.
  *
- * @package Skeleton WordPress Theme Framework
+ * @package Skeleton WordPress Theme
  * @subpackage skeleton
  * @author Simple Themes - www.simplethemes.com
  */

@@ -9,7 +9,7 @@
  *
  * This can be overridden in child themes with loop-page.php.
  *
- * @package Skeleton WordPress Theme Framework
+ * @package Skeleton WordPress Theme
  * @subpackage skeleton
  * @author Simple Themes - www.simplethemes.com
  */
@@ -34,6 +34,7 @@
 				<?php } ?>
 
 					<div class="entry-content">
+						<?php do_action('skeleton_post_thumbnail'); ?>
 						<?php the_content(); ?>
 						<div class="clear"></div>
 						<?php do_action('skeleton_page_navi'); ?>
