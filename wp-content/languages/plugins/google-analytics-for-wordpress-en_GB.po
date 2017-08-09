@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Google Analytics for WordPress by MonsterInsights - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-11 05:06:53+0000\n"
+"PO-Revision-Date: 2017-06-07 05:57:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,137 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - Google Analytics for WordPress by MonsterInsights - Stable (latest release)\n"
+
+#: lite/includes/admin/addons.php:150
+msgid "By upgrading to MonsterInsights Pro, you can adjust your Google Analytics bounce rate with MonsterInsights."
+msgstr "By upgrading to MonsterInsights Pro, you can adjust your Google Analytics bounce rate with MonsterInsights."
+
+#: lite/includes/admin/addons.php:148
+msgid "Want to adjust your website bounce rate?"
+msgstr "Want to adjust your website bounce rate?"
+
+#: lite/includes/admin/addons.php:141
+msgid "By upgrading to MonsterInsights Pro, you can track your Facebook Instant Article visitors with MonsterInsights."
+msgstr "By upgrading to MonsterInsights Pro, you can track your Facebook Instant Article visitors with MonsterInsights."
+
+#: lite/includes/admin/addons.php:139
+msgid "Want to expand your website audience beyond your website with Facebook Instant Articles?"
+msgstr "Want to expand your website audience beyond your website with Facebook Instant Articles?"
+
+#: lite/includes/admin/addons.php:132
+msgid "By upgrading to MonsterInsights Pro, you can enable Google Optimize."
+msgstr "By upgrading to MonsterInsights Pro, you can enable Google Optimize."
+
+#: lite/includes/admin/addons.php:130
+msgid "Want to use Google Optimize to retarget your website vistors and perform A/B split tests with ease?"
+msgstr "Want to use Google Optimize to retarget your website vistors and perform A/B split tests with ease?"
+
+#: lite/includes/admin/addons.php:123
+msgid "By upgrading to MonsterInsights Pro, you can enable AMP page tracking."
+msgstr "By upgrading to MonsterInsights Pro, you can enable AMP page tracking."
+
+#: lite/includes/admin/addons.php:121
+msgid "Want to use track users visiting your AMP pages?"
+msgstr "Want to use track users visiting your AMP pages?"
+
+#: includes/admin/settings/register-settings.php:90
+msgid "Bounce Reduction"
+msgstr "Bounce Reduction"
+
+#: includes/admin/settings/register-settings.php:86
+msgid "FB Instant Articles"
+msgstr "FB Instant Articles"
+
+#: includes/admin/settings/register-settings.php:82
+msgid "Google Optimize"
+msgstr "Google Optimize"
+
+#: includes/admin/settings/register-settings.php:78
+msgid "Google AMP"
+msgstr "Google AMP"
+
+#: includes/admin/settings/register-settings.php:31
+msgid "Link Attribution"
+msgstr "Link Attribution"
+
+#: lite/includes/admin/tools.php:11
+msgid "By upgrading to MonsterInsights Pro, you can unlock the MonsterInsights URL builder that helps you better track your advertising and email marketing campaigns."
+msgstr "By upgrading to MonsterInsights Pro, you can unlock the MonsterInsights URL builder that helps you better track your advertising and email marketing campaigns."
+
+#: lite/includes/admin/addons.php:168
+msgid "By upgrading to MonsterInsights Pro, you can add Ecommerce tracking to see who's buying your product, what's the most popular item on your store, the average order value, and tons more."
+msgstr "By upgrading to MonsterInsights Pro, you can add Ecommerce tracking to see who's buying your product, what's the most popular item on your store, the average order value, and tons more."
+
+#: lite/includes/admin/addons.php:159
+msgid "By upgrading to MonsterInsights Pro, you can enable notifications."
+msgstr "By upgrading to MonsterInsights Pro, you can enable notifications."
+
+#: lite/includes/admin/addons.php:114
+msgid "By upgrading to MonsterInsights Pro, you can enable enhanced reporting."
+msgstr "By upgrading to MonsterInsights Pro, you can enable enhanced reporting."
+
+#: lite/includes/admin/addons.php:105
+msgid "By upgrading to MonsterInsights Pro, you can adjust the sample rate so you don't exceed Google Analytics' processing limit. You can also use it to enable Google Optimize for A/B testing and personalization."
+msgstr "By upgrading to MonsterInsights Pro, you can adjust the sample rate so you don't exceed Google Analytics' processing limit. You can also use it to enable Google Optimize for A/B testing and personalisation."
+
+#: lite/includes/admin/addons.php:96
+msgid "By upgrading to MonsterInsights Pro, you can add Custom Dimensions and track who's the most popular author on your site, which post types get the most traffic, and more. Why not check it out?"
+msgstr "By upgrading to MonsterInsights Pro, you can add Custom Dimensions and track who's the most popular author on your site, which post types get the most traffic, and more. Why not check it out?"
+
+#: lite/includes/admin/addons.php:87
+msgid "By upgrading to MonsterInsights Pro, you can add Membership tracking."
+msgstr "By upgrading to MonsterInsights Pro, you can add Membership tracking."
+
+#: lite/includes/admin/addons.php:78
+msgid "By upgrading to MonsterInsights Pro, you can add Media tracking to see who's interacting with the media on your site, so you know what your users are most interested in on your site. You can use this to tailor future content to meet your audience's interest to promote repeat visitors and expand your average user's time spent visiting your website on each visit."
+msgstr "By upgrading to MonsterInsights Pro, you can add Media tracking to see who's interacting with the media on your site, so you know what your users are most interested in on your site. You can use this to tailor future content to meet your audience's interests to promote repeat visitors and expand your average user's time spent visiting your website on each visit."
+
+#: lite/includes/admin/addons.php:69
+msgid "By upgrading to MonsterInsights Pro, you can add Forms tracking to see who's seeing and submitting your forms, so you can increase your conversion rate."
+msgstr "By upgrading to MonsterInsights Pro, you can add Forms tracking to see who's seeing and submitting your forms, so you can increase your conversion rate."
+
+#: lite/includes/admin/addons.php:60
+msgid "By upgrading to MonsterInsights Pro, you can add Ads tracking to see who's clicking on your Google Ads, so you can increase your revenue."
+msgstr "By upgrading to MonsterInsights Pro, you can add Ads tracking to see who's clicking on your Google Ads, so you can increase your revenue."
+
+#: lite/includes/admin/addons.php:51
+msgid "By upgrading to MonsterInsights Pro, you can add Social tracking to see who's clicking on your social share links, so you can track and maximize your social sharing exposure."
+msgstr "By upgrading to MonsterInsights Pro, you can add Social tracking to see who's clicking on your social share links, so you can track and maximise your social sharing exposure."
+
+#: lite/includes/admin/addons.php:49 lite/includes/admin/addons.php:58
+#: lite/includes/admin/addons.php:67 lite/includes/admin/addons.php:76
+#: lite/includes/admin/addons.php:85 lite/includes/admin/addons.php:94
+#: lite/includes/admin/addons.php:103 lite/includes/admin/addons.php:112
+#: lite/includes/admin/addons.php:157 lite/includes/admin/addons.php:166
+msgid "Want to increase your traffic, conversion, & engagement?"
+msgstr "Want to increase your traffic, conversion, & engagement?"
+
+#: includes/admin/settings/tab-tracking.php:107
+msgid "By upgrading to MonsterInsights Pro, you get access to numerous addons and tools that help you better understand what people are doing on your website, so you can keep doing more of what's working. Some of the features include: Ecommerce tracking, Author tracking, Post Type tracking, Ads tracking, Google AMP tracking, Performance optimization, and so much more!"
+msgstr "By upgrading to MonsterInsights Pro, you get access to numerous addons and tools that help you better understand what people are doing on your website, so you can keep doing more of what's working. Some of the features include: Ecommerce tracking, Author tracking, Post Type tracking, Ads tracking, Google AMP tracking, Performance optimisation, and so much more!"
+
+#: includes/admin/settings/tab-tracking.php:106
+#: lite/includes/admin/tools.php:10
+msgid "Want even more fine tuned control over your website analytics?"
+msgstr "Want even more fine-tuned control over your website analytics?"
+
+#: includes/admin/settings/settings-api.php:907
+#: includes/admin/settings/tab-tracking.php:108
+#: lite/includes/admin/tools.php:12
+msgid "Click here to Upgrade"
+msgstr "Click here to Upgrade"
+
+#: includes/admin/settings/register-settings.php:206
+msgid "Many WordPress \"1-page\" style themes rely on anchor tags for navigation to show virtual pages. The problem is that to Google Analytics, these are all just a single page, and it makes it hard to get meaningful statistics about pages viewed. This feature allows proper tracking in those themes."
+msgstr "Many WordPress \"1-page\" style themes rely on anchor tags for navigation to show virtual pages. The problem is that to Google Analytics, these are all just a single page, and it makes it hard to get meaningful statistics about pages viewed. This feature allows proper tracking in those themes."
+
+#: includes/admin/settings/register-settings.php:205
+msgid "Turn on anchor tracking"
+msgstr "Turn on anchor tracking"
+
+#: includes/admin/pages/tools.php:31 includes/admin/pages/tools.php:32
+msgid "Import/Export"
+msgstr "Import/Export"
 
 #: includes/admin/google.php:428
 msgid "Google Analytics had a connection error. Error code: %1$s. Reason: %2$s"
@@ -47,212 +178,55 @@ msgstr "Please ensure your Google Account is signed up for Google Analytics."
 msgid "Czechia"
 msgstr "Czechia"
 
-#: includes/admin/settings/register-settings.php:190
-msgid "Many WordPress \"1-page\" style themes rely on anchor tags for navigation to show virtual pages. The problem is that to Google Analytics, these are all just a single page, and it makes it hard to get meaningful statistics about pages viewed. This experimental MonsterInsights feature allows for the tracking of anchor links as pages in Google Analytics. As a beta, first-look feature, we're adding a setting to turn this functionality on so we can collect feedback from people that want to use it. We may tweak or remove this feature at any time. Note: This feature tracks all anchor links as pages, without the ability to opt a particular anchor tag out currently, so only use this if you are using a \"1-page\" style WordPress theme"
-msgstr "Many WordPress \"1-page\" style themes rely on anchor tags for navigation to show virtual pages. The problem is that to Google Analytics, these are all just a single page, and it makes it hard to get meaningful statistics about pages viewed. This experimental MonsterInsights feature allows for the tracking of anchor links as pages in Google Analytics. As a beta, first-look feature, we're adding a setting to turn this functionality on so we can collect feedback from people that want to use it. We may tweak or remove this feature at any time. Note: this feature tracks all anchor links as pages, without the ability to opt a particular anchor tag out currently, so only use this if you are using a \"1-page\" style WordPress theme"
-
-#: includes/admin/settings/register-settings.php:189
-msgid "Turn on anchor tracking (beta; see description)"
-msgstr "Turn on anchor tracking (beta; see description)"
-
 #: includes/admin/reports/overview.php:106
 msgid "If you've just installed MonsterInsights, data may take up to 24 hours to populate here. Check back soon!"
 msgstr "If you've just installed MonsterInsights, data may take up to 24 hours to populate here. Check back soon!"
 
-#: includes/admin/pages/tools.php:376
+#: includes/admin/pages/tools.php:190
 msgid "Please upload a real settings export file to import"
 msgstr "Please upload a real settings export file to import"
 
-#: includes/admin/pages/tools.php:371
+#: includes/admin/pages/tools.php:185
 msgid "Please upload a file to import"
 msgstr "Please upload a file to import"
 
-#: includes/admin/pages/tools.php:365
+#: includes/admin/pages/tools.php:179
 msgid "Please upload a valid .json file"
 msgstr "Please upload a valid .json file"
 
-#: includes/admin/pages/tools.php:293
+#: includes/admin/pages/tools.php:107
 msgid "Export"
 msgstr "Export"
 
-#: includes/admin/pages/tools.php:281
+#: includes/admin/pages/tools.php:95
 msgid "Export Settings:"
 msgstr "Export Settings:"
 
-#: includes/admin/pages/tools.php:268
+#: includes/admin/pages/tools.php:82
 msgid "Paste the import field content from another MonsterInsights site in above."
 msgstr "Paste the import field content from another MonsterInsights site in above."
 
-#: includes/admin/pages/tools.php:260
+#: includes/admin/pages/tools.php:74
 msgid "Successfully imported settings!"
 msgstr "Successfully imported settings!"
 
-#: includes/admin/pages/tools.php:254
+#: includes/admin/pages/tools.php:68
 msgid "Import Settings"
 msgstr "Import Settings"
 
-#: includes/admin/pages/tools.php:247
+#: includes/admin/pages/tools.php:61
 msgid "You can use the below tools to import settings from other MonsterInsights websites or export settings to import into another MonsterInsights install."
 msgstr "You can use the below tools to import settings from other MonsterInsights websites or export settings to import into another MonsterInsights install."
 
-#: includes/admin/pages/tools.php:246
+#: includes/admin/pages/tools.php:60
 msgid "Setting Tools"
 msgstr "Setting Tools"
 
-#: includes/admin/pages/tools.php:238
-msgid "AdWords Auto-Tagging"
-msgstr "AdWords Auto-Tagging"
-
-#: includes/admin/pages/tools.php:237
-msgid "About traffic source dimensions"
-msgstr "About traffic source dimensions"
-
-#: includes/admin/pages/tools.php:236
-msgid "About the Referral Traffic report"
-msgstr "About the Referral Traffic report"
-
-#: includes/admin/pages/tools.php:235
-msgid "Best practices for creating Custom Campaigns"
-msgstr "Best practices for creating Custom Campaigns"
-
-#: includes/admin/pages/tools.php:234
-msgid "About Custom Campaigns"
-msgstr "About Custom Campaigns"
-
-#: includes/admin/pages/tools.php:233
-msgid "About Campaigns"
-msgstr "About Campaigns"
-
-#: includes/admin/pages/tools.php:230
-msgid "More information:"
-msgstr "More information:"
-
-#: includes/admin/pages/tools.php:224
-msgid "or"
-msgstr "or"
-
-#: includes/admin/pages/tools.php:224
-msgid "Examples:"
-msgstr "Examples:"
-
-#: includes/admin/pages/tools.php:223
-msgid "Used for A/B testing and content-targeted ads. Use %1$s to differentiate ads or links that point to the same URL."
-msgstr "Used for A/B testing and content-targeted ads. Use %1$s to differentiate ads or links that point to the same URL."
-
-#: includes/admin/pages/tools.php:213
-msgid "Used for paid search. Use %1$s to note the keywords for this ad."
-msgstr "Used for paid search. Use %1$s to note the keywords for this ad."
-
-#: includes/admin/pages/tools.php:203
-msgid "Used for keyword analysis. Use %1$s to identify a specific product promotion or strategic campaign."
-msgstr "Used for keyword analysis. Use %1$s to identify a specific product promotion or strategic campaign."
-
-#: includes/admin/pages/tools.php:193
-msgid "Use %1$s to identify a medium such as email or cost-per- click."
-msgstr "Use %1$s to identify a medium such as email or cost-per-click."
-
-#: includes/admin/pages/tools.php:184 includes/admin/pages/tools.php:194
-#: includes/admin/pages/tools.php:204 includes/admin/pages/tools.php:214
-msgid "Example:"
-msgstr "Example:"
-
-#: includes/admin/pages/tools.php:183
-msgid "Use %1$s to identify a search engine, newsletter name, or other source."
-msgstr "Use %1$s to identify a search engine, newsletter name, or other source."
-
-#: includes/admin/pages/tools.php:182
-msgid "Required."
-msgstr "Required."
-
-#: includes/admin/pages/tools.php:173
-msgid "The following table gives a detailed explanation and example of each of the campaign parameters."
-msgstr "The following table gives a detailed explanation and example of each of the campaign parameters."
-
-#: includes/admin/pages/tools.php:172
-msgid "More information and examples for each option"
-msgstr "More information and examples for each option"
-
-#: includes/admin/pages/tools.php:160
-msgid "Copy to clipboard"
-msgstr "Copy to clipboard"
-
-#: includes/admin/pages/tools.php:153
-msgid "URL to use (updates automatically):"
-msgstr "URL to use (updates automatically):"
-
-#: includes/admin/pages/tools.php:147
-msgid "Set the parameters in the fragment portion of the URL (not recommended)."
-msgstr "Set the parameters in the fragment portion of the URL (not recommended)."
-
-#: includes/admin/pages/tools.php:142
-msgid "Use Fragment"
-msgstr "Use Fragment"
-
-#: includes/admin/pages/tools.php:136
-msgid "Enter something to differentiate ads"
-msgstr "Enter something to differentiate ads"
-
-#: includes/admin/pages/tools.php:131 includes/admin/pages/tools.php:219
-msgid "Campaign Content"
-msgstr "Campaign Content"
-
-#: includes/admin/pages/tools.php:125
-msgid "Enter the paid keyword"
-msgstr "Enter the paid keyword"
-
-#: includes/admin/pages/tools.php:120 includes/admin/pages/tools.php:209
-msgid "Campaign Term"
-msgstr "Campaign Term"
-
-#: includes/admin/pages/tools.php:114
-msgid "Enter a name to identify the campaign (e.g. %1$s)"
-msgstr "Enter a name to identify the campaign (e.g. %1$s)"
-
-#: includes/admin/pages/tools.php:109 includes/admin/pages/tools.php:199
-msgid "Campaign Name"
-msgstr "Campaign Name"
-
-#: includes/admin/pages/tools.php:103
-msgid "Enter a marketing medium (e.g. %1$s, %2$s, %3$s)"
-msgstr "Enter a marketing medium (e.g. %1$s, %2$s, %3$s)"
-
-#: includes/admin/pages/tools.php:98 includes/admin/pages/tools.php:189
-msgid "Campaign Medium"
-msgstr "Campaign Medium"
-
-#: includes/admin/pages/tools.php:92
-msgid "Enter a referrer (e.g. %1$s, %2$s, %3$s)"
-msgstr "Enter a referrer (e.g. %1$s, %2$s, %3$s)"
-
-#: includes/admin/pages/tools.php:87 includes/admin/pages/tools.php:178
-msgid "Campaign Source"
-msgstr "Campaign Source"
-
-#: includes/admin/pages/tools.php:81
-msgid "The full website URL (e.g. %1$s)"
-msgstr "The full website URL (e.g. %1$s)"
-
-#: includes/admin/pages/tools.php:76
-msgid "Website URL"
-msgstr "Website URL"
-
-#: includes/admin/pages/tools.php:68
-msgid "Fill out the required fields (marked with *) in the form below, and as you make changes the full campaign URL will be generated for you."
-msgstr "Fill out the required fields (marked with *) in the form below, and as you make changes the full campaign URL will be generated for you."
-
-#: includes/admin/pages/tools.php:67
-msgid "The URL builder helps you add parameters to your URLs you use in custom web-based or email ad campaigns. A custom campaign is any ad campaign not using the AdWords auto-tagging feature. When users click one of the custom links, the unique parameters are sent to your Analytics account, so you can identify the urls that are the most effective in attracting users to your content."
-msgstr "The URL builder helps you add parameters to your URLs you use in custom web-based or email ad campaigns. A custom campaign is any ad campaign not using the AdWords auto-tagging feature. When users click one of the custom links, the unique parameters are sent to your Analytics account, so you can identify the URLS that are the most effective in attracting users to your content."
-
-#: includes/admin/pages/tools.php:66
-msgid "Generate custom campaign parameters for your advertising URLS."
-msgstr "Generate custom campaign parameters for your advertising URLS."
-
-#: includes/admin/pages/tools.php:42
+#: includes/admin/pages/tools.php:36
 msgid "URL Builder"
 msgstr "URL Builder"
 
-#: includes/admin/pages/tools.php:41
+#: includes/admin/pages/tools.php:35
 msgid "Campaign URL Builder"
 msgstr "Campaign URL Builder"
 
@@ -272,35 +246,35 @@ msgstr "Network UA code"
 msgid "Google Analytics had a connection error or your Google account is not signed up for Google Analytics."
 msgstr "Google Analytics had a connection error or your Google account is not signed up for Google Analytics."
 
-#: includes/admin/common.php:163
+#: includes/admin/common.php:159
 msgid "Imported!"
 msgstr "Imported!"
 
-#: includes/admin/common.php:162 includes/admin/pages/tools.php:273
+#: includes/admin/common.php:158 includes/admin/pages/tools.php:87
 msgid "Import"
 msgstr "Import"
 
-#: includes/admin/common.php:161
+#: includes/admin/common.php:157
 msgid "Working..."
 msgstr "Working..."
 
-#: includes/admin/common.php:160
+#: includes/admin/common.php:156
 msgid "Shortened!"
 msgstr "Shortened!"
 
-#: includes/admin/common.php:159 includes/admin/pages/tools.php:163
+#: includes/admin/common.php:155
 msgid "Shorten URL"
 msgstr "Shorten URL"
 
-#: includes/admin/common.php:157
+#: includes/admin/common.php:153
 msgid "Failed!"
 msgstr "Failed!"
 
-#: includes/admin/common.php:156
+#: includes/admin/common.php:152
 msgid "Copy to Clipboard"
 msgstr "Copy to Clipboard"
 
-#: includes/admin/common.php:155
+#: includes/admin/common.php:151
 msgid "Copied!"
 msgstr "Copied!"
 
@@ -343,94 +317,6 @@ msgstr "Enhanced Link Attribution tracking is only available on Universal Tracki
 #: lite/includes/admin/addons.php:28
 msgid "Demographics and Interests tracking is only available on Universal Tracking (analytics.js). You're currently using deprecated ga.js tracking. We recommend switching to analytics.js, as it is significantly more accurate than ga.js, and allows for additional functionality (like the more accurate Javascript based events tracking we offer). Further Google Analytics has deprecated support for ga.js, and it may stop working at any time when Google decides to disable it from their server. To switch to using the newer Universal Analytics (analytics.js) %1$sclick here%2$s."
 msgstr "Demographics and Interests tracking is only available on Universal Tracking (analytics.js). You're currently using deprecated ga.js tracking. We recommend switching to analytics.js, as it is significantly more accurate than ga.js, and allows for additional functionality (like the more accurate Javascript-based events tracking we offer). Further, Google Analytics has deprecated support for ga.js, and it may stop working at any time when Google decides to disable it from their server. To switch to using the newer Universal Analytics (analytics.js) %1$sclick here%2$s."
-
-#: lite/includes/admin/addons.php:122
-msgid "To setup ecommerce tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up ecommerce tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:120
-msgid "Want to setup eCommerce Tracking?"
-msgstr "Want to set up eCommerce Tracking?"
-
-#: lite/includes/admin/addons.php:114
-msgid "To setup custom notifications, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up custom notifications, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:112
-msgid "Want to setup Custom Notifications?"
-msgstr "Want to set up Custom Notifications?"
-
-#: lite/includes/admin/addons.php:106
-msgid "To setup custom reporting, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up custom reporting, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:104
-msgid "Want to setup Custom Reporting?"
-msgstr "Want to set up Custom Reporting?"
-
-#: lite/includes/admin/addons.php:98
-msgid "To setup performance tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up performance tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:96
-msgid "Want to setup Performance Tracking?"
-msgstr "Want to set up Performance Tracking?"
-
-#: lite/includes/admin/addons.php:90
-msgid "To setup custom dimensions, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up custom dimensions, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:88
-msgid "Want to setup Custom Dimensions?"
-msgstr "Want to set up Custom Dimensions?"
-
-#: lite/includes/admin/addons.php:82
-msgid "To setup membership tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up membership tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:80
-msgid "Want to setup Membership Tracking?"
-msgstr "Want to set up Membership Tracking?"
-
-#: lite/includes/admin/addons.php:74
-msgid "To setup media tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up media tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:72
-msgid "Want to setup Media Tracking?"
-msgstr "Want to set up Media Tracking?"
-
-#: lite/includes/admin/addons.php:66
-msgid "To setup form tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up form tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:64
-msgid "Want to setup Forms Tracking?"
-msgstr "Want to set up Forms Tracking?"
-
-#: lite/includes/admin/addons.php:58
-msgid "To setup ad tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up ad tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:56
-msgid "Want to setup Ad Tracking?"
-msgstr "Want to set up Ad Tracking?"
-
-#: lite/includes/admin/addons.php:50 lite/includes/admin/addons.php:58
-#: lite/includes/admin/addons.php:66 lite/includes/admin/addons.php:74
-#: lite/includes/admin/addons.php:82 lite/includes/admin/addons.php:90
-#: lite/includes/admin/addons.php:98 lite/includes/admin/addons.php:106
-#: lite/includes/admin/addons.php:114 lite/includes/admin/addons.php:122
-msgid "Learn more about MonsterInsights Pro"
-msgstr "Learn more about MonsterInsights Pro"
-
-#: lite/includes/admin/addons.php:50
-msgid "To setup social tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-msgstr "To set up social tracking, please %1$supgrade your MonsterInsights account%2$s to unlock this feature."
-
-#: lite/includes/admin/addons.php:48
-msgid "Want to setup Social Tracking?"
-msgstr "Want to set up Social Tracking?"
 
 #: includes/helpers.php:543
 msgid "Zimbabwe"
@@ -1471,16 +1357,12 @@ msgstr "Allow"
 msgid "Allow MonsterInsights to track plugin usage? Opt-in to tracking and our newsletter to stay informed of the latest changes to MonsterInsights and help us ensure compatibility."
 msgstr "Allow MonsterInsights to track plugin usage? Opt-in to tracking and our newsletter to stay informed of the latest changes to MonsterInsights and help us ensure compatibility."
 
-#: includes/admin/settings/tab-tracking.php:40
-msgid "Upgrade"
-msgstr "Upgrade"
-
-#: includes/admin/settings/register-settings.php:341
+#: includes/admin/settings/register-settings.php:373
 #: includes/admin/settings/tab-general.php:184
 msgid "By allowing us to track usage data we can better help you, because we know with which WordPress configurations, themes and plugins we should test."
 msgstr "By allowing us to track usage data we can better help you, because we know with which WordPress configurations, themes and plugins we should test."
 
-#: includes/admin/settings/register-settings.php:340
+#: includes/admin/settings/register-settings.php:372
 #: includes/admin/settings/tab-general.php:183
 msgid "Allow Usage Tracking"
 msgstr "Allow Usage Tracking"
@@ -1537,143 +1419,143 @@ msgstr "Google Authentication"
 msgid "Analytics Profile"
 msgstr "Analytics Profile"
 
-#: includes/admin/common.php:367
+#: includes/admin/common.php:363
 msgid "MonsterInsights has detected that it's files are being blocked. This is usually caused by a adblock browser plugin (particularly uBlock Origin), or a conflicting WordPress theme or plugin. This issue only affects the admin side of MonsterInsights. To solve this, ensure MonsterInsights is whitelisted for your website URL in any adblock browser plugin you use. For step by step directions on how to do this, %1$sclick here%2$s. If this doesn't solve the issue (rare), send us a ticket %3$shere%2$s and we'll be happy to help diagnose the issue."
 msgstr "MonsterInsights has detected that it's files are being blocked. This is usually caused by an adblock browser plugin (particularly uBlock Origin), or a conflicting WordPress theme or plugin. This issue only affects the admin side of MonsterInsights. To solve this, ensure MonsterInsights is whitelisted for your website URL in any adblock browser plugin you use. For step-by-step directions on how to do this, %1$sclick here%2$s. If this doesn't solve the issue (rare), send us a ticket %3$shere%2$s and we'll be happy to help diagnose the issue."
 
-#: includes/admin/settings/settings-api.php:926
+#: includes/admin/settings/settings-api.php:937
 msgid "The callback function used for the %s setting is missing."
 msgstr "The callback function used for the %s setting is missing."
 
-#: includes/admin/settings/settings-api.php:737
+#: includes/admin/settings/settings-api.php:747
 msgid "You must have the %s capability to view/edit this setting"
 msgstr "You must have the %s capability to view/edit this setting"
 
-#: includes/admin/settings/register-settings.php:331
+#: includes/admin/settings/register-settings.php:363
 msgid "Users that have at least one of these roles will be able to view and save the settings panel, along with any user with the %s capability."
 msgstr "Users that have at least one of these roles will be able to view and save the settings panel, along with any user with the %s capability."
 
-#: includes/admin/settings/register-settings.php:330
+#: includes/admin/settings/register-settings.php:362
 msgid "Let these user roles save settings:"
 msgstr "Let these user roles save settings:"
 
-#: includes/admin/settings/register-settings.php:320
+#: includes/admin/settings/register-settings.php:352
 msgid "Let these user roles see reports (and the dashboard):"
 msgstr "Let these user roles see reports (and the dashboard):"
 
-#: includes/admin/settings/register-settings.php:310
+#: includes/admin/settings/register-settings.php:342
 msgid "Turns on debugging in JS events tracking, logging of eCommerce requests and enables debug settings."
 msgstr "Turns on debugging in JS events tracking, logging of eCommerce requests and enables debug settings."
 
-#: includes/admin/settings/register-settings.php:298
+#: includes/admin/settings/register-settings.php:330
 msgid "This allows you to %1$sset the domain%2$s that's used for tracking. Only is used if set to a value, else defaults to automatic determination. It is very rare that you would need to use this setting."
 msgstr "This allows you to %1$sset the domain%2$s that's used for tracking. Only is used if set to a value, or else defaults to automatic determination. It is very rare that you would need to use this setting."
 
-#: includes/admin/settings/register-settings.php:297
+#: includes/admin/settings/register-settings.php:329
 msgid "Domain to track as:"
 msgstr "Domain to track as:"
 
-#: includes/admin/settings/register-settings.php:247
+#: includes/admin/settings/register-settings.php:263
 msgid "The label to use for these links, this will be added to where the click came from, so if the label is %s, the label for a click from the content of an article becomes \"outbound-article-aff\"."
 msgstr "The label to use for these links. This will be added to where the click came from, so if the label is %s, the label for a click from the content of an article becomes \"outbound-article-aff\"."
 
-#: includes/admin/settings/register-settings.php:230
+#: includes/admin/settings/register-settings.php:246
 msgid "If you have enabled event tracking, MonsterInsights will send an event/pageview to GA if a link to a local file has one of the above extensions."
 msgstr "If you have enabled event tracking, MonsterInsights will send an event/pageview to GA if a link to a local file has one of the above extensions."
 
-#: includes/admin/settings/register-settings.php:223
+#: includes/admin/settings/register-settings.php:239
 msgid "Event (recommended)"
 msgstr "Event (recommended)"
 
-#: includes/admin/settings/register-settings.php:219
+#: includes/admin/settings/register-settings.php:235
 msgid "Tracking as pageviews is not recommended, as this would skew your statistics, but it does make it possible to track downloads as goals. This feature requires that event tracking be turned on."
 msgstr "Tracking as pageviews is not recommended, as this would skew your statistics, but it does make it possible to track downloads as goals. This feature requires that event tracking be turned on."
 
-#: includes/admin/settings/register-settings.php:218
+#: includes/admin/settings/register-settings.php:234
 msgid "Track downloads as an:"
 msgstr "Track downloads as an:"
 
-#: includes/admin/settings/register-settings.php:208
+#: includes/admin/settings/register-settings.php:224
 msgid "Do not use this feature if you use FeedBurner, as FeedBurner can do this automatically and better than this plugin can. Check %1$sthis help page%2$s for info on how to enable this feature in FeedBurner."
 msgstr "Do not use this feature if you use FeedBurner, as FeedBurner can do this automatically and better than this plugin can. Check %1$sthis help page%2$s for info on how to enable this feature in FeedBurner."
 
-#: includes/admin/settings/register-settings.php:207
+#: includes/admin/settings/register-settings.php:223
 msgid "Turn on tag links in RSS"
 msgstr "Turn on tag links in RSS"
 
-#: includes/admin/settings/register-settings.php:201
+#: includes/admin/settings/register-settings.php:217
 msgid "Turn on allowLinker"
 msgstr "Turn on allowLinker"
 
-#: includes/admin/settings/register-settings.php:195
+#: includes/admin/settings/register-settings.php:211
 msgid "Turn on allowAnchor"
 msgstr "Turn on allowAnchor"
 
-#: includes/admin/settings/register-settings.php:183
+#: includes/admin/settings/register-settings.php:199
 msgid "Enable enhanced link attribution?"
 msgstr "Enable enhanced link attribution?"
 
-#: includes/admin/settings/register-settings.php:172
+#: includes/admin/settings/register-settings.php:188
 msgid "Anonymize IP addresses?"
 msgstr "Anonymise IP addresses?"
 
-#: includes/admin/settings/register-settings.php:165
+#: includes/admin/settings/register-settings.php:181
 msgid "Check this setting to add the Demographics and Remarketing features to your Google Analytics tracking code. Make sure to enable Demographics and Remarketing in your Google Analaytics account. We have a guide for how to do that in our %1$sknowledge base%2$s. For more information about Remarketing, we refer you to %3$sGoogle's documentation%2$s."
 msgstr "Check this setting to add the Demographics and Remarketing features to your Google Analytics tracking code. Make sure to enable Demographics and Remarketing in your Google Analaytics account. We have a guide for how to do that in our %1$sknowledge base%2$s. For more information about Remarketing, we refer you to %3$sGoogle's documentation%2$s."
 
-#: includes/admin/settings/register-settings.php:154
+#: includes/admin/settings/register-settings.php:170
 msgid "Using Javascript (recommended)"
 msgstr "Using Javascript (recommended)"
 
-#: includes/admin/settings/register-settings.php:153
+#: includes/admin/settings/register-settings.php:169
 msgid "Yes, using PHP (deprecated)"
 msgstr "Yes, using PHP (deprecated)"
 
-#: includes/admin/settings/register-settings.php:152
+#: includes/admin/settings/register-settings.php:168
 msgid "No"
 msgstr "No"
 
-#: includes/admin/settings/register-settings.php:148
+#: includes/admin/settings/register-settings.php:164
 msgid "We recommend tracking clicks and downloads, so you know where users are exiting your site, and what downloads they are interacting with. "
 msgstr "We recommend tracking clicks and downloads, so you know where users are exiting your site, and what downloads they are interacting with. "
 
-#: includes/admin/settings/register-settings.php:138
+#: includes/admin/settings/register-settings.php:154
 msgid "Users that have at least one of these roles will not be tracked into Google Analytics."
 msgstr "Users that have at least one of these roles will not be tracked into Google Analytics."
 
-#: includes/admin/settings/register-settings.php:137
+#: includes/admin/settings/register-settings.php:153
 msgid "Ignore these user roles from tracking:"
 msgstr "Ignore these user roles from tracking:"
 
-#: includes/admin/settings/register-settings.php:93
+#: includes/admin/settings/register-settings.php:109
 msgid "Permissions"
 msgstr "Permissions"
 
-#: includes/admin/settings/register-settings.php:89
+#: includes/admin/settings/register-settings.php:105
 msgid "Compatibility"
 msgstr "Compatibility"
 
-#: includes/admin/settings/register-settings.php:84
+#: includes/admin/settings/register-settings.php:100
 msgid "Notifications"
 msgstr "Notifications"
 
-#: includes/admin/settings/register-settings.php:79
+#: includes/admin/settings/register-settings.php:95
 msgid "Additional Reporting"
 msgstr "Additional Reporting"
 
-#: includes/admin/settings/register-settings.php:75
+#: includes/admin/settings/register-settings.php:74
 msgid "Performance"
 msgstr "Performance"
 
-#: includes/admin/settings/register-settings.php:66
+#: includes/admin/settings/register-settings.php:65
 msgid "Memberships"
 msgstr "Memberships"
 
-#: includes/admin/settings/register-settings.php:61
+#: includes/admin/settings/register-settings.php:60
 msgid "Media"
 msgstr "Media"
 
-#: includes/admin/settings/register-settings.php:57
+#: includes/admin/settings/register-settings.php:56
 msgid "eCommerce"
 msgstr "eCommerce"
 
@@ -1771,19 +1653,19 @@ msgstr "PAGE VIEWS"
 msgid "MonsterInsights Mascot"
 msgstr "MonsterInsights Mascot"
 
-#: includes/admin/pages/settings.php:300
+#: includes/admin/pages/settings.php:297
 msgid "Successfully migrated to JS events tracking!"
 msgstr "Successfully migrated to JS events tracking!"
 
-#: includes/admin/pages/settings.php:243
+#: includes/admin/pages/settings.php:242
 msgid "Successfully migrated to Universal Analytics (analytics.js)!"
 msgstr "Successfully migrated to Universal Analytics (analytics.js)!"
 
-#: includes/admin/pages/settings.php:226 includes/admin/pages/settings.php:283
+#: includes/admin/pages/settings.php:226 includes/admin/pages/settings.php:281
 msgid "Error"
 msgstr "Error"
 
-#: includes/admin/pages/settings.php:226 includes/admin/pages/settings.php:283
+#: includes/admin/pages/settings.php:226 includes/admin/pages/settings.php:281
 msgid "You do not have permission to manage MonsterInsights settings"
 msgstr "You do not have permission to manage MonsterInsights settings"
 
@@ -2096,60 +1978,60 @@ msgstr "No profiles viewable for that account. Please use another account."
 msgid "Permission Denied"
 msgstr "Permission Denied"
 
-#: includes/admin/common.php:153
+#: includes/admin/common.php:149
 msgid "Proceed"
 msgstr "Proceed"
 
-#: includes/admin/common.php:152
+#: includes/admin/common.php:148
 msgid "Installing..."
 msgstr "Installing..."
 
-#: includes/admin/common.php:150 includes/admin/pages/addons.php:422
+#: includes/admin/common.php:146 includes/admin/pages/addons.php:422
 msgid "Install"
 msgstr "Install"
 
-#: includes/admin/common.php:149
+#: includes/admin/common.php:145
 msgid "Status: Network inactive"
 msgstr "Status: Network inactive"
 
-#: includes/admin/common.php:148
+#: includes/admin/common.php:144
 msgid "Status: Inactive"
 msgstr "Status: Inactive"
 
-#: includes/admin/common.php:147
+#: includes/admin/common.php:143
 msgid "Deactivating..."
 msgstr "Deactivating..."
 
-#: includes/admin/common.php:145 includes/admin/pages/addons.php:463
+#: includes/admin/common.php:141 includes/admin/pages/addons.php:463
 msgid "Network deactivate"
 msgstr "Network deactivate"
 
-#: includes/admin/common.php:144 includes/admin/pages/addons.php:465
+#: includes/admin/common.php:140 includes/admin/pages/addons.php:465
 #: includes/admin/pages/addons.php:467
 msgid "Deactivate"
 msgstr "Deactivate"
 
-#: includes/admin/common.php:143
+#: includes/admin/common.php:139
 msgid "Activating..."
 msgstr "Activating..."
 
-#: includes/admin/common.php:141 includes/admin/pages/addons.php:490
+#: includes/admin/common.php:137 includes/admin/pages/addons.php:490
 msgid "Network activate"
 msgstr "Network activate"
 
-#: includes/admin/common.php:140
+#: includes/admin/common.php:136
 msgid "Status: Network Activated"
 msgstr "Status: Network Activated"
 
-#: includes/admin/common.php:139 includes/admin/pages/addons.php:492
+#: includes/admin/common.php:135 includes/admin/pages/addons.php:492
 msgid "Activate"
 msgstr "Activate"
 
-#: includes/admin/common.php:138
+#: includes/admin/common.php:134
 msgid "Status: Active"
 msgstr "Status: Active"
 
-#: includes/admin/common.php:136
+#: includes/admin/common.php:132
 msgid "Warning: You have unsaved setting changes. If you leave the settings page without saving your changes will be lost. Did you still want to leave the page?"
 msgstr "Warning: You have unsaved setting changes. If you leave the settings page without saving your changes will be lost. Did you still want to leave the page?"
 
@@ -2195,11 +2077,11 @@ msgstr "Dashboard:"
 msgid "Settings:"
 msgstr "Settings:"
 
-#: googleanalytics.php:569
+#: googleanalytics.php:570
 msgid "Please uninstall and remove MonsterInsights Pro before activating MonsterInsights Lite. The Lite version has not been activated. %1$sClick here to return to the Dashboard%2$s."
 msgstr "Please uninstall and remove MonsterInsights Pro before activating MonsterInsights Lite. The Lite version has not been activated. %1$sClick here to return to the Dashboard%2$s."
 
-#: googleanalytics.php:564
+#: googleanalytics.php:565
 msgid "Sorry, but your version of WordPress does not meet MonsterInsight's required version of %1$s3.8%2$s to run properly. The plugin not been activated. %3$sClick here to return to the Dashboard%4$s."
 msgstr "Sorry, but your version of WordPress does not meet MonsterInsight's required minimum version of %1$s3.8%2$s to run properly. The plugin has not been activated. %3$sClick here to return to the Dashboard%4$s."
 
@@ -2224,7 +2106,7 @@ msgid "https://www.monsterinsights.com/"
 msgstr "https://www.monsterinsights.com/"
 
 #. #-#-#-#-#  google-analytics-for-wordpress-code.pot (Google Analytics for
-#. WordPress by MonsterInsights 6.1.10)  #-#-#-#-#
+#. WordPress by MonsterInsights 6.2.0)  #-#-#-#-#
 #. Author of the plugin/theme
 #: includes/admin/partials/header.php:19
 msgid "MonsterInsights"
@@ -2252,35 +2134,35 @@ msgstr "Normally you will find the Google Analytics tracking code here, but the 
 msgid "@Webmaster, normally you will find the Google Analytics tracking code here, but you are in the disabled user groups. To change this, navigate to Insights %1$s Settings %1$s Ignore Users"
 msgstr "@Webmaster, normally you will find the Google Analytics tracking code here, but you are in the disabled user groups. To change this, navigate to Insights %1$s Settings %1$s Ignore Users"
 
-#: includes/admin/settings/register-settings.php:309
+#: includes/admin/settings/register-settings.php:341
 msgid "Enable Debug Mode"
 msgstr "Enable Debug Mode"
 
-#: includes/admin/settings/register-settings.php:304
+#: includes/admin/settings/register-settings.php:336
 msgid "Not for the average user: this allows you to add a line of code, to be added before the %1$s call."
 msgstr "Not for the average user: this allows you to add a line of code, to be added before the %1$s call."
 
-#: includes/admin/settings/register-settings.php:303
+#: includes/admin/settings/register-settings.php:335
 msgid "Custom code"
 msgstr "Custom code"
 
-#: includes/admin/settings/register-settings.php:202
+#: includes/admin/settings/register-settings.php:218
 msgid "This adds a %1$s call to your tracking code, allowing you to use %2$s and related functions."
 msgstr "This adds a %1$s call to your tracking code, allowing you to use %2$s and related functions."
 
-#: includes/admin/settings/register-settings.php:196
+#: includes/admin/settings/register-settings.php:212
 msgid "This adds a %1$s call to your tracking code, and makes RSS link tagging use a %2$s as well."
 msgstr "This adds a %1$s call to your tracking code, and makes RSS link tagging use a %2$s as well."
 
-#: includes/admin/settings/register-settings.php:246
+#: includes/admin/settings/register-settings.php:262
 msgid "Label for those links:"
 msgstr "Label for those links:"
 
-#: includes/admin/settings/register-settings.php:241
+#: includes/admin/settings/register-settings.php:257
 msgid "If you want to track all internal links that begin with %1$s, enter %1$s in the box above. If you have multiple prefixes you can separate them with comma's: %2$s"
 msgstr "If you want to track all internal links that begin with %1$s, enter %1$s in the box above. If you have multiple prefixes you can separate them with commas: %2$s"
 
-#: includes/admin/settings/register-settings.php:240
+#: includes/admin/settings/register-settings.php:256
 msgid "Set path for internal links to track as outbound links"
 msgstr "Set path for internal links to track as outbound links"
 
@@ -2288,27 +2170,23 @@ msgstr "Set path for internal links to track as outbound links"
 msgid "Subdomain tracking:"
 msgstr "Subdomain tracking:"
 
-#: includes/admin/settings/register-settings.php:229
+#: includes/admin/settings/register-settings.php:245
 msgid "Extensions of files to track as downloads:"
 msgstr "Extensions of files to track as downloads:"
 
-#: includes/admin/settings/register-settings.php:184
+#: includes/admin/settings/register-settings.php:200
 msgid "Add %1$sEnhanced Link Attribution%2$s to your tracking code."
 msgstr "Add %1$sEnhanced Link Attribution%2$s to your tracking code."
 
-#: includes/admin/settings/register-settings.php:31
-msgid "Enhanced Link Attribution"
-msgstr "Enhanced Link Attribution"
-
-#: includes/admin/settings/register-settings.php:164
+#: includes/admin/settings/register-settings.php:180
 msgid "Enable Demographics and Interests Reports for Remarketing and Advertising"
 msgstr "Enable Demographics and Interests Reports for Remarketing and Advertising"
 
-#: includes/admin/settings/register-settings.php:173
+#: includes/admin/settings/register-settings.php:189
 msgid "This adds %1$s, telling Google Analytics to anonymize the information sent by the tracker objects by removing the last octet of the IP address prior to its storage."
 msgstr "This adds %1$s, telling Google Analytics to anonymize the information sent by the tracker objects by removing the last octet of the IP address prior to its storage."
 
-#: includes/admin/settings/register-settings.php:147
+#: includes/admin/settings/register-settings.php:163
 msgid "Track outbound clicks and download links?"
 msgstr "Track outbound clicks and download links?"
 
@@ -2340,7 +2218,7 @@ msgstr "Analytics profile"
 msgid "Authenticate with your Google account"
 msgstr "Authenticate with your Google account"
 
-#: includes/admin/settings/register-settings.php:71
+#: includes/admin/settings/register-settings.php:70
 msgid "Custom Dimensions"
 msgstr "Custom Dimensions"
 
@@ -2361,7 +2239,7 @@ msgstr "Reports"
 msgid "Next"
 msgstr "Next"
 
-#: includes/admin/common.php:135
+#: includes/admin/common.php:131
 msgid "Loading..."
 msgstr "Loading..."
 
@@ -2378,13 +2256,12 @@ msgstr "It seems the authentication for the plugin is missing permissions. Pleas
 msgid "Please configure your %1$sGoogle Analytics settings%2$s!"
 msgstr "Please configure your %1$sGoogle Analytics settings%2$s!"
 
-#: includes/admin/settings/register-settings.php:224
+#: includes/admin/settings/register-settings.php:240
 msgid "Pageview"
 msgstr "Pageview"
 
 #: includes/admin/admin.php:39 includes/admin/admin.php:49
-#: includes/admin/admin.php:154 includes/admin/pages/tools.php:45
-#: includes/admin/pages/tools.php:46
+#: includes/admin/admin.php:154
 msgid "Settings"
 msgstr "Settings"
 
@@ -2392,7 +2269,7 @@ msgstr "Settings"
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: includes/admin/settings/settings-api.php:958
+#: includes/admin/settings/settings-api.php:969
 #: includes/admin/settings/tab-general.php:204
 msgid "Save Changes"
 msgstr "Save Changes"
