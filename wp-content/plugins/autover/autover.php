@@ -1,83 +1,63 @@
 <?php
 /**
  * Plugin Name: Autover
- * Plugin URI: http://wordpress.org/extend/plugins/autover/
- * Description: Automatically version your CSS and JS files.
+ * Plugin URI: https://wordpress.org/plugins/autover/
+ * Description: Automatically version your CSS and JS files enqueued through the Wordpress API
  * Author: Presslabs
- * Version: 1.4
- * Author URI: http://www.presslabs.com/
+ * Version: 1.5
+ * Author URI: https://www.presslabs.com/
  */
 
-register_activation_hook( __FILE__, 'autover_activate' );
-function autover_activate() {
-	autover_delete_old_options();
-}
 
-register_deactivation_hook( __FILE__, 'autover_deactivate' );
-function autover_deactivate() {}
 
-function autover_delete_old_options() {
-	delete_option( 'autover_dev_mode' );
-	delete_option( 'autover_is_working' );
-
-	delete_option( 'autover_versioned_css_files' );
-	delete_option( 'autover_not_versioned_css_files' );
-	delete_option( 'autover_not_correct_css_files' );
-
-	delete_option( 'autover_versioned_js_files' );
-	delete_option( 'autover_not_versioned_js_files' );
-	delete_option( 'autover_not_correct_js_files' );
-}
-
-function autover_str_between( $start, $end, $content ) {
-	$r = explode( $start, $content );
-
-	if ( isset( $r[1] ) ) {
-		$r = explode( $end, $r[1] );
-		return $r[0];
-	}
-
-	return '';
-}
-
-function autover_remove_query( $src ) {
-	$src_query = autover_str_between( '?', '##', $src . '##' );      // Find the query
-	$src_with_no_query = str_replace( $src_query, '', $src );        // Remove query if exist
-	$src_with_no_query = str_replace( '?', '', $src_with_no_query ); // Remove '?' char
-
-	return $src_with_no_query;
-}
-
-add_filter( 'style_loader_src', 'autover_version_filter', 10, 1 );
-add_filter( 'script_loader_src', 'autover_version_filter', 10, 1 );
+add_filter( 'style_loader_src', 'autover_version_filter' );
+add_filter( 'script_loader_src', 'autover_version_filter' );
 function autover_version_filter( $src ) {
-	$src_with_no_query = autover_remove_query( $src );
+	$url_parts = wp_parse_url( $src );
 
-	$termination = strtolower( substr( $src_with_no_query, -3 ) );
-	( $termination === '.js' ) ? $filetype = 'js' : ( ( $termination === 'css' ) ? $filetype = 'css' : null );
-
-	if ( null === $filetype ) {
-		return $src;
-	}
-	if ( defined( 'AUTOVER_DISABLE_' . strtoupper( $filetype ) ) ) {
+	$extension = pathinfo( $url_parts['path'], PATHINFO_EXTENSION );
+	if ( ! $extension || ! in_array( $extension, [ 'css', 'js' ] ) ) {
 		return $src;
 	}
 
-	$src_path = parse_url( $src, PHP_URL_PATH );
-	$filename = rtrim( ABSPATH, '/' )  . urldecode( $src_path );
-
-	if ( ! is_file( $filename ) ) {
+	if ( defined( 'AUTOVER_DISABLE_' . strtoupper( $extension ) ) ) {
 		return $src;
 	}
-	$timestamp_version = filemtime( $filename );
-	if ( ! $timestamp_version ) {
-		$timestamp_version = filemtime( utf8_decode( $filename ) );
+
+	$file_path = rtrim( ABSPATH, '/' ) . urldecode( $url_parts['path'] );
+	if ( ! is_file( $file_path ) ) {
+		return $src;
 	}
+
+	$timestamp_version = filemtime( $file_path ) ?: filemtime( utf8_decode( $file_path ) );
 	if ( ! $timestamp_version ) {
 		return $src;
 	}
 
-	$src_with_new_version = $src_with_no_query . '?ver=' . $timestamp_version;
+	if ( ! isset( $url_parts['query'] ) ) {
+		$url_parts['query'] = '';
+	}
 
-	return $src_with_new_version;
+	$query = [];
+	parse_str( $url_parts['query'], $query );
+	unset( $query['v'] );
+	unset( $query['ver'] );
+	$query['ver']       = "$timestamp_version";
+	$url_parts['query'] = build_query( $query );
+
+	return autover_build_url( $url_parts );
+}
+
+
+function autover_build_url( array $parts ) {
+	return ( isset( $parts['scheme'] ) ? "{$parts['scheme']}:" : '' ) .
+		   ( ( isset( $parts['user'] ) || isset( $parts['host'] ) ) ? '//' : '' ) .
+		   ( isset( $parts['user'] ) ? "{$parts['user']}" : '' ) .
+		   ( isset( $parts['pass'] ) ? ":{$parts['pass']}" : '' ) .
+		   ( isset( $parts['user'] ) ? '@' : '' ) .
+		   ( isset( $parts['host'] ) ? "{$parts['host']}" : '' ) .
+		   ( isset( $parts['port'] ) ? ":{$parts['port']}" : '' ) .
+		   ( isset( $parts['path'] ) ? "{$parts['path']}" : '' ) .
+		   ( isset( $parts['query'] ) ? "?{$parts['query']}" : '' ) .
+		   ( isset( $parts['fragment'] ) ? "#{$parts['fragment']}" : '' );
 }
