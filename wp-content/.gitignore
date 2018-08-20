@@ -21,6 +21,7 @@ debug.txt
 /backups
 /cache
 /gdbackup
+/updraft
 
 # Ignore sitemaps
 sitemap.xml
@@ -37,6 +38,11 @@ sitemap.xml.gz
 # Fast Secure Contact Form captcha cache
 /plugins/si-contact-form/captcha/cache
 /plugins/si-contact-form/captcha/cache/**
+
+# WPML folders needed for the plugin to work properly
+!wp-content/plugins/sitepress-multilingual-cms/classes/xml-config/log/
+!wp-content/plugins/sitepress-multilingual-cms/templates/xml-config/
+!wp-content/plugins/sitepress-multilingual-cms/vendor/twig/twig/doc/tags/
 
 #
 # https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
