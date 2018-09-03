@@ -39,11 +39,6 @@ sitemap.xml.gz
 /plugins/si-contact-form/captcha/cache
 /plugins/si-contact-form/captcha/cache/**
 
-# WPML folders needed for the plugin to work properly
-!wp-content/plugins/sitepress-multilingual-cms/classes/xml-config/log/
-!wp-content/plugins/sitepress-multilingual-cms/templates/xml-config/
-!wp-content/plugins/sitepress-multilingual-cms/vendor/twig/twig/doc/tags/
-
 #
 # https://github.com/github/gitignore/blob/master/Global/Vim.gitignore
 #
@@ -66,3 +61,10 @@ tags
 #
 *.bak
 *~
+
+# WPML folders needed for the plugin to work properly
+!/plugins/sitepress-multilingual-cms/classes/xml-config/log/
+!/plugins/sitepress-multilingual-cms/templates/xml-config/
+!/plugins/sitepress-multilingual-cms/templates/xml-config/log/
+!/plugins/sitepress-multilingual-cms/vendor/twig/twig/doc/tags/
+!/plugins/wpml-translation-management/classes/translation-proxy/log/
