@@ -33,6 +33,7 @@ $monarch_sections = array(
 	),
 	'header'  => array(
 		'contents' => array(
+			'settings'     => esc_html__( 'Monarch Settings', 'Monarch' ),
 			'updates'      => esc_html__( 'Monarch Updates', 'Monarch' ),
 			'importexport' => esc_html__( 'Import & Export', 'Monarch' ),
 			'stats'        => esc_html__( 'Social Sharing Stats', 'Monarch' ),
@@ -995,6 +996,10 @@ $monarch_options_all = array(
 		'type'  => 'updates',
 		'title' => esc_html__( 'Monarch Updates', 'Monarch' ),
 	),
+	'settings' => array(
+		'type'  => 'settings',
+		'title' => esc_html__( 'Monarch Settings', 'Monarch' ),
+	),
 );
 
 $sharing_locations_options = array(
@@ -1287,6 +1292,10 @@ $general_main_options = array(
 	$monarch_options_all[ 'custom_css' ][ 'section_start' ],
 			$monarch_options_all[ 'custom_css' ][ 'option' ],
 			$monarch_options_all[ 'end_of_section' ],
+);
+
+$header_settings_options = array(
+	$monarch_options_all[ 'settings' ]
 );
 
 $header_updates_options = array(

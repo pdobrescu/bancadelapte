@@ -644,6 +644,30 @@
 			});
 		});
 
+		$('.et_social_form' ).on('click', '.et_save_google_settings', function() {
+			var $form_container = $(this).closest('ul');
+			var google_fonts_val = $form_container.find('#et_use_google_fonts').prop('checked') ? 'on' : 'off';
+			var $spinner = $form_container.find('.spinner');
+
+			$.ajax({
+				type: 'POST',
+				url: monarchSettings.ajaxurl,
+				data: {
+					action : 'monarch_save_google_settings',
+					google_settings_nonce : monarchSettings.google_settings,
+					et_monarch_use_google_fonts : google_fonts_val
+				},
+				beforeSend: function() {
+					$spinner.addClass('spinner_visible');
+				},
+				success: function(data) {
+					$spinner.removeClass('spinner_visible');
+				}
+			});
+
+			return false;
+		});
+		
 		$( '.et_social_form' ).on( 'click', '.et_authorize_updates', function() {
 			var $form_container = $( this ).closest( 'ul' ),
 				username = $form_container.find( '.updates_option_username' ).val(),
