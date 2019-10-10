@@ -1,5 +1,7 @@
 <?php
 /**
+ * WPSEO plugin file.
+ *
  * @package WPSEO\Admin\Links
  */
 
@@ -8,7 +10,11 @@
  */
 class WPSEO_Link_Watcher {
 
-	/** @var WPSEO_Link_Content_Processor */
+	/**
+	 * Represents the content processor. It will extract links from the content and saves them for the given post id.
+	 *
+	 * @var WPSEO_Link_Content_Processor
+	 */
 	protected $content_processor;
 
 	/**
@@ -39,12 +45,27 @@ class WPSEO_Link_Watcher {
 	 * @return void
 	 */
 	public function save_post( $post_id, WP_Post $post ) {
-		if ( ! WPSEO_Link_Table_Accessible::check_table_is_accessible() || ! WPSEO_Meta_Table_Accessible::is_accessible() ) {
+		/**
+		 * Filter: 'wpseo_should_index_links' - Allows disabling of Yoast's links indexation.
+		 *
+		 * @api bool To disable the indexation, return false.
+		 */
+		if ( ! apply_filters( 'wpseo_should_index_links', true ) ) {
+			return;
+		}
+
+		if ( ! WPSEO_Link_Table_Accessible::is_accessible() || ! WPSEO_Meta_Table_Accessible::is_accessible() ) {
 			return;
 		}
 
 		// When the post is a revision.
 		if ( wp_is_post_revision( $post->ID ) ) {
+			return;
+		}
+
+		$post_statuses_to_skip = array( 'auto-draft', 'trash' );
+
+		if ( in_array( $post->post_status, $post_statuses_to_skip, true ) ) {
 			return;
 		}
 
@@ -64,7 +85,12 @@ class WPSEO_Link_Watcher {
 	 * @return void
 	 */
 	public function delete_post( $post_id ) {
-		if ( ! WPSEO_Link_Table_Accessible::check_table_is_accessible() || ! WPSEO_Meta_Table_Accessible::is_accessible() ) {
+		/** This filter is documented in admin/links/class-link-watcher.php */
+		if ( ! apply_filters( 'wpseo_should_index_links', true ) ) {
+			return;
+		}
+
+		if ( ! WPSEO_Link_Table_Accessible::is_accessible() || ! WPSEO_Meta_Table_Accessible::is_accessible() ) {
 			return;
 		}
 
@@ -87,11 +113,13 @@ class WPSEO_Link_Watcher {
 	 * @return bool True when the post is processable.
 	 */
 	protected function is_processable( $post_id ) {
-		// When the post type is not public.
-		$post_type        = get_post_type( $post_id );
-		$post_type_object = get_post_type_object( $post_type );
+		/*
+		 * Do not use the `wpseo_link_count_post_types` because we want to always count the links,
+		 * even if we don't show them.
+		 */
+		$post_types = WPSEO_Post_Type::get_accessible_post_types();
 
-		return ( $post_type_object !== null && $post_type_object->public === true );
+		return isset( $post_types[ get_post_type( $post_id ) ] );
 	}
 
 	/**
