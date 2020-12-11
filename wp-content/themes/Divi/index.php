@@ -16,11 +16,12 @@
 
 					$width = (int) apply_filters( 'et_pb_index_blog_image_width', 1080 );
 
-					$height = (int) apply_filters( 'et_pb_index_blog_image_height', 675 );
+					$height    = (int) apply_filters( 'et_pb_index_blog_image_height', 675 );
 					$classtext = 'et_pb_post_main_image';
 					$titletext = get_the_title();
-					$thumbnail = get_thumbnail( $width, $height, $classtext, $titletext, $titletext, false, 'Blogimage' );
-					$thumb = $thumbnail["thumb"];
+					$alttext   = get_post_meta( get_post_thumbnail_id(), '_wp_attachment_image_alt', true );
+					$thumbnail = get_thumbnail( $width, $height, $classtext, $alttext, $titletext, false, 'Blogimage' );
+					$thumb     = $thumbnail["thumb"];
 
 					et_divi_post_format_content();
 
@@ -30,10 +31,10 @@
 								'<div class="et_main_video_container">
 									%1$s
 								</div>',
-								$first_video
+								et_core_esc_previously( $first_video )
 							);
 						elseif ( ! in_array( $post_format, array( 'gallery' ) ) && 'on' === et_get_option( 'divi_thumbnails_index', 'on' ) && '' !== $thumb ) : ?>
-							<a href="<?php the_permalink(); ?>">
+							<a class="entry-featured-image-url" href="<?php the_permalink(); ?>">
 								<?php print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height ); ?>
 							</a>
 					<?php
@@ -77,4 +78,6 @@
 	</div> <!-- .container -->
 </div> <!-- #main-content -->
 
-<?php get_footer(); ?>
+<?php
+
+get_footer();

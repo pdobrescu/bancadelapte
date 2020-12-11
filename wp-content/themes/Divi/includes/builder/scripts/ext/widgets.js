@@ -20,11 +20,11 @@
 				data:
 				{
 					action : 'et_pb_add_widget_area',
-					et_load_nonce : et_pb_options.et_load_nonce,
+					et_admin_load_nonce : et_pb_options.et_admin_load_nonce,
 					et_widget_area_name : $widget_name_input.val()
 				},
 				success: function( data ){
-					$this_el.siblings( '.et_pb_widget_area_result' ).hide().html( data ).slideToggle();
+					$this_el.closest( '#et_pb_widget_area_create' ).find( '.et_pb_widget_area_result' ).hide().html( data ).slideToggle();
 				}
 			} );
 		} );
@@ -45,7 +45,7 @@
 					data:
 					{
 						action : 'et_pb_remove_widget_area',
-						et_load_nonce : et_pb_options.et_load_nonce,
+						et_admin_load_nonce : et_pb_options.et_admin_load_nonce,
 						et_widget_area_name : $this_el.closest( '.widgets-holder-wrap' ).find( 'div[id^=et_pb_widget_area_]' ).attr( 'id' )
 					},
 					success: function( data ){

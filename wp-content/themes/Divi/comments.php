@@ -15,8 +15,8 @@
 	<?php if ( have_comments() ) : ?>
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 			<div class="comment_navigation_top clearfix">
-				<div class="nav-previous"><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Older Comments', 'Divi' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'Divi' ) ); ?></div>
+				<div class="nav-previous"><?php previous_comments_link( et_get_safe_localization( __( '<span class="meta-nav">&larr;</span> Older Comments', 'Divi' ) ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( et_get_safe_localization( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'Divi' ) ) ); ?></div>
 			</div> <!-- .navigation -->
 		<?php endif; // check for comment navigation ?>
 
@@ -28,8 +28,8 @@
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 			<div class="comment_navigation_bottom clearfix">
-				<div class="nav-previous"><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Older Comments', 'Divi' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'Divi' ) ); ?></div>
+				<div class="nav-previous"><?php previous_comments_link( et_get_safe_localization( __( '<span class="meta-nav">&larr;</span> Older Comments', 'Divi' ) ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( et_get_safe_localization( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'Divi' ) ) ); ?></div>
 			</div> <!-- .navigation -->
 		<?php endif; // check for comment navigation ?>
 
@@ -43,7 +43,7 @@
 		<?php endif; ?>
 	<?php else : // this is displayed if there are no comments so far ?>
 	   <div id="comment-section" class="nocomments">
-		  <?php if ('open' == $post->comment_status) : ?>
+		  <?php if ('open' === $post->comment_status) : ?>
 			 <!-- If comments are open, but there are no comments. -->
 
 		  <?php else : // comments are closed ?>
@@ -52,7 +52,7 @@
 		  <?php endif; ?>
 	   </div>
 	<?php endif; ?>
-	<?php if ('open' == $post->comment_status) : ?>
+	<?php if ('open' === $post->comment_status) : ?>
 		<?php comment_form( array('label_submit' => esc_attr__( 'Submit Comment', 'Divi' ), 'title_reply' => '<span>' . esc_attr__( 'Submit a Comment', 'Divi' ) . '</span>', 'title_reply_to' => esc_attr__( 'Leave a Reply to %s', 'Divi' ), 'class_submit' => 'submit et_pb_button' ) ); ?>
 	<?php else: ?>
 
