@@ -15,7 +15,7 @@ class WPSEO_Configuration_Structure {
 	 *
 	 * @var array
 	 */
-	protected $steps = array();
+	protected $steps = [];
 
 	/**
 	 * List of fields for each configuration step.
@@ -25,10 +25,10 @@ class WPSEO_Configuration_Structure {
 	 *
 	 * @var array
 	 */
-	private $fields = array(
-		'environment_type'           => array( 'environment_type' ),
-		'siteType'                   => array( 'siteType' ),
-		'publishingEntity'           => array(
+	private $fields = [
+		'environment_type' => [ 'environment_type' ],
+		'siteType'         => [ 'siteType' ],
+		'publishingEntity' => [
 			'publishingEntity',
 			'publishingEntityType',
 			'publishingEntityCompanyInfo',
@@ -43,23 +43,23 @@ class WPSEO_Configuration_Structure {
 			'profileUrlPinterest',
 			'profileUrlYouTube',
 			'profileUrlWikipedia',
-		),
-		'multipleAuthors'            => array( 'multipleAuthors' ),
-		'connectGoogleSearchConsole' => array(
-			'googleSearchConsoleIntro',
-			'connectGoogleSearchConsole',
-		),
-		'titleTemplate'              => array(
+		],
+		'multipleAuthors'  => [ 'multipleAuthors' ],
+		'titleTemplate'    => [
 			'titleIntro',
 			'siteName',
 			'separator',
-		),
-		'newsletter'                 => array(
+		],
+		'tracking'         => [
+			'trackingIntro',
+			'tracking',
+		],
+		'newsletter'       => [
 			'mailchimpSignup',
 			'suggestions',
-		),
-		'success'                    => array( 'successMessage' ),
-	);
+		],
+		'success'          => [ 'successMessage' ],
+	];
 
 	/**
 	 * WPSEO_Configuration_Structure constructor.
@@ -73,7 +73,7 @@ class WPSEO_Configuration_Structure {
 			$this->fields['publishingEntity']
 		);
 
-		$fields = array( 'postTypeVisibility' );
+		$fields = [ 'postTypeVisibility' ];
 
 		$post_type_factory = new WPSEO_Config_Factory_Post_Type();
 		foreach ( $post_type_factory->get_fields() as $post_type_field ) {
@@ -86,16 +86,10 @@ class WPSEO_Configuration_Structure {
 			__( 'Multiple authors', 'wordpress-seo' ),
 			$this->fields['multipleAuthors']
 		);
-		// @codingStandardsIgnoreStart -- These lines are commented out temporarily, see next line.
-		// Commented out since 11.1.1 patch because Google removed their GSC API.
-//		$this->add_step(
-//			'connect-google-search-console',
-//			__( 'Google Search Console', 'wordpress-seo' ),
-//			$this->fields['connectGoogleSearchConsole']
-//		);
-		// @codingStandardsIgnoreEnd
 
 		$this->add_step( 'title-template', __( 'Title settings', 'wordpress-seo' ), $this->fields['titleTemplate'] );
+		/* translators: %s expands to Yoast SEO */
+		$this->add_step( 'tracking', sprintf( __( 'Help us improve %s', 'wordpress-seo' ), 'Yoast SEO' ), $this->fields['tracking'] );
 		$this->add_step( 'newsletter', __( 'Continue learning', 'wordpress-seo' ), $this->fields['newsletter'], true, true );
 		$this->add_step( 'success', __( 'Success!', 'wordpress-seo' ), $this->fields['success'], true, true );
 	}
@@ -110,12 +104,12 @@ class WPSEO_Configuration_Structure {
 	 * @param bool   $full_width Wheter the step content is full width or not.
 	 */
 	protected function add_step( $identifier, $title, $fields, $navigation = true, $full_width = false ) {
-		$this->steps[ $identifier ] = array(
+		$this->steps[ $identifier ] = [
 			'title'          => $title,
 			'fields'         => $fields,
 			'hideNavigation' => ! (bool) $navigation,
 			'fullWidth'      => $full_width,
-		);
+		];
 	}
 
 	/**

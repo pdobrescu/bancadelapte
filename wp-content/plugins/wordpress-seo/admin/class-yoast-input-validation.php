@@ -13,6 +13,15 @@
 class Yoast_Input_Validation {
 
 	/**
+	 * The error descriptions.
+	 *
+	 * @since 12.1
+	 *
+	 * @var array
+	 */
+	private static $error_descriptions = [];
+
+	/**
 	 * Check whether an option group is a Yoast SEO setting.
 	 *
 	 * The normal pattern is 'yoast' . $option_name . 'options'.
@@ -40,13 +49,13 @@ class Yoast_Input_Validation {
 	 * @return string $admin_title The modified or original admin title.
 	 */
 	public static function add_yoast_admin_document_title_errors( $admin_title ) {
-		$errors           = get_settings_errors();
-		$error_count      = 0;
+		$errors      = get_settings_errors();
+		$error_count = 0;
 
 		foreach ( $errors as $error ) {
 			// For now, filter the admin title only in the Yoast SEO settings pages.
 			if ( self::is_yoast_option_group_name( $error['setting'] ) && $error['code'] !== 'settings_updated' ) {
-				$error_count++;
+				++$error_count;
 			}
 		}
 
@@ -84,14 +93,6 @@ class Yoast_Input_Validation {
 	}
 
 	/**
-	 * The error descriptions.
-	 *
-	 * @since 12.1
-	 * @var array
-	 */
-	private static $_error_descriptions = array();
-
-	/**
 	 * Sets the error descriptions.
 	 *
 	 * @since 12.1
@@ -99,12 +100,17 @@ class Yoast_Input_Validation {
 	 * @param array $descriptions An associative array of error descriptions. For
 	 *                            each entry, the key must be the setting variable.
 	 */
-	public static function set_error_descriptions( $descriptions = array() ) {
-		$defaults     = array(
+	public static function set_error_descriptions( $descriptions = [] ) {
+		$defaults = [
 			'baiduverify'     => sprintf(
 				/* translators: %s: additional message with the submitted invalid value */
 				esc_html__( 'Baidu verification codes can only contain letters, numbers, hyphens, and underscores. %s', 'wordpress-seo' ),
 				self::get_dirty_value_message( 'baiduverify' )
+			),
+			'facebook_site'   => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the Facebook Page URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'facebook_site' )
 			),
 			'fbadminapp'      => sprintf(
 				/* translators: %s: additional message with the submitted invalid value */
@@ -116,10 +122,30 @@ class Yoast_Input_Validation {
 				esc_html__( 'Google verification codes can only contain letters, numbers, hyphens, and underscores. %s', 'wordpress-seo' ),
 				self::get_dirty_value_message( 'googleverify' )
 			),
+			'instagram_url'   => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the Instagram URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'instagram_url' )
+			),
+			'linkedin_url'    => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the Linkedin URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'linkedin_url' )
+			),
 			'msverify'        => sprintf(
 				/* translators: %s: additional message with the submitted invalid value */
 				esc_html__( 'Bing confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s', 'wordpress-seo' ),
 				self::get_dirty_value_message( 'msverify' )
+			),
+			'myspace_url'     => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the MySpace URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'myspace_url' )
+			),
+			'pinterest_url'   => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the Pinterest URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'pinterest_url' )
 			),
 			'pinterestverify' => sprintf(
 				/* translators: %s: additional message with the submitted invalid value */
@@ -131,16 +157,26 @@ class Yoast_Input_Validation {
 				esc_html__( 'Twitter usernames can only contain letters, numbers, and underscores. %s', 'wordpress-seo' ),
 				self::get_dirty_value_message( 'twitter_site' )
 			),
+			'wikipedia_url'   => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the Wikipedia URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'wikipedia_url' )
+			),
 			'yandexverify'    => sprintf(
 				/* translators: %s: additional message with the submitted invalid value */
 				esc_html__( 'Yandex confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s', 'wordpress-seo' ),
 				self::get_dirty_value_message( 'yandexverify' )
 			),
-		);
+			'youtube_url'     => sprintf(
+				/* translators: %s: additional message with the submitted invalid value */
+				esc_html__( 'Please check the format of the Youtube URL you entered. %s', 'wordpress-seo' ),
+				self::get_dirty_value_message( 'youtube_url' )
+			),
+		];
 
 		$descriptions = wp_parse_args( $descriptions, $defaults );
 
-		self::$_error_descriptions = $descriptions;
+		self::$error_descriptions = $descriptions;
 	}
 
 	/**
@@ -151,7 +187,7 @@ class Yoast_Input_Validation {
 	 * @return array An associative array of error descriptions.
 	 */
 	public static function get_error_descriptions() {
-		return self::$_error_descriptions;
+		return self::$error_descriptions;
 	}
 
 	/**
@@ -163,11 +199,11 @@ class Yoast_Input_Validation {
 	 * @return string The error description.
 	 */
 	public static function get_error_description( $error_code ) {
-		if ( ! isset( self::$_error_descriptions[ $error_code ] ) ) {
+		if ( ! isset( self::$error_descriptions[ $error_code ] ) ) {
 			return null;
 		}
 
-		return self::$_error_descriptions[ $error_code ];
+		return self::$error_descriptions[ $error_code ];
 	}
 
 	/**
@@ -276,8 +312,9 @@ class Yoast_Input_Validation {
 
 		if ( $dirty_value ) {
 			return sprintf(
-				__( 'The submitted value was: %s', 'wordpress-seo' ),
-				$dirty_value
+				/* translators: %s: form value as submitted. */
+				esc_html__( 'The submitted value was: %s', 'wordpress-seo' ),
+				esc_html( $dirty_value )
 			);
 		}
 

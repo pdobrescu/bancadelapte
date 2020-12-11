@@ -16,15 +16,15 @@ class WPSEO_Shortlinker {
 	 * @return array The shortlink data.
 	 */
 	protected function collect_additional_shortlink_data() {
-		return array(
+		return [
 			'php_version'      => $this->get_php_version(),
 			'platform'         => 'wordpress',
-			'platform_version' => $GLOBALS['wp_version'],
+			'platform_version' => $this->get_platform_version(),
 			'software'         => $this->get_software(),
 			'software_version' => WPSEO_VERSION,
 			'days_active'      => $this->get_days_active(),
 			'user_language'    => $this->get_user_language(),
-		);
+		];
 	}
 
 	/**
@@ -80,6 +80,15 @@ class WPSEO_Shortlinker {
 		$version = explode( '.', PHP_VERSION );
 
 		return (int) $version[0] . '.' . (int) $version[1];
+	}
+
+	/**
+	 * Gets the current site's platform version.
+	 *
+	 * @return string The wp_version.
+	 */
+	protected function get_platform_version() {
+		return $GLOBALS['wp_version'];
 	}
 
 	/**

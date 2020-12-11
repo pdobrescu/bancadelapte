@@ -20,8 +20,15 @@ $knowledge_graph_help = new WPSEO_Admin_Help_Panel(
 );
 ?>
 <div class="tab-block">
-	<h2 class="help-button-inline"><?php echo esc_html__( 'Knowledge Graph & Schema.org', 'wordpress-seo' ) . $knowledge_graph_help->get_button_html(); ?></h2>
+
+	<h2 class="help-button-inline">
+		<?php
+		// phpcs:ignore WordPress.Security.EscapeOutput -- get_button_html() output is properly escaped.
+		echo esc_html__( 'Knowledge Graph & Schema.org', 'wordpress-seo' ) . $knowledge_graph_help->get_button_html();
+		?>
+	</h2>
 	<?php
+	// phpcs:ignore WordPress.Security.EscapeOutput -- get_panel_html() output is properly escaped.
 	echo $knowledge_graph_help->get_panel_html();
 	/**
 	 * Filter: 'wpseo_knowledge_graph_setting_msg' - Allows adding a message above these settings.
@@ -37,28 +44,28 @@ $knowledge_graph_help = new WPSEO_Admin_Help_Panel(
 		<?php esc_html_e( 'Choose whether the site represents an organization or a person.', 'wordpress-seo' ); ?>
 	</p>
 	<?php
-	$yoast_free_kg_select_options = array(
+	$yoast_free_kg_select_options = [
 		'company' => __( 'Organization', 'wordpress-seo' ),
 		'person'  => __( 'Person', 'wordpress-seo' ),
-	);
+	];
 	$yform->select( 'company_or_person', __( 'Organization or person', 'wordpress-seo' ), $yoast_free_kg_select_options, 'styled', false );
 	?>
 	<div id="knowledge-graph-company">
-		<?php
-
-		/*
-		* Render the `knowledge-graph-company-warning` div when the company name or logo are not set.
-		* This div is used as React render root in `js/src/search-appearance.js`.
-		*/
-		$is_company_info_missing = empty( $yform->options['company_name'] ) || empty( $yform->options['company_logo'] );
-		if ( $is_company_info_missing ) :
-		?>
-		<div id="knowledge-graph-company-warning"></div>
-		<?php endif; ?>
-
 		<h3><?php esc_html_e( 'Organization', 'wordpress-seo' ); ?></h3>
 		<?php
-		$yform->textinput( 'company_name', __( 'Organization name', 'wordpress-seo' ), array( 'autocomplete' => 'organization' ) );
+		/*
+		 * Render the `knowledge-graph-company-warning` div when the company name or logo are not set.
+		 * This div is used as React render root in `js/src/search-appearance.js`.
+		 */
+		$yoast_seo_company_name = WPSEO_Options::get( 'company_name', '' );
+		$yoast_seo_company_logo = WPSEO_Options::get( 'company_logo', '' );
+		if ( empty( $yoast_seo_company_name ) || empty( $yoast_seo_company_logo ) ) :
+			?>
+			<div id="knowledge-graph-company-warning"></div>
+			<?php
+		endif;
+
+		$yform->textinput( 'company_name', __( 'Organization name', 'wordpress-seo' ), [ 'autocomplete' => 'organization' ] );
 		$yform->media_input( 'company_logo', __( 'Organization logo', 'wordpress-seo' ) );
 		?>
 		<div id="wpseo-local-seo-upsell"></div>

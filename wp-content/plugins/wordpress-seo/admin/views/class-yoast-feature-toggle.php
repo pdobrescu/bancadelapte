@@ -53,6 +53,13 @@ class Yoast_Feature_Toggle {
 	protected $extra = '';
 
 	/**
+	 * Additional content to be rendered after the toggle.
+	 *
+	 * @var string
+	 */
+	protected $after = '';
+
+	/**
 	 * Value to specify the feature toggle order.
 	 *
 	 * @var string
@@ -80,7 +87,7 @@ class Yoast_Feature_Toggle {
 	 * @throws InvalidArgumentException Thrown when a required argument is missing.
 	 */
 	public function __construct( array $args ) {
-		$required_keys = array( 'name', 'setting', 'label' );
+		$required_keys = [ 'name', 'setting', 'label' ];
 
 		foreach ( $required_keys as $key ) {
 			if ( empty( $args[ $key ] ) ) {
