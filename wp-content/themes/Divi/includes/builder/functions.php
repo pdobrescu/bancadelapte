@@ -8,7 +8,7 @@
 
 if ( ! defined( 'ET_BUILDER_PRODUCT_VERSION' ) ) {
 	// Note, this will be updated automatically during grunt release task.
-	define( 'ET_BUILDER_PRODUCT_VERSION', '4.7.5' );
+	define( 'ET_BUILDER_PRODUCT_VERSION', '4.7.7' );
 }
 
 if ( ! defined( 'ET_BUILDER_VERSION' ) ) {
@@ -12282,3 +12282,59 @@ if ( ! function_exists( 'et_format_parallax_bg_wrap_radius_values' ) ) :
 		return trim( implode( ' ', $radius_values ) );
 	}
 endif;
+
+if ( ! function_exists( 'et_builder_generate_css' ) ) {
+	/**
+	 * Generate CSS.
+	 *
+	 * @param array $args  Styles arg.
+	 *
+	 * @return string|void
+	 */
+	function et_builder_generate_css( $args ) {
+
+		$defaults = array(
+			'prefix' => '',
+			'suffix' => '',
+		);
+
+		$args = wp_parse_args( $args, $defaults );
+
+		/*
+		 * Bail early if we have no $selector elements or properties and $value.
+		 */
+		if ( ! $args['value'] || ! $args['selector'] ) {
+			return;
+		}
+
+		return sprintf( '%s { %s: %s; }', $args['selector'], $args['style'], $args['prefix'] . $args['value'] . $args['suffix'] );
+	}
+}
+
+if ( ! function_exists( 'et_builder_generate_css_style' ) ) {
+	/**
+	 * Generate CSS property.
+	 *
+	 * @param array $args Styles arg.
+	 *
+	 * @return string|void
+	 */
+	function et_builder_generate_css_style( $args ) {
+
+		$defaults = array(
+			'prefix' => '',
+			'suffix' => '',
+		);
+
+		$args = wp_parse_args( $args, $defaults );
+
+		/*
+		 * Bail early if we have no style and $value.
+		 */
+		if ( ! $args['value'] || ! $args['style'] ) {
+			return;
+		}
+
+		return sprintf( '%s: %s;', $args['style'], $args['prefix'] . $args['value'] . $args['suffix'] );
+	}
+}

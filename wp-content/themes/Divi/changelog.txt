@@ -1,3 +1,41 @@
+version 4.7.7 ( updated 12-14-2020 )
+- Fixed issue where select gradient color start and end buttons didn't work on background options of Button module.
+- Fixed issue where options of Text options group didn't show up after user clicked on Quick Access launch icon.
+- Fixed anchor link not working when the URL is loaded on Safari or Firefox browsers.
+	* includes/builder/feature/gutenberg/EditorTypography.php
+	* includes/builder/frontend-builder/bundle.js
+	* includes/builder/scripts/frontend/scripts.js
+
+version 4.7.6 ( updated 12-11-2020 )
+- Apply theme customizer typography styles in the Gutenberg Editor.
+- Fixed image module alignment issue in mobile.
+- Fixed Divi reCaptcha conflict with 3rd party plugins.
+- Fixed js error when Find & Replace modal was opened for Button Background options in some cases.
+- Fixed the email list not working if the account name contains a quote or vertical line in the Email Optin module.
+- Fixed fullwidth header module incorrect height when the fullscreen layout is enabled.
+- Fixed video module border-radius in iOS and Safari.
+- Fixed a compatibility issue with WordPress 5.6 where it would cause the Fullwidth Header scroll down icon to not work.
+- Fixed Divider Arrangement setting option - Underneath Section Content.
+- Fixed true parallax jumping issue when an animation is enabled.
+- Fixed error on the console log when Filterable Portfolio is loaded on Firefox.
+- Fixed an issue with the Post Slider image top and bottom position.
+- Fixed the issue where fixed navigation bar was not sticky in Firefox browser.
+- Fixed button hover background color conflicts with the theme customizer.
+	* core/components/api/spam/ReCaptcha.php
+	* functions.php
+	* includes/builder/core.php
+	* includes/builder/feature/gutenberg/EditorTypography.php
+	* includes/builder/framework.php
+	* includes/builder/frontend-builder/bundle.js
+	* includes/builder/functions.php
+	* includes/builder/module/FullwidthPostSlider.php
+	* includes/builder/module/Image.php
+	* includes/builder/module/PostSlider.php
+	* includes/builder/module/Signup.php
+	* includes/builder/module/Video.php
+	* includes/builder/scripts/frontend/scripts.js
+	* js/src/custom.js
+
 version 4.7.5 ( updated 12-09-2020 )
 - Fixed Email module button looks incorrect in 1/6 and 1/5 columns layout.
 - Fixed email optin module's extra space above form when no title or description exists.
