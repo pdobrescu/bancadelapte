@@ -30,7 +30,6 @@ function responsive_mobile_get_layout() {
 	$layout = '';
 	$responsive_mobile_options = responsive_mobile_get_options();
 	$valid_layouts      = responsive_mobile_valid_layouts();
-
 	/* For singular pages, get post meta */
 	if ( is_singular() ) {
 		global $post;
@@ -73,7 +72,7 @@ function responsive_mobile_get_layout() {
 
 	} else {
 		/* Posts index */
-		if ( is_home() || is_archive() || is_search() ) {
+		if ( ! empty( $responsive_mobile_options['blog_posts_index_layout_default'] ) && ( is_home() || is_archive() || is_search() ) ) {
 			$layout = $responsive_mobile_options['blog_posts_index_layout_default'];
 		} /* Fallback */
 		else {
@@ -83,7 +82,6 @@ function responsive_mobile_get_layout() {
 	}
 
 	$layout = apply_filters( 'responsive_mobile_get_layout', $layout );
-
 	return esc_attr( $layout );
 }
 

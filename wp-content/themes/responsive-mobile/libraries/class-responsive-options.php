@@ -241,6 +241,36 @@ Class Responsive_Options {
 	}
 
 	/**
+	 * Creates upload input
+	 *
+	 * @param $args array
+	 *
+	 * @return string
+	 */
+	protected function upload( $args ) {
+
+		extract( $args );
+
+		$value = ( !empty( $this->responsive_mobile_options[$id] ) ) ? $this->responsive_mobile_options[$id] : '';
+
+
+		$html = '<div class="grid col-700 media-upload">
+                    <input id="responsive_mobile_theme_options_' . $id . '" name="responsive_mobile_theme_options[' . $id . ']" type="text" value="' . esc_attr( $value ) . '" />
+                    <label class="description" for="responsive_mobile_theme_options[' . $id . ']">' . $description . '</label>
+                    <button class="button upload" name="responsive_mobile_theme_options[' . $id . ']_upload" id="responsive_mobile_theme_options_' . $id . '_upload">' . $button . '</button>
+                    </div>
+                    <div class="grid col-220 fit media-upload">';
+		if( $value != '' ) {
+			$html .= '<img src="' . esc_url( $value ) . '" class="upload-image"/>';
+		}
+
+		$html .= '</div>';
+
+
+		return $html;
+	}
+
+	/**
 	 * Creates text input with color picker.
 	 *
 	 * @param $args array
@@ -659,6 +689,25 @@ Class Responsive_Options {
 		$input   = ( array_key_exists( $input, $options['options'] ) ? $input : $this->default_options[$key] );
 
 		return $input;
+	}
+
+	public static function responsive_mobile_categorylist_validate() {
+		// An array of valid results
+		$args = array(
+				'type'         => 'post',
+				'orderby'      => 'name',
+				'order'        => 'ASC',
+				'hide_empty'   => 1,
+				'hierarchical' => 1,
+				'taxonomy'     => 'category'
+		);
+		$option_categories = array();
+		$category_lists = get_categories( $args );
+		$option_categories[''] = esc_html(__( 'Choose Category', 'responsive-mobile' ));
+		foreach( $category_lists as $category ){
+			$option_categories[$category->term_id] = $category->name;
+		}
+		return $option_categories;		
 	}
 
 	/**

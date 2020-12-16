@@ -25,6 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 </div><!-- end of #container -->
 <?php responsive_mobile_container_bottom();?>
 
+
 <footer id="footer" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 	<?php responsive_mobile_footer_top(); ?>
 	<div id="footer-wrapper">
