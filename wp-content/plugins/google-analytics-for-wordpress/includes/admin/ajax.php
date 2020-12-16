@@ -46,12 +46,14 @@ add_action( 'wp_ajax_monsterinsights_install_addon', 'monsterinsights_ajax_insta
  * @since 6.0.0
  */
 function monsterinsights_ajax_install_addon() {
-    
+
     // Run a security check first.
     check_ajax_referer( 'monsterinsights-install', 'nonce' );
 
-    if ( ! current_user_can( 'install_plugins' ) ) {
-        echo json_encode( true );
+    if ( ! monsterinsights_can_install_plugins() ) {
+	    wp_send_json( array(
+		    'error' => esc_html__( 'You are not allowed to install plugins', 'google-analytics-for-wordpress' ),
+	    ) );
     }
 
     // Install the addon.
@@ -90,10 +92,8 @@ function monsterinsights_ajax_install_addon() {
         }
 
         // We do not need any extra credentials if we have gotten this far, so let's install the plugin.
-        require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
-        $base = MonsterInsights();
-        require_once plugin_dir_path( $base->file ) . '/includes/admin/licensing/skin.php';
-        
+	    monsterinsights_require_upgrader( false );
+
         // Create the plugin upgrader with our custom skin.
         $installer = new Plugin_Upgrader( $skin = new MonsterInsights_Skin() );
         $installer->install( $download_url );
@@ -126,7 +126,9 @@ function monsterinsights_ajax_activate_addon() {
     check_ajax_referer( 'monsterinsights-activate', 'nonce' );
 
     if ( ! current_user_can( 'activate_plugins' ) ) {
-        echo json_encode( true );
+	    wp_send_json( array(
+		    'error' => esc_html__( 'You are not allowed to activate plugins', 'google-analytics-for-wordpress' ),
+	    ) );
     }
 
     // Activate the addon.
@@ -160,13 +162,15 @@ function monsterinsights_ajax_deactivate_addon() {
     // Run a security check first.
     check_ajax_referer( 'monsterinsights-deactivate', 'nonce' );
 
-    if ( ! current_user_can( 'activate_plugins' ) ) {
-        echo json_encode( true );
+    if ( ! current_user_can( 'deactivate_plugins' ) ) {
+	    wp_send_json( array(
+		    'error' => esc_html__( 'You are not allowed to deactivate plugins', 'google-analytics-for-wordpress' ),
+	    ) );
     }
 
     // Deactivate the addon.
     if ( isset( $_POST['plugin'] ) ) {
-        if ( isset( $_POST['isnetwork'] ) && $_POST['isnetwork'] ) { 
+        if ( isset( $_POST['isnetwork'] ) && $_POST['isnetwork'] ) {
             $deactivate = deactivate_plugins( $_POST['plugin'], false, true );
         } else {
             $deactivate = deactivate_plugins( $_POST['plugin'] );
@@ -207,3 +211,48 @@ function monsterinsights_ajax_dismiss_notice() {
 
 }
 add_action( 'wp_ajax_monsterinsights_ajax_dismiss_notice', 'monsterinsights_ajax_dismiss_notice' );
+
+/**
+ * Dismiss SEMRush CTA
+ *
+ * @access public
+ * @since 7.12.3
+ */
+function monsterinsights_ajax_dismiss_semrush_cta() {
+	check_ajax_referer( 'mi-admin-nonce', 'nonce' );
+
+	if ( ! current_user_can( 'monsterinsights_save_settings' ) ) {
+		return;
+	}
+
+	// Deactivate the notice
+	if ( update_option( 'monsterinsights_dismiss_semrush_cta', 'yes' ) ) {
+		// Return true
+		wp_send_json( array(
+			'dismissed' => 'yes',
+		) );
+		wp_die();
+	}
+
+	// If here, an error occurred
+	wp_send_json( array(
+		'dismissed' => 'no',
+	) );
+	wp_die();
+}
+add_action( 'wp_ajax_monsterinsights_vue_dismiss_semrush_cta', 'monsterinsights_ajax_dismiss_semrush_cta' );
+
+/**
+ * Get the sem rush cta dismiss status value
+ */
+function monsterinsights_get_sem_rush_cta_status() {
+	check_ajax_referer( 'mi-admin-nonce', 'nonce' );
+
+	$dismissed_cta = get_option( 'monsterinsights_dismiss_semrush_cta', 'no' );
+
+	wp_send_json( array(
+		'dismissed' => $dismissed_cta,
+	) );
+}
+
+add_action( 'wp_ajax_monsterinsights_get_sem_rush_cta_status', 'monsterinsights_get_sem_rush_cta_status' );
