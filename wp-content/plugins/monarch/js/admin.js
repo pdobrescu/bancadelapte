@@ -570,6 +570,7 @@
 			var $this_el = $(this).parent(),
 				client_id = $this_el.parent().find( '.input .api_option_client_id' ).val(),
 				client_secret = $this_el.parent().find( '.input .api_option_client_secret' ).val(),
+				using_legacy_api = $this_el.parent().find( 'input[name=et_social\\[general_main_facebook_legacy_api\\]]:checked' ).val(),
 				network_name = $this_el.closest( '.et_social_form' ).find( '> h2' ).text(),
 				options_fromform = $( '#et_monarch_options' ).serialize(),
 				api_key;
@@ -592,6 +593,7 @@
 						nonce : monarchSettings.monarch_nonce,
 						client_id : client_id,
 						client_secret : client_secret,
+						using_legacy_api: using_legacy_api,
 						network_name : network_name,
 						api_key : api_key,
 						api_secret : api_secret,
@@ -667,7 +669,7 @@
 
 			return false;
 		});
-		
+
 		$( '.et_social_form' ).on( 'click', '.et_authorize_updates', function() {
 			var $form_container = $( this ).closest( 'ul' ),
 				username = $form_container.find( '.updates_option_username' ).val(),

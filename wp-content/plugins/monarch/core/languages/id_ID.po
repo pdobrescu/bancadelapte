@@ -1,481 +1,1326 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Divi 1.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/init\n"
-"POT-Creation-Date: 2018-04-30 16:52:52+00:00\n"
-"PO-Revision-Date: 2017-08-01 17:55+0300\n"
-"Last-Translator: \n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
 "Language-Team: Elegant Themes\n"
 "Language: id\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
-"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
-"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
-"esc_html_x:1,2c\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ..\n"
-"X-Poedit-SearchPathExcluded-0: ../includes/builder\n"
-"X-Poedit-SearchPathExcluded-1: ../node_modules\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
 
-#: components/Portability.php:1105
+#: components/Portability.php:1874
 msgid ""
-"The browser version you are currently using is outdated. Please update to "
-"the newest version."
-msgstr ""
-"Versi peramban yang Anda gunakan sudah usang. Harap perbarui ke versi "
-"terbaru."
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr "Versi peramban yang Anda gunakan sudah usang. Harap perbarui ke versi terbaru."
 
-#: components/Portability.php:1106
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr ""
+"Anda sudah mencapai limit memori server. Harap coba tingkatkan limit memori PHP "
+"Anda."
+
+#: components/Portability.php:1876
 msgid ""
-"You reached your server memory limit. Please try increasing your PHP memory "
-"limit."
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
 msgstr ""
-"Anda sudah mencapai limit memori server. Harap coba tingkatkan limit memori "
-"PHP Anda."
+"Berkas ini tidak dapat diimpor. Mungkin dikarenakan file_uploads dinonaktifkan "
+"dalam php.ini Anda. Juga dapat disebabkan post_max_size atau/dan "
+"upload_max_filesize lebih kecil dari berkas yang dipilih. Harap memperbesarnya "
+"atau transfer data yang lebih substansial saat ini."
 
-#: components/Portability.php:1107
-msgid ""
-"This file cannot be imported. It may be caused by file_uploads being "
-"disabled in your php.ini. It may also be caused by post_max_size or/and "
-"upload_max_filesize being smaller than file selected. Please increase it or "
-"transfer more substantial data at the time."
-msgstr ""
-"Berkas ini tidak dapat diimpor. Mungkin dikarenakan file_uploads "
-"dinonaktifkan dalam php.ini Anda. Juga dapat disebabkan post_max_size atau/"
-"dan upload_max_filesize lebih kecil dari berkas yang dipilih. Harap "
-"memperbesarnya atau transfer data yang lebih substansial saat ini."
-
-#: components/Portability.php:1108
+#: components/Portability.php:1877
 msgid "Invalid File format. You should be uploading a JSON file."
 msgstr "Format berkas salah. Anda harus mengunggah berkas JSON."
 
-#: components/Portability.php:1109
+#: components/Portability.php:1878
 msgid "This file should not be imported in this context."
 msgstr "Berkas ini tidak dapat diimpor dalam konteks ini."
 
-#: components/Portability.php:1110
+#: components/Portability.php:1879
 msgid ""
-"Please select at least one item to export or disable the \"Only export "
-"selected items\" option"
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
 msgstr ""
+"Silakan pilih setidaknya satu item untuk mengekspor atau menonaktifkan opsi "
+"\"Hanya ekspor item yang dipilih\""
 
-#: components/Portability.php:1111
+#: components/Portability.php:1880
 msgid "Import estimated time remaining: %smin"
 msgstr "Estimasi sisa waktu impor: %smnt"
 
-#: components/Portability.php:1112
+#: components/Portability.php:1881
 msgid "Export estimated time remaining: %smin"
 msgstr "Estimasi sisa waktu ekspor: %smnt"
 
-#: components/Portability.php:1113
+#: components/Portability.php:1882
 msgid "Backup estimated time remaining: %smin"
 msgstr "Estimasi sisa waktu pencadangan: %smnt"
 
-#: components/Portability.php:1136
+#: components/Portability.php:1905
 msgid "Portability"
 msgstr "Portabilitas"
 
-#: components/Portability.php:1140
+#: components/Portability.php:1909
 msgid "Export"
 msgstr "Ekspor"
 
-#: components/Portability.php:1141
+#: components/Portability.php:1910
 msgid "Import"
 msgstr "Impor"
 
-#: components/Portability.php:1145
+#: components/Portability.php:1914
 msgid ""
-"Exporting your %s will create a JSON file that can be imported into a "
-"different website."
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
 msgstr ""
 "Mengekspor %s Anda akan menciptakan berkas JSON yang dapat diimpor ke dalam "
 "website lain."
 
-#: components/Portability.php:1146
+#: components/Portability.php:1915
 msgid "Export File Name"
 msgstr "Nama Berkas Ekspor"
 
-#: components/Portability.php:1151
+#: components/Portability.php:1920
 msgid "Only export selected items"
 msgstr "Hanya ekspor item terpilih"
 
-#: components/Portability.php:1155
+#: components/Portability.php:1924
 msgid "Export %s"
 msgstr "Ekspor %s"
 
-#: components/Portability.php:1156
+#: components/Portability.php:1925
 msgid "Cancel Export"
 msgstr "Batalkan Ekspor"
 
-#: components/Portability.php:1161
+#: components/Portability.php:1930
 msgid ""
-"Importing a previously-exported %s file will overwrite all content currently "
-"on this page."
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
 msgstr ""
-"Mengimpor berkas %s yang diekspor sebelumnya akan menimpa semua konten yang "
-"saat ini ada di laman ini."
+"Mengimpor berkas %s yang diekspor sebelumnya akan menimpa semua konten yang saat "
+"ini ada di laman ini."
 
-#: components/Portability.php:1163
+#: components/Portability.php:1932
 msgid ""
-"Select a previously-exported Divi Builder Layouts file to begin importing "
-"items. Large collections of image-heavy exports may take several minutes to "
-"upload."
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
 msgstr ""
 "Pilih berkas Tata Letak Divi Builder yang diekspor sebelumnya untuk mulai "
 "mengimpor item. Ekspor dengan gambar dalam jumlah besar dapat membutuhkan "
 "beberapa menit untuk diunggah."
 
-#: components/Portability.php:1165
+#: components/Portability.php:1934
 msgid ""
-"Importing a previously-exported %s file will overwrite all current data. "
-"Please proceed with caution!"
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
 msgstr ""
-"Mengimpor berkas %s yang diekspor sebelumnya akan menimpa semua data saat "
-"ini. Harap berhati-hati!"
+"Mengimpor berkas %s yang diekspor sebelumnya akan menimpa semua data saat ini. "
+"Harap berhati-hati!"
 
-#: components/Portability.php:1167
+#: components/Portability.php:1936
 msgid "Select File To Import"
 msgstr "Pilih Berkas Untuk Diimpor"
 
-#: components/Portability.php:1169
+#: components/Portability.php:1938
 msgid "No File Selected"
 msgstr "Tidak Ada Berkas Dipilih"
 
-#: components/Portability.php:1170
+#: components/Portability.php:1939
 msgid "Choose File"
 msgstr "Pilih Berkas"
 
-#: components/Portability.php:1174
+#: components/Portability.php:1943
 msgid "Download backup before importing"
 msgstr "Unduh cadangan sebelum mengimpor"
 
-#: components/Portability.php:1178
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Terapkan Layout's Defaults ke Situs Web Ini"
+
+#: components/Portability.php:1950
 msgid "Import %s"
 msgstr "Impor %s"
 
-#: components/Portability.php:1179
+#: components/Portability.php:1951
 msgid "Cancel Import"
 msgstr "Batalkan Impor"
 
-#: components/Portability.php:1281
+#: components/Portability.php:2053
 msgid "Import & Export"
 msgstr "Impor & Ekspor"
 
-#: components/Portability.php:1413
+#: components/Portability.php:2195
 msgid "The export process failed. Please refresh the page and try again."
 msgstr "Proses ekspor gagal. Harap segarkan laman lalu cobalah kembali."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Pusat layanan"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Pusat Dukungan Monarch"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Tinjauan Dasar Ekstra"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Menggunakan Paket Layout Premade"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Membuat Tata Letak Kategori"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Memulai Dengan Divi Builder"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Perpustakaan Divi"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Tinjauan Dasar Plugin Bloom"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Cara Memperbarui Plugin Bloom"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Cara Menambahkan Akun Milis"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "Overviw Lengkap Raja"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Menambahkan Jaringan Sosial"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Mengkonfigurasi API Pengikut Sosial"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Memulai Dengan Ekstra"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Menyiapkan Opsi Tema Ekstra"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Pembuat Kategori Ekstra"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Cara Memperbarui Tema Ekstra"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Gambaran Umum Dari Semua Modul Divi"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Memulai Dengan Paket Layout"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Menyesuaikan Header Dan Navigasi Anda"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Cara Memperbarui Tema Divi"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Menggunakan Perpustakaan Divi"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Menyiapkan Opsi Tema Divi"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi Untuk Pengembang"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Cara Memperbarui Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Menjual Produk Dengan Divi Dan WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Mengimpor Dan Mengekspor Layout Divi"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Cara Memperbarui Plugin Bloom Anda"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Menambahkan Akun Email Di Bloom"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Kustomisasi Desain Keikutsertaan Anda"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Berbagai Jenis Keikutsertaan Bloom"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Menggunakan Pengaturan Tampilan Bloom"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Cara Menggunakan Pemicu Dalam Mekar"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Menambahkan Bidang Kustom Ke Formulir Keikutsertaan Bloom"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Tinjauan Lengkap Plugin Monarch"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Cara Memperbarui Plugin WordPress Monarch Anda"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Menambah dan Mengelola Jejaring Sosial"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Mengkonfigurasi API Jaringan Sosial"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Menyesuaikan Desain Monarch"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Melihat Statistik Sosial Anda"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Menggunakan Sidebar Mengambang"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Menggunakan Pemicu Popup & Flyin"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "Pusat Dukungan Divi :: Log debug WordPress tidak dapat dibaca."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Pusat Dukungan Divi :: WordPress debug.log tidak dikonfigurasi."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr "Pusat Dukungan Divi :: Log debug WordPress tidak dapat ditemukan."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Direktori konten-wp yang dapat ditulis"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Kami merekomendasikan bahwa direktori konten-wp di server Anda dapat ditulis oleh "
+"WordPress untuk memastikan fungsionalitas penuh tema dan plugin Divi Builder."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "Versi PHP"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Kami merekomendasikan penggunaan versi stabil terbaru dari PHP. Ini tidak hanya "
+"akan memastikan kompatibilitas dengan Divi, tetapi juga akan sangat mempercepat "
+"situs web Anda yang mengarah ke lebih sedikit memori dan masalah terkait CPU."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"Secara default, batas memori yang ditetapkan oleh host Anda atau oleh WordPress "
+"mungkin terlalu rendah. Ini akan menyebabkan aplikasi mogok saat PHP mencapai "
+"batas buatan. Anda dapat menyesuaikan batas memori Anda dalam <a href=\"%1$s\" "
+"target=\"_blank\">file php.ini</a> Anda, atau dengan menghubungi host Anda untuk "
+"bantuan. Anda mungkin juga perlu mendefinisikan memori terbatas di <a "
+"href=\"%2$s\" target=_blank\">wp-config.php</a> ."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"Post Max Size membatasi seberapa besar suatu halaman atau file di situs web Anda. "
+"Jika halaman Anda lebih besar dari batas yang ditentukan dalam PHP, itu akan "
+"gagal dimuat. Ukuran pos dapat menjadi sangat besar saat menggunakan Divi "
+"Builder, jadi penting untuk meningkatkan batas ini. Ini juga memengaruhi unggahan "
+"/ unduhan ukuran file, yang dapat mencegah tata letak besar agar tidak diimpor ke "
+"pembangun. Anda dapat menyesuaikan ukuran posting maksimal dalam <a href=\"%1$s\" "
+"target=\"_blank\">file php.ini</a> Anda, atau dengan menghubungi host Anda untuk "
+"mendapatkan bantuan."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Waktu Eksekusi Maksimum memengaruhi berapa lama halaman diizinkan memuat sebelum "
+"habis waktu. Jika batasnya terlalu rendah, Anda mungkin tidak dapat mengimpor "
+"tata letak dan file besar ke pembangun. Anda dapat menyesuaikan waktu eksekusi "
+"maksimal dalam <a href=\"%1$s\">file php.ini</a> Anda, atau dengan menghubungi "
+"host Anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Unggah Ukuran File Maks menentukan ukuran file maksimum yang diizinkan untuk Anda "
+"unggah ke server Anda. Jika batasnya terlalu rendah, Anda mungkin tidak dapat "
+"mengimpor koleksi tata letak yang besar ke Perpustakaan Divi. Anda dapat "
+"menyesuaikan ukuran file maks Anda dalam <a href=\"%1$s\" target=\"_blank\">file "
+"php.ini</a> Anda, atau dengan menghubungi host Anda untuk bantuan."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Ini menetapkan waktu maksimum dalam detik skrip diizinkan untuk mengurai data "
+"input. Jika batasnya terlalu rendah, Divi Builder mungkin time out sebelum "
+"diizinkan untuk memuat. Anda dapat menyesuaikan waktu input maks dalam <a "
+"href=\"%1$s\" target=\"_blank\">file php.ini</a> Anda, atau dengan menghubungi "
+"host Anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Pengaturan ini memengaruhi berapa banyak variabel input yang dapat diterima. Jika "
+"batasnya terlalu rendah, ini dapat mencegah Divi Builder memuat. Anda dapat "
+"menyesuaikan variabel input maks dalam <a href=\"%1$s\" target=\"_blank\">file "
+"php.ini</a> Anda, atau dengan menghubungi host Anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Pengaturan ini menentukan apakah kesalahan harus dicetak sebagai bagian dari "
+"output halaman atau tidak. Ini adalah fitur untuk mendukung pengembangan situs "
+"Anda dan tidak boleh digunakan di situs produksi. Anda dapat mengedit pengaturan "
+"ini dalam <a href=\"%1$s\" target=\"_blank\">file php.ini</a> Anda, atau dengan "
+"menghubungi host Anda untuk bantuan."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Ini gagal memenuhi nilai minimum yang diwajibkan kami dari %1$s ."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Ini memenuhi nilai minimum yang dipersyaratkan kami dari %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Belajarlah lagi."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Selamat! Ini memenuhi atau melampaui rekomendasi kami dari %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Kami merekomendasikan %1$s untuk pengalaman terbaik."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Kami tidak dapat menentukan pengaturan Anda.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Status sistem"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Selamat, semua pemeriksaan sistem telah lulus. Konfigurasi hosting Anda "
+"kompatibel dengan Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Halaman Pusat Dukungan Divi"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Akses Jarak Jauh"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Dokumentasi & Bantuan Divi"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Mode aman"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Log"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Elegan Tema API Kesalahan: Kesalahan HTTP dalam respons API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Elegan Tema API Kesalahan: Kesalahan WordPress dalam respons API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Tema API Elegan Tema: Token Salah. Tolong, coba lagi."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Galat API Tema Elegan: Respons API tidak memiliki data yang diperlukan."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Galat API Tema Elegan: API merespons, tetapi responsnya kosong."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "Akun pendukung tidak ada."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "Akun dukungan belum dihapus. Cobalah meregenerasi token lagi."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr "Tidak dapat memperoleh data akun dukungan. Cobalah meregenerasi token lagi."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "Token telah berhasil dihapus."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "Token telah berhasil dihapus."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "Dukungan ET Peran pengguna telah diaktifkan."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "Dukungan ET Peran pengguna telah ditingkatkan."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "Dukungan ET Peran pengguna telah dinonaktifkan."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "Mode Aman ET telah diaktifkan."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "Mode Aman ET telah dinonaktifkan."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "Mode Aman diaktifkan dan tindakan saat ini tidak dapat dilakukan."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Tampilkan Laporan Lengkap"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Sembunyikan Laporan Lengkap"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Salin Laporan Lengkap"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Dukungan Tema Elegan"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Mengaktifkan <strong>Akses Jarak Jauh</strong> akan memberikan akses terbatas "
+"kepada tim Tema Elegan ke Dasbor WordPress Anda. Jika diminta, Anda juga dapat "
+"mengaktifkan hak istimewa admin penuh. Akses Jarak Jauh hanya boleh diaktifkan "
+"jika diminta oleh tim dukungan Tema Elegan. Akses Jarak Jauh dinonaktifkan secara "
+"otomatis setelah 4 hari. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"Akses Jarak Jauh tidak dapat diaktifkan karena Anda tidak memiliki Kunci API yang "
+"valid atau langganan Tema Elegan Anda telah kedaluwarsa. Anda dapat menemukan "
+"Kunci API Anda dengan <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">masuk</a> ke akun Tema Elegan Anda. Kemudian harus ditambahkan "
+"ke <a href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Panel Pilihan</a> Anda."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Diaktifkan"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "Cacat"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "Akses Jarak Jauh akan dinonaktifkan secara otomatis di:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Aktifkan Hak Istimewa Admin Penuh"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Salin Token Dukungan"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Mengobrol dengan Dukungan"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Mengaktifkan <strong>Mode Aman</strong> akan menonaktifkan sementara fitur "
+"dan plugin yang mungkin menyebabkan masalah dengan produk Tema Elegan Anda. Ini "
+"termasuk semua Plugin, Tema Anak, dan Kode Kustom yang ditambahkan ke area "
+"integrasi Anda. Barang-barang ini hanya dinonaktifkan untuk sesi pengguna Anda "
+"saat ini sehingga pengunjung Anda tidak akan terganggu. Mengaktifkan Mode Aman "
+"memudahkan mencari tahu apa yang menyebabkan masalah di situs web Anda dengan "
+"mengidentifikasi atau menghilangkan plugin dan kode pihak ketiga sebagai penyebab "
+"potensial. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Plugin tidak dapat dinonaktifkan karena "
+"<code>wp-content</code> Anda memiliki izin file yang tidak konsisten. <a "
+"href=\"%1$s\" target=\"_blank\"> Klik di sini</a> untuk informasi lebih lanjut. "
+"</p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Plugin berikut akan dinonaktifkan sementara hanya untuk Anda:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Unduh Log Debug Lengkap"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Salin Entri Log Terbaru"
 
 #: components/Updates.php:25
 msgid "%s: You cannot create a second instance of this class."
 msgstr "%s: Anda tidak dapat membuat instance kedua dari kelas ini."
 
-#: components/Updates.php:421 components/VersionRollback.php:382
+#: components/Updates.php:425 components/VersionRollback.php:402
 msgid ""
 "<em>Before you can receive product updates, you must first authenticate your "
 "Elegant Themes subscription. To do this, you need to enter both your Elegant "
 "Themes Username and your Elegant Themes API Key into the Updates Tab in your "
-"theme and plugin settings. To locate your API Key, <a href=\"https://www."
-"elegantthemes.com/members-area/api/\" target=\"_blank\">log in</a> to your "
-"Elegant Themes account and navigate to the <strong>Account > API Key</"
-"strong> page. <a href=\"http://www.elegantthemes.com/gallery/divi/"
-"documentation/update/\" target=\"_blank\">Learn more here</a></em>. If you "
-"still get this message, please make sure that your Username and API Key have "
-"been entered correctly"
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
 msgstr ""
 "<em>Sebelum Anda dapat menerima pembaruan produk, pertama-tama Anda perlu "
-"mengotentikasikan langganan Elegant Themes Anda. Untuk melakukannya, Anda "
-"perlu memasukkan Nama Pengguna Elegant Themes dan Kunci API Elegant Themes "
-"Anda pada Tab Pembaruan di pengaturan tema dan plugin Anda. Untuk melacak "
-"Kunci API Anda, <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"mengotentikasikan langganan Elegant Themes Anda. Untuk melakukannya, Anda perlu "
+"memasukkan Nama Pengguna Elegant Themes dan Kunci API Elegant Themes Anda pada "
+"Tab Pembaruan di pengaturan tema dan plugin Anda. Untuk melacak Kunci API Anda, "
+"<a href=\"https://www.elegantthemes.com/members-area/api/\" "
 "target=\"_blank\">masuk</a> ke akun Elegant Themes Anda dan buka halaman "
-"<strong>Akun > Kunci API</strong>. <a href=\"http://www.elegantthemes.com/"
-"gallery/divi/documentation/update/\" target=\"_blank\">Ketahui selengkapnya "
-"di sini</a></em>. Jika Anda masih menerima pesan ini, harap pastikan Nama "
-"Pengguna dan Kunci API Anda telah dimasukkan dengan benar"
+"<strong>Akun > Kunci API</strong>. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Ketahui selengkapnya di sini</a></em>. Jika Anda masih menerima "
+"pesan ini, harap pastikan Nama Pengguna dan Kunci API Anda telah dimasukkan "
+"dengan benar"
 
-#: components/Updates.php:423
+#: components/Updates.php:427
 msgid ""
-"Automatic updates currently unavailable. For all Elegant Themes products, "
-"please <a href=\"http://www.elegantthemes.com/gallery/divi/documentation/"
-"update/\" target=\"_blank\">authenticate your subscription</a> via the "
-"Updates tab in your theme & plugin settings to enable product updates. Make "
-"sure that your Username and API Key have been entered correctly."
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
 msgstr ""
-"Pembaruan otomatis tidak tersedia saat ini. Untuk semua produk Elegant "
-"Themes, harap <a href=\"http://www.elegantthemes.com/gallery/divi/"
-"documentation/update/\" target=\"_blank\">otentikasikan langganan Anda</a> "
-"melalui tab Pembaruan di pengaturan tema & plugin Anda untuk mengaktifkan "
-"pembaruan produk. Harap pastikan Nama Pengguna dan Kunci API Anda telah "
-"dimasukkan dengan benar."
+"Pembaruan otomatis tidak tersedia saat ini. Untuk semua produk Elegant Themes, "
+"harap <a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">otentikasikan langganan Anda</a> melalui tab Pembaruan di "
+"pengaturan tema & plugin Anda untuk mengaktifkan pembaruan produk. Harap pastikan "
+"Nama Pengguna dan Kunci API Anda telah dimasukkan dengan benar."
 
-#: components/Updates.php:447
+#: components/Updates.php:451
 msgid ""
-"Your Elegant Themes subscription has expired. You must <a href=\"https://www."
-"elegantthemes.com/members-area/\" target=\"_blank\">renew your account</a> "
-"to regain access to product updates and support. To ensure compatibility and "
-"security, it is important to always keep your themes and plugins updated."
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
 msgstr ""
-"Langganan Elegant Themes Anda telah berakhir. Anda perlu <a href=\"https://"
-"www.elegantthemes.com/members-area/\" target=\"_blank\">memperbarui akun "
-"Anda</a> untuk dapat kembali mengakses dukungan dan pembaruan produk. Untuk "
-"memastikan kompatibilitas dan keamanan, penting untuk selalu memperbarui "
-"tema dan plugin Anda."
+"Langganan Elegant Themes Anda telah berakhir. Anda perlu <a "
+"href=\"https://www.elegantthemes.com/members-area/\" "
+"target=\"_blank\">memperbarui akun Anda</a> untuk dapat kembali mengakses "
+"dukungan dan pembaruan produk. Untuk memastikan kompatibilitas dan keamanan, "
+"penting untuk selalu memperbarui tema dan plugin Anda."
 
-#: components/VersionRollback.php:198
-msgid "you don't have sufficient permissions to access this page"
-msgstr "Anda tidak memiliki izin yang memadai untuk mengakses halaman ini"
-
-#: components/VersionRollback.php:205
-#, fuzzy
-msgid "Security check failed. Please refresh and try again."
-msgstr "Proses ekspor gagal. Harap segarkan laman lalu cobalah kembali."
-
-#: components/VersionRollback.php:213 components/VersionRollback.php:532
-msgid ""
-"You're currently rolled back to %1$sVersion %2$s%3$s from %4$sVersion %5$s"
-"%6$s."
-msgstr ""
-
-#: components/VersionRollback.php:224 components/VersionRollback.php:545
-msgid ""
-"Update to the latest version to unlock the full power of %1$s. %2$sLearn "
-"more here%3$s."
-msgstr ""
-
-#: components/VersionRollback.php:246 components/api/ElegantThemes.php:187
-msgid ""
-"For privacy and security reasons, you cannot rollback to %1$sVersion %2$s"
-"%3$s."
-msgstr ""
-
-#: components/VersionRollback.php:254
-#, fuzzy
-msgid "Learn more here."
-msgstr "Masukkan keterangan di sini"
-
-#: components/VersionRollback.php:299
-#, fuzzy
-msgid "An unknown has error occurred. Please try again later."
-msgstr "Terjadi kesalahan. Silakan coba lagi nanti."
-
-#: components/VersionRollback.php:378 components/VersionRollback.php:426
-#: components/VersionRollback.php:465 components/VersionRollback.php:523
-msgid "Version Rollback"
-msgstr ""
-
-#: components/VersionRollback.php:408 components/VersionRollback.php:501
-msgid "Rollback to the previous version"
-msgstr ""
-
-#: components/VersionRollback.php:435 components/api/ElegantThemes.php:181
-msgid "The previously used version of %1$s does not support version rollback."
-msgstr ""
-
-#: components/VersionRollback.php:474
-msgid ""
-"You'll be rolled back to %1$sVersion %2$s%3$s from the current %4$sVersion "
-"%5$s%6$s."
-msgstr ""
-
-#: components/VersionRollback.php:487
-msgid ""
-"Rolling back will reinstall the previous version of %1$s. You will be able "
-"to update to the latest version at any time. %2$sLearn more here%3$s."
-msgstr ""
-
-#: components/VersionRollback.php:496
-msgid "Make sure you have a full site backup before proceeding."
-msgstr ""
-
-#: components/VersionRollback.php:554
-msgid "Update to the Latest Version"
-msgstr ""
-
-#: components/api/ElegantThemes.php:106 components/api/ElegantThemes.php:197
-#, fuzzy
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
 msgid "An unknown error has occurred. Please try again later."
 msgstr "Terjadi kesalahan. Silakan coba lagi nanti."
 
-#: components/api/ElegantThemes.php:110
-#, fuzzy
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Proses ekspor gagal. Harap segarkan laman lalu cobalah kembali."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Anda tidak memiliki izin yang memadai untuk mengakses halaman ini."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Anda saat ini kembali ke <strong>Versi %1$s</strong> dari <strong>Versi "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Perbarui ke versi terbaru untuk membuka kunci kekuatan penuh %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Pelajari lebih lanjut di sini</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Untuk alasan privasi dan keamanan, Anda tidak dapat mengembalikan ke "
+"<strong>Versi %1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Masukkan keterangan di sini"
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Kembalikan Versi"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Kembalikan ke versi sebelumnya"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "Versi %1$s yang sebelumnya digunakan tidak mendukung rollback versi."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Anda akan digulirkan kembali ke <strong>Versi %1$s</strong> dari "
+"<strong>Versi</strong> saat ini <strong> %2$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Rolling kembali akan menginstal ulang versi sebelumnya dari %1$s. Anda dapat "
+"memperbarui ke versi terbaru kapan saja. <a href=\"%2$s\" "
+"target=\"_blank\">Pelajari lebih lanjut di sini</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "Pastikan Anda memiliki cadangan situs lengkap sebelum melanjutkan."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Perbarui ke Versi Terbaru"
+
+#: components/api/ElegantThemes.php:116
 msgid "Invalid Username and/or API Key provided."
 msgstr "URL valid tidak diberikan."
 
-#: components/api/Service.php:231
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr "Tanggapan tak terduga diterima dari server versi. Silakan coba lagi nanti."
+
+#: components/api/Service.php:238
 msgid "API request failed, please try again."
 msgstr "Permintaan API gagal, silakan coba lagi."
 
-#: components/api/Service.php:232
+#: components/api/Service.php:239
 msgid "API request failed. API Key is required."
 msgstr "Permintaan API gagal. Kunci API dibutuhkan."
 
-#: components/api/email/ActiveCampaign.php:42
-#: components/api/email/CampaignMonitor.php:99
-#: components/api/email/ConstantContact.php:85
-#: components/api/email/ConvertKit.php:106
-#: components/api/email/Feedblitz.php:43
-#: components/api/email/GetResponse.php:63 components/api/email/HubSpot.php:62
-#: components/api/email/Infusionsoft.php:189
-#: components/api/email/MadMimi.php:68 components/api/email/MailChimp.php:130
-#: components/api/email/MailerLite.php:56 components/api/email/Ontraport.php:59
-#: components/api/email/SendinBlue.php:59
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
 msgid "API Key"
 msgstr "Kunci API"
 
-#: components/api/email/ActiveCampaign.php:45
+#: components/api/email/ActiveCampaign.php:109
 msgid "API URL"
 msgstr "URL API"
 
-#: components/api/email/ActiveCampaign.php:49
+#: components/api/email/ActiveCampaign.php:113
 msgid "Form ID"
 msgstr "ID Formulir"
 
-#: components/api/email/Aweber.php:124
+#: components/api/email/Aweber.php:164
 msgid "Authorization Code"
 msgstr "Kode Otorisasi"
 
-#: components/api/email/ConstantContact.php:88
+#: components/api/email/ConstantContact.php:146
 msgid "Access Token"
-msgstr ""
+msgstr "Token Akses"
 
-#: components/api/email/ConvertKit.php:109
+#: components/api/email/ConvertKit.php:149
 msgid "API Secret"
 msgstr "API Secret"
 
-#: components/api/email/Emma.php:49
+#: components/api/email/Emma.php:87
 msgid "Public API Key"
 msgstr "Kunci API Publik"
 
-#: components/api/email/Emma.php:52
+#: components/api/email/Emma.php:90
 msgid "Private API Key"
 msgstr "Kunci API Pribadi"
 
-#: components/api/email/Emma.php:55
+#: components/api/email/Emma.php:93
 msgid "Account ID"
 msgstr "ID Akun"
 
-#: components/api/email/Infusionsoft.php:192
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Gunakan Bidang Kustom"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "iya nih"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "Tidak"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr "Aktifkan opsi ini untuk menggunakan bidang khusus di formulir keikutsertaan Anda."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "URL tautan"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Tautkan Teks"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Membuang perubahan"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Simpan perubahan"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Tautan Opsi"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "ID"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Tetapkan ID unik untuk bidang ini. Anda hanya boleh menggunakan karakter bahasa "
+"Inggris tanpa karakter atau spasi khusus."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "Nama"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "Setel label yang akan muncul di atas bidang ini dalam formulir opt-in."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "Mengetik"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Pilih jenis bidang ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Bidang Input"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Bidang Email"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "Textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "Kotak centang"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Tombol radio"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Pilih Dropdown"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Pilih jenis bidang"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Diperiksa Secara Default"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Jika diaktifkan, tanda centang akan dipilih secara otomatis untuk pengunjung. "
+"Mereka masih dapat membatalkan pilihannya."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Pilihan"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Panjang minimum"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Biarkan 0 untuk menghapus batasan"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Panjang maksimum"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Simbol yang Diizinkan"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Anda dapat memvalidasi jenis informasi tertentu dengan melarang simbol tertentu. "
+"Simbol yang ditambahkan di sini akan mencegah formulir dikirimkan jika "
+"ditambahkan oleh pengguna."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "Semua"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Hanya Huruf (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Hanya Angka (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Hanya Alfanumerik (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Kolom yang harus diisi"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Tentukan apakah bidang harus diisi atau opsional"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Bidang Tersembunyi"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Tentukan apakah bidang harus terlihat atau tidak."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Jadikan Fullwidth"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Jika diaktifkan, bidang akan mengambil 100% dari lebar formulir, jika tidak maka "
+"akan membutuhkan 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Warna Latar Belakang Bidang"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Pilih warna untuk mengisi kolom input modul."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "Memungkinkan"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Mengaktifkan logika kondisional membuat bidang ini hanya terlihat ketika salah "
+"satu atau semua aturan di bawah dipenuhi <br> <strong>Catatan:</strong> Hanya "
+"bidang dengan ID bidang unik dan tidak kosong yang dapat digunakan"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "Hubungan"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "Apa saja"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Pilih apakah ada atau semua aturan harus dipenuhi"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "Aturan"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Aturan logika bersyarat dapat digunakan untuk menyembunyikan dan menampilkan "
+"bidang input berbeda secara kondisional berdasarkan pada bagaimana pengunjung "
+"berinteraksi dengan input yang berbeda."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Pilih bidang ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Bidang"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr "Pilih bidang khusus. Bidang khusus harus ditentukan di akun penyedia email Anda."
+
+#: components/api/email/Infusionsoft.php:253
 msgid "App Name"
 msgstr "Nama Aplikasi"
 
-#: components/api/email/Infusionsoft.php:283
+#: components/api/email/Infusionsoft.php:366
 msgid ""
-"Successfully authorized. Subscribers count will be updated in background, "
-"please check back in %1$s %2$s"
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
 msgstr ""
-"Otorisasi berhasil. Jumlah pelanggan akan diperbarui di latar belakang, "
-"silakan periksa kembali dalam %1$s %2$s"
+"Otorisasi berhasil. Jumlah pelanggan akan diperbarui di latar belakang, silakan "
+"periksa kembali dalam %1$s %2$s"
 
-#: components/api/email/Infusionsoft.php:285
+#: components/api/email/Infusionsoft.php:368
 msgid "minute"
 msgstr "menit"
 
-#: components/api/email/Infusionsoft.php:285
+#: components/api/email/Infusionsoft.php:368
 msgid "minutes"
 msgstr "menit"
 
-#: components/api/email/Infusionsoft.php:313
+#: components/api/email/Infusionsoft.php:396
 msgid "Already subscribed"
 msgstr "Sudah berlangganan"
 
-#: components/api/email/MadMimi.php:65 components/api/email/iContact.php:115
-#, fuzzy
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
 msgid "Username"
 msgstr "Nama Pengguna: "
 
-#: components/api/email/MailChimp.php:182
-#, fuzzy
+#: components/api/email/MailChimp.php:293
 msgid "An error occurred, please try later."
 msgstr "Terjadi kesalahan. Silakan coba lagi nanti."
 
-#: components/api/email/MailChimp.php:204
-msgid ""
-"You have signed up to a lot of lists very recently, please try again later"
-msgstr ""
-"Anda baru-baru ini mendaftar ke cukup banyak daftar, silakan coba lagi nanti"
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "Anda baru-baru ini mendaftar ke cukup banyak daftar, silakan coba lagi nanti"
 
-#: components/api/email/MailPoet.php:33 components/api/email/_MailPoet2.php:28
-#: components/api/email/_MailPoet3.php:28
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
 msgid "MailPoet plugin is either not installed or not activated."
-msgstr ""
+msgstr "Plugin MailPoet tidak diinstal atau tidak diaktifkan."
 
-#: components/api/email/Mailster.php:48
+#: components/api/email/Mailster.php:53
 msgid "Opt-in"
 msgstr "Berlangganan"
 
-#: components/api/email/Mailster.php:84
+#: components/api/email/Mailster.php:117
 msgid "Mailster Newsletter Plugin is not enabled!"
 msgstr "Plugin Buletin Mailster tidak diaktifkan!"
 
-#: components/api/email/Mailster.php:88
+#: components/api/email/Mailster.php:121
 msgid "No lists were found. Please create a Mailster list first!"
 msgstr "Daftar tidak ditemukan. Silakan buat daftar Mailster terlebih dulu!"
 
-#: components/api/email/Mailster.php:104 components/api/email/_MailPoet2.php:97
-#: components/api/email/_MailPoet3.php:85
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
 msgid "An error occurred. Please try again later."
 msgstr "Terjadi kesalahan. Silakan coba lagi nanti."
 
-#: components/api/email/Ontraport.php:62
+#: components/api/email/Ontraport.php:175
 msgid "APP ID"
 msgstr "ID APLIKASI"
 
-#: components/api/email/Provider.php:57
+#: components/api/email/Provider.php:102
 msgid "Subscribed via"
 msgstr "Berlangganan melalui"
 
-#: components/api/email/SalesForce.php:93
-#: components/api/email/SalesForce.php:110
-msgid "Organization ID"
-msgstr "ID Organisasi"
-
-#: components/api/email/SalesForce.php:97
+#: components/api/email/SalesForce.php:144
 msgid "Instance URL"
 msgstr "URL Instance"
 
-#: components/api/email/SalesForce.php:100
+#: components/api/email/SalesForce.php:149
 msgid "Consumer Key"
 msgstr "Consumer Key"
 
-#: components/api/email/SalesForce.php:103
+#: components/api/email/SalesForce.php:154
 msgid "Consumer Secret"
 msgstr "Consumer Secret"
 
-#: components/api/email/SalesForce.php:134
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "ID Organisasi"
+
+#: components/api/email/SalesForce.php:186
 msgid "Organization ID cannot be empty"
 msgstr "ID Organisasi tidak boleh kosong"
 
-#: components/api/email/SalesForce.php:187
-#: components/api/email/SalesForce.php:264
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
 msgid "An error occurred. Please try again."
 msgstr "Terjadi kesalahan. Silakan coba lagi nanti."
 
-#: components/api/email/SalesForce.php:234
+#: components/api/email/SalesForce.php:307
 msgid "Unknown Organization ID"
 msgstr "ID Organisasi Tak Diketahui"
 
-#: components/api/email/_MailPoet2.php:138
-#, fuzzy
+#: components/api/email/_MailPoet2.php:144
 msgid "Already Subscribed"
 msgstr "Sudah berlangganan"
 
-#: components/api/email/iContact.php:112
+#: components/api/email/iContact.php:181
 msgid "App ID"
-msgstr ""
+msgstr "ID Aplikasi"
 
-#: components/api/email/iContact.php:118
-#, fuzzy
+#: components/api/email/iContact.php:187
 msgid "App Password"
 msgstr "Kata Sandi"
 
-#: components/api/email/init.php:25
+#: components/api/email/init.php:51
 msgid "ERROR: Invalid arguments."
 msgstr "GALAT: Argumen tidak valid."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Kunci atribut tidak valid"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Elemen tag tidak valid"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Ini bukan alasan yang valid untuk tidak luput dari nilai yang diteruskan."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Ini bukan alasan yang valid untuk tidak membersihkan nilai yang diteruskan."
 
 #: components/lib/WPHttp.php:192
 msgid "A valid URL was not provided."
@@ -486,8 +1331,7 @@ msgid "User has blocked requests through HTTP."
 msgstr "Pengguna telah memblokir permintaan melalui HTTP."
 
 #: components/lib/WPHttp.php:209
-msgid ""
-"Destination directory for file streaming does not exist or is not writable."
+msgid "Destination directory for file streaming does not exist or is not writable."
 msgstr ""
 "Direktori tujuan untuk streaming berkas tidak ditemukan atau tidak dapat "
 "disunting."
@@ -500,2317 +1344,18 @@ msgstr "Satu Kali Setiap Bulan"
 msgid "Configuration Error"
 msgstr "Kesalahan Konfigurasi"
 
-#: functions.php:460
+#: functions.php:522
 msgid "Got it, thanks!"
 msgstr "Mengerti, terima kasih!"
 
+#: functions.php:1383
+msgid "Help"
+msgstr "Tolong"
+
+#: functions.php:212
 #. Translators: If there are characters in your language that are not supported
 #. by Open Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:204
 msgctxt "Open Sans font: on or off"
 msgid "on"
-msgstr " "
-
-#, fuzzy
-#~ msgid "An error occured. Please try again."
-#~ msgstr "Terjadi kesalahan. Silakan coba lagi nanti."
-
-#~ msgid ""
-#~ "This post is password protected. Enter the password to view comments."
-#~ msgstr ""
-#~ "Postingan ini terlindungi kata sandi. Masukkan kata sandi untuk melihat "
-#~ "komentar."
-
-#~ msgid "0 Comments"
-#~ msgstr "0 Komentar"
-
-#~ msgid "1 Comment"
-#~ msgstr "1 Komentar"
-
-#~ msgid "Comments"
-#~ msgstr "Komentar"
-
-#~ msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-#~ msgstr "<span class=\"meta-nav\">&larr;</span> Komentar Lama"
-
-#~ msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-#~ msgstr "Komentar Baru <span class=\"meta-nav\">&rarr;</span>"
-
-#~ msgid "Trackbacks/Pingbacks"
-#~ msgstr "Trackback"
-
-#~ msgid "Submit Comment"
-#~ msgstr "Kirim Komentar"
-
-#~ msgid "Submit a Comment"
-#~ msgstr "Kirim Komentar"
-
-#~ msgid "Leave a Reply to %s"
-#~ msgstr "Beri Balasan pada %s"
-
-#~ msgid "Help"
-#~ msgstr "Bantuan"
-
-#~ msgid "Options"
-#~ msgstr "Opsi"
-
-#~ msgid "Theme Options"
-#~ msgstr "Opsi Tema"
-
-#~ msgid "settings saved."
-#~ msgstr "pengaturan tersimpan."
-
-#~ msgid "settings reset."
-#~ msgstr "pengaturan diatur ulang."
-
-#~ msgid "Save Changes"
-#~ msgstr "Simpan Perubahan"
-
-#~ msgid "%s Theme Options"
-#~ msgstr "Opsi Tema %s"
-
-#~ msgid "Reset to Defaults"
-#~ msgstr "Kembalikan ke Bawaan"
-
-#~ msgid "General"
-#~ msgstr "Umum"
-
-#~ msgid "Navigation"
-#~ msgstr "Navigasi"
-
-#~ msgid "Layout"
-#~ msgstr "Tata Letak"
-
-#~ msgid "Ads"
-#~ msgstr "Iklan"
-
-#~ msgid "Colorization"
-#~ msgstr "Warna"
-
-#~ msgid "SEO"
-#~ msgstr "SEO"
-
-#~ msgid "Integration"
-#~ msgstr "Integrasi"
-
-#~ msgid "Reset"
-#~ msgstr "Atur Ulang"
-
-#~ msgid "Upload"
-#~ msgstr "Unggah"
-
-#~ msgid "You don't have pages"
-#~ msgstr "Anda tak memiliki laman"
-
-#~ msgid "Yes"
-#~ msgstr "Ya"
-
-#~ msgid "No"
-#~ msgstr "Tidak"
-
-#~ msgid "Enable"
-#~ msgstr "Aktif"
-
-#~ msgid "Disable"
-#~ msgstr "Nonaktif"
-
-#~ msgid "Author"
-#~ msgstr "Penerbit"
-
-#~ msgid "Date"
-#~ msgstr "Tanggal"
-
-#~ msgid "Categories"
-#~ msgstr "Kategori"
-
-#~ msgid "Choose an Image"
-#~ msgstr "Pilih gambar"
-
-#~ msgid "&hellip;"
-#~ msgstr "&hellip;"
-
-#~ msgid "Home"
-#~ msgstr "Beranda"
-
-#~ msgid "Archives"
-#~ msgstr "Arsip"
-
-#~ msgid "Search results for \"%s\""
-#~ msgstr "Cari hasil untuk \"%s\""
-
-#~ msgid "404 Not Found"
-#~ msgstr "404 Tak Ditemukan"
-
-#~ msgid "Currently viewing archives from %1$s"
-#~ msgstr "Sedang melihat arsip dari %1$s"
-
-#~ msgid "Search Results for: %s"
-#~ msgstr "Hasil Pencarian untuk: %s"
-
-#~ msgid "Image doesn't exist"
-#~ msgstr "Gambar tidak ada"
-
-#~ msgid ""
-#~ "<div class=\"updated\"><p>This is a fresh installation of %1$s theme. "
-#~ "Don't forget to go to <a href=\"%2$s\">ePanel</a> to set it up. This "
-#~ "message will disappear once you have clicked the Save button within the "
-#~ "<a href=\"%2$s\">theme's options page</a>.</p></div>"
-#~ msgstr ""
-#~ "<div class=\"updated\"><p>Ini adalah pemasangan baru untuk tema %1$s. "
-#~ "Jangan lupa menuju <a href=\"%2$s\">Panel-e</a> untuk mengaturnya. Pesan "
-#~ "ini akan hilang setelah Anda mengklik tombol Simpan pada laman opsi tema "
-#~ "<a href=\"%2$s\"></a>.</p></div>"
-
-#~ msgid ""
-#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
-#~ "\"thickbox\" title=\"%1$s\">View version %3$s details</a>. <em>Before you "
-#~ "can update your Elegant Themes, you must first install the <a href="
-#~ "\"https://www.elegantthemes.com/members-area/documentation.html#updater\" "
-#~ "target=\"_blank\">Elegant Updater Plugin</a> to authenticate your "
-#~ "subscription.</em>"
-#~ msgstr ""
-#~ "Terdapat versi baru untuk %1$s. <a href=\"%2$s\" class=\"thickbox\" title="
-#~ "\"%1$s\">Lihat rincian versi %3$s</a>. <em>Sebelum Anda dapat memperbarui "
-#~ "Tema Elegant Anda, Anda harus terlebih dulu memasang <a href=\"https://"
-#~ "www.elegantthemes.com/members-area/documentation.html#updater\" target="
-#~ "\"_blank\">Plugin Pembaru Elegant</a> guna mengotentikasi langganan Anda."
-#~ "</em>"
-
-#~ msgid ""
-#~ "Before you can update your Elegant Themes, you must first install the <a "
-#~ "href=\"https://www.elegantthemes.com/members-area/documentation."
-#~ "html#updater\" target=\"_blank\">Elegant Updater Plugin</a> to "
-#~ "authenticate your subscription."
-#~ msgstr ""
-#~ "Sebelum Anda dapat memperbarui Tema Elegant Anda, Anda harus terlebih "
-#~ "dulu memasang <a href=\"https://www.elegantthemes.com/members-area/"
-#~ "documentation.html#updater\" target=\"_blank\">Plugin Pembaru Elegant</a> "
-#~ "guna mengotentikasi langganan Anda."
-
-#~ msgid "Previous"
-#~ msgstr "Sebelumnya"
-
-#~ msgid "Next"
-#~ msgstr "Lanjut"
-
-#~ msgid "Tweet"
-#~ msgstr "Tweet"
-
-#~ msgid "Member Login"
-#~ msgstr "Masuk bagi Member"
-
-#~ msgid "Password: "
-#~ msgstr "Kata Sandi: "
-
-#~ msgid "Login"
-#~ msgstr "Masuk"
-
-#~ msgid "Add a Tooltip Text"
-#~ msgstr "Tambahkan Teks Petunjuk"
-
-#~ msgid "Click here to learn more"
-#~ msgstr "Klik di sini untuk mempelajari lebih jauh"
-
-#~ msgid "Join Now"
-#~ msgstr "Bergabung Sekarang"
-
-#~ msgid "Add ET Learn more block"
-#~ msgstr "Tambahkan Blok Toggle"
-
-#~ msgid "Add ET Box"
-#~ msgstr "Tambahkan Kotak"
-
-#~ msgid "Add ET Button"
-#~ msgstr "Tambah Tombol"
-
-#~ msgid "Add ET Tabs"
-#~ msgstr "Tambah Tab"
-
-#~ msgid "Add Author Bio"
-#~ msgstr "Tambah Bio Penulis"
-
-#~ msgid "Shortcodes"
-#~ msgstr "Shortcode"
-
-#~ msgid "Caption"
-#~ msgstr "Keterangan"
-
-#~ msgid "Caption title goes here"
-#~ msgstr "Masukkan judul keterangan di sini"
-
-#~ msgid "State"
-#~ msgstr "Status"
-
-#~ msgid "Select between expanded and closed state"
-#~ msgstr "Pilih antara status terbuka dan tertutup"
-
-#~ msgid "Content"
-#~ msgstr "Konten"
-
-#~ msgid "Content goes here"
-#~ msgstr "Masukkan konten di sini"
-
-#~ msgid "Content text or html"
-#~ msgstr "Teks konten atau HTML"
-
-#~ msgid "Type"
-#~ msgstr "Jenis"
-
-#~ msgid "Type of the box"
-#~ msgstr "Jenis kotak"
-
-#~ msgid "Link"
-#~ msgstr "Tautan"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgid "Choose button type"
-#~ msgstr "Pilih jenis tombol"
-
-#~ msgid "Color"
-#~ msgstr "Warna"
-
-#~ msgid "Choose button color"
-#~ msgstr "Pilih warna tombol"
-
-#~ msgid "Link text"
-#~ msgstr "Teks tautan"
-
-#~ msgid "Icon"
-#~ msgstr "Ikon"
-
-#~ msgid "Used for icon button type"
-#~ msgstr "Digunakan untuk jenis tombol ikon"
-
-#~ msgid "Open link in new window"
-#~ msgstr "Buka tautan dalam jendela baru"
-
-#~ msgid "Select yes if the link should be opened in a new window"
-#~ msgstr "Pilih ya jika ingin tautan dibuka dalam jendela baru"
-
-#~ msgid "Slider Type"
-#~ msgstr "Jenis Slider"
-
-#~ msgid "Select Slider Type here"
-#~ msgstr "Pilih Jenis Slider di sini"
-
-#~ msgid "Effect"
-#~ msgstr "Efek"
-
-#~ msgid "Select Animation Effect"
-#~ msgstr "Pilih Efek Animasi"
-
-#~ msgid "Auto"
-#~ msgstr "Otomatis"
-
-#~ msgid "Choose yes if you want for automatic slider animation"
-#~ msgstr "Pilih ya jika Anda ingin mengaktifkan animasi slider otomatis"
-
-#~ msgid "Auto Speed"
-#~ msgstr "Kecepatan Otomatis"
-
-#~ msgid "Automattic slider speed (works only if Auto is set to yes)"
-#~ msgstr "Kecepatan slider otomatis (hanya bekerja jika Otomatis diset ke ya)"
-
-#~ msgid "Tab Text"
-#~ msgstr "Teks Tab"
-
-#~ msgid "Tab Content"
-#~ msgstr "Konten Tab"
-
-#~ msgid "Paste image url here, if you chose \"images\" slider type"
-#~ msgstr ""
-#~ "Tempel URL gambar di sini, jika Anda memilih jenis slider \"images\""
-
-#~ msgid "Image Url"
-#~ msgstr "URL gambar"
-
-#~ msgid "Author Image URL"
-#~ msgstr "URL Gambar Penulis"
-
-#~ msgid "Use resizing"
-#~ msgstr "Gunakan pembesaran ulang"
-
-#~ msgid "+ Add One More Tab"
-#~ msgstr "+ Tambahkan Satu Tab Lagi"
-
-#~ msgid "Image Height"
-#~ msgstr "Tinggi Gambar"
-
-#~ msgid "Image Width"
-#~ msgstr "Lebar Gambar"
-
-#~ msgid "Designed by %1$s | Powered by %2$s"
-#~ msgstr "Didesain oleh %1$s | Didukung oleh %2$s"
-
-#~ msgid "Primary Menu"
-#~ msgstr "Menu Utama"
-
-#~ msgid "Secondary Menu"
-#~ msgstr "Menu Sekunder"
-
-#~ msgid "Footer Menu"
-#~ msgstr "Menu Footer"
-
-#~ msgid ""
-#~ "Welcome to Divi! Before diving in to your new theme, please visit the <a "
-#~ "style=\"color: #fff; font-weight: bold;\" href=\"%1$s\" target=\"_blank"
-#~ "\">Divi Documentation</a> page for access to dozens of in-depth tutorials."
-#~ msgstr ""
-#~ "Selamat datang di Divi! Sebelum menjelajahi tema baru Anda, silakan "
-#~ "kunjungi laman <a style=\"color: #fff; font-weight: bold;\" href=\"%1$s\" "
-#~ "target=\"_blank\">Divi Documentation</a> untuk akses ke lusinan tutorial "
-#~ "menyeluruh."
-
-#~ msgid "Select Page"
-#~ msgstr "Pilih Laman"
-
-#~ msgid "Divi Page Settings"
-#~ msgstr "Pengaturan Laman Divi"
-
-#~ msgid "Divi Post Settings"
-#~ msgstr "Pengaturan Postingan Divi"
-
-#~ msgid "Divi Product Settings"
-#~ msgstr "Pengaturan Produk Divi"
-
-#~ msgid "Divi Project Settings"
-#~ msgstr "Pengaturan Proyek Divi"
-
-#~ msgid "Skills"
-#~ msgstr "Keahlian"
-
-#~ msgid "Posted on"
-#~ msgstr "Diposting pada"
-
-#~ msgid "Right Sidebar"
-#~ msgstr "Bilah samping Kanan"
-
-#~ msgid "Left Sidebar"
-#~ msgstr "Bilah Samping Kiri"
-
-#~ msgid "Full Width"
-#~ msgstr "Lebar Penuh"
-
-#~ msgid "Light"
-#~ msgstr "Terang"
-
-#~ msgid "Dark"
-#~ msgstr "Gelap"
-
-#~ msgid "Page Layout"
-#~ msgstr "Tata Letak Laman"
-
-#~ msgid "Dot Navigation"
-#~ msgstr "Navigasi Dot"
-
-#~ msgid "Off"
-#~ msgstr "Mati"
-
-#~ msgid "On"
-#~ msgstr "Nyala"
-
-#~ msgid "Hide Nav Before Scroll"
-#~ msgstr "Sembunyikan Nav Sebelum Bergulir"
-
-#~ msgid "Default"
-#~ msgstr "Default"
-
-#~ msgid "Post Title"
-#~ msgstr "Judul Postingan"
-
-#~ msgid "Show"
-#~ msgstr "Tampilkan"
-
-#~ msgid "Hide"
-#~ msgstr "Sembunyikan"
-
-#~ msgid "Use Background Color"
-#~ msgstr "Gunakan Warna Latar"
-
-#~ msgid "Hex Value"
-#~ msgstr "Nilai Warna"
-
-#~ msgid "Text Color"
-#~ msgstr "Warna Teks"
-
-#~ msgid "Project Navigation"
-#~ msgstr "Navigasi Proyek"
-
-#~ msgid "General Settings"
-#~ msgstr "Pengaturan Umum"
-
-#~ msgid "Site Identity"
-#~ msgstr "situs Identity"
-
-#~ msgid "Layout Settings"
-#~ msgstr "Pengaturan Tata Letak"
-
-#~ msgid "Typography"
-#~ msgstr "Tipografi"
-
-#~ msgid "Mobile Styles"
-#~ msgstr "Gaya Seluler"
-
-#~ msgid "Tablet"
-#~ msgstr "Tablet"
-
-#~ msgid "Phone"
-#~ msgstr "Ponsel"
-
-#~ msgid "Mobile Menu"
-#~ msgstr "Menu Seluler"
-
-#~ msgid "Background"
-#~ msgstr "Latar Belakang"
-
-#~ msgid "Header & Navigation"
-#~ msgstr "Header & Navigasi"
-
-#~ msgid "Header Format"
-#~ msgstr "Format Header"
-
-#~ msgid "Primary Menu Bar"
-#~ msgstr "Bilah Menu Utama"
-
-#~ msgid "Secondary Menu Bar"
-#~ msgstr "Bilah Menu Sekunder"
-
-#~ msgid "Slide In & Fullscreen Header Settings"
-#~ msgstr "Pengaturan Header Layar Penuh & Slide In"
-
-#~ msgid "Fixed Navigation Settings"
-#~ msgstr "Pengaturan Navigasi Tetap"
-
-#~ msgid "Header Elements"
-#~ msgstr "Elemen Header"
-
-#~ msgid "Footer"
-#~ msgstr "Footer"
-
-#~ msgid "Widgets"
-#~ msgstr "Widget"
-
-#~ msgid "Footer Elements"
-#~ msgstr "Elemen Footer"
-
-#~ msgid "Bottom Bar"
-#~ msgstr "Bilah Bawah"
-
-#~ msgid "Color Schemes"
-#~ msgstr "Skema Warna"
-
-#~ msgid ""
-#~ "Note: Color settings set above should be applied to the Default color "
-#~ "scheme."
-#~ msgstr ""
-#~ "Catatan: Pengaturan warna yang diset di atas harus diaplikasikan ke skema "
-#~ "warna Default."
-
-#~ msgid "Buttons"
-#~ msgstr "Tombol"
-
-#~ msgid "Buttons Style"
-#~ msgstr "Gaya Tombol"
-
-#~ msgid "Buttons Hover Style"
-#~ msgstr "Gaya Tombol Saat Disorot"
-
-#~ msgid "Blog"
-#~ msgstr "Blog"
-
-#~ msgid "Post"
-#~ msgstr "Postingan"
-
-#~ msgid "Meta Text Size"
-#~ msgstr "Ukuran Teks pada Meta"
-
-#~ msgid "Meta Line Height"
-#~ msgstr "Tinggi Baris pada Meta"
-
-#~ msgid "Meta Letter Spacing"
-#~ msgstr "Jarak Antarhuruf pada Meta"
-
-#~ msgid "Meta Font Style"
-#~ msgstr "Gaya Huruf pada Meta"
-
-#~ msgid "Header Text Size"
-#~ msgstr "Ukuran Teks pada Header"
-
-#~ msgid "Header Line Height"
-#~ msgstr "Tinggi Baris pada Header"
-
-#~ msgid "Header Letter Spacing"
-#~ msgstr "Jarak Antarhuruf pada Header"
-
-#~ msgid "Header Font Style"
-#~ msgstr "Gaya Huruf pada Header"
-
-#~ msgid "Enable Boxed Layout"
-#~ msgstr "Aktifkan Boxed Layout"
-
-#~ msgid "Website Content Width"
-#~ msgstr "Lebar Konten pada Situs"
-
-#~ msgid "Website Gutter Width"
-#~ msgstr "Jarak Antarkolom pada Situs"
-
-#~ msgid "Use Custom Sidebar Width"
-#~ msgstr "Menggunakan Custom Sidebar Lebar"
-
-#~ msgid "Sidebar Width"
-#~ msgstr "Lebar Bilah Sisi"
-
-#~ msgid "Section Height"
-#~ msgstr "Tinggi Section"
-
-#~ msgid "Row Height"
-#~ msgstr "Tinggi Baris"
-
-#~ msgid "Stretch Background Image"
-#~ msgstr "Tarik Gambar Latar"
-
-#~ msgid "Background Color"
-#~ msgstr "Warna Latar"
-
-#~ msgid "Background Image"
-#~ msgstr "Gambar Latar Belakang:"
-
-#~ msgid "Background Repeat"
-#~ msgstr "Ulangi Latar Belakang"
-
-#~ msgid "No Repeat"
-#~ msgstr "Tidak Diulangi"
-
-#~ msgid "Tile"
-#~ msgstr "Tile"
-
-#~ msgid "Tile Horizontally"
-#~ msgstr "Tile Horizontal"
-
-#~ msgid "Tile Vertically"
-#~ msgstr "Tile Vertikal"
-
-#~ msgid "Background Position"
-#~ msgstr "Posisi Latar Belakang"
-
-#~ msgid "Left"
-#~ msgstr "Kiri"
-
-#~ msgid "Center"
-#~ msgstr "Tengah"
-
-#~ msgid "Right"
-#~ msgstr "Kanan"
-
-#~ msgid "Scroll"
-#~ msgstr "Gulir"
-
-#~ msgid "Fixed"
-#~ msgstr "Tetap"
-
-#~ msgid "Body Text Size"
-#~ msgstr "Ukuran Teks pada Body"
-
-#~ msgid "Body Line Height"
-#~ msgstr "Tinggi Baris pada Body"
-
-#~ msgid "Header Font"
-#~ msgstr "Font Header"
-
-#~ msgid "Body Font"
-#~ msgstr "Font Body"
-
-#~ msgid "Body Link Color"
-#~ msgstr "Warna Tautan pada Body"
-
-#~ msgid "Body Text Color"
-#~ msgstr "Warna Teks pada Body"
-
-#~ msgid "Header Text Color"
-#~ msgstr "Warna Teks pada Header"
-
-#~ msgid "Theme Accent Color"
-#~ msgstr "Warna Aksen Tema"
-
-#~ msgid "Header Style"
-#~ msgstr "Gaya Header"
-
-#~ msgid "Enable Vertical Navigation"
-#~ msgstr "Aktifkan Navigasi Vertikal"
-
-#~ msgid "Vertical Menu Orientation"
-#~ msgstr "Orientasi Menu Vertikal"
-
-#~ msgid "Hide Navigation Until Scroll"
-#~ msgstr "Sembunyikan Navigasi Sampai Bergulir"
-
-#~ msgid "Show Social Icons"
-#~ msgstr "Tampilkan Ikon Media Sosial"
-
-#~ msgid "Show Search Icon"
-#~ msgstr "Tampilkan Ikon Pencarian"
-
-#~ msgid "Show Top Bar"
-#~ msgstr "Tampilkan Bilah Atas"
-
-#~ msgid "Menu Width"
-#~ msgstr "Lebar Menu"
-
-#~ msgid "Menu Text Size"
-#~ msgstr "Ukuran Teks Menu"
-
-#~ msgid "Top Bar Text Size"
-#~ msgstr "Ukuran Teks Bilah Atas"
-
-#~ msgid "Letter Spacing"
-#~ msgstr "Jarak Antarhuruf"
-
-#~ msgid "Font"
-#~ msgstr "Jenis Huruf"
-
-#~ msgid "Font Style"
-#~ msgstr "Gaya Huruf"
-
-#~ msgid "Menu Link Color"
-#~ msgstr "Warna Tautan Menu"
-
-#~ msgid "Active Link Color"
-#~ msgstr "Warna Tautan Aktif"
-
-#~ msgid "Top Bar Text Color"
-#~ msgstr "Warna Teks Bilah Atas"
-
-#~ msgid "Search Bar Text Color"
-#~ msgstr "Warna Teks Bilah Pencarian"
-
-#~ msgid "Search Bar Background Color"
-#~ msgstr "Warna Latar Belakang Bilah Pencarian"
-
-#~ msgid "Make Full Width"
-#~ msgstr "Jadikan Lebar Penuh"
-
-#~ msgid "Hide Logo Image"
-#~ msgstr "Sembunyikan Gambar Logo"
-
-#~ msgid "Menu Height"
-#~ msgstr "menu Tinggi"
-
-#~ msgid "Logo Max Height"
-#~ msgstr "Logo Max Tinggi"
-
-#~ msgid "Text Size"
-#~ msgstr "Ukuran Teks"
-
-#~ msgid "Dropdown Menu Background Color"
-#~ msgstr "Warna Latar Belakang Menu Dropdown"
-
-#~ msgid "Dropdown Menu Line Color"
-#~ msgstr "Warna Baris Menu Dropdown"
-
-#~ msgid "Dropdown Menu Text Color"
-#~ msgstr "Warna Teks Menu Dropdown"
-
-#~ msgid "Dropdown Menu Animation"
-#~ msgstr "Animasi Menu Dropdown"
-
-#~ msgid "Fixed Menu Height"
-#~ msgstr "Tetap menu Tinggi"
-
-#~ msgid "Primary Menu Background Color"
-#~ msgstr "Warna Latar Belakang Menu Utama"
-
-#~ msgid "Secondary Menu Background Color"
-#~ msgstr "Warna Latar Belakang Menu Sekunder"
-
-#~ msgid "Primary Menu Link Color"
-#~ msgstr "Primer menu Link Color"
-
-#~ msgid "Secondary Menu Link Color"
-#~ msgstr "Sekunder menu Link Color"
-
-#~ msgid "Active Primary Menu Link Color"
-#~ msgstr "Primer menu aktif Link Color"
-
-#~ msgid "Phone Number"
-#~ msgstr "Nomor Telepon"
-
-#~ msgid "Email"
-#~ msgstr "Surel"
-
-#~ msgid "Column Layout"
-#~ msgstr "Layout Kolom"
-
-#~ msgid "Footer Background Color"
-#~ msgstr "Warna Latar Footer"
-
-#~ msgid "Body/Link Text Size"
-#~ msgstr "Ukuran Teks pada Body/Tautan"
-
-#~ msgid "Body/Link Line Height"
-#~ msgstr "Tinggi Baris pada Body/Tautan"
-
-#~ msgid "Body Font Style"
-#~ msgstr "Gaya Huruf pada Body"
-
-#~ msgid "Widget Text Color"
-#~ msgstr "Warna Teks pada Widget"
-
-#~ msgid "Widget Link Color"
-#~ msgstr "Warna Tautan pada Widget"
-
-#~ msgid "Widget Header Color"
-#~ msgstr "Warna Header pada Widget"
-
-#~ msgid "Widget Bullet Color"
-#~ msgstr "Warna Dot pada Widget"
-
-#~ msgid "Footer Menu Background Color"
-#~ msgstr "Warna Latar Belakang pada Menu Footer"
-
-#~ msgid "Footer Menu Text Color"
-#~ msgstr "Warna Teks pada Menu Footer"
-
-#~ msgid "Footer Menu Active Link Color"
-#~ msgstr "Warna Tautan Aktif pada Menu Footer"
-
-#~ msgid "Font Size"
-#~ msgstr "Ukuran Huruf"
-
-#~ msgid "Social Icon Size"
-#~ msgstr "Ukuran Ikon Media Sosial"
-
-#~ msgid "Social Icon Color"
-#~ msgstr "Warna Ikon Media Sosial"
-
-#~ msgid "Border Width"
-#~ msgstr "Lebar Garis Tepi"
-
-#~ msgid "Border Color"
-#~ msgstr "Warna Garis Tepi"
-
-#~ msgid "Border Radius"
-#~ msgstr "Radius Garis Tepi"
-
-#~ msgid "Button Font Style"
-#~ msgstr "Gaya Huruf pada Tombol"
-
-#~ msgid "Buttons Font"
-#~ msgstr "Jenis Huruf pada Tombol"
-
-#~ msgid "Add Button Icon"
-#~ msgstr "Tambah Ikon Tombol"
-
-#~ msgid "Select Icon"
-#~ msgstr "Pilih Ikon"
-
-#~ msgid "Icon Color"
-#~ msgstr "Warna Ikon"
-
-#~ msgid "Icon Placement"
-#~ msgstr "Posisi Ikon"
-
-#~ msgid "Only Show Icon on Hover"
-#~ msgstr "Hanya Tampilkan Ikon Saat Disorot"
-
-#~ msgid "Image"
-#~ msgstr "Gambar"
-
-#~ msgid "Image Module Settings"
-#~ msgstr "Pengaturan Modul Gambar"
-
-#~ msgid "Animation"
-#~ msgstr "Animasi"
-
-#~ msgid "This controls default direction of the lazy-loading animation."
-#~ msgstr "Ini menentukan arah default dari animasi yang dimuat."
-
-#~ msgid "Gallery"
-#~ msgstr "Galeri"
-
-#~ msgid "Zoom Icon Color"
-#~ msgstr "Warna Ikon Perbesar"
-
-#~ msgid "Hover Overlay Color"
-#~ msgstr "Warna Overlay Saat Disorot"
-
-#~ msgid "Title Font Size"
-#~ msgstr "Ukuran Huruf untuk Judul"
-
-#~ msgid "Title Font Style"
-#~ msgstr "Gaya Huruf untuk Judul"
-
-#~ msgid "Caption Font Size"
-#~ msgstr "Ukuran Huruf untuk Keterangan"
-
-#~ msgid "Caption Font Style"
-#~ msgstr "Gaya Huruf untuk Keterangan"
-
-#~ msgid "Blurb"
-#~ msgstr "Blurb"
-
-#~ msgid "Header Font Size"
-#~ msgstr "Ukuran Huruf pada Header"
-
-#~ msgid "Tabs"
-#~ msgstr "Tab"
-
-#~ msgid "Padding"
-#~ msgstr "Padding"
-
-#~ msgid "Slider"
-#~ msgstr "Slider"
-
-#~ msgid "Top & Bottom Padding"
-#~ msgstr "Padding Atas & Bawah"
-
-#~ msgid "Content Font Size"
-#~ msgstr "Ukuran Huruf pada Konten"
-
-#~ msgid "Content Font Style"
-#~ msgstr "Gaya Huruf pada Konten"
-
-#~ msgid "Testimonial"
-#~ msgstr "Testimonial"
-
-#~ msgid "Name Font Style"
-#~ msgstr "Gaya Huruf untuk Nama"
-
-#~ msgid "Details Font Style"
-#~ msgstr "Gaya Huruf untuk Detail"
-
-#~ msgid "Portrait Border Radius"
-#~ msgstr "Radius Garis Tepi Foto"
-
-#~ msgid "Pricing Table"
-#~ msgstr "Tabel Harga"
-
-#~ msgid "Subheader Font Size"
-#~ msgstr "Ukuran Huruf untuk Subkepala"
-
-#~ msgid "Subheader Font Style"
-#~ msgstr "Gaya Huruf Subkepala"
-
-#~ msgid "Price Font Size"
-#~ msgstr "Ukuran Huruf untuk Harga"
-
-#~ msgid "Pricing Font Style"
-#~ msgstr "Gaya Huruf untuk Harga"
-
-#~ msgid "Call To Action"
-#~ msgstr "Tombol Aksi"
-
-#~ msgid "Audio"
-#~ msgstr "Audio"
-
-#~ msgid "Email Optin"
-#~ msgstr "email Optin"
-
-#~ msgid "Portfolio"
-#~ msgstr "Portofolio"
-
-#~ msgid "Filterable Portfolio"
-#~ msgstr "Portofolio Filterable"
-
-#~ msgid "Filters Font Size"
-#~ msgstr "Ukuran Huruf untuk Filter"
-
-#~ msgid "Filters Font Style"
-#~ msgstr "Gaya Huruf untuk Filter"
-
-#~ msgid "Bar Counter"
-#~ msgstr "Grafik Batang"
-
-#~ msgid "Label Font Size"
-#~ msgstr "Ukuran Huruf untuk Label"
-
-#~ msgid "Label Font Style"
-#~ msgstr "Gaya Huruf untuk Label"
-
-#~ msgid "Percent Font Size"
-#~ msgstr "Ukuran Huruf untuk Simbol Persen"
-
-#~ msgid "Percent Font Style"
-#~ msgstr "Gaya Huruf untuk Simbol Persen"
-
-#~ msgid "Bar Padding"
-#~ msgstr "Padding Grafik Batang"
-
-#~ msgid "Bar Border Radius"
-#~ msgstr "Radius Garis Tepi pada Grafik Batang"
-
-#~ msgid "Circle Counter"
-#~ msgstr "Grafik Lingkaran"
-
-#~ msgid "Number Font Size"
-#~ msgstr "Ukuran Huruf untuk Angka"
-
-#~ msgid "Number Font Style"
-#~ msgstr "Gaya Huruf untuk Angka"
-
-#~ msgid "Number Counter"
-#~ msgstr "Penghitung Jumlah"
-
-#~ msgid "Accordion"
-#~ msgstr "Accordion"
-
-#~ msgid "Opened Title Font Style"
-#~ msgstr "Gaya Huruf untuk Judul Elemen yang Dibuka"
-
-#~ msgid "Closed Title Font Style"
-#~ msgstr "Gaya Huruf untuk Judul Elemen yang Ditutup"
-
-#~ msgid "Toggle Icon Size"
-#~ msgstr "Ukuran Ikon Toggle"
-
-#~ msgid "Toggle Padding"
-#~ msgstr "Padding Toggle"
-
-#~ msgid "Toggle"
-#~ msgstr "Toggle"
-
-#~ msgid "Contact Form"
-#~ msgstr "Formulir Kontak"
-
-#~ msgid "Input Font Size"
-#~ msgstr "Ukuran Huruf pada Bidang Masukan"
-
-#~ msgid "Input Font Style"
-#~ msgstr "Gaya Huruf pada Bidang Masukan"
-
-#~ msgid "Input Field Padding"
-#~ msgstr "Padding pada Bidang Masukan"
-
-#~ msgid "Captcha Font Size"
-#~ msgstr "Ukuran Huruf pada Captcha"
-
-#~ msgid "Captcha Font Style"
-#~ msgstr "Gaya Huruf pada Captcha"
-
-#~ msgid "Sidebar"
-#~ msgstr "Bar Sisi"
-
-#~ msgid "Widget Header Font Size"
-#~ msgstr "Ukuran Huruf pada Header Widget"
-
-#~ msgid "Widget Header Font Style"
-#~ msgstr "Gaya Huruf pada Header Widget"
-
-#~ msgid "Remove Vertical Divider"
-#~ msgstr "Hilangkan Divider Vertikal"
-
-#~ msgid "Divider"
-#~ msgstr "Garis Pemisah"
-
-#~ msgid "Show Divider"
-#~ msgstr "Tampilkan Pemisah"
-
-#~ msgid "Divider Style"
-#~ msgstr "Jenis Divider"
-
-#~ msgid "Divider Weight"
-#~ msgstr "Tinggi Divider"
-
-#~ msgid "Divider Height"
-#~ msgstr "Tinggi Divider"
-
-#~ msgid "Divider Position"
-#~ msgstr "Posisi Divider"
-
-#~ msgid "Person"
-#~ msgstr "Perorangan"
-
-#~ msgid "Name Font Size"
-#~ msgstr "Ukuran Huruf untuk Nama"
-
-#~ msgid "Social Network Icon Size"
-#~ msgstr "Ukuran Ikon Jejaring Sosial"
-
-#~ msgid "Post Title Font Size"
-#~ msgstr "Ukuran Huruf Judul Postingan"
-
-#~ msgid "Meta Font Size"
-#~ msgstr "Ukuran Huruf pada Meta"
-
-#~ msgid "Blog Grid"
-#~ msgstr "blog Grid"
-
-#~ msgid "Shop"
-#~ msgstr "Toko"
-
-#~ msgid "Product Name Font Size"
-#~ msgstr "Ukuran Huruf untuk Nama Produk"
-
-#~ msgid "Product Name Font Style"
-#~ msgstr "Gaya Huruf untuk Nama Produk"
-
-#~ msgid "Sale Badge Font Size"
-#~ msgstr "Ukuran Huruf pada Logo Diskon"
-
-#~ msgid "Sale Badge Font Style"
-#~ msgstr "Gaya Huruf pada Logo Diskon"
-
-#~ msgid "Price Font Style"
-#~ msgstr "Gaya Huruf untuk Harga"
-
-#~ msgid "Sale Price Font Size"
-#~ msgstr "Ukuran Huruf untuk Harga Diskon"
-
-#~ msgid "Sale Price Font Style"
-#~ msgstr "Gaya Huruf untuk Harga Diskon"
-
-#~ msgid "Countdown"
-#~ msgstr "Hitung Mundur"
-
-#~ msgid "Social Follow"
-#~ msgstr "Ikuti Media Sosial"
-
-#~ msgid "Follow Font & Icon Size"
-#~ msgstr "Ukuran Ikon & Huruf pada Tombol Ikuti"
-
-#~ msgid "Fullwidth Slider"
-#~ msgstr "Fullwidth Slider"
-
-#~ msgid "0 comments"
-#~ msgstr "0 Komentar"
-
-#~ msgid "1 comment"
-#~ msgstr "1 Komentar"
-
-#~ msgid "comments"
-#~ msgstr "Komentar"
-
-#~ msgid "Password Protected"
-#~ msgstr "Diamankan dengan Kata Sandi"
-
-#~ msgid "To view this protected post, enter the password below"
-#~ msgstr "Untuk menampilkan postingan ini, masukkan kata sandi bawah"
-
-#~ msgid "Submit"
-#~ msgstr "Kirim"
-
-#, fuzzy
-#~ msgctxt "WooCommerce items number"
-#~ msgid "1 Item"
-#~ msgid_plural "%1$s Items"
-#~ msgstr[0] " "
-
-#~ msgid "Theme Customizer"
-#~ msgstr "Penyesuai Tema"
-
-#~ msgid "Module Customizer"
-#~ msgstr "Penyesuai Modul"
-
-#~ msgid "Role Editor"
-#~ msgstr "peran Editor"
-
-#~ msgid "Divi Library"
-#~ msgstr "Pustaka Divi"
-
-#~ msgid "Divi Customizer Settings"
-#~ msgstr "Setelan Divi Customizer"
-
-#~ msgid "Search &hellip;"
-#~ msgstr "Cari &hellip;"
-
-#~ msgid "Search for:"
-#~ msgstr "Mencari:"
-
-#~ msgid "Bold"
-#~ msgstr "Cetak Tebal"
-
-#~ msgid "Italic"
-#~ msgstr "Cetak Miring"
-
-#~ msgid "Uppercase"
-#~ msgstr "Huruf Besar"
-
-#~ msgid "Underline"
-#~ msgstr "Garis Bawah"
-
-#~ msgid "Green"
-#~ msgstr "Hijau"
-
-#~ msgid "Orange"
-#~ msgstr "Jingga"
-
-#~ msgid "Pink"
-#~ msgstr "Pink"
-
-#~ msgid "Red"
-#~ msgstr "Merah"
-
-#~ msgid "Centered"
-#~ msgstr "Tengah"
-
-#~ msgid "Centered Inline Logo"
-#~ msgstr "Logo di Tengah dan Inline"
-
-#~ msgid "Slide In"
-#~ msgstr "Slide In"
-
-#~ msgid "Fullscreen"
-#~ msgstr "Layar Penuh"
-
-#~ msgid "Fade"
-#~ msgstr "Pudar"
-
-#~ msgid "Expand"
-#~ msgstr "Melebar"
-
-#~ msgid "Slide"
-#~ msgstr "Slide"
-
-#~ msgid "Flip"
-#~ msgstr "Balik"
-
-#~ msgid "%1$s Columns"
-#~ msgstr "%1$s Kolom"
-
-#~ msgid "1 Column"
-#~ msgstr "1 Kolom"
-
-#~ msgid "Left to Right"
-#~ msgstr "Kiri ke Kanan"
-
-#~ msgid "Right to Left"
-#~ msgstr "Kanan ke Kiri"
-
-#~ msgid "Top to Bottom"
-#~ msgstr "Atas ke Bawah"
-
-#~ msgid "Bottom to Top"
-#~ msgstr "Bawah ke Atas"
-
-#~ msgid "Fade In"
-#~ msgstr "Fade In"
-
-#~ msgid "No Animation"
-#~ msgstr "Tidak Ada Animasi"
-
-#~ msgid "Solid"
-#~ msgstr "Solid"
-
-#~ msgid "Dotted"
-#~ msgstr "Dotted"
-
-#~ msgid "Dashed"
-#~ msgstr "Dashed"
-
-#~ msgid "Double"
-#~ msgstr "Double"
-
-#~ msgid "Groove"
-#~ msgstr "Groove"
-
-#~ msgid "Ridge"
-#~ msgstr "Ridge"
-
-#~ msgid "Inset"
-#~ msgstr "Inset"
-
-#~ msgid "Outset"
-#~ msgstr "Outset"
-
-#~ msgid "Top"
-#~ msgstr "Atas"
-
-#~ msgid "Vertically Centered"
-#~ msgstr "Rata Tengah Secara Vertikal"
-
-#~ msgid "Bottom"
-#~ msgstr "Bawah"
-
-#~ msgid "Read Divi Documentation"
-#~ msgstr "Baca Dokumentasi Divi"
-
-#~ msgid "Footer Area"
-#~ msgstr "Area Footer"
-
-#~ msgid "Watch video tutorials"
-#~ msgstr "Tonton video tutorial"
-
-#~ msgid "&laquo; Older Entries"
-#~ msgstr "&laquo; Entri Terdahulu"
-
-#~ msgid "Next Entries &raquo;"
-#~ msgstr "Entri Selanjutnya &raquo;"
-
-#~ msgid "No Results Found"
-#~ msgstr "Tak Ditemukan Hasil"
-
-#~ msgid ""
-#~ "The page you requested could not be found. Try refining your search, or "
-#~ "use the navigation above to locate the post."
-#~ msgstr ""
-#~ "Laman yang Anda rikues tak dapat ditemukan. Cobalah mengganti pencarian "
-#~ "Anda, atau gunakan navigasi di atas untuk mencari postingan."
-
-#~ msgid "Facebook"
-#~ msgstr "Facebook"
-
-#~ msgid "Twitter"
-#~ msgstr "Twitter"
-
-#~ msgid "Google"
-#~ msgstr "Google"
-
-#~ msgid "RSS"
-#~ msgstr "RSS"
-
-#~ msgid "Displays About Me Information"
-#~ msgstr "Tampilkan Informasi Tentang Saya"
-
-#~ msgid "ET About Me Widget"
-#~ msgstr "Widget Tentang Saya"
-
-#~ msgid "About Me"
-#~ msgstr "Tentang Saya"
-
-#~ msgid "Title"
-#~ msgstr "Judul"
-
-#~ msgid "Text"
-#~ msgstr "Teks"
-
-#~ msgid "Displays Advertisements"
-#~ msgstr "Tampilkan Iklan"
-
-#~ msgid "ET Advertisement"
-#~ msgstr "ET Iklan"
-
-#~ msgid "Advertisement"
-#~ msgstr "Iklan"
-
-#~ msgid "Use Relative Image Paths"
-#~ msgstr "Gunakan Path Gambar Relatif"
-
-#~ msgid "Open in a new window"
-#~ msgstr "Buka di jendela baru"
-
-#~ msgid "Banner"
-#~ msgstr "Banner"
-
-#~ msgid "Url"
-#~ msgstr "URL"
-
-#~ msgid "Alt"
-#~ msgstr "Alt"
-
-#~ msgid ""
-#~ "If you don't want to display some banners - leave approptiate fields blank"
-#~ msgstr "Apabila Anda tidak ingin menampilkan banner - kosongkan bidang"
-
-#~ msgid "Displays Adsense Ads"
-#~ msgstr "Tampilkan Iklan Adsense"
-
-#~ msgid "ET Adsense Widget"
-#~ msgstr "Widget Adsense"
-
-#~ msgid "Adsense"
-#~ msgstr "Adsense"
-
-#~ msgid "Adsense Code"
-#~ msgstr "Kode Adsense"
-
-#~ msgid "Logo"
-#~ msgstr "Logo"
-
-#~ msgid "Set As Logo"
-#~ msgstr "Atur sebagai Logo"
-
-#~ msgid ""
-#~ "If you would like to use your own custom logo image click the Upload "
-#~ "Image button."
-#~ msgstr ""
-#~ "Jika Anda ingin menggunakan gambar logo kustom Anda sendiri kliklah "
-#~ "tombol \"Unggah gambar\"."
-
-#~ msgid "Favicon"
-#~ msgstr "Favicon"
-
-#~ msgid "Set As Favicon"
-#~ msgstr "Atur sebagai Favicon"
-
-#~ msgid ""
-#~ "If you would like to use your own custom favicon image click the Upload "
-#~ "Image button."
-#~ msgstr ""
-#~ "Jika Anda ingin menggunakan gambar favicon Anda sendiri kliklah tombol "
-#~ "Unggah Gambar."
-
-#~ msgid "Fixed Navigation Bar"
-#~ msgstr "Perbaikan Bilah Navigasi"
-
-#~ msgid ""
-#~ "By default the navigation bar stays on top of the screen at all times. We "
-#~ "suggest to disable this option, if you need to use a logo taller than the "
-#~ "default one."
-#~ msgstr ""
-#~ "Secara default, bilah navigasi selalu berada di bagian atas layar. Kami "
-#~ "sarankan untuk mematikan opsi ini jika Anda perlu menggunakan gambar logo "
-#~ "berukuran besar."
-
-#~ msgid "Enable Divi Gallery"
-#~ msgstr "Aktifkan Galeri Divi"
-
-#~ msgid ""
-#~ "Enable this if you want to replace the WordPress default gallery with the "
-#~ "Divi-style gallery."
-#~ msgstr ""
-#~ "Aktifkan ini jika Anda ingin mengganti galeri bawaan WordPress dengan "
-#~ "galeri bergaya Divi."
-
-#~ msgid "Color Pickers Default Palette"
-#~ msgstr "Palet Default Color Picker"
-
-#~ msgid ""
-#~ "Define the default color palette for color pickers in the Divi Builder."
-#~ msgstr "Tentukan palet warna default untuk color picker dalam Divi Builder."
-
-#~ msgid "Grab the first post image"
-#~ msgstr "Ambil gambar postingan pertama"
-
-#~ msgid ""
-#~ "By default thumbnail images are created using custom fields. However, if "
-#~ "you would rather use the images that are already in your post for your "
-#~ "thumbnail (and bypass using custom fields) you can activate this option. "
-#~ "Once activcated thumbnail images will be generated automatically using "
-#~ "the first image in your post. The image must be hosted on your own server."
-#~ msgstr ""
-#~ "Secara default, gambar mini dihasilkan menggunakan kolom kustom. Namun "
-#~ "jika Anda memilih menggunakan gambar yang sudah ada di postingan Anda "
-#~ "untuk gambar mini (dan melewatkan penggunaan kolom kustom) Anda dapat "
-#~ "mengaktifkan opsi ini. Setelah aktif, gambar mini akan dihasilkan secara "
-#~ "otomatis menggunakan gambar pertama dalam postingan Anda. Gambar harus "
-#~ "ditampung di server Anda."
-
-#~ msgid "Blog Style Mode"
-#~ msgstr "Modus Gaya Blog"
-
-#~ msgid ""
-#~ "By default the theme truncates your posts on index/homepages "
-#~ "automatically to create post previews. If you would rather show your "
-#~ "posts in full on index pages like a traditional blog then you can "
-#~ "activate this feature."
-#~ msgstr ""
-#~ "Secara default, tema akan otomatis memangkas kutipan postingan Anda untuk "
-#~ "membuat pratinjau postingan. Jika Anda memilih menampilkan postingan Anda "
-#~ "secara penuh ala blog tradisional, maka Anda dapat mengaktifkan fitur ini."
-
-#~ msgid "Shop Page & Category Page Layout for WooCommerce"
-#~ msgstr "Tata Letak Laman Gerai & Laman Kategori untuk WooCommerce"
-
-#~ msgid ""
-#~ "Here you can choose Shop Page & Category Page Layout for WooCommerce."
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih Tata Letak Laman Gerai & Laman Kategori untuk "
-#~ "WooCommerce."
-
-#~ msgid ""
-#~ "Enter your MailChimp API key. You can create an api key <a target=\"_blank"
-#~ "\" href=\"%1$s\">here</a>"
-#~ msgstr ""
-#~ "Masukkan kunci API MailChimp Anda. Anda dapat membuat kunci api <a target="
-#~ "\"_blank\" href=\"%1$s\">di sini</a>"
-
-#~ msgid "Authorize your Aweber account here."
-#~ msgstr "Otorisasikan akun Aweber Anda di sini."
-
-#~ msgid "Regenerate MailChimp Lists"
-#~ msgstr "Hasilkan ulang Daftar MailChimp"
-
-#~ msgid ""
-#~ "By default, MailChimp lists are cached for one day. If you added new "
-#~ "list, but it doesn't appear within the Email Optin module settings, "
-#~ "activate this option. Don't forget to disable it once the list has been "
-#~ "regenerated."
-#~ msgstr ""
-#~ "Secara default, daftar MailChimp cache untuk satu hari. Jika Anda "
-#~ "menambahkan daftar baru, tetapi tidak muncul dalam pengaturan modul Email "
-#~ "Optin, aktifkan opsi ini. Jangan lupa untuk menonaktifkannya setelah "
-#~ "daftar telah diregenerasi."
-
-#~ msgid "Regenerate Aweber Lists"
-#~ msgstr "Hasilkan ulang Daftar Aweber"
-
-#~ msgid ""
-#~ "By default, Aweber lists are cached for one day. If you added new list, "
-#~ "but it doesn't appear within the Email Optin module settings, activate "
-#~ "this option. Don't forget to disable it once the list has been "
-#~ "regenerated."
-#~ msgstr ""
-#~ "Secara default, daftar aweber cache untuk satu hari. Jika Anda "
-#~ "menambahkan daftar baru, tetapi tidak muncul dalam pengaturan modul Email "
-#~ "Optin, aktifkan opsi ini. Jangan lupa untuk menonaktifkannya setelah "
-#~ "daftar telah diregenerasi."
-
-#~ msgid "Show Facebook Icon"
-#~ msgstr "Tampilkan Ikon Facebook"
-
-#~ msgid "Here you can choose to display the Facebook Icon on your homepage. "
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih untuk menampilkan Ikon Facebook di beranda "
-#~ "Anda."
-
-#~ msgid "Show Twitter Icon"
-#~ msgstr "Tampilkan Ikon Twitter"
-
-#~ msgid "Here you can choose to display the Twitter Icon. "
-#~ msgstr "Di sini Anda dapat memilih untuk menampilkan Ikon Twitter. "
-
-#~ msgid "Show Google+ Icon"
-#~ msgstr "Tampilkan Ikon Google+"
-
-#~ msgid "Here you can choose to display the Google+ Icon on your homepage. "
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih untuk menampilkan Ikon Google+ di beranda "
-#~ "Anda. "
-
-#~ msgid "Show RSS Icon"
-#~ msgstr "Tampilkan Ikon RSS"
-
-#~ msgid "Here you can choose to display the RSS Icon. "
-#~ msgstr "Di sini Anda dapat memilih untuk menampilkan Ikon RSS. "
-
-#~ msgid "Facebook Profile Url"
-#~ msgstr "URL Profil Facebook"
-
-#~ msgid "Enter the URL of your Facebook Profile. "
-#~ msgstr "Masukkan URL dari Profil Facebook Anda. "
-
-#~ msgid "Twitter Profile Url"
-#~ msgstr "URL Profil Twitter"
-
-#~ msgid "Enter the URL of your Twitter Profile."
-#~ msgstr "Masukkan URL dari Profil Twitter Anda."
-
-#~ msgid "Google+ Profile Url"
-#~ msgstr "URL Profil Google+"
-
-#~ msgid "Enter the URL of your Google+ Profile. "
-#~ msgstr "Masukkan URL dari Profil Google+ Anda. "
-
-#~ msgid "RSS Icon Url"
-#~ msgstr "URL Ikon RSS"
-
-#~ msgid "Enter the URL of your RSS feed. "
-#~ msgstr "Masukkan URL dari umpan RSS Anda. "
-
-#~ msgid "Number of Products displayed on WooCommerce archive pages"
-#~ msgstr "Jumlah Produk yang tampil pada halaman arsip WooCommerce"
-
-#~ msgid ""
-#~ "Here you can designate how many WooCommerce products are displayed on the "
-#~ "archive page. This option works independently from the Settings > Reading "
-#~ "options in wp-admin."
-#~ msgstr ""
-#~ "Di sini Anda dapat menentukan berapa banyak produk WooCommerce yang "
-#~ "tampil pada halaman arsip. Opsi ini bekerja independen dari opsi Settings "
-#~ "> Reading dalam wp-admin."
-
-#~ msgid "Number of Posts displayed on Category page"
-#~ msgstr "Jumlah postingan yang ditampilkan di laman Kategori"
-
-#~ msgid ""
-#~ "Here you can designate how many recent articles are displayed on the "
-#~ "Category page. This option works independently from the Settings > "
-#~ "Reading options in wp-admin."
-#~ msgstr ""
-#~ "Di sini Anda dapat mengatur berapa banyak artikel terkini yang "
-#~ "ditampilkan di laman Kategori. Opsi ini bekerja terpisah dari opsi "
-#~ "Membaca di wp-admin."
-
-#~ msgid "Number of Posts displayed on Archive pages"
-#~ msgstr "Jumlah Postingan yang ditampilkan di laman Arsip"
-
-#~ msgid ""
-#~ "Here you can designate how many recent articles are displayed on the "
-#~ "Archive pages. This option works independently from the Settings > "
-#~ "Reading options in wp-admin."
-#~ msgstr ""
-#~ "Di sini Anda dapat mengatur berapa banyak artikel terkini yang "
-#~ "ditampilkan di laman Arsip. Opsi ini bekerja terpisah dari opsi Membaca "
-#~ "di wp-admin."
-
-#~ msgid "Number of Posts displayed on Search pages"
-#~ msgstr "Jumlah Postingan yang ditampilkan di laman Pencarian"
-
-#~ msgid ""
-#~ "Here you can designate how many recent articles are displayed on the "
-#~ "Search results pages. This option works independently from the Settings > "
-#~ "Reading options in wp-admin."
-#~ msgstr ""
-#~ "Di sini Anda dapat mengatur berapa banyak artikel terkini yang "
-#~ "ditampilkan di laman hasil Pencarian. Opsi ini bekerja terpisah dari opsi "
-#~ "Membaca di wp-admin."
-
-#~ msgid "Number of Posts displayed on Tag pages"
-#~ msgstr "Jumlah Postingan yang ditampilkan di laman Tag"
-
-#~ msgid ""
-#~ "Here you can designate how many recent articles are displayed on the Tag "
-#~ "pages. This option works independently from the Settings > Reading "
-#~ "options in wp-admin."
-#~ msgstr ""
-#~ "Di sini Anda dapat mengatur berapa banyak artikel terkini yang "
-#~ "ditampilkan di laman hasil Tag. Opsi ini bekerja terpisah dari opsi "
-#~ "Membaca di wp-admin."
-
-#~ msgid "Date format"
-#~ msgstr "Format tanggal"
-
-#~ msgid ""
-#~ "This option allows you to change how your dates are displayed. For more "
-#~ "information please refer to the WordPress codex here:<a href='http://"
-#~ "codex.wordpress.org/Formatting_Date_and_Time' target='_blank'>Formatting "
-#~ "Date and Time</a>"
-#~ msgstr ""
-#~ "Opsi ini mengizinkan Anda mengubah bagaimana tanggal ditampilkan. Untuk "
-#~ "info lebih lanjut silakan merujuk pada naskah WordPress di sini:<a "
-#~ "href='http://codex.wordpress.org/Formatting_Date_and_Time' "
-#~ "target='_blank'>Memformat Tanggal dan Waktu</a>"
-
-#~ msgid "Use excerpts when defined"
-#~ msgstr "Gunakan naskah jika ditentukan"
-
-#~ msgid "This will enable the use of excerpts in posts or pages."
-#~ msgstr "Ini akan mengizinkan penggunaan naskah dalam postingan atau laman."
-
-#~ msgid "Responsive shortcodes"
-#~ msgstr "Shortcodes responsif"
-
-#~ msgid ""
-#~ "Enable this option to make shortcodes respond to various screen sizes"
-#~ msgstr ""
-#~ "Aktifkan opsi ini guna membuat shortcodes merespon terhadap berbagai "
-#~ "ukuran layar"
-
-#~ msgid "Google Fonts subsets"
-#~ msgstr "Himpunan bagian Google Fonts"
-
-#~ msgid "This will enable Google Fonts for Non-English languages."
-#~ msgstr "Ini akan mengaktifkan Google Fonts untuk bahasa Non-Inggris."
-
-#~ msgid "Back To Top Button"
-#~ msgstr "Tombol Kembali Ke Atas"
-
-#~ msgid "Enable this option to display Back To Top Button while scrolling"
-#~ msgstr ""
-#~ "Aktifkan opsi ini untuk menampilkan Tombol Kembali Ke Atas selagi "
-#~ "menggulir"
-
-#~ msgid "Smooth Scrolling"
-#~ msgstr "Guliran Halus"
-
-#~ msgid ""
-#~ "Enable this option to get the smooth scrolling effect with mouse wheel"
-#~ msgstr ""
-#~ "Aktifkan opsi ini untuk mendapatkan efek guliran halus dengan roda tetikus"
-
-#~ msgid "Disable Translations"
-#~ msgstr "Nonaktifkan Terjemahan"
-
-#~ msgid ""
-#~ "Disable translations if you don't want to display translated theme "
-#~ "strings on your site."
-#~ msgstr ""
-#~ "Nonaktifkan terjemahan jika Anda tidak ingin menampilkan terjemahan "
-#~ "string bertema di situs Anda."
-
-#~ msgid "Custom CSS"
-#~ msgstr "CSS Kustom"
-
-#~ msgid "Here you can add custom css to override or extend default styles."
-#~ msgstr ""
-#~ "Di sini Anda dapat menambahkan CSS kustom untuk menimpa atau menambah "
-#~ "gaya default."
-
-#~ msgid "Memory Limit Increase"
-#~ msgstr "Peningkatan Limit Memori"
-
-#~ msgid "Here you can disable automatic memory limit increase."
-#~ msgstr "Di sini Anda dapat menonaktifkan peningkatan limit memori otomatis."
-
-#~ msgid "Pages"
-#~ msgstr "Laman"
-
-#~ msgid "Exclude pages from the navigation bar"
-#~ msgstr "Kecualikan laman dari bilah navigasi"
-
-#~ msgid ""
-#~ "Here you can choose to remove certain pages from the navigation menu. All "
-#~ "pages marked with an X will not appear in your navigation bar. "
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih untuk menghapus laman tertentu dari menu "
-#~ "navigasi. Semua laman yang ditandai dengan X tidak akan muncul pada bilah "
-#~ "navigasi Anda. "
-
-#~ msgid "Show dropdown menus"
-#~ msgstr "Tampilkan menu dropdown"
-
-#~ msgid ""
-#~ "If you would like to remove the dropdown menus from the pages navigation "
-#~ "bar disable this feature."
-#~ msgstr ""
-#~ "Jika Anda ingin menghapus menu dropdown dari bilah navigasi laman, "
-#~ "matikan fitur ini."
-
-#~ msgid "Display Home link"
-#~ msgstr "Tampilkan tautan Beranda"
-
-#~ msgid ""
-#~ "By default the theme creates a Home link that, when clicked, leads back "
-#~ "to your blog's homepage. If, however, you are using a static homepage and "
-#~ "have already created a page called Home to use, this will result in a "
-#~ "duplicate link. In this case you should disable this feature to remove "
-#~ "the link."
-#~ msgstr ""
-#~ "Secara default, tema membuat tautan Beranda yang, jika diklik, akan "
-#~ "membawa kembali ke laman beranda blog Anda. Namun jika Anda menggunakan "
-#~ "laman beranda statis dan sudah membuat laman bernama Beranda untuk "
-#~ "digunakan, ini akan menghasilkan tautan duplikat. Dalam kasus ini Anda "
-#~ "harus mematikan fitur ini guna menghapus tautan."
-
-#~ msgid "Sort Pages Links"
-#~ msgstr "Sortir Tautan Laman"
-
-#~ msgid "Here you can choose to sort your pages links."
-#~ msgstr "Di sini Anda dapat memilih metode sortir tautan laman Anda."
-
-#~ msgid "Order Pages Links by Ascending/Descending"
-#~ msgstr "Urutkan Tautan Laman dengan Menaik/Menurun"
-
-#~ msgid ""
-#~ "Here you can choose to reverse the order that your pages links are "
-#~ "displayed. You can choose between ascending and descending."
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih untuk membalikkan urutan tampilan tautan laman "
-#~ "Anda. Anda dapat memilih antara menaik dan menurun."
-
-#~ msgid "Number of dropdown tiers shown"
-#~ msgstr "Jumlah tampilan tingkatan dropdown"
-
-#~ msgid ""
-#~ "This options allows you to control how many teirs your pages dropdown "
-#~ "menu has. Increasing the number allows for additional menu items to be "
-#~ "shown."
-#~ msgstr ""
-#~ "Opsi ini mengizinkan Anda mengatur jumlah tingkatan yang dimiliki menu "
-#~ "dropdown laman Anda. Menaikkan angka akan memunculkan item menu tambahan."
-
-#~ msgid "Exclude categories from the navigation bar"
-#~ msgstr "Kecualikan kategori dari bilah navigasi"
-
-#~ msgid ""
-#~ "Here you can choose to remove certain categories from the navigation "
-#~ "menu. All categories marked with an X will not appear in your navigation "
-#~ "bar. "
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih untuk menghapus kategori tertentu dari menu "
-#~ "navigasi. Semua kategori bertanda X tidak akan muncul dalam bilah "
-#~ "navigasi Anda. "
-
-#~ msgid ""
-#~ "If you would like to remove the dropdown menus from the categories "
-#~ "navigation bar disable this feature."
-#~ msgstr ""
-#~ "Matikan fitur ini jika Anda ingin menghapus menu dropdown dari bilah "
-#~ "navigasi kategori."
-
-#~ msgid "Hide empty categories"
-#~ msgstr "Sembunyikan kategori kosong"
-
-#~ msgid ""
-#~ "If you would like categories to be displayed in your navigationbar that "
-#~ "don't have any posts in them then disable this option. By default empty "
-#~ "categories are hidden"
-#~ msgstr ""
-#~ "Matikan opsi ini jika Anda ingin kategori ditampilkan dalam bilah "
-#~ "navigasi yang tak memiliki postingan apapun. Kategori kosong "
-#~ "disembunyikan secara default."
-
-#~ msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
-#~ msgstr "Sortir Tautan Kategori berdasarkan Grup Name/ID/Slug/Count/Term"
-
-#~ msgid ""
-#~ "By default pages are sorted by name. However if you would rather have "
-#~ "them sorted by ID you can adjust this setting."
-#~ msgstr ""
-#~ "Laman disortir berdasarkan nama secara default. Namun jika Anda ingin "
-#~ "mereka disortir berdasrkan ID Anda dapat menyesuaikan pengaturan ini."
-
-#~ msgid "Order Category Links by Ascending/Descending"
-#~ msgstr "Urutkan Tautan Kategori dengan Menaik atau Menurun"
-
-#~ msgid ""
-#~ "Here you can choose to reverse the order that your categories links are "
-#~ "displayed. You can choose between ascending and descending."
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih untuk membalikkan urutan tampilan tautan "
-#~ "kategori Anda. Anda dapat memilih antara menaik dan menurun."
-
-#~ msgid "Disable top tier dropdown menu links"
-#~ msgstr "Matikan tautan tingkatan atas menu dropdown"
-
-#~ msgid ""
-#~ "In some cases users will want to create parent categories or links as "
-#~ "placeholders to hold a list of child links or categories. In this case it "
-#~ "is not desirable to have the parent links lead anywhere, but instead "
-#~ "merely serve an organizational function. Enabling this options will "
-#~ "remove the links from all parent pages/categories so that they don't lead "
-#~ "anywhere when clicked."
-#~ msgstr ""
-#~ "Di beberapa kasus pengguna akan ingin membuat kategori induk atau tautan "
-#~ "sebagai pengganti guna menampung daftar tautan atau kategori anak. Dalam "
-#~ "kasus ini tidak diharapkan memiliki tautan induk yang mengarahkan ke lain "
-#~ "tempat, namun hanya berfungsi sebagai pengorganisir. Mengaktifkan opsi "
-#~ "ini akan menghapus tautan dari semua laman/kategori induk agar mereka "
-#~ "tidak mengarahkan ke tempat lain sewaktu diklik."
-
-#~ msgid "Single Post Layout"
-#~ msgstr "Tata Letak Postingan Tunggal"
-
-#~ msgid "Single Page Layout"
-#~ msgstr "Tata Letak Laman Tunggal"
-
-#~ msgid "Choose which items to display in the postinfo section"
-#~ msgstr "Pilih item mana yang akan ditampilkan dalam bagian info postingan"
-
-#~ msgid ""
-#~ "Here you can choose which items appear in the postinfo section on single "
-#~ "post pages. This is the area, usually below the post title, which "
-#~ "displays basic information about your post. The highlighted itmes shown "
-#~ "below will appear. "
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih item mana yang muncul dalam bagian info "
-#~ "postingan pada laman postingan tunggal. Ini adalah area yang umumnya "
-#~ "berada di bawah judul postingan, yang menampilkan informasi dasar tentang "
-#~ "postingan Anda. Item-item tersorot yang ditampilkan di bawah akan muncul. "
-
-#~ msgid "Show comments on posts"
-#~ msgstr "Tampilkan komentar pada postingan"
-
-#~ msgid ""
-#~ "You can disable this option if you want to remove the comments and "
-#~ "comment form from single post pages. "
-#~ msgstr ""
-#~ "Anda dapat mematikan opsi ini jika ingin menghapus komentar dan kolom "
-#~ "komentar dari postingan. "
-
-#~ msgid "Place Thumbs on Posts"
-#~ msgstr "Tempatkan Gambar Mini pada Postingan"
-
-#~ msgid ""
-#~ "By default thumbnails are placed at the beginning of your post on single "
-#~ "post pages. If you would like to remove this initial thumbnail image to "
-#~ "avoid repetition simply disable this option. "
-#~ msgstr ""
-#~ "Secara default gambar mini ditempatkan pada awal postingan Anda di laman "
-#~ "postingan tunggal. Jika ingin menghapus gambar mini awal ini guna "
-#~ "menghindari repetisi, cukup matikan opsi ini. "
-
-#~ msgid "Place Thumbs on Pages"
-#~ msgstr "Tempatkan Gambar Mini pada Laman"
-
-#~ msgid ""
-#~ "By default thumbnails are not placed on pages (they are only used on "
-#~ "posts). However, if you want to use thumbnails on pages you can! Just "
-#~ "enable this option. "
-#~ msgstr ""
-#~ "Secara default, thumbnail tidak ditampilkan pada laman (hanya digunakan "
-#~ "untuk postingan). Meski begitu, Anda dapat menggunakan thumbnail untuk "
-#~ "laman jika Anda menginginkannya! Cukup aktifkan opsi ini."
-
-#~ msgid "Show comments on pages"
-#~ msgstr "Tampilkan komentar pada laman"
-
-#~ msgid ""
-#~ "By default comments are not placed on pages, however, if you would like "
-#~ "to allow people to comment on your pages simply enable this option. "
-#~ msgstr ""
-#~ "Secara default komentar tidak ditempatkan pada laman, namun jika Anda "
-#~ "ingin mengizinkan publik untuk berkomentar di laman Anda maka cukup "
-#~ "nyalakan opsi ini. "
-
-#~ msgid "Post info section"
-#~ msgstr "Bagian info postingan"
-
-#~ msgid ""
-#~ "Here you can choose which items appear in the postinfo section on pages. "
-#~ "This is the area, usually below the post title, which displays basic "
-#~ "information about your post. The highlighted itmes shown below will "
-#~ "appear. "
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih item mana yang muncul di bagian info artikel "
-#~ "pada laman. Ini adalah area yang umumnya berada di bawah judul postingan, "
-#~ "yang menampilkan informasi dasar tentang postingan Anda. Item-item "
-#~ "tersorot di bawah akan dimunculkan. "
-
-#~ msgid "Show Thumbs on Index pages"
-#~ msgstr "Tampilkan Gambar Mini pada laman Indeks"
-
-#~ msgid "Enable this option to show thumbnails on Index Pages."
-#~ msgstr "Nyalakan opsi ini untuk menampilkan gamabr mini pada Laman Indeks."
-
-#~ msgid "Homepage SEO"
-#~ msgstr "SEO Beranda"
-
-#~ msgid "Single Post Page SEO"
-#~ msgstr "SEO Laman Postingan Tunggal"
-
-#~ msgid "Index Page SEO"
-#~ msgstr "SEO Laman Indeks"
-
-#~ msgid " Enable custom title "
-#~ msgstr "Aktifkan judul kustom "
-
-#~ msgid ""
-#~ "By default the theme uses a combination of your blog name and your blog "
-#~ "description, as defined when you created your blog, to create your "
-#~ "homepage titles. However if you want to create a custom title then simply "
-#~ "enable this option and fill in the custom title field below. "
-#~ msgstr ""
-#~ "Secara default tema menggunakan kombinasi dari nama blog dan deskripsi "
-#~ "blog Anda, sebagaimana ditentukan saat Anda menciptakan blog Anda, dalam "
-#~ "membuat judul beranda Anda. Namun jika Anda ingin membuat judul kustom "
-#~ "maka cukup aktifkan opsi ini dan isi kolom judul kustom di bawah ini. "
-
-#~ msgid " Enable meta description"
-#~ msgstr "Aktfikan deskripsi label meta"
-
-#~ msgid ""
-#~ "By default the theme uses your blog description, as defined when you "
-#~ "created your blog, to fill in the meta description field. If you would "
-#~ "like to use a different description then enable this option and fill in "
-#~ "the custom description field below. "
-#~ msgstr ""
-#~ "Secara default tema menggunakan deskripsi blog Anda, sebagaimana "
-#~ "ditentukan saat Anda menciptakan blog Anda, dalam mengisi kolom deskripsi "
-#~ "meta. Namun jika Anda ingin menggunakan deskripsi berbeda maka cukup "
-#~ "aktifkan opsi ini dan isi kolom judul kustom di bawah ini. "
-
-#~ msgid " Enable meta keywords"
-#~ msgstr "Aktifkan kata kunci meta"
-
-#~ msgid ""
-#~ "By default the theme does not add keywords to your header. Most search "
-#~ "engines don't use keywords to rank your site anymore, but some people "
-#~ "define them anyway just in case. If you want to add meta keywords to your "
-#~ "header then enable this option and fill in the custom keywords field "
-#~ "below. "
-#~ msgstr ""
-#~ "Secara default, tema tidak menambahkan kata kunci pada header Anda. "
-#~ "Sebagian besar mesin pencari tidak lagi menggunakan kata kunci untuk "
-#~ "menilai situs Anda, namun sebagian orang tetap menentukannya untuk "
-#~ "berjaga-jaga. Jika Anda ingin menambahkan kata kunci meta ke bagian "
-#~ "header Anda maka aktifkan opsi ini dan isilah kolom kata kunci kustom di "
-#~ "bawah ini. "
-
-#~ msgid " Enable canonical URL's"
-#~ msgstr "Aktifkan URL resmi"
-
-#~ msgid ""
-#~ "Canonicalization helps to prevent the indexing of duplicate content by "
-#~ "search engines, and as a result, may help avoid duplicate content "
-#~ "penalties and pagerank degradation. Some pages may have different URLs "
-#~ "all leading to the same place. For example domain.com, domain.com/index."
-#~ "html, and www.domain.com are all different URLs leading to your homepage. "
-#~ "From a search engine's perspective these duplicate URLs, which also occur "
-#~ "often due to custom permalinks, may be treated individually instead of as "
-#~ "a single destination. Defining a canonical URL tells the search engine "
-#~ "which URL you would like to use officially. The theme bases its canonical "
-#~ "URLs off your permalinks and the domain name defined in the settings tab "
-#~ "of wp-admin."
-#~ msgstr ""
-#~ "Kanonikalisasi membantu untuk mencegah pengindeksan konten duplikat oleh "
-#~ "mesin telusur, dan sebagai hasilnya, dapat membantu menghindari penalti "
-#~ "konten duplikat dan penurunan peringkat laman. Beberapa laman mungkin "
-#~ "memiliki URL yang berbeda yang mengarah ke tempat yang sama. Sebagai "
-#~ "contoh domain.com, domain.com/index.html, dan www.domain.com semuanya "
-#~ "adalah URL yang berbeda yang mengarah ke halaman utama Anda. Dari sudut "
-#~ "pandang mesin telusur, URL duplikat ini, yang juga sering ditimbulkan "
-#~ "oleh tautan kustom, mungkin diperlakukan secara individu dan bukannya "
-#~ "sebagai destinasi tunggal. Menentukan URL kanonis memberi tahu mesin "
-#~ "telusur URL yang ingin Anda gunakan secara resmi. Tema ini mendasarkan "
-#~ "URL kanonisnya dari tautan Anda dan nama domain yang ditentukan pada tab "
-#~ "pengaturan di wp-admin."
-
-#~ msgid "Homepage custom title (if enabled)"
-#~ msgstr "Judul kustom beranda (jika diaktifkan)"
-
-#~ msgid ""
-#~ "If you have enabled custom titles you can add your custom title here. "
-#~ "Whatever you type here will be placed between the < title >< /title > "
-#~ "tags in header.php"
-#~ msgstr ""
-#~ "Jika Anda mengaktifkan judul kustom Anda dapat menambahkan judul kustom "
-#~ "Anda di sini. Apapun yang Anda ketikkan di sini akan ditempatkan antara "
-#~ "label < title >< /title > di header.php"
-
-#~ msgid "Homepage meta description (if enabled)"
-#~ msgstr "Deskripsi meta beranda (jika diaktfikan)"
-
-#~ msgid ""
-#~ "If you have enabled meta descriptions you can add your custom description "
-#~ "here."
-#~ msgstr ""
-#~ "Jika Anda mengaktifkan deskripsi meta Anda dapat menambahkan deskripsi "
-#~ "meta di sini."
-
-#~ msgid "Homepage meta keywords (if enabled)"
-#~ msgstr "Kata kunci meta beranda (jika diaktifkan)"
-
-#~ msgid ""
-#~ "If you have enabled meta keywords you can add your custom keywords here. "
-#~ "Keywords should be separated by comas. For example: wordpress,themes,"
-#~ "templates,elegant"
-#~ msgstr ""
-#~ "Jika Anda mengaktifkan kata kunci meta Anda dapat menambahkan kata kunci "
-#~ "kustom di sini. Kata kunci harus dipisahkan oleh koma. Contoh: wordpress,"
-#~ "themes,templates,elegant"
-
-#~ msgid "If custom titles are disabled, choose autogeneration method"
-#~ msgstr "Jika judul kustom dimatikan, pilihlah metode penghasilan otomatis"
-
-#~ msgid ""
-#~ "If you are not using cutsom post titles you can still have control over "
-#~ "how your titles are generated. Here you can choose which order you would "
-#~ "like your post title and blog name to be displayed, or you can remove the "
-#~ "blog name from the title completely."
-#~ msgstr ""
-#~ "Jika Anda tidak menggunakan judul postingan kustom Anda dapat tetap "
-#~ "mengatur bagaimana judul Anda dihasilkan. Di sini Anda dapat memilih "
-#~ "urutan tampilan judul postingan dan nama blog Anda, atau Anda dapat "
-#~ "sepenuhnya menghapus nama blog dari judul."
-
-#~ msgid "Define a character to separate BlogName and Post title"
-#~ msgstr ""
-#~ "Tentukan karakter untuk memisahkan Nama Situs Web dan Judul Postingan"
-
-#~ msgid ""
-#~ "Here you can change which character separates your blog title and post "
-#~ "name when using autogenerated post titles. Common values are | or -"
-#~ msgstr ""
-#~ "Di sini Anda dapat mengubah karakter mana yang memisahkan judul blog dan "
-#~ "nama postingan Anda jika menggunakan judul postingan yang dihasilkan "
-#~ "secara otomatis. Nilai umum adalah | atau -"
-
-#~ msgid "Enable custom titles"
-#~ msgstr "Aktifkan judul kustom"
-
-#~ msgid ""
-#~ "By default the theme creates post titles based on the title of your post "
-#~ "and your blog name. If you would like to make your meta title different "
-#~ "than your actual post title you can define a custom title for each post "
-#~ "using custom fields. This option must be enabled for custom titles to "
-#~ "work, and you must choose a custom field name for your title below."
-#~ msgstr ""
-#~ "Secara default, tema menciptakan judul postingan berdasarkan judul "
-#~ "postingan dan nama blog Anda. Jika Anda ingin membuat judul meta Anda "
-#~ "berbeda dari judul postingan asli Anda dapat menentukan judul kustom "
-#~ "untuk setiap postingan menggunakan kolom kustom. Opsi ini harus "
-#~ "diaktifkan agar judul kustom dapat berfungsi, dan Anda harus memilih nama "
-#~ "kolom kustom untuk judul Anda di bawah."
-
-#~ msgid "Enable custom description"
-#~ msgstr "Aktifkan deskripsi kustom"
-
-#~ msgid ""
-#~ "If you would like to add a meta description to your post you can do so "
-#~ "using custom fields. This option must be enabled for descriptions to be "
-#~ "displayed on post pages. You can add your meta description using custom "
-#~ "fields based off the custom field name you define below."
-#~ msgstr ""
-#~ "Jika Anda ingin menambahkan deskripsi meta pada postingan, Anda dapat "
-#~ "melakukannya menggunakan kolom kustom. Opsi ini harus diaktifkan agar "
-#~ "deskripsi ditampilkan pada laman postingan. Anda dapat menambahkan "
-#~ "deskripsi meta menggunakan kolom kustom berdasarkan nama kolom kustom "
-#~ "yang Anda tentukan di bawah ini."
-
-#~ msgid "Enable custom keywords"
-#~ msgstr "Aktifkan kata kunci kustom"
-
-#~ msgid ""
-#~ "If you would like to add meta keywords to your post you can do so using "
-#~ "custom fields. This option must be enabled for keywords to be displayed "
-#~ "on post pages. You can add your meta keywords using custom fields based "
-#~ "off the custom field name you define below."
-#~ msgstr ""
-#~ "Jika Anda ingin menambahkan kata kunci meta pada postingan, Anda dapat "
-#~ "melakukannya menggunakan kolom kustom. Opsi ini harus diaktifkan agar "
-#~ "kata kunci ditampilkan pada laman postingan. Anda dapat menambahkan kata "
-#~ "kunci meta menggunakan kolom kustom berdasarkan nama kolom kustom yang "
-#~ "Anda tentukan di bawah ini."
-
-#~ msgid "Enable canonical URL's"
-#~ msgstr "Aktifkan URL resmi"
-
-#~ msgid "Custom field Name to be used for title"
-#~ msgstr "Nama kolom kustom untuk digunakan sebagai judul"
-
-#~ msgid ""
-#~ "When you define your title using custom fields you should use this value "
-#~ "for the custom field Name. The Value of your custom field should be the "
-#~ "custom title you would like to use."
-#~ msgstr ""
-#~ "Jika Anda menentukan judul Anda menggunakan kolom kustom Anda harus "
-#~ "menggunakan nilai ini untuk Nama kolom kustom. Nilai kolom kustom Anda "
-#~ "adalah judul kustom yang ingin Anda gunakan."
-
-#~ msgid "Custom field Name to be used for description"
-#~ msgstr "Nama kolom kustom untuk digunakan sebagai deskripsi"
-
-#~ msgid ""
-#~ "When you define your meta description using custom fields you should use "
-#~ "this value for the custom field Name. The Value of your custom field "
-#~ "should be the custom description you would like to use."
-#~ msgstr ""
-#~ "Saat  Anda menentukan deskripsi meta Anda menggunakan kolom kustom, Anda "
-#~ "harus menggunakan nilai ini untuk Nama kolom kustom. Nilai kolom kustom "
-#~ "Anda adalah deskripsi kustom yang ingin Anda gunakan."
-
-#~ msgid "Custom field Name to be used for keywords"
-#~ msgstr "nama kolom kustom untuk digunakan sebagai kata kunci"
-
-#~ msgid ""
-#~ "When you define your keywords using custom fields you should use this "
-#~ "value for the custom field Name. The Value of your custom field should be "
-#~ "the meta keywords you would like to use, separated by comas."
-#~ msgstr ""
-#~ "Saat Anda menentukan kata kunci Anda menggunakan kolom kustom, Anda harus "
-#~ "menggunakan nilai ini untuk Nama kolom kustom. Nilai kolom kustom Anda "
-#~ "adalah kata kunci meta yang ingin Anda gunakan, dipisahkan oleh koma."
-
-#~ msgid ""
-#~ "If you are not using cutsom post titles you can still have control over "
-#~ "hw your titles are generated. Here you can choose which order you would "
-#~ "like your post title and blog name to be displayed, or you can remove the "
-#~ "blog name from the title completely."
-#~ msgstr ""
-#~ "Jika Anda tidak menggunakan judul postingan kustom Anda dapat tetap "
-#~ "mengatur bagaimana judul Anda dihasilkan. Di sini Anda dapat memilih "
-#~ "urutan tampilan judul postingan dan nama blog Anda, atau Anda dapat "
-#~ "sepenuhnya menghapus nama blog dari judul."
-
-#~ msgid "Enable meta descriptions"
-#~ msgstr "Aktifkan deskripsi meta"
-
-#~ msgid ""
-#~ "Check this box if you want to display meta descriptions on category/"
-#~ "archive pages. The description is based off the category description you "
-#~ "choose when creating/edit your category in wp-admin."
-#~ msgstr ""
-#~ "Centangi kotak ini jika Anda ingin menampilkan deskripsi meta pada laman "
-#~ "kategori/arsip. Deskripsi berdasarkan deskripsi kategori yang Anda pilih "
-#~ "saat membuat/menyunting kategori Anda di wp-admin."
-
-#~ msgid "Choose title autogeneration method"
-#~ msgstr "Pilih metode penghasil judul"
-
-#~ msgid ""
-#~ "Here you can choose how your titles on index pages are generated. You can "
-#~ "change which order your blog name and index title are displayed, or you "
-#~ "can remove the blog name from the title completely."
-#~ msgstr ""
-#~ "Di sini Anda dapat memilih metode penghasilan judul pada laman indeks. "
-#~ "Anda dapat mengubah urutan tampilan nama blog dan judul indeks, atau Anda "
-#~ "dapat sepenuhnya menghapus nama blog dari judul."
-
-#~ msgid ""
-#~ "Here you can change which character separates your blog title and index "
-#~ "page name when using autogenerated post titles. Common values are | or -"
-#~ msgstr ""
-#~ "Di sini Anda dapat mengubah karakter mana yang memisahkan judul blog dan "
-#~ "nama laman indeks jika menggunakan judul postingan yang dihasilkan "
-#~ "otomatis. Nilai umum adalah | atau -"
-
-#~ msgid "Code Integration"
-#~ msgstr "Integrasi Kode"
-
-#~ msgid "Enable header code"
-#~ msgstr "Aktifkan kode header"
-
-#~ msgid ""
-#~ "Disabling this option will remove the header code below from your blog. "
-#~ "This allows you to remove the code while saving it for later use."
-#~ msgstr ""
-#~ "Mematikan opsi ini akan menghapus kode header di bawah ini dari blog "
-#~ "Anda. Ini mengizinkan Anda untuk menghapus kode sambil menyimpannya untuk "
-#~ "digunakan nanti."
-
-#~ msgid "Enable body code"
-#~ msgstr "Aktifkan kode <body>"
-
-#~ msgid ""
-#~ "Disabling this option will remove the body code below from your blog. "
-#~ "This allows you to remove the code while saving it for later use."
-#~ msgstr ""
-#~ "Mematikan opsi ini akan menghapus kode body di bawah ini dari blog Anda. "
-#~ "Ini mengizinkan Anda untuk menghapus kode sambil menyimpannya untuk "
-#~ "digunakan nanti."
-
-#~ msgid "Enable single top code"
-#~ msgstr "Aktifkan kode teratas tunggal"
-
-#~ msgid ""
-#~ "Disabling this option will remove the single top code below from your "
-#~ "blog. This allows you to remove the code while saving it for later use."
-#~ msgstr ""
-#~ "Mematikan opsi ini akan menghapus kode teratas tunggal di bawah ini dari "
-#~ "blog Anda. Ini mengizinkan Anda untuk menghapus kode sambil menyimpannya "
-#~ "untuk digunakan nanti."
-
-#~ msgid "Enable single bottom code"
-#~ msgstr "Aktifkan kode terbawah tunggal"
-
-#~ msgid ""
-#~ "Disabling this option will remove the single bottom code below from your "
-#~ "blog. This allows you to remove the code while saving it for later use."
-#~ msgstr ""
-#~ "Mematikan opsi ini akan menghapus kode terbawah tunggal di bawah ini dari "
-#~ "blog Anda. Ini mengizinkan Anda untuk menghapus kode sambil menyimpannya "
-#~ "untuk digunakan nanti."
-
-#~ msgid "Add code to the < head > of your blog"
-#~ msgstr "Tambahkan kode ke < head > blog Anda"
-
-#~ msgid ""
-#~ "Any code you place here will appear in the head section of every page of "
-#~ "your blog. This is useful when you need to add javascript or css to all "
-#~ "pages."
-#~ msgstr ""
-#~ "Kode apapun yang Anda letakkan di sini akan muncul di bagian kepala semua "
-#~ "laman blog Anda. Ini berguna jika Anda perlu menambahkan Javascript atau "
-#~ "CSS ke semua laman."
-
-#~ msgid ""
-#~ "Add code to the < body > (good for tracking codes such as google "
-#~ "analytics)"
-#~ msgstr ""
-#~ "Tambahkan kode ke < body > (baik untuk melacak kode seperti Google "
-#~ "Analytics)"
-
-#~ msgid ""
-#~ "Any code you place here will appear in body section of all pages of your "
-#~ "blog. This is usefull if you need to input a tracking pixel for a state "
-#~ "counter such as Google Analytics."
-#~ msgstr ""
-#~ "Kode apapun yang Anda letakkan di sini akan muncul di bagian body semua "
-#~ "laman blog Anda. Ini berguna jika Anda perlu memasukkan piksel pelacak "
-#~ "untuk konter status seperti Google Analytics."
-
-#~ msgid "Add code to the top of your posts"
-#~ msgstr "Tambahkan kode ke puncak postingan Anda"
-
-#~ msgid ""
-#~ "Any code you place here will be placed at the top of all single posts. "
-#~ "This is useful if you are looking to integrating things such as social "
-#~ "bookmarking links."
-#~ msgstr ""
-#~ "Kode apapun yang Anda letakkan di sini akan muncul di bagian puncak semua "
-#~ "postingan. Ini berguna jika Anda ingin mengintegrasikan item seperti "
-#~ "tautan markah sosial."
-
-#~ msgid "Add code to the bottom of your posts, before the comments"
-#~ msgstr "Tambahkan kode ke bawah postingan Anda, sebelum komentar"
-
-#~ msgid "Manage Un-widgetized Advertisements"
-#~ msgstr "Kelola Iklan"
-
-#~ msgid "Enable Single Post 468x60 banner"
-#~ msgstr "Aktifkan banner 468x60 Postingan Tunggal"
-
-#~ msgid ""
-#~ "Enabling this option will display a 468x60 banner ad on the bottom of "
-#~ "your post pages below the single post content. If enabled you must fill "
-#~ "in the banner image and destination url below."
-#~ msgstr ""
-#~ "Mengaktifkan opsi ini akan menampilkan banner iklan 468x60 di bagian "
-#~ "bawah laman postingan Anda di bawah konten postingan tunggal. Jika "
-#~ "diaktifkan, Anda harus mengisi gambar banner dan URL tujuan di bawah ini."
-
-#~ msgid "Input 468x60 advertisement banner image"
-#~ msgstr "Input gambar banner iklan 468x60"
-
-#~ msgid "Here you can provide 468x60 banner image url"
-#~ msgstr "Di sini Anda dapat memasukkan URL gambar banner 468x60"
-
-#~ msgid "Input 468x60 advertisement destination url"
-#~ msgstr "Input URL tujuan iklan 468x60"
-
-#~ msgid "Here you can provide 468x60 banner destination url"
-#~ msgstr "Di sini Anda dapat memasukkan URL tujuan banner 468x60"
-
-#~ msgid "Input 468x60 adsense code"
-#~ msgstr "Input kode Google Adsense 468x60"
-
-#~ msgid "Place your adsense code here."
-#~ msgstr "Letakkan kode Google Adsense Anda di sini."
-
-#~ msgid "Pages:"
-#~ msgstr "Laman:"
-
-#~ msgctxt "Previous post link"
-#~ msgid "&larr;"
-#~ msgstr " "
-
-#~ msgctxt "Next post link"
-#~ msgid "&rarr;"
-#~ msgstr " "
-
-#~ msgid ""
-#~ "The broswer version you are currently using is outdated. Please update to "
-#~ "the newest version."
-#~ msgstr ""
-#~ "Versi peramban yang Anda gunakan sudah usang. Harap perbarui ke versi "
-#~ "terbaru."
-
-#~ msgid ""
-#~ "You reached your server memory limit. Please transfer more substantial "
-#~ "data at the time."
-#~ msgstr ""
-#~ "Anda sudah mencapai limit memori server. Harap coba tingkatkan limit "
-#~ "memori PHP Anda."
-
-#~ msgid ""
-#~ "This will return all of the settings throughout the options page to their "
-#~ "default values. <strong>Are you sure you want to do this?</strong>"
-#~ msgstr ""
-#~ "Ini akan mengembalikan semua pengaturan di laman opsi ke nilai default-"
-#~ "nya. <strong>Yakin ingin melakukan ini?</strong>"
-
-#~ msgid "%1$s %2$s"
-#~ msgstr "%1$s %2$s"
-
-#~ msgid "Items"
-#~ msgstr "Item"
-
-#~ msgid "Saving..."
-#~ msgstr "Menyimpan..."
-
-#~ msgid "Options Saved."
-#~ msgstr "Opsi Tersimpan."
-
-#~ msgid "Ad Management"
-#~ msgstr "Manajemen Iklan"
-
-#~ msgid "Support Docs"
-#~ msgstr "Dokumen Bantuan"
-
-#~ msgid "Documentation"
-#~ msgstr "Dokumentasi"
-
-#~ msgid "on %1$s at %2$s"
-#~ msgstr "pada %1$s pukul %2$s"
-
-#~ msgid "(Edit)"
-#~ msgstr "(Sunting)"
-
-#~ msgid "Reply"
-#~ msgstr "Balas"
-
-#~ msgid "Your comment is awaiting moderation."
-#~ msgstr "Komentar Anda menunggu moderasi."
+msgstr "di"

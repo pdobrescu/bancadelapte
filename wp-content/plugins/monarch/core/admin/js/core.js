@@ -2,6 +2,24 @@
 
 	"use strict";
 
+	var top_window = window;
+	var is_iframe  = false;
+
+	if (window.top && window.top.__Cypress__) {
+		if (window.parent === window.top) {
+			top_window = window;
+			is_iframe  = false;
+
+		} else {
+			top_window = window.parent;
+			is_iframe  = true;
+		}
+
+	} else if (window.top) {
+		top_window = window.top;
+		is_iframe  = window.top !== window.self;
+	}
+
 	// Extend etCore since it is declared by localization.
 	$.extend( etCore, {
 
@@ -11,13 +29,14 @@
 		},
 
 		$selector: function(selector) {
-			return window.top ? window.top.jQuery(selector) : jQuery(selector);
-		},		
+			return top_window.jQuery(selector);
+		},
 
 		applyMaxHeight: function() {
 			var $et_core_modal_overlay = this.$selector('.et-core-modal-overlay');
 			var $et_core_modal = $et_core_modal_overlay.find('.et-core-modal');
 			var overlay_height = $et_core_modal_overlay.innerHeight();
+			var no_scroll_fix = !$et_core_modal_overlay.hasClass('et-core-modal-overlay-scroll-fix');
 			var disabled_scrollbar_class = 'et-core-modal-disabled-scrollbar';
 			var et_core_modal_height;
 
@@ -25,9 +44,18 @@
 				return;
 			}
 
-			$et_core_modal_overlay.addClass( disabled_scrollbar_class );
+			if (no_scroll_fix) {
+				$et_core_modal_overlay.addClass( disabled_scrollbar_class );
+			}
 
-			et_core_modal_height = $et_core_modal.innerHeight();
+			if ($et_core_modal_overlay.hasClass(disabled_scrollbar_class)) {
+				et_core_modal_height = $et_core_modal.innerHeight();
+			} else {
+				var content_height = Math.max($et_core_modal.find('.et-core-modal-content > *').height());
+				var header_height = $et_core_modal_overlay.find('.et-core-modal-header').outerHeight() || 0;
+				var buttons_height = $et_core_modal_overlay.find('.et_pb_prompt_buttons').outerHeight() || 0;
+				et_core_modal_height = header_height + buttons_height + content_height + 60 - 23;
+			}
 
 			if ( et_core_modal_height > ( overlay_height * 0.6 ) ) {
 				$et_core_modal_overlay.removeClass( disabled_scrollbar_class );
@@ -37,6 +65,7 @@
 				return;
 			}
 
+			$et_core_modal_overlay.addClass(disabled_scrollbar_class);
 			$et_core_modal.css( 'marginTop', '-' + ( et_core_modal_height / 2 ) + 'px' );
 		},
 
@@ -57,6 +86,10 @@
 			} );
 
 			$( document ).on( 'click', '[data-et-core-modal="close"], .et-core-modal-overlay', function( e ) {
+				if ($(this).data('et-core-disable-closing')) {
+					return;
+				}
+
 				$this.modalClose( e, this );
 			} );
 
@@ -159,16 +192,21 @@
 
 	} );
 
-	$( window ).on( 'et-core-modal-active', function() {
-		etCore.applyMaxHeight();
-	} );
+	setTimeout(function() {
+		if ($('.wrap.woocommerce').length) {
+			return;
+		}
 
-	$( document ).ready( function() {
-		etCore.init();
+		$(window).on('et-core-modal-active', function() {
+			etCore.applyMaxHeight();
+		});
+
+		$(document).ready(function() {
+			etCore.init();
+		});
+
+		$(window).resize(function() {
+			etCore.applyMaxHeight();
+		});
 	});
-
-	$( window ).resize( function() {
-		etCore.applyMaxHeight();
-	} );
-
 })(jQuery);

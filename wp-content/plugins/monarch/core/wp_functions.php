@@ -147,3 +147,19 @@ function wp_doing_cron() {
 	return apply_filters( 'wp_doing_cron', defined( 'DOING_CRON' ) && DOING_CRON );
 }
 endif;
+
+if ( ! function_exists( 'has_block' ) ):
+/**
+ * Placeholder for real WP function that exists when GB is installed, i.e. WP >= 5.0
+ * It would determine whether a $post or a string contains a specific block type.
+ *
+ * @see has_block()
+ *
+ * @since 4.2
+ *
+ * @return bool forced false result.
+ */
+function has_block() {
+	return false;
+}
+endif;

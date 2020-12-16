@@ -10,7 +10,8 @@
 	5.1 Secondary Tabs
   6.0 Loader
   7.0 Progress Bar
-  6.0 Animations
+  7.1 Pending AJAX Request
+  8.0 Animations
 ------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------
@@ -257,27 +258,27 @@ body.rtl.et-db:not(.et-fb-no-rtl) button.et-core-button {
 .et-core-modal {
 	display: none;
 	z-index: 1000000001;
-	overflow: auto;
+	overflow: hidden;
 	position: fixed;
 	top: 20%;
 	bottom: 20%;
 	left: 50%;
-	width: 400px;
+	max-width: 400px;
+	width: 100%;
 	background: rgb(255, 255, 255);
-	margin-left: -200px;
-	box-sizing: border-box;
-	box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 100px;
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 	color: #32373c;
+	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	-moz-box-shadow: 0px 0px 100px rgba(0, 160, 210, 0.20);
-	-webkit-box-shadow: 0px 0px 100px rgba(0, 160, 210, 0.20);
-	box-shadow: 0px 0px 100px rgba(0, 160, 210, 0.20);
+	box-shadow: 0 0 100px rgba(0, 160, 210, 0.20);
+	-moz-box-shadow: 0 0 100px rgba(0, 160, 210, 0.20);
+	-webkit-box-shadow: 0 0 100px rgba(0, 160, 210, 0.20);
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	overflow: hidden;
 }
 
 .et-core-modal,
@@ -288,14 +289,20 @@ body.rtl.et-db:not(.et-fb-no-rtl) button.et-core-button {
 
 .et-core-modal-overlay.et-core-active .et-core-modal {
 	display: block;
-	-webkit-animation: et-core-fade-in-scale .5s 1 cubic-bezier(0.77,0,.175,1);
-	animation: et-core-fade-in-scale .5s 1 cubic-bezier(0.77,0,.175,1);
+	-webkit-animation: et-core-fade-in-scale-center .5s 1 cubic-bezier(0.77,0,.175,1);
+	animation: et-core-fade-in-scale-center .5s 1 cubic-bezier(0.77,0,.175,1);
 }
 
 .et-core-modal-overlay.et-core-closing .et-core-modal {
 	opacity: 0;
-	-webkit-animation: et-core-fade-out-scale .5s 1 cubic-bezier(0.77,0,.175,1);
-	animation: et-core-fade-out-scale .5s 1 cubic-bezier(0.77,0,.175,1);
+	-webkit-animation: et-core-fade-out-scale-center .5s 1 cubic-bezier(0.77,0,.175,1);
+	animation: et-core-fade-out-scale-center .5s 1 cubic-bezier(0.77,0,.175,1);
+}
+
+.et-core-modal-overlay--transparent {
+	background: transparent;
+	/* 100025 = Settings Modal Modal z-index */
+	z-index: 100024;
 }
 
 .et-core-modal-header {
@@ -311,14 +318,13 @@ body.rtl.et-db:not(.et-fb-no-rtl) button.et-core-button {
 	font-size: 18px;
 	line-height: 17px;
 	color: rgb(255, 255, 255);
-	margin: 0px;
-	padding: 0;
+	margin: 0;
+	padding: 0 25px 0 0;
 	text-transform: none;
 	text-decoration: none;
 	font-style: normal;
 	font-family: 'Open Sans', Helvetica, Roboto, Arial, sans-serif;
 	letter-spacing: 0;
-	font-weight: 600;
 }
 
 .et-core-modal-close,
@@ -552,6 +558,68 @@ body.rtl.et-db:not(.et-fb-no-rtl) .et-core-modal-two-buttons .et-core-modal-acti
 	background: #00bba3;
 }
 
+.et-core-confirmation-dialog-overlay {
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	top: 0;
+	right: auto;
+	bottom: 0;
+	left: -9999px;
+	transition: opacity .5s .2s;
+	opacity: 0;
+	z-index: 10000000;
+}
+
+.et-core-confirmation-dialog-overlay.et-core-active {
+	opacity: 1;
+	left: 0;
+	right: 0;
+}
+
+.et-core-confirmation-dialog-overlay.et-core-closing {
+	opacity: 0;
+}
+
+.et-core-confirmation-dialog {
+	display: none;
+	background: #FFF;
+	box-shadow: 0 5px 30px 0 rgba(43, 135, 218, 0.2);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 85%;
+	animation: et-core-fade-in-scale .5s 1 cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.et-core-confirmation-dialog-overlay.et-core-active .et-core-confirmation-dialog {
+	display: block;
+}
+
+.et-core-confirmation-dialog-header {
+	margin: 0;
+	padding: 21px 40px 20px 26px;
+}
+
+.et-core-confirmation-dialog-header h3.et-core-modal-title {
+	color: #333;
+}
+
+.et-core-confirmation-dialog-header .et-core-modal-close:before {
+	color: rgb(76, 88, 102);
+}
+
+.et-core-confirmation-dialog-content {
+	color: #5c6978;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.4em;
+	padding: 0 24px 24px;
+}
+
+.et-core-confirmation-dialog .et-core-modal-action {
+	position: static;
+}
+
 /*-----------------------------------------------------------------------------
   5.0 - Tabs
 ------------------------------------------------------------------------------*/
@@ -774,6 +842,59 @@ body.rtl.et-db:not(.et-fb-no-rtl) .et-core-tabs li.ui-state-default {
 }
 
 /*-----------------------------------------------------------------------------
+  7.1 - Pending AJAX Request
+------------------------------------------------------------------------------*/
+#et-ajax-saving {
+	display: none;
+	transition: background, box-shadow 0.3s;
+	box-shadow: rgba(0, 139, 219, 0.247059) 0 0 60px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	background: rgb(255, 255, 255);
+	border-radius: 50px;
+	margin: -25px 0 0 -25px;
+	z-index: 999999;
+	text-align: center;
+}
+
+#et-ajax-saving img {
+	margin: 9px;
+}
+
+#et-ajax-saving.success-animation {
+	background-color: rgb(169, 233, 0);
+	box-shadow: rgba(0, 0, 0, 0) 0 0 40px;
+	opacity: 1;
+	animation: et-core-bounce-in 1s;
+}
+
+#et-ajax-saving.success-animation:before {
+	background: none;
+	font-family: 'etbuilder';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "N";
+	color: rgb(255, 255, 255);
+	font-size: 22px;
+	line-height: 50px;
+}
+
+#et-ajax-saving.et_loading:before {
+	display: none;
+}
+
+#et-ajax-saving.success-animation img {
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------
   8.0 - Animations
 ------------------------------------------------------------------------------*/
 
@@ -949,5 +1070,84 @@ body.rtl.et-db:not(.et-fb-no-rtl) .et-core-tabs li.ui-state-default {
 	}
 	100% {
 		opacity: 0; transform: scale(.9,.9);
+	}
+}
+
+@-webkit-keyframes et-core-fade-in-scale-center {
+	0% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9);
+	}
+	100% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+}
+
+@-moz-keyframes et-core-fade-in-scale-center {
+	0% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9)
+	}
+	100% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+}
+
+@-o-keyframes et-core-fade-in-scale-center {
+	0% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9)
+	}
+	100% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+}
+
+@keyframes et-core-fade-in-scale-center {
+	0% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9);
+	}
+	100% {
+		opacity: 1; transform: translateX(-50%)scale(1,1);
+	}
+}
+
+@-webkit-keyframes et-core-fade-out-scale-center {
+	0% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+	100% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9);
+	}
+}
+
+@-moz-keyframes et-core-fade-out-scale-center {
+	0% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+	100% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9);
+	}
+}
+
+@-o-keyframes et-core-fade-out-scale-center {
+	0% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+	100% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9);
+	}
+}
+
+@keyframes et-core-fade-out-scale-center {
+	0% {
+		opacity: 1; transform: translateX(-50%) scale(1,1);
+	}
+	100% {
+		opacity: 0; transform: translateX(-50%) scale(.9,.9);
+	}
+}
+
+/* This media query is set to the modal default width */
+@media screen and ( max-width: 400px ) {
+	.et-core-modal {
+		width: calc(100% - 20px);
 	}
 }

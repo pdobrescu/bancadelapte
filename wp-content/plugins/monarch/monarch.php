@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Monarch Plugin
  * Plugin URI: http://www.elegantthemes.com
- * Version: 1.4.12
+ * Version: 1.4.13
  * Description: Social Media Plugin
  * Author: Elegant Themes
  * Author URI: http://www.elegantthemes.com
@@ -17,7 +17,7 @@ define( 'ET_MONARCH_PLUGIN_DIR', trailingslashit( dirname(__FILE__) ) );
 define( 'ET_MONARCH_PLUGIN_URI', plugins_url('', __FILE__) );
 
 class ET_Monarch {
-	var $plugin_version = '1.4.12';
+	var $plugin_version = '1.4.13';
 	var $db_version = '1.3';
 	var $monarch_options;
 	var $_options_pagename = 'et_monarch_options';
@@ -50,7 +50,7 @@ class ET_Monarch {
 
 		add_action( 'admin_init', array( $this, 'register_settings' ) );
 
-		add_action( 'plugins_loaded', array( $this, 'add_localization' ) );
+		add_action( 'plugins_loaded', array( $this, 'add_localization' ), 11 );
 
 		// Generates the window with social networks
 		add_action( 'wp_ajax_generate_modal_ajax', array( $this, 'generate_select_network_modal_window' ) );
@@ -2294,7 +2294,11 @@ class ET_Monarch {
 
 				break;
 			case 'facebook':
-				$authorization_url = 'https://www.facebook.com/dialog/oauth?response_type=code&scope=public_profile,manage_pages&state=%1$s&client_id=%2$s&redirect_uri=%3$s';
+				$authorization_url = 'https://www.facebook.com/dialog/oauth?response_type=code&scope=public_profile,pages_read_engagement&state=%1$s&client_id=%2$s&redirect_uri=%3$s';
+
+			    if ( isset( $_POST['using_legacy_api'] ) ) {
+				    $authorization_url = 'https://www.facebook.com/dialog/oauth?response_type=code&scope=public_profile,manage_pages&state=%1$s&client_id=%2$s&redirect_uri=%3$s';
+			    }
 
 				break;
 		}
@@ -5229,3 +5233,14 @@ function et_monarch_init_plugin() {
 	$GLOBALS['et_monarch'] = new ET_Monarch();
 }
 add_action( 'plugins_loaded', 'et_monarch_init_plugin' );
+
+/**
+ * Support Center
+ *
+ * @since ??
+ */
+function et_add_monarch_support_center() {
+	$support_center = new ET_Core_SupportCenter( 'monarch_plugin' );
+	$support_center->init();
+}
+add_action( 'init', 'et_add_monarch_support_center' );

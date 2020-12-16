@@ -5,7 +5,10 @@ import get from 'lodash/get';
 import isUndefined from 'lodash/isUndefined';
 import size from 'lodash/size';
 import includes from 'lodash/includes';
-import dropRight from 'lodash/dropRight';
+import isEmpty from 'lodash/isEmpty';
+
+// Internal Dependencies
+import { top_window } from './frame-helpers';
 
 
 class PropertyResolver {
@@ -166,7 +169,46 @@ class PropertyResolver {
    *
    * @return {string}
    */
-  protocol = () => get(window.top, 'location.protocol', 'http:').split(':')[0];
+  protocol = () => get(top_window, 'location.protocol', 'http:').split(':')[0];
+
+  /**
+   * Return whether the current post type is a TB layout.
+   *
+   * @since 4.0
+   *
+   * @return {string}
+   */
+  isTBLayout = () => ETBuilderBackend.themeBuilder.isLayout ? 'on' : 'off';
+
+  /**
+   * Return whether the current post type is post.
+   *
+   * @since 4.3.4
+   *
+   * @return {string}
+   */
+  isPost = () => 'post' === ETBuilderBackend.postType ? 'on' : 'off';
+
+  /**
+   * Return whether the current post type is post or a TB layout.
+   *
+   * @since 4.3.4
+   *
+   * @return {string}
+   */
+  isPostOrTBLayout = () => 'on' === this.isPost() || 'on' === this.isTBLayout() ? 'on' : 'off';
+
+  /**
+   * Whether the "Image Overlay" toggle of the Image module should appear.
+   * It should be visible if either the "Open in Lightbox" option is "on"
+   * OR "Image Link URL" is not empty and the conditional logic only
+   * works with actual values and also not with OR relation.
+   *
+   * @since 4.0.7
+   *
+   * @return {string}
+   */
+  showImageUseOverlayField = () => 'on' === this.resolve('show_in_lightbox') || !isEmpty(this.resolve('url')) ? 'on' : 'off';
 
   /**
    * Resolves a property value using the provided path.

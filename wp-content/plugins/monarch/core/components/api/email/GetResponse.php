@@ -171,7 +171,7 @@ class ET_Core_API_Email_GetResponse extends ET_Core_API_Email_Provider {
 		$args               = $this->transform_data_to_provider_format( $args, 'subscriber' );
 		$args               = $this->_process_custom_fields( $args );
 		$args['note']       = $this->SUBSCRIBED_VIA;
-		$args['dayOfCycle'] = 1;
+		$args['dayOfCycle'] = 0;
 
 		if ( empty( $args['name'] ) ) {
 			unset( $args['name'] );

@@ -1,14 +1,14 @@
 // External Dependencies
-import {
-  defaults,
-  isEmpty,
-  get,
-  includes,
-  forEach,
-  some,
-  compact,
-  uniq,
-} from 'lodash';
+// Do not use `import { a, b } from 'lodash'` syntax here to avoid
+// lot of unused code being included in the boot.js bundle.
+import defaults from 'lodash/defaults';
+import isEmpty from 'lodash/isEmpty';
+import get from 'lodash/get';
+import includes from 'lodash/includes';
+import forEach from 'lodash/forEach';
+import some from 'lodash/some';
+import compact from 'lodash/compact';
+import uniq from 'lodash/uniq';
 import { isScriptExcluded, isScriptTopOnly } from './utils';
 import $ from 'jquery';
 
@@ -168,6 +168,8 @@ class ETCoreFrames {
     // We do the following after the iframe is in the DOM to avoid double load event that can occur
     // with Chrome and Safari in some cases
     $iframe.on('load', () => {
+      this._enableSalvattoreInVB();
+
       if (move_dom) {
         this._moveDOMToFrame($iframe);
       } else {
@@ -181,9 +183,9 @@ class ETCoreFrames {
   };
 
   _createResourceElement = (base_element, target_document) => {
-    const { id, nodeName: name, href, src, rel, type } = base_element;
+    const { id, nodeName: name, href, rel, type } = base_element;
 
-    const attrs = ['id', 'className', 'src', 'href', 'type', 'rel', 'innerHTML', 'media', 'screen', 'crossorigin', 'data-et-type'];
+    const attrs = ['id', 'className', 'href', 'type', 'rel', 'innerHTML', 'media', 'screen', 'crossorigin', 'data-et-type'];
 
     if ('et-fb-top-window-css' === id) {
       return;
@@ -198,6 +200,17 @@ class ETCoreFrames {
     }
 
     const element = target_document.createElement(name);
+
+    // Use a custom src for the app window if the element defines one.
+    const appSrc = base_element.getAttribute('data-et-vb-app-src');
+
+    if (appSrc) {
+      element.src = appSrc;
+    } else {
+      attrs.push('src');
+    }
+
+    const src = appSrc ? appSrc : base_element.src;
 
     if ((src || (href && type !== 'text/less')) && ('LINK' !== name || 'stylesheet' === rel)) {
       this.loading.push(this._resourceLoadAsPromise(element));
@@ -334,6 +347,15 @@ class ETCoreFrames {
     return new Promise((resolve) => {
       resource.addEventListener('load', resolve);
       resource.addEventListener('error', resolve);
+    });
+  }
+
+  _enableSalvattoreInVB() {
+    $('[data-et-vb-columns]').each(function () {
+      const $this = $(this);
+      $this
+          .attr('data-columns', $this.attr('data-et-vb-columns'))
+          .removeAttr('data-et-vb-columns');
     });
   }
 

@@ -95,7 +95,7 @@ class ETCoreSortableList extends PureComponent {
       event.preventDefault();
     }
 
-    const value     = this.state.items || [];
+    const value     = this.state.items || '[]';
     const items     = JSON.parse(value);
     const itemValue = items.length && false !== index && !resetValue ? items[index] : {};
     const dragID    = this._nextDragID();
@@ -229,7 +229,7 @@ class ETCoreSortableList extends PureComponent {
       defaults(this.link_settings_backup, {link_url: '', link_text: ''});
     }
 
-    const $body = window.top ? window.top.jQuery('body') : $('body');
+    const $body = (ET_Builder && ET_Builder.Frames.top.jQuery('body')) || jQuery('body');
 
     $body.toggleClass('et-core-control-sortable-list-editing-link', false !== index);
 
@@ -242,7 +242,7 @@ class ETCoreSortableList extends PureComponent {
     event.preventDefault();
 
     let isClick    = 'click' === event.type;
-    let value      = this.state.items || [];
+    let value      = this.state.items || '[]';
     let items      = JSON.parse(value);
     let itemValue  = isClick ? item.value : event.target.value;
     let isCheckbox = ! isUndefined(this.props.checkbox) && true === this.props.checkbox;

@@ -133,6 +133,14 @@ abstract class ET_Core_API_Service {
 	public $http_auth = false;
 
 	/**
+	 * Maximum number of accounts user is allowed to add for the service.
+	 *
+	 * @since 4.0.7
+	 * @var int
+	 */
+	public $max_accounts;
+
+	/**
 	 * The service's proper name (will be shown in the UI).
 	 *
 	 * @since 1.1.0
@@ -223,7 +231,7 @@ abstract class ET_Core_API_Service {
 	 * @param string $api_key      The api key for the account. Optional (can be set after instantiation).
 	 */
 	public function __construct( $owner = 'ET_Core', $account_name = '', $api_key = '' ) {
-		$this->account_name   = sanitize_text_field( $account_name );
+		$this->account_name   = str_replace( '.', '', sanitize_text_field( $account_name ) );
 		$this->owner          = sanitize_text_field( $owner );
 		$this->account_fields = $this->get_account_fields();
 

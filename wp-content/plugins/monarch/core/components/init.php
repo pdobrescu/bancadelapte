@@ -5,6 +5,8 @@ if ( ! function_exists( 'et_core_init' ) ):
  * {@see 'plugins_loaded' (9999999) Must run after cache plugins have been loaded.}
  */
 function et_core_init() {
+	ET_Core_API_Spam_Providers::instance();
+	ET_Core_Cache_Directory::instance();
 	ET_Core_PageResource::startup();
 
 	if ( defined( 'ET_CORE_UPDATED' ) ) {
@@ -31,10 +33,33 @@ function et_core_init() {
 }
 endif;
 
+if ( ! function_exists( 'et_core_site_has_builder' ) ):
+	/**
+	 * Check is `et_core_site_has_builder` allowed.
+	 * We can clear cache managed by 3rd party plugins only
+	 * if Divi, Extra, or the Divi Builder plugin
+	 * is active when the core was called.
+	 *
+	 * @return boolean
+	 */
+	function et_core_site_has_builder() {
+		global $shortname;
+		$core_path                     = get_transient( 'et_core_path' );
+		$is_divi_builder_plugin_active = false;
+		if ( ! empty( $core_path ) && false !== strpos( $core_path, '/divi-builder/' ) && function_exists('is_plugin_active') ) {
+			$is_divi_builder_plugin_active = is_plugin_active( 'divi-builder/divi-builder.php' );
+		}
+		if( $is_divi_builder_plugin_active || in_array( $shortname, array( 'divi', 'extra' ) ) ) {
+			return true;
+		}
+
+		return false;
+	}
+endif;
 
 if ( ! function_exists( 'et_core_clear_wp_cache' ) ):
 function et_core_clear_wp_cache( $post_id = '' ) {
-	if ( ! wp_doing_cron() && ! et_core_security_check_passed( 'edit_posts' ) ) {
+	if ( ( ! wp_doing_cron() && ! et_core_security_check_passed( 'edit_posts' ) ) || ! et_core_site_has_builder() ) {
 		return;
 	}
 
@@ -78,6 +103,11 @@ function et_core_clear_wp_cache( $post_id = '' ) {
 			} else if ( '' === $post_id && method_exists( $GLOBALS['wp_fastest_cache'], 'deleteCache' ) ) {
 				$GLOBALS['wp_fastest_cache']->deleteCache();
 			}
+		}
+
+		// Hummingbird
+		if ( has_action( 'wphb_clear_page_cache' ) ) {
+			'' !== $post_id ? do_action( 'wphb_clear_page_cache', $post_id ) : do_action( 'wphb_clear_page_cache' );
 		}
 
 		// WordPress Cache Enabler
@@ -152,12 +182,49 @@ function et_core_clear_wp_cache( $post_id = '' ) {
 			wp_doing_ajax() ? ET_Core_LIB_BluehostCache::get_instance()->clear( $post_id ) : do_action( 'epc_purge' );
 		}
 
+			// Pressable.
+			if ( isset( $GLOBALS['batcache'] ) && is_object( $GLOBALS['batcache'] ) ) {
+				wp_cache_flush();
+			}
+
+			// Cloudways - Breeze.
+			if ( class_exists( 'Breeze_Admin' ) ) {
+				$breeze_admin = new Breeze_Admin();
+				$breeze_admin->breeze_clear_all_cache();
+			}
+
+			// Kinsta.
+			if ( class_exists( '\Kinsta\Cache' ) && isset( $GLOBALS['kinsta_cache'] ) && is_object( $GLOBALS['kinsta_cache'] ) ) {
+				global $kinsta_cache;
+
+				if ( isset( $kinsta_cache->kinsta_cache_purge ) && method_exists( $kinsta_cache->kinsta_cache_purge, 'purge_complete_caches' ) ) {
+					$kinsta_cache->kinsta_cache_purge->purge_complete_caches();
+				}
+			}
+
+			// GoDaddy.
+			if ( class_exists( '\WPaaS\Cache' ) ) {
+				if ( ! \WPaaS\Cache::has_ban() ) {
+					remove_action( 'shutdown', array( '\WPaaS\Cache', 'purge' ), PHP_INT_MAX );
+					add_action( 'shutdown', array( '\WPaaS\Cache', 'ban' ), PHP_INT_MAX );
+				}
+			}
+
 		// Complimentary Performance Plugins
 		// Autoptimize
 		if ( is_callable( 'autoptimizeCache::clearall' ) ) {
 			autoptimizeCache::clearall();
 		}
 
+			// WP Optimize.
+			if ( class_exists( 'WP_Optimize' ) && defined( 'WPO_PLUGIN_MAIN_PATH' ) ) {
+				include_once WPO_PLUGIN_MAIN_PATH . 'cache/class-cache-commands.php';
+
+				if ( class_exists( 'WP_Optimize_Cache_Commands' ) ) {
+					$wpo_cache_commands = new WP_Optimize_Cache_Commands();
+					$wpo_cache_commands->purge_page_cache();
+				}
+			}
 	} catch( Exception $err ) {
 		ET_Core_Logger::error( 'An exception occurred while attempting to clear site cache.' );
 	}
@@ -226,7 +293,7 @@ function et_core_page_resource_fallback() {
 		return;
 	}
 
-	/** @see ET_Support_Center::toggle_safe_mode */
+	/** @see ET_Core_SupportCenter::toggle_safe_mode */
 	if ( et_core_is_safe_mode_active() ) {
 		return;
 	}
@@ -268,8 +335,7 @@ if ( ! function_exists( 'et_core_page_resource_get' ) ):
  */
 function et_core_page_resource_get( $owner, $slug, $post_id = null, $priority = 10, $location = 'head-late', $type = 'style' ) {
 	$post_id = $post_id ? $post_id : et_core_page_resource_get_the_ID();
-	$global  = 'global' === $post_id ? '-global' : '';
-	$_slug   = "et-{$owner}-{$slug}{$global}-cached-inline-{$type}s";
+	$_slug   = "et-{$owner}-{$slug}-{$post_id}-cached-inline-{$type}s";
 
 	$all_resources = ET_Core_PageResource::get_resources();
 
@@ -290,7 +356,7 @@ function et_core_page_resource_maybe_output_fallback_script() {
 		return;
 	}
 
-	/** @see ET_Support_Center::toggle_safe_mode */
+	/** @see ET_Core_SupportCenter::toggle_safe_mode */
 	if ( et_core_is_safe_mode_active() ) {
 		return;
 	}
@@ -303,7 +369,7 @@ function et_core_page_resource_maybe_output_fallback_script() {
 	}
 
 	$SITE_URL = get_site_url();
-	$SCRIPT   = file_get_contents( ET_CORE_PATH . 'admin/js/page-resource-fallback.min.js' );
+	$SCRIPT   = et_()->WPFS()->get_contents( ET_CORE_PATH . 'admin/js/page-resource-fallback.min.js' );
 
 	printf( "<script>var et_site_url='%s';var et_post_id='%d';%s</script>",
 		et_core_esc_previously( $SITE_URL ),
@@ -350,8 +416,21 @@ function et_debug( $msg, $bt_index = 4, $log_ajax = true ) {
 endif;
 
 
+if ( ! function_exists( 'et_wrong' ) ):
+function et_wrong( $msg, $error = false ) {
+	$msg = "You're Doing It Wrong! {$msg}";
+
+	if ( $error ) {
+		et_error( $msg );
+	} else {
+		et_debug( $msg );
+	}
+}
+endif;
+
+
 if ( ! function_exists( 'et_error' ) ):
 function et_error( $msg, $bt_index = 4 ) {
-	ET_Core_Logger::error( $msg, $bt_index );
+	ET_Core_Logger::error( "[ERROR]: {$msg}", $bt_index );
 }
 endif;

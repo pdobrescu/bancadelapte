@@ -18,6 +18,19 @@ class ET_Core_Data_Utils {
 	private $_sort_by;
 
 	/**
+	 * Sort arguments being passed through to callbacks.
+	 * See self::_user_sort()
+	 *
+	 * @var array
+	 */
+	protected $sort_arguments = array(
+		'array'      => array(),
+		'array_map'  => array(),
+		'sort'       => '__return_false',
+		'comparison' => '__return_false',
+	);
+
+	/**
 	 * Generate an XML-RPC array.
 	 *
 	 * @param array $values
@@ -216,18 +229,22 @@ class ET_Core_Data_Utils {
 	 * Gets a value from a nested array using an address string.
 	 *
 	 * @param array  $array   An array which contains value located at `$address`.
-	 * @param string $address The location of the value within `$array` (dot notation).
+	 * @param string|array $address The location of the value within `$array` (dot notation).
 	 * @param mixed  $default Value to return if not found. Default is an empty string.
 	 *
 	 * @return mixed The value, if found, otherwise $default.
 	 */
 	public function array_get( $array, $address, $default = '' ) {
-		$keys   = explode( '.', $address );
+		$keys   = is_array( $address ) ? $address : explode( '.', $address );
 		$value  = $array;
 
-		while ( $key = array_shift( $keys ) ) {
-			if ( '[' === $key[0] && is_numeric( substr( $key, 1, -1 ) ) ) {
-				$key = (int) substr( $key, 1, -1 );
+		foreach ( $keys as $key ) {
+			if ( '[' === $key[0] ) {
+				$index = substr( $key, 1, -1 );
+
+				if ( is_numeric( $index ) ) {
+					$key = (int) $index;
+				}
 			}
 
 			if ( ! isset( $value[ $key ] ) ) {
@@ -235,6 +252,26 @@ class ET_Core_Data_Utils {
 			}
 
 			$value = $value[ $key ];
+		}
+
+		return $value;
+	}
+
+	/**
+	 * Wrapper for {@see self::array_get()} that sanitizes the value before returning it.
+	 *
+	 * @since 4.0.7
+	 *
+	 * @param array  $array     An array which contains value located at `$address`.
+	 * @param string $address   The location of the value within `$array` (dot notation).
+	 * @param mixed  $default   Value to return if not found. Default is an empty string.
+	 * @param string $sanitizer Sanitize function to use. Default is 'sanitize_text_field'.
+	 *
+	 * @return mixed The sanitized value if found, otherwise $default.
+	 */
+	public function array_get_sanitized( $array, $address, $default = '', $sanitizer = 'sanitize_text_field' ) {
+		if ( $value = $this->array_get( $array, $address, $default ) ) {
+			$value = $sanitizer( $value );
 		}
 
 		return $value;
@@ -307,8 +344,56 @@ class ET_Core_Data_Utils {
 		return $array;
 	}
 
+	/**
+	 * Update a nested array value found at the provided path using {@see array_merge()}.
+	 *
+	 * @since 4.0.7
+	 *
+	 * @param array $array
+	 * @param $path
+	 * @param $value
+	 */
+	public function array_update( &$array, $path, $value ) {
+		$current_value = $this->array_get( $array, $path, array() );
+
+		$this->array_set( $array, $path, array_merge( $current_value, $value ) );
+	}
+
+	/**
+	 * Whether or not a string ends with a substring.
+	 *
+	 * @since 4.5.3
+	 *
+	 * @param string $haystack The string to look in.
+	 * @param string $needle   The string to look for.
+	 *
+	 * @return bool
+	 */
+	public function ends_with( $haystack, $needle ) {
+		$length = strlen( $needle );
+
+		if ( 0 === $length ) {
+			return true;
+		}
+
+		return ( substr( $haystack, -$length ) === $needle );
+	}
+
 	public function ensure_directory_exists( $path ) {
-		return file_exists( $path ) ? true : @mkdir( $path, 0755, true );
+		if ( file_exists( $path ) ) {
+			return is_dir( $path );
+		}
+
+		// Try to create the directory
+		$path = $this->normalize_path( $path );
+
+		if ( ! $this->WPFS()->mkdir( $path ) ) {
+			// Walk up the tree and create any missing parent directories
+			$this->ensure_directory_exists( dirname( $path ) );
+			$this->WPFS()->mkdir( $path );
+		}
+
+		return is_dir( $path );
 	}
 
 	public static function instance() {
@@ -346,12 +431,22 @@ class ET_Core_Data_Utils {
 	 * Windows actually supports both styles, even mixed together. However, its better not
 	 * to mix them (especially when doing string comparisons on paths).
 	 *
+	 * @since 4.0.8     Use {@see wp_normalize_path()} if it exists. Remove all occurrences of '..' from paths.
+	 * @since 3.0.52
+	 *
 	 * @param string $path
 	 *
 	 * @return string
 	 */
-	public function normalize_path( $path ) {
-		return $path ? str_replace( '\\', '/', $path ) : '';
+	public function normalize_path( $path = '' ) {
+		$path = (string) $path;
+		$path = str_replace( '..', '', $path );
+
+		if ( function_exists( 'wp_normalize_path' ) ) {
+			return wp_normalize_path( $path );
+		}
+
+		return str_replace( '\\', '/', $path );
 	}
 
 	/**
@@ -408,6 +503,40 @@ class ET_Core_Data_Utils {
 	}
 
 	/**
+	 * Creates a path string using the provided arguments.
+	 *
+	 * Examples:
+	 *   - ```
+	 *      et_()->path( '/this/is', 'a', 'path' );
+	 *      // Returns '/this/is/a/path'
+	 *     ```
+	 *   - ```
+	 *      et_()->path( ['/this/is', 'a', 'path', 'to', 'file.php'] );
+	 *      // Returns '/this/is/a/path/to/file.php'
+	 *     ```
+	 *
+	 * @since 4.0.6
+	 *
+	 * @param string|string[] ...$parts
+	 *
+	 * @return string
+	 */
+	public function path() {
+		$parts = func_get_args();
+		$path  = '';
+
+		if ( 1 === count( $parts ) && is_array( reset( $parts ) ) ) {
+			$parts = array_pop( $parts );
+		}
+
+		foreach ( $parts as $part ) {
+			$path .= "{$part}/";
+		}
+
+		return substr( $path, 0, -1 );
+	}
+
+	/**
 	 * Process an XML-RPC response string.
 	 *
 	 * @param $response
@@ -449,7 +578,7 @@ class ET_Core_Data_Utils {
 	 *
 	 * @param string $path Absolute path to parent directory.
 	 */
-	function remove_empty_directories( $path ) {
+	public function remove_empty_directories( $path ) {
 		$path = realpath( $path );
 
 		if ( empty( $path ) ) {
@@ -476,12 +605,12 @@ class ET_Core_Data_Utils {
 	/**
 	 * Whether or not a value includes another value.
 	 *
-	 * @param string $haystack The value to look in.
+	 * @param mixed  $haystack The value to look in.
 	 * @param string $needle   The value to look for.
 	 *
 	 * @return bool
 	 */
-	function includes( $haystack, $needle ) {
+	public function includes( $haystack, $needle ) {
 		if ( is_string( $haystack ) ) {
 			return false !== strpos( $haystack, $needle );
 		}
@@ -657,18 +786,256 @@ class ET_Core_Data_Utils {
 			return array( $selector );
 		}
 
-		foreach ( $selectors as $selector ) {
+		foreach ( $selectors as $_selector ) {
 			foreach ( $placeholders as $placeholder ) {
-				if ( strpos( $selector, $placeholder ) !== false ) {
-					$exceptions[] = $selector;
+				if ( strpos( $_selector, $placeholder ) !== false ) {
+					$exceptions[] = $_selector;
 					continue 2;
 				}
 			}
 
-			$main_selector[] = $selector;
+			$main_selector[] = $_selector;
 		}
 
-		return array_merge( array( implode( ', ', $main_selector ) ), $exceptions );
+		return array_filter( array_merge( array( implode( ', ', $main_selector ) ), $exceptions ) );
+	}
+
+	/**
+	 * Whether or not a string starts with a substring.
+	 *
+	 * @since 4.0
+	 *
+	 * @param string $string
+	 * @param string $substring
+	 *
+	 * @return bool
+	 */
+	public function starts_with( $string, $substring ) {
+		return 0 === strpos( $string, $substring );
+	}
+
+	/**
+	 * Convert string to camel case format.
+	 *
+	 * @since 4.0
+	 *
+	 * @param string $string Original string data.
+	 * @param array  $no_strip Additional regex pattern exclusion.
+	 *
+	 * @return string
+	 */
+	public function camel_case( $string, $no_strip = array() ) {
+		$words = preg_split( '/[^a-zA-Z0-9' . implode( '', $no_strip ) . ']+/i', strtolower( $string ) );
+
+		if ( count( $words ) === 1 ) {
+			return $words[0];
+		}
+
+		$camel_cased = implode( '', array_map( 'ucwords', $words ) );
+
+		$camel_cased[0] = strtolower( $camel_cased[0] );
+
+		return $camel_cased;
+	}
+
+	/**
+	 * Returns the WP Filesystem instance.
+	 *
+	 * @since 4.0.6
+	 *
+	 * @return WP_Filesystem_Base {@see ET_Core_PageResource::wpfs()}
+	 */
+	public function WPFS() {
+		return et_core_cache_dir()->wpfs;
+	}
+
+	/**
+	 * Equivalent of usort but preserves relative order of equally weighted values.
+	 *
+	 * @since 4.0.9
+	 *
+	 * @param array &$array
+	 * @param callable $comparison_function
+	 *
+	 * @return array
+	 */
+	public function usort( &$array, $comparison_function ) {
+		return $this->_user_sort( $array, 'usort', $comparison_function );
+	}
+
+	/**
+	 * Equivalent of uasort but preserves relative order of equally weighted values.
+	 *
+	 * @since 4.0.9
+	 *
+	 * @param array &$array
+	 * @param callable $comparison_function
+	 *
+	 * @return array
+	 */
+	public function uasort( &$array, $comparison_function ) {
+		return $this->_user_sort( $array, 'uasort', $comparison_function );
+	}
+
+	/**
+	 * Equivalent of uksort but preserves relative order of equally weighted values.
+	 *
+	 * @since 4.0.9
+	 *
+	 * @param array &$array
+	 * @param callable $comparison_function
+	 *
+	 * @return array
+	 */
+	public function uksort( &$array, $comparison_function ) {
+		return $this->_user_sort( $array, 'uksort', $comparison_function );
+	}
+
+	/**
+	 * Returns a string with a valid CSS property value.
+	 * 
+	 * With some locales (ex: ro_RO) the decimal point can be ',' (comma) and
+	 * we need to convert that to a '.' (period) decimal point to ensure that
+	 * the value is a valid CSS property value.
+	 *
+	 * @since 4.4.8
+	 *
+	 * @param float $float Original float value.
+	 *
+	 * @return string
+	 */
+	public function to_css_decimal( $float ) {	
+		return strtr( $float, ',', '.' );
+	}
+
+	/**
+	 * Sort using a custom function accounting for the common undefined order
+	 * pitfall due to a return value of 0.
+	 *
+	 * @since 4.0.9
+	 *
+	 * @param array &$array Array to sort
+	 * @param callable $sort_function "usort", "uasort" or "uksort"
+	 * @param callable $comparison_function Custom comparison function
+	 *
+	 * @return array
+	 */
+	protected function _user_sort( &$array, $sort_function, $comparison_function ) {
+		$allowed_sort_functions = array( 'usort', 'uasort', 'uksort' );
+
+		if ( ! $this->includes( $allowed_sort_functions, $sort_function ) ) {
+			_doing_it_wrong( __FUNCTION__, esc_html__( 'Only custom sorting functions can be used.', 'et_core' ), esc_html( et_get_theme_version() ) );
+		}
+
+		// Use properties temporarily to pass values in order to preserve PHP 5.2 support.
+		$this->sort_arguments['array']      = $array;
+		$this->sort_arguments['sort']       = $sort_function;
+		$this->sort_arguments['comparison'] = $comparison_function;
+		$this->sort_arguments['array_map']  = 'uksort' === $sort_function
+			? array_flip( array_keys( $array ) )
+			: array_values( $array );
+
+		$sort_function( $array, array( $this, '_user_sort_callback' ) );
+
+		$this->sort_arguments['array']      = array();
+		$this->sort_arguments['array_map']  = array();
+		$this->sort_arguments['sort']       = '__return_false';
+		$this->sort_arguments['comparison'] = '__return_false';
+
+		return $array;
+	}
+
+	/**
+	 * Sort callback only meant to acompany self::sort().
+	 * Do not use outside of self::_user_sort().
+	 *
+	 * @since 4.0.9
+	 *
+	 * @param mixed $a
+	 * @param mixed $b
+	 *
+	 * @return integer
+	 */
+	protected function _user_sort_callback( $a, $b ) {
+		// @phpcs:ignore Generic.PHP.ForbiddenFunctions.Found
+		$result = (int) call_user_func( $this->sort_arguments['comparison'], $a, $b );
+
+		if ( 0 !== $result ) {
+			return $result;
+		}
+
+		if ( 'uksort' === $this->sort_arguments['sort'] ) {
+			// Intentional isset() use for performance reasons.
+			$a_order = isset( $this->sort_arguments['array_map'][ $a ] ) ? $this->sort_arguments['array_map'][ $a ] : false;
+			$b_order = isset( $this->sort_arguments['array_map'][ $b ] ) ? $this->sort_arguments['array_map'][ $b ] : false;
+		} else {
+			$a_order = array_search( $a, $this->sort_arguments['array_map'] );
+			$b_order = array_search( $b, $this->sort_arguments['array_map'] );
+		}
+
+		if ( false === $a_order || false === $b_order ) {
+			// This should not be possible so we fallback to the undefined
+			// sorting behavior by returning 0.
+			return 0;
+		}
+
+		return $a_order - $b_order;
+	}
+
+	/**
+	 * Returns RFC 4211 compliant Universally Unique Identifier (UUID) version 4
+	 * https://tools.ietf.org/html/rfc4122
+	 *
+	 * @since 4.5.0
+	 *
+	 * @param array $random_sequence The initial random sequence. Mostly used for test purposes.
+	 *
+	 * @return string
+	 */
+	public static function uuid_v4( $random_sequence = null ) {
+		$buffer = array();
+
+		for ( $i = 0; $i < 16; $i++) {
+			$buffer[] = isset( $random_sequence[ $i ] ) ? $random_sequence[ $i ] : mt_rand(0, 0xff);
+		}
+
+		// The high field of the timestamp multiplexed with the version number
+		$buffer[6] = ( $buffer[6] & 0x0f ) | 0x40;
+
+		// The high field of the clock sequence multiplexed with the variant
+		$buffer[8] = ( $buffer[8] & 0x3f ) | 0x80;
+
+		return sprintf(
+			'%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x',
+
+			// Time low
+			$buffer[0],
+			$buffer[1],
+			$buffer[2],
+			$buffer[3],
+
+			// Time mid
+			$buffer[4],
+			$buffer[5],
+
+			// Time hi and version
+			$buffer[6],
+			$buffer[7],
+
+			// Clock seq hi and reserved
+			$buffer[8],
+
+			// Clock seq low
+			$buffer[9],
+
+			// Node
+			$buffer[10],
+			$buffer[11],
+			$buffer[12],
+			$buffer[13],
+			$buffer[14],
+			$buffer[15]
+		);
 	}
 }
 

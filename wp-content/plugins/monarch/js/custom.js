@@ -511,12 +511,19 @@
 					bottom_inline = $( '.et_social_inline_bottom' ),
 					divi_container = '<div class="et_pb_row"><div class="et_pb_column et_pb_column_4_4"></div></div>';
 
-				if ( top_inline.length ) {
-					$( '.et_pb_section' ).not( '.et_pb_fullwidth_section' ).first().prepend( divi_container ).find( '.et_pb_row' ).first().find( '.et_pb_column' ).append( top_inline );
+				if ($('.et-l--post:first').length > 0) {
+					var $sections = $('.et-l--post .et_pb_section').not('.et_pb_fullwidth_section');
+				} else {
+					// Backwards compatibility before .et-l was introduced.
+					var $sections = $('.et_pb_section:not(.et-l .et_pb_section)').not('.et_pb_fullwidth_section');
 				}
 
-				if ( bottom_inline.length ) {
-					$( '.et_pb_section' ).not( '.et_pb_fullwidth_section' ).last().append( divi_container ).find( '.et_pb_row' ).last().find( '.et_pb_column' ).append( bottom_inline );
+				if ($sections.length > 0 && top_inline.length) {
+					$sections.first().prepend(divi_container).find('.et_pb_row').first().find('.et_pb_column').append(top_inline);
+				}
+
+				if ($sections.length > 0 && bottom_inline.length) {
+					$sections.last().append(divi_container).find('.et_pb_row').last().find('.et_pb_column').append(bottom_inline);
 				}
 			}
 		}

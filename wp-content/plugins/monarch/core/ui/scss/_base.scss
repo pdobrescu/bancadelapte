@@ -2,6 +2,11 @@
 @import './fonts';
 @import './function';
 
+$builder-wrapper-prefix: '.et-db';
+$builder-container-prefix: '#et-boc';
+$builder-layout-prefix: '#{$builder-container-prefix} .et-l';
+$builder-prefix: '#{$builder-wrapper-prefix} #{$builder-layout-prefix}';
+
 // z-index Setting
 $z-index: (
   below                : -1,

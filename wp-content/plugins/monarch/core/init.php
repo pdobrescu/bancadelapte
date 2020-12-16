@@ -87,9 +87,21 @@ if ( ! function_exists( '_et_core_path_belongs_to_active_product' ) ):
  * @internal
  */
 function _et_core_path_belongs_to_active_product( $path ) {
+	global $wp_customize;
+
 	include_once ABSPATH . 'wp-admin/includes/plugin.php';
 
 	$theme_dir = _et_core_normalize_path( get_template_directory() );
+
+	// When previewing a theme the `get_template_directory()` doesn't return the directory of the previewed theme
+	// since this function will be called earlier (before `WP_Customize_Manager` manipulates the active theme)
+	// when loaded from plugins (e.g bloom)
+	if ( is_a( $wp_customize, 'WP_Customize_Manager' ) && ! $wp_customize->is_theme_active() ) {
+		$template                   = $wp_customize->get_template();
+		$theme_root                 = get_theme_root( $template );
+		$preview_template_directory =  apply_filters( 'template_directory', "$theme_root/$template", $template, $theme_root );
+		$theme_dir                  = _et_core_normalize_path( $preview_template_directory );
+	}
 
 	if ( 0 === strpos( $path, $theme_dir ) ) {
 		return true;

@@ -329,6 +329,13 @@ $monarch_options_all = array(
 			),
 			'hint_text_with_links' => 'on',
 		),
+		'option_facebook_legacy_api' => array(
+			'type'      => 'checkbox',
+			'title'     => esc_html__( 'Legacy API (until version 6)?', 'Monarch' ),
+			'name'      => 'facebook_legacy_api',
+			'hint_text' => esc_html__( 'If your Facebook app is using the legacy API (until version 6) you should mark this option.', 'Monarch' ),
+			'default'   => false,
+		),
 		'sub_section_youtube' => array(
 			'type'        => 'section_start',
 			'sub_section' => true,
@@ -1286,6 +1293,7 @@ $general_main_options = array(
 		$monarch_options_all[ 'api_settings' ][ 'sub_section_facebook' ],
 				$monarch_options_all[ 'api_settings' ][ 'option_facebook_1' ],
 				$monarch_options_all[ 'api_settings' ][ 'option_facebook_2' ],
+				$monarch_options_all[ 'api_settings' ][ 'option_facebook_legacy_api' ],
 				$monarch_options_all[ 'api_settings' ][ 'auth_button_facebook' ],
 			$monarch_options_all[ 'end_of_sub_section' ],
 		$monarch_options_all[ 'end_of_section' ],

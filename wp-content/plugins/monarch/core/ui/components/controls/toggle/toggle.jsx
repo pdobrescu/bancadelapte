@@ -1,5 +1,6 @@
 // External dependencies
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import noop from 'lodash/noop';
 import isUndefined from 'lodash/isUndefined';
@@ -10,15 +11,24 @@ import './toggle.scss';
 
 class ETCoreControlToggle extends PureComponent {
 
+  static propTypes = {
+    dataCy: PropTypes.string,
+  };
+
   static defaultProps = {
     value:     'off',
     _onChange: noop,
   };
 
+  _getDefaultValue() {
+    return this.props.defaultValue || this.props.default;
+  }
+
   _onChange = () => {
-    const { name, value, _onChange, readonly, defaultValue } = this.props;
+    const { name, value, _onChange, readonly } = this.props;
+    const defaultValue = this._getDefaultValue();
     const toggleFrom = !value && defaultValue ? defaultValue : value;
-    const newValue                             = toggleFrom === 'on' ? 'off' : 'on';
+    const newValue = toggleFrom === 'on' ? 'off' : 'on';
 
     if (! readonly) {
       _onChange(name, newValue);
@@ -26,7 +36,8 @@ class ETCoreControlToggle extends PureComponent {
   };
 
   render() {
-    let { className, onClick, value, name, id, defaultValue } = this.props;
+    let { className, onClick, value, name, id, dataCy } = this.props;
+    const defaultValue = this._getDefaultValue();
 
     let isEqual = ! isUndefined(this.props.button_options) && 'equal' === this.props.button_options.button_type;
     const visualValue = !value && defaultValue ? defaultValue : value;
@@ -38,7 +49,7 @@ class ETCoreControlToggle extends PureComponent {
       'et-core-control-toggle--off':   ! visualValue || visualValue === 'off',
     }, className);
 
-    if ( ! id ) {
+    if (!id && name) {
       id = `et-fb-${name}`;
     }
 
@@ -49,7 +60,7 @@ class ETCoreControlToggle extends PureComponent {
     }
 
     return (
-      <div className={classes} onClick={onClick || this._onChange} {...additional_attrs}>
+      <div className={classes} data-cy={dataCy} onClick={onClick || this._onChange} {...additional_attrs}>
         <div className="et-core-control-toggle__label et-core-control-toggle__label--on">
           <div className="et-core-control-toggle__text">{this.props.options.on}</div>
           <div className="et-core-control-toggle__handle"/>
