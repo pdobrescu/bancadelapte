@@ -145,6 +145,19 @@ $options = array (
 
 			array( "type" => "clearfix",),
 
+			array(
+				"name"              => esc_html__( "Use Google Fonts", $themename ),
+				"id"                => "et_use_google_fonts",
+				"main_setting_name" => "et_google_api_settings",
+				"sub_setting_name"  => 'use_google_fonts',
+				'is_global'         => true,
+				"type"              => "checkbox",
+				"std"               => "on",
+				"desc"              => esc_html__( "Disable this option to remove the Google Fonts from your Divi Builder Pages.", $themename ),
+			),
+
+			array( "type" => "clearfix",),
+
 			array( "name" => esc_html__("Google Fonts subsets",$themename),
 				   "id" => $shortname."_gf_enable_all_character_sets",
 				   "type" => "checkbox",

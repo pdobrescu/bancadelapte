@@ -98,7 +98,7 @@ function et_nimble_load_scripts_styles(){
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' );
 
-	if ( 'off' !== _x( 'on', 'Open Sans font: on or off', 'Nimble' ) ) {
+	if ( 'off' !== _x( 'on', 'Open Sans font: on or off', 'Nimble' ) && et_core_use_google_fonts() ) {
 		$subsets = 'latin,latin-ext';
 
 		/* translators: To add an additional Open Sans character subset specific to your language, translate
@@ -467,3 +467,19 @@ function et_core_portability_link() {
 	return '';
 }
 endif;
+
+function et_theme_maybe_load_core() {
+	if ( et_core_exists_in_active_plugins() ) {
+		return;
+	}
+
+	if ( defined( 'ET_CORE' ) ) {
+		return;
+	}
+
+	require_once get_template_directory() . '/core/init.php';
+
+	et_core_setup( get_template_directory_uri() );
+}
+add_action( 'after_setup_theme', 'et_theme_maybe_load_core' );
+

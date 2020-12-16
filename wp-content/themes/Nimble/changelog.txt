@@ -1,3 +1,38 @@
+version 2.2.13 ( updated 3-11-2019 )
+- Updated core and epanel frameworks to the latest versions.
+	* core/*
+	* epanel/*
+
+version 2.2.12 ( updated 2-6-2019 )
+- Fixed broken ET Page Template Settings on WordPress 5.0+.
+- Updated core and epanel frameworks to the latest versions.
+	* core/*
+	* epanel/*
+
+version 2.2.11 ( updated 1-9-2019 )
+- Fix compatability with WordPress 5.0+.
+- Updated core and epanel frameworks to the latest versions.
+	* core/*
+	* epanel/*
+
+version 2.2.10 ( updated 6-1-2018 )
+- Added an option to disable Google Fonts in the Nimble Theme Options.
+- Updated core framework to the latest version.
+	* core/*
+	* options_nimble.php
+
+version 2.2.9 ( updated 1-20-2018 )
+- Fixed bug that was introduced in the last update causing shortcode styles not to be output on the frontend.
+	* epanel/shortcodes/shortcodes.php
+	* epanel/shortcodes/shortcodes-legacy.css
+
+version 2.2.8 ( updated 1-17-2018 )
+- Fixed an information exposure bug that mistakenly displayed some small amount of content from password protected posts inside of post feeds as part of the automatically generated post excerpt. If you are using password protected posts, it's important that you update your theme to prevent parts of your password protected content from being seen by your visitors. As part of this disclosure, we have emailed all Elegant Themes customers with detailed information about the problem and how to fix it: https://mailchi.mp/elegantthemes/elegant-themes-security-update
+- Updated core framework to the latest version
+- Updated theme options framework to the latest version
+	* core/*
+	* epanel/*
+
 version 2.2.7 ( updated 12-06-2016 )
 - Fixed ePanel font issues in WordPress 4.6
     * core/admin/css/core.css

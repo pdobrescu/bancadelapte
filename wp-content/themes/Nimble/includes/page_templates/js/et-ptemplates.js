@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-	var $ptemplate_select = jQuery('select#page_template'),
+	var $ptemplate_select = jQuery('select#page_template, .editor-page-attributes__template select'),
 		$ptemplate_box = jQuery('#et_ptemplate_meta');
 
 	$ptemplate_select.live('change',function(){
